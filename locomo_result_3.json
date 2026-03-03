@@ -1,0 +1,1522 @@
+[
+  {
+    "question_index": 0,
+    "question": "Who did Maria have dinner with on May 3, 2023?",
+    "ground_truth": "her mother",
+    "predicted": "Maria had dinner with her mom on May 3, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth—Maria dined with her mother (mom) on May 3, 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 1,
+    "question": "When did Maria donate her car?",
+    "ground_truth": "21 December 2022",
+    "predicted": "She donated her car on December 21, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (21 December 2022), only formatting differs.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 2,
+    "question": "What martial arts has John done?",
+    "ground_truth": "Kickboxing, Taekwondo",
+    "predicted": "John has done kickboxing and taekwondo.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both kickboxing and taekwondo are listed.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 3,
+    "question": "What type of volunteering have John and Maria both done?",
+    "ground_truth": "Volunteering at a homeless shelter",
+    "predicted": "John and Maria have both volunteered at a homeless shelter — Maria has been regularly helping there with meals and front-desk duties, and John has also contributed through community food drives and shelter support.",
+    "score": 1,
+    "judge_reasoning": "Both the prediction and ground truth identify homeless shelter volunteering as the common volunteer activity; additional context about specific roles does not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 4,
+    "question": "When did John join the online support group?",
+    "ground_truth": "The week before 1 January 2023",
+    "predicted": "He joined during the week of December 25–31, 2022.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: the week before Jan 1, 2023 corresponds to Dec 25–31, 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 5,
+    "question": "When did Maria go to the beach?",
+    "ground_truth": "December 2022",
+    "predicted": "Maria went to the beach in December 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state December 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 6,
+    "question": "Where has Maria made friends?",
+    "ground_truth": "homeless shelter, gym, church",
+    "predicted": "She’s made friends from church (church friends), from the gym (friends from the gym), and through volunteering at the homeless shelter.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists church, gym, and homeless shelter—matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 7,
+    "question": "What items des John mention having as a child?",
+    "ground_truth": "A doll, a film camera",
+    "predicted": "He mentions having a little doll and a film camera as a child.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both a doll and a film camera are mentioned.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 8,
+    "question": "What might John's financial status be?",
+    "ground_truth": "Middle-class or wealthy",
+    "predicted": "John is likely experiencing financial strain and instability — he lost his job at a mechanical engineering company (Aug 5, 2023), has been described as looking for solutions due to wallet strain (Apr 10, 2023), and is actively seeking new work in tech.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer states John is under financial strain and unstable (unemployed, seeking work), which contradicts the ground truth that he is middle-class or wealthy.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 9,
+    "question": "Who gave Maria's family money when she was younger and her family was going through tough times?",
+    "ground_truth": "Her aunt",
+    "predicted": "Her aunt (her auntie).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth; both state that her aunt gave the money.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 10,
+    "question": "When did Maria meet Jean?",
+    "ground_truth": "February 24, 2023",
+    "predicted": "She met Jean on February 24, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly (February 24, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 11,
+    "question": "What people has Maria met and helped while volunteering?",
+    "ground_truth": "David, Jean, Cindy, Laura",
+    "predicted": "Maria has met and helped Jean (an optimistic woman at the shelter), Laura (a shelter resident who wrote a letter of gratitude), and Cindy (a resident who wrote a thankful note).  \nShe also comforted a little girl around 8, linked an unnamed homeless man to a housing/support organization, cheered up an unnamed shelter resident who had been sad for months, and helped several shelter children (three kids she pictured).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer names Jean, Cindy, and Laura (3 of the 4 ground-truth people). Per the criteria (at least half the listed items present), this is accepted; extra details don't contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 12,
+    "question": "What test has John taken multiple times?",
+    "ground_truth": "The military aptitude test",
+    "predicted": "He has taken the military aptitude test (including a retake).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state he took the military aptitude test (and note a retake).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 13,
+    "question": "When did Maria's grandmother pass away?",
+    "ground_truth": "The week before 6 March 2023",
+    "predicted": "Her grandmother passed away the week of February 27 to March 5, 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth: the week before March 6, 2023 corresponds to Feb 27–Mar 5, 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 14,
+    "question": "Would John be considered a patriotic person?",
+    "ground_truth": "Yes",
+    "predicted": "Yes. John is patriotic: he says he served in the military, expresses strong respect for the armed forces, organized and worked on projects supporting veterans (petition, a small party/fundraiser and meeting with veterans), and participated in a march for veterans' rights.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth 'Yes' and provides supporting evidence of John's patriotism (military service, respect for armed forces, veteran support activities).",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 15,
+    "question": "What writing classes has Maria taken?",
+    "ground_truth": "Poetry, creative writing",
+    "predicted": "Maria has taken a creative writing class and a poetry class.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth by listing both poetry and creative writing classes.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 16,
+    "question": "When did John get his degree?",
+    "ground_truth": "The week before 2 April 2023",
+    "predicted": "He graduated on March 26, 2023.",
+    "score": 1,
+    "judge_reasoning": "March 26, 2023 is exactly one week before April 2, 2023, so the predicted answer matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 17,
+    "question": "What might John's degree be in?",
+    "ground_truth": "Political science, Public administration, Public affairs",
+    "predicted": "Likely a policy-related degree — e.g., public policy, political science, or public administration.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes political science and public administration from the ground truth and gives an equivalent policy-related option (public policy/public affairs), so it matches the core meaning.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 18,
+    "question": "Who did John go to yoga with?",
+    "ground_truth": "Rob",
+    "predicted": "He went to yoga with his colleague Rob.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer names Rob as the person John went to yoga with and adds an acceptable extra detail ('colleague'), matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 19,
+    "question": "What damages have happened to John's car?",
+    "ground_truth": "Broken windshield, Car broke down",
+    "predicted": "John's car had a broken windshield (photo shared January 9, 2023). It also suffered a mechanical breakdown on 2023-04-07.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists both damages from the ground truth (broken windshield and mechanical breakdown) and adds date details, which do not contradict the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 20,
+    "question": "When did John take a road trip to the Pacific Northwest?",
+    "ground_truth": "2022",
+    "predicted": "December 16, 2022.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer falls within 2022 (specific date Dec 16, 2022), matching the ground truth year.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 21,
+    "question": "What areas of the U.S. has John been to or is planning to go to?",
+    "ground_truth": "Pacific northwest, east coast",
+    "predicted": "John has been to or is planning to visit the Pacific Northwest and the East Coast — he mentioned a planned East Coast trip and has expressed interest in the Pacific Northwest region.",
+    "score": 1,
+    "judge_reasoning": "Prediction correctly identifies both the Pacific Northwest and East Coast as areas John has been to or is planning to visit, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 22,
+    "question": "When did John go to a convention with colleagues?",
+    "ground_truth": "March 2023",
+    "predicted": "He went to a convention with colleagues in March 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (March 2023) exactly.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 23,
+    "question": "What desserts has Maria made?",
+    "ground_truth": "Banana split sundae, Peach cobbler",
+    "predicted": "Peach cobbler; a homemade banana split sundae; and unspecified baked goods she later dropped off at the homeless shelter.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes both ground-truth desserts (banana split sundae and peach cobbler); extra mention of unspecified baked goods does not contradict the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 24,
+    "question": "When did John start boot camp with his family?",
+    "ground_truth": "April.2023",
+    "predicted": "He started in April 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth month and year (April 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 25,
+    "question": "What European countries has Maria been to?",
+    "ground_truth": "Spain, England",
+    "predicted": "England and Spain.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same two countries (England and Spain) as the ground truth, just reordered.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 26,
+    "question": "What has Maria done to feel closer to her faith?",
+    "ground_truth": "Join a local church, buy a cross necklace",
+    "predicted": "She bought a cross necklace to feel closer to her faith.",
+    "score": 1,
+    "judge_reasoning": "The prediction matches one of the two actions in the ground truth (buying a cross necklace). Per criteria, at least half the listed items present => correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 27,
+    "question": "When did John have a party with veterans?",
+    "ground_truth": "The Friday before 20 May 2023",
+    "predicted": "May 19, 2023.",
+    "score": 1,
+    "judge_reasoning": "May 19, 2023 is the Friday immediately before May 20, 2023, matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 28,
+    "question": "What causes does John feel passionate about supporting?",
+    "ground_truth": "Veterans, schools, infrastructure",
+    "predicted": "John is passionate about improving education and infrastructure, and supporting military veterans (including veterans' rights). He also focuses on community service—helping underserved communities get access to education, mentorship, job training, and resume building—and supporting homeless shelters (giving out food/supplies and organizing toy drives) and the local fire‑fighting brigade (raising donations and funding a new fire truck).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly lists veterans, education (schools), and infrastructure, matching the ground truth; additional causes mentioned do not contradict the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 29,
+    "question": "What events is Maria planning for the homeless shelter funraiser?",
+    "ground_truth": "Chili cook-off, ring-toss tournament",
+    "predicted": "She’s planning a ring-toss tournament for the homeless shelter’s fundraiser and is involved with/promoting a chili cook-off at the fundraiser.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes both events from the ground truth (chili cook-off and ring-toss tournament), matching the required information.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 30,
+    "question": "What shelters does Maria volunteer at?",
+    "ground_truth": "The homeless shelter, the dog shelter",
+    "predicted": "Maria volunteers at a homeless shelter (she has shifts at the front desk and helps with meals) and a local dog shelter.",
+    "score": 1,
+    "judge_reasoning": "Prediction identifies both shelters from the ground truth: the homeless shelter and the dog shelter.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 31,
+    "question": "When did John get his dog Max?",
+    "ground_truth": "In 2013",
+    "predicted": "John got his dog Max around June 3, 2013.",
+    "score": 1,
+    "judge_reasoning": "The prediction specifies a date in 2013 (June 3, 2013), which matches the ground truth year 2013 and thus conveys the same core information.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 32,
+    "question": "What outdoor activities has John done with his colleagues?",
+    "ground_truth": "Hiking, mountaineering",
+    "predicted": "He went on a hiking trip with his workmates and went on a mountaineering trip with some workmates.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same activities (hiking and mountaineering) done with colleagues, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 33,
+    "question": "What types of yoga has Maria practiced?",
+    "ground_truth": "Aerial, kundalini",
+    "predicted": "Maria has practiced aerial yoga and kundalini yoga.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists both aerial and kundalini yoga, matching the ground truth exactly.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 34,
+    "question": "When did Maria join a gym?",
+    "ground_truth": "The week before 16 June 2023",
+    "predicted": "She joined a gym the week of June 9–15, 2023 (she said on June 16, 2023 that she joined \"last week\").",
+    "score": 1,
+    "judge_reasoning": "Predicted answer correctly states she joined the week of June 9–15, 2023, which is the week before June 16, 2023 as in the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 35,
+    "question": "What states has Maria vacationed at?",
+    "ground_truth": "Oregon, Florida",
+    "predicted": "Florida and Oregon.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same two states (Florida and Oregon) as the ground truth, just in a different order.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 36,
+    "question": "What music events has John attended?",
+    "ground_truth": "Live music event, violin concert",
+    "predicted": "John attended a violin concert the week of Feb 27–Mar 5, 2023, and a live music event with his family the week of June 20–26, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both items from the ground truth (violin concert and live music event) and adds date/context details, which does not contradict the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 37,
+    "question": "What events for veterans has John participated in?",
+    "ground_truth": "Petition, march, party, visiting veterans hospital, 5K charity run",
+    "predicted": "John participated in a marching event for veterans' rights (2023-07-03), organized and ran a 5K charity run for veterans and their families, visited a veterans' hospital, held a small party inviting veterans to share their stories, visited a military memorial with his kids, and ran a petition/project and virtual support/advocacy campaign to support military veterans.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all ground-truth items (petition, march, party, veterans hospital visit, 5K charity run); extra details do not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 38,
+    "question": "When did Maria get in a car accident?",
+    "ground_truth": "July 2, 2023",
+    "predicted": "Maria was in a car accident on July 2, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (July 2, 2023) and conveys the same information.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 39,
+    "question": "Around which US holiday did Maria get into a car accident?",
+    "ground_truth": "Independence Day",
+    "predicted": "The accident occurred on July 2, 2023 — around Independence Day (the Fourth of July).",
+    "score": 1,
+    "judge_reasoning": "Prediction states the crash occurred around Independence Day (July 2, 2023), which matches the ground truth (Independence Day).",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 40,
+    "question": "What are the names of John's children?",
+    "ground_truth": "Kyle, Sara",
+    "predicted": "John's children are named Kyle and Sara.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth exactly—both list John's children as Kyle and Sara.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 41,
+    "question": "Does John live close to a beach or the mountains?",
+    "ground_truth": "beach",
+    "predicted": "John likely lives close to the beach/coast — he says he sees ocean sunsets (with a sailboat) on his walks at least once a week. He takes occasional mountain trips (mountaineering/Pacific Northwest), but there's no evidence he lives near the mountains.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer identifies 'beach' as John's residence and explains why; it matches the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 42,
+    "question": "What area was hit by a flood?",
+    "ground_truth": "West County",
+    "predicted": "West County, John’s old area.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the correct area 'West County' (extra phrase 'John’s old area' is additional but does not contradict).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 43,
+    "question": "When was John's old area hit with a flood?",
+    "ground_truth": "The week before 7 July 2023",
+    "predicted": "John's old area was hit by a nasty flood during the week of June 30–July 6, 2023 (the week before July 7, 2023).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: it specifies the week before July 7, 2023 (June 30–July 6, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 44,
+    "question": "What activities has Maria done with her church friends?",
+    "ground_truth": "Hiking, picnic, volunteer work",
+    "predicted": "She went camping, went hiking, and had a picnic with her church friends.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes two of the three ground-truth activities (hiking and picnic). Extra 'camping' is ignored; missing 'volunteer work' is acceptable since at least half the items match.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 45,
+    "question": "Would John be open to moving to another country?",
+    "ground_truth": "No, he has goals specifically in the U.S. like joining the military and running for office.",
+    "predicted": "Unlikely — John repeatedly expresses commitment to his local community and country: he wants to serve his country (March 6, 2023), is running for local office again (May 6, 2023), cites family as his main motivation (Dec 22, 2022), and joined the local fire‑fighting brigade (Aug 16, 2023).",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state he is unlikely to move because he has country-specific/local commitments (serving his country/joining military, running for office) and community ties.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 46,
+    "question": "When did Maria go hiking with her church friends?",
+    "ground_truth": "The weekend before 22 July 2023",
+    "predicted": "The weekend before July 22, 2023 — i.e., the weekend of July 15–16, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: 'the weekend before 22 July 2023.' The prediction correctly specifies that as July 15–16, 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 47,
+    "question": "What exercises has John done?",
+    "ground_truth": "Weight training, Circuit training, Kickboxing, yoga",
+    "predicted": "John has done kickboxing, weight training, and family boot-camp workouts (three times a week); he also attends a yoga studio and has done yoga.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes weight training, kickboxing, and yoga (3 of 4 ground-truth items); extra 'family boot-camp' does not contradict. Meets correctness criteria.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 48,
+    "question": "When did John have his first firefighter call-out?",
+    "ground_truth": "The sunday before 3` July 2023",
+    "predicted": "John's first firefighter call-out was on July 30, 2023.",
+    "score": 0,
+    "judge_reasoning": "Incorrect. Ground truth is the Sunday before 3 July 2023 (July 2, 2023); the prediction gives July 30, 2023, which does not match.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 49,
+    "question": "What food item did Maria drop off at the homeless shelter?",
+    "ground_truth": "Cakes",
+    "predicted": "She dropped off baked goods (the things she baked) at the homeless shelter.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer ('baked goods/the things she baked') includes cakes, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 50,
+    "question": "What attributes describe John?",
+    "ground_truth": "Selfless, family-oriented, passionate, rational",
+    "predicted": "John is community-oriented and politically ambitious — interested in local politics, education, and infrastructure; has networked and attended community meetings, decided to run for office again in late April/early May 2023, and is considering policymaking. He is actively civic-minded and service-oriented (helped renovate a rundown community center, mentors students, and joined the fire‑fighting brigade on August 16, 2023, helping raise donations and procure a fire truck). \n\nHe is family‑oriented (married with kids; does boot camps with his family three times a week), physically active (kickboxing, boot camps), a university graduate (graduated the week of April 2, 2023), resilient (handled a broken windshield incident calmly), enjoys sunsets and nature, and is considering adopting a rescue dog after the loss of Max; he also recently failed a military aptitude test.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the ground-truth attributes: selfless (service- and community-oriented actions), family-oriented (explicit), passionate (active civic/political engagement), and rational (calm/resilient behavior), so it matches the core meaning.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 51,
+    "question": "When did Maria start volunteering at the homeless shelter?",
+    "ground_truth": "Around August 2022",
+    "predicted": "About August 2022 — on August 3, 2023 Maria said she “started volunteering here about a year ago” (≈ early August 2022).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (around August 2022) and provides supporting context from the August 3, 2023 conversation.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 52,
+    "question": "Who have written notes of gratitude to Maria?",
+    "ground_truth": "Cindy, Laura",
+    "predicted": "Laura and Cindy wrote notes of gratitude to Maria.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both Cindy and Laura are listed as having written notes of gratitude to Maria; wording/order difference does not change meaning.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 53,
+    "question": "When did John help renovate his hometown community center?",
+    "ground_truth": "2022",
+    "predicted": "He helped renovate his hometown community center in 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states 2022, which matches the ground truth exactly.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 54,
+    "question": "When did Maria take up community work with her church friends?",
+    "ground_truth": "August 4, 2023",
+    "predicted": "Maria took up community work with her church friends on August 4, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly (August 4, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 55,
+    "question": "When did Maria receive a medal from the homeless shelter?",
+    "ground_truth": "The week before 9 August 2023",
+    "predicted": "Maria received the medal during the week of August 2–8, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: 'the week before 9 August 2023' corresponds to August 2–8, 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 56,
+    "question": "When did John participate in a 5K charity run?",
+    "ground_truth": "first weekend of August 2023",
+    "predicted": "He participated in the 5K on the weekend of August 5–6, 2023 (the run started August 5, 2023).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: the first weekend of August 2023 corresponds to August 5–6, 2023 (run starting Aug 5).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 57,
+    "question": "What causes has John done events for?",
+    "ground_truth": "Toy drive, Community food drive, veterans, domestic violence",
+    "predicted": "John has run/participated in events for homeless shelters (giving out food and supplies), a toy drive for kids in need, community/Thanksgiving food drives, veterans (support petition, veterans’ party, a 5K charity run, and a marching event for veterans’ rights), awareness/fundraising for victims of domestic abuse, renovation of a rundown community center, and donation drives collecting canned food, toiletries, and clothes (with the fire‑fighting brigade).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes toy drive, community/Thanksgiving food drives, veterans support, and awareness/fundraising for victims of domestic abuse (domestic violence), matching the ground truth; extra details are allowable.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 58,
+    "question": "When did Maria get Coco?",
+    "ground_truth": "Two weeks before 11 August 2023",
+    "predicted": "Maria got Coco on July 28, 2023.",
+    "score": 1,
+    "judge_reasoning": "Two weeks before August 11, 2023 is July 28, 2023, so the predicted date matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 59,
+    "question": "When did John go on a camping trip with Max?",
+    "ground_truth": "The summer of 2022",
+    "predicted": "He went on a camping trip with Max in summer 2022.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: both state the camping trip occurred in summer 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 60,
+    "question": "What are Maria's dogs' names?",
+    "ground_truth": "Coco, Shadow",
+    "predicted": "Maria's dogs are Coco and Shadow.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth names Coco and Shadow exactly.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 61,
+    "question": "When did Maria adopt Shadow?",
+    "ground_truth": "The week before 13 August 2023",
+    "predicted": "Maria adopted Shadow on August 6, 2023.",
+    "score": 1,
+    "judge_reasoning": "August 6, 2023 falls within the week before August 13, 2023, so the predicted date matches the ground truth time frame.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 62,
+    "question": "How many dogs has Maria adopted from the dog shelter she volunteers at?",
+    "ground_truth": "two",
+    "predicted": "One — Shadow.",
+    "score": 0,
+    "judge_reasoning": "Incorrect: ground truth is 'two' dogs adopted, but the prediction states only one (Shadow).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 63,
+    "question": "How many weeks passed between Maria adopting Coco and Shadow?",
+    "ground_truth": "two weeks",
+    "predicted": "About two weeks passed between Maria adopting Coco and Shadow.",
+    "score": 1,
+    "judge_reasoning": "Prediction states approximately two weeks between the two adoptions, consistent with the ground truth of ‘two weeks.’",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 64,
+    "question": "What job might Maria pursue in the future?",
+    "ground_truth": "Shelter coordinator, Counselor",
+    "predicted": "She might pursue work in the nonprofit/charity sector—e.g., working at a homeless shelter or as a community outreach coordinator/social worker supporting community and volunteer services.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: it identifies work at a homeless shelter (shelter coordinator) and community outreach/social work roles (equivalent to counselor/support services).",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 65,
+    "question": "What is John's main focus in local politics?",
+    "ground_truth": "Improving education and infrastructure",
+    "predicted": "Improving education and infrastructure in the community.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state improving education and infrastructure (with 'in the community' as a harmless clarification).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 66,
+    "question": "What sparked John's interest in improving education and infrastructure in the community?",
+    "ground_truth": "Seeing how lack of education and crumbling infrastructure affected his neighborhood while growing up.",
+    "predicted": "Growing up, he saw how lack of education and crumbling infrastructure affected his neighborhood, which motivated him to act; conversations with community members who shared their stories also fired up his passion. Attending community meetings and acute events — a local power cut and a flood in his old area, West County — reinforced the need for education and infrastructure improvements, especially for kids.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes the core fact that he saw how lack of education and crumbling infrastructure affected his neighborhood while growing up, matching the ground truth; additional details don't contradict it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 67,
+    "question": "How did the extra funding help the school shown in the photo shared by John?",
+    "ground_truth": "Enabled needed repairs and renovations, making the learning environment safer and more modern for students.",
+    "predicted": "It enabled needed repairs and renovations, making the learning environment safer and more modern for students.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly, stating the extra funding enabled repairs and renovations to make the learning environment safer and more modern.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 68,
+    "question": "What type of workout class did Maria start doing in December 2023?",
+    "ground_truth": "aerial yoga",
+    "predicted": "Aerial yoga (she said she started doing aerial yoga—mentioned on December 17, 2022).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer identifies the correct workout class (aerial yoga). The added parenthetical date is incorrect but does not change the core answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 69,
+    "question": "What did Maria donate to a homeless shelter in December 2023?",
+    "ground_truth": "old car",
+    "predicted": "She donated her old car to a homeless shelter.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states the same fact as the ground truth: she donated her old car to a homeless shelter.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 70,
+    "question": "What kind of meal did John and his family make together in the photo shared by John?",
+    "ground_truth": "pizza",
+    "predicted": "They made pizza.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state they made pizza.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 71,
+    "question": "What kind of online group did John join?",
+    "ground_truth": "service-focused online group",
+    "predicted": "He joined a service-focused online group.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth meaning exactly: both state he joined a service-focused online group.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 72,
+    "question": "What kind of activities did John and his mates from the online group do as part of their service efforts?",
+    "ground_truth": "gave out food and supplies at a homeless shelter, organized a toy drive for kids in need",
+    "predicted": "They went to a homeless shelter to give out food and supplies and organized a toy drive for kids in need.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: distributing food and supplies at a homeless shelter and organizing a toy drive for children in need.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 73,
+    "question": "Who inspired Maria to start volunteering?",
+    "ground_truth": "Her aunt",
+    "predicted": "Her aunt — who used to help Maria’s family when they were struggling — inspired her to start volunteering.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states the same core fact (her aunt) and adds consistent supporting detail; matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 74,
+    "question": "Why did Maria sit with the little girl at the shelter event in February 2023?",
+    "ground_truth": "The girl seemed sad and had no other family",
+    "predicted": "Because the little girl (about 8) was sitting all alone and seemed sad, Maria sat with her to give her comfort and a listening ear after learning the girl had no other family.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: the girl was alone and seemed sad, and Maria sat with her after learning she had no other family (additional harmless details included).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 75,
+    "question": "What did Jean go through before meeting Maria?",
+    "ground_truth": "divorce, job loss, homelessness",
+    "predicted": "Jean went through a divorce, lost her job, and ended up homeless.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: divorce, job loss, and homelessness are all stated.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 76,
+    "question": "Why did John decide to run for office again?",
+    "ground_truth": "saw the impact he could make in the community through politics",
+    "predicted": "Because he “couldn't let go” of his dream to make a difference in his community — he’d seen the impact he could make through politics and felt motivated to press for improvements in education and infrastructure.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state he ran again because he saw the impact he could make in the community through politics (prediction adds compatible detail about education and infrastructure).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 77,
+    "question": "What activity did John's colleague, Rob, invite him to?",
+    "ground_truth": "beginner's yoga class",
+    "predicted": "Rob invited John to a beginner's yoga class.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: Rob invited John to a beginner's yoga class.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 78,
+    "question": "What is the name of John's one-year-old child?",
+    "ground_truth": "Kyle",
+    "predicted": "His name is Kyle.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states the child's name is Kyle, which matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 79,
+    "question": "How often does John take his kids to the park?",
+    "ground_truth": "A few times a week",
+    "predicted": "John takes his kids to the park a few times a week.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: John takes his kids to the park a few times a week.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 80,
+    "question": "What did Maria make for her home to remind her of a trip to England?",
+    "ground_truth": "painting of a castle on a hill",
+    "predicted": "She made a painting of a castle (a painting of a castle on a hill) to remind her of the trip to England.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: a painting of a castle on a hill to remind her of the trip to England.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 81,
+    "question": "Where did Maria get the idea for the castle shadow box in her home?",
+    "ground_truth": "England",
+    "predicted": "From a trip to England a few years ago—specifically London—where she was mesmerized by the castles.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states she got the idea from a trip to England (specifically London), which matches the ground truth 'England.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 82,
+    "question": "What did John receive a certificate for?",
+    "ground_truth": "completion of a university degree",
+    "predicted": "He received a certificate of completion of a university degree (he graduated).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer restates the ground truth exactly: he received a certificate for completion of a university degree (graduation).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 83,
+    "question": "What areas is John particularly interested in for policymaking?",
+    "ground_truth": "education and infrastructure",
+    "predicted": "He's particularly interested in improving education and infrastructure.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth by stating interest in education and infrastructure (with added 'improving' but same meaning).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 84,
+    "question": "What did Maria participate in last weekend before April 10, 2023?",
+    "ground_truth": "a 5K charity run",
+    "predicted": "Maria participated in a 5K charity run for a homeless shelter on the weekend of April 1–2, 2023.",
+    "score": 1,
+    "judge_reasoning": "Contains the ground truth (a 5K charity run); additional details (cause and exact weekend) do not contradict and are acceptable.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 85,
+    "question": "What event did John volunteer at last weekend?",
+    "ground_truth": "career fair at a local school",
+    "predicted": "He participated in and organized a 5K charity run in their neighborhood to raise money for veterans and their families.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer describes a 5K charity run for veterans, which does not match the ground truth 'career fair at a local school.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 86,
+    "question": "What did John do that put a strain on his wallet?",
+    "ground_truth": "His car broke down",
+    "predicted": "His car broke down last Friday on his way to work, and the cost of getting it fixed put a strain on his wallet.",
+    "score": 1,
+    "judge_reasoning": "Captures the same core fact—his car broke down—and adds harmless extra detail about timing and repair costs.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 87,
+    "question": "Where did John explore on a road trip last year?",
+    "ground_truth": "Pacific Northwest",
+    "predicted": "He explored the coast up in the Pacific Northwest and visited some national parks.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly states Pacific Northwest and adds extra (non-conflicting) details, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 88,
+    "question": "What topic has John been blogging about recently?",
+    "ground_truth": "politics and the government",
+    "predicted": "He's been blogging about politics and government, with a focus on education reform and infrastructure development.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth topic ('politics and government') and only adds compatible, non-contradictory details, so it is correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 89,
+    "question": "Why did John start blogging about politics and policies?",
+    "ground_truth": "raise awareness and start conversations to create positive change",
+    "predicted": "He began blogging to research and share his thoughts on policies and to raise awareness and start conversations to create positive change—particularly on education reform and infrastructure development—because his community involvement showed him how those issues impact neighborhoods and he wanted to make a real impact.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the core purpose—raising awareness and starting conversations to create positive change—and adds plausible supporting details without contradicting the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 90,
+    "question": "What was the focus of John's recent research and writing on his blog?",
+    "ground_truth": "education reform and infrastructure development",
+    "predicted": "He was researching policies and writing about education reform and infrastructure development.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly states the same focus—education reform and infrastructure development—adding only that he was researching policies, which does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 91,
+    "question": "What did John attend with his colleagues in March 2023?",
+    "ground_truth": "a tech-for-good convention",
+    "predicted": "He attended a convention about using tech for good with his colleagues in March 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state he attended a tech-for-good convention in March 2023 (phrased as a convention about using tech for good).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 92,
+    "question": "How often does John work out with his family?",
+    "ground_truth": "Three times a week",
+    "predicted": "Three times a week.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: 'Three times a week.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 93,
+    "question": "How has John's fitness improved since starting boot camps with his family?",
+    "ground_truth": "More energy, gains in strength and endurance",
+    "predicted": "Since starting boot camps with his family, John reports having \"lots more energy\" and noticing gains in strength and endurance. They attend three times a week, which has helped boost fitness and family motivation.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (more energy, gains in strength and endurance) and only adds non-contradictory details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 94,
+    "question": "What kind of food did Maria have on her dinner spread iwth her mother?",
+    "ground_truth": "Salads, sandwiches, homemade desserts",
+    "predicted": "Salads, sandwiches, and homemade desserts — her favorite was a banana split sundae.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the same items (salads, sandwiches, homemade desserts) and adds a non-contradictory extra detail about a favorite dessert.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 95,
+    "question": "What activity did Maria and her mom do together in May 2023?",
+    "ground_truth": "Made dinner together",
+    "predicted": "They made dinner together (Maria and her mom cooked/had a meal together) in May 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state Maria and her mom made/cooked dinner together in May 2023.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 96,
+    "question": "What did Maria do to feel closer to a community and her faith?",
+    "ground_truth": "joined a nearby church",
+    "predicted": "She joined a nearby church to feel closer to a community and her faith, and she also bought a cross necklace to feel closer to her faith.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the ground truth fact (she joined a nearby church); the additional detail about a cross necklace does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 97,
+    "question": "Why did Maria join a nearby church recently?",
+    "ground_truth": "to feel closer to a community and her faith",
+    "predicted": "She joined to feel closer to a community and to strengthen her faith.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning—joining to feel closer to a community and to her faith (phrased as strengthening her faith).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 98,
+    "question": "What did John host for the veterans in May 2023 as part of the project?",
+    "ground_truth": "a small party to share their stories",
+    "predicted": "He hosted a small party for veterans (a small party with veterans on 2023-05-19), inviting them to share their stories and connect.",
+    "score": 1,
+    "judge_reasoning": "The prediction matches the ground truth: it states he hosted a small party for veterans to share their stories (adds a date and 'connect' but doesn't contradict).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 99,
+    "question": "What did John and the veterans do during the small party?",
+    "ground_truth": "share stories and make connections",
+    "predicted": "They threw a small party where the veterans shared their stories and everyone made connections and found camaraderie.",
+    "score": 1,
+    "judge_reasoning": "Prediction states the veterans shared stories and everyone made connections (and camaraderie), which matches the ground truth of sharing stories and making connections.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 100,
+    "question": "What emotions did John feel during the small party with the veterans?",
+    "ground_truth": "heartwarming",
+    "predicted": "At the small party with the veterans, John felt heartwarmed/heartwarming, motivated, inspired/renewed, pleased (happy), and experienced a strong sense of community and togetherness.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the ground-truth emotion 'heartwarming' and adds compatible, non-contradictory details, so it is correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 101,
+    "question": "What event is Maria getting ready for at the shelter on May 25, 2023?",
+    "ground_truth": "fundraiser",
+    "predicted": "She was preparing for a homeless shelter fundraiser next week — specifically a chili cook-off (she shared the chili cook-off poster).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer correctly identifies the event as a fundraiser and even gives the specific type (chili cook-off), which is consistent with the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 102,
+    "question": "What does Maria need to spread the word about for the fundraiser for the volunteer shelter?",
+    "ground_truth": "chili cook-off",
+    "predicted": "She needs to spread the word about the chili cook-off at the fundraiser.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state she must spread the word about the chili cook-off.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 103,
+    "question": "What was the name of the pet that John had to say goodbye to on 3 June, 2023?",
+    "ground_truth": "Max",
+    "predicted": "The pet's name was Max.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth name 'Max' exactly.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 104,
+    "question": "How long was Max a part of John's family?",
+    "ground_truth": "10 years",
+    "predicted": "Max was part of John's family for 10 years.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state Max was part of John's family for 10 years.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 105,
+    "question": "How does John plan to honor the memories of his beloved pet?",
+    "ground_truth": "By considering adopting a rescue dog",
+    "predicted": "John plans to honor Max by making progress in the coming weeks to ensure they honor their loved ones' memories (he shared a cherished photo of Max) and by considering adopting a rescue dog to teach his kids responsibility and compassion.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth plan—considering adopting a rescue dog—and only adds non-contradictory details, so it is correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 106,
+    "question": "What important values does John want to teach his kids through adopting a rescue dog?",
+    "ground_truth": "Responsibility and compassion",
+    "predicted": "John wants to teach his kids responsibility and compassion.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: responsibility and compassion.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 107,
+    "question": "What new activity did Maria start recently, as mentioned on 3 June, 2023?",
+    "ground_truth": "volunteering at a local dog shelter once a month",
+    "predicted": "She joined a gym recently and has been trying kundalini yoga.",
+    "score": 0,
+    "judge_reasoning": "The prediction says she joined a gym and is doing kundalini yoga, which does not match the ground-truth activity of volunteering at a local dog shelter once a month.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 108,
+    "question": "What did Maria say it was like being at the waterfall in Oregon?",
+    "ground_truth": "Like being in a fairy tale",
+    "predicted": "She said she felt \"like I was in a fairy tale,\" the water sounded \"so calming,\" the surroundings were beautiful, and it was \"truly magical.\"",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly includes 'like I was in a fairy tale,' matching the ground truth; added details are consistent and non-contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 109,
+    "question": "What does Maria say she feels when doing upside-down yoga poses?",
+    "ground_truth": "Free and light",
+    "predicted": "She says upside-down poses make her feel \"free and light.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly, stating she feels \"free and light.\"",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 110,
+    "question": "What exciting news did Maria share on 16 June, 2023?",
+    "ground_truth": "joined a gym",
+    "predicted": "She said she joined a gym last week and is sticking to her workout routine — she’s also trying kundalini yoga.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the core fact that she joined a gym (plus additional compatible details), matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 111,
+    "question": "What yoga activity has Maria been trying to improve her strength and endurance?",
+    "ground_truth": "kundalini yoga",
+    "predicted": "She's been trying kundalini yoga.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state she has been trying kundalini yoga.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 112,
+    "question": "What did John recently get promoted to?",
+    "ground_truth": "assistant manager",
+    "predicted": "John was promoted to assistant manager.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: John was promoted to assistant manager.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 113,
+    "question": "What was one of the biggest challenges John faced in his journey to becoming assistant manager?",
+    "ground_truth": "self-doubt",
+    "predicted": "He said the worst challenge was self-doubt.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth — both state that self-doubt was the challenge.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 114,
+    "question": "How does John describe the support he received during his journey to becoming assistant manager?",
+    "ground_truth": "having support at home and his own grit",
+    "predicted": "He says he faced hurdles and self-doubt, but \"with support at home and my own grit\" he powered through; support from loved ones and believing in himself helped him overcome the challenges.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning: he had support at home and relied on his own grit (believing in himself). Extra context doesn't contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 115,
+    "question": "What kind of event did John and his family attend in June 2023?",
+    "ground_truth": "live music event",
+    "predicted": "They attended a live music event.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state they attended a live music event.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 116,
+    "question": "Why did Maria need to help her cousin find a new place to live?",
+    "ground_truth": "Her cousin had to leave and find a new place in a hurry.",
+    "predicted": "Because her cousin had been going through a tough time and \"had to leave and find a new place in a hurry,\" so Maria was helping her find housing.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground truth fact (cousin had to leave and find a new place in a hurry) and adds non-contradictory context, so it is correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 117,
+    "question": "What event did John participate in to show support for veterans' rights?",
+    "ground_truth": "marching event",
+    "predicted": "He participated in a marching event for veterans' rights.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state he participated in a marching event to support veterans' rights.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 118,
+    "question": "What inspired John to join the marching event for veterans' rights?",
+    "ground_truth": "Respect for the military and the desire to show support",
+    "predicted": "He'd always had great respect for the military and wanted to show his support — the march reminded him how much veterans sacrifice and motivated him to stand up for what he believes in.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: expresses respect for the military and desire to show support; extra motivating details don't contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 119,
+    "question": "How often does John get to see sunsets like the one he shared with Maria?",
+    "ground_truth": "At least once a week",
+    "predicted": "John sees sunsets like that at least once a week.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state he sees such sunsets at least once a week.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 120,
+    "question": "What natural disaster affected John's old area on 7 July, 2023?",
+    "ground_truth": "Flood",
+    "predicted": "A nasty flood hit John's old area (West County) on July 7, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states a flood occurred on July 7, 2023 in John's old area, which matches the ground truth 'Flood'.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 121,
+    "question": "How did the flood impact the homes in John's old area?",
+    "ground_truth": "Lots of homes were ruined.",
+    "predicted": "A nasty flood struck John's old area and, because the infrastructure wasn't great, it ruined lots of homes.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core fact—that many homes were ruined—and adds non-conflicting extra context about infrastructure, so it matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 122,
+    "question": "What motivated Maria and John to discuss potential solutions for their community on 7 July, 2023?",
+    "ground_truth": "Flood in John's old area",
+    "predicted": "A nasty flood hit John’s old area the week before, and because the infrastructure wasn’t great and many homes were ruined, John organized people to discuss solutions and Maria agreed to join the meeting.",
+    "score": 1,
+    "judge_reasoning": "The prediction states a flood hit John’s old area as the reason they discussed solutions, matching the ground truth; extra contextual details don't contradict it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 123,
+    "question": "What did Maria plan to do later on the evening of 7 July, 2023?",
+    "ground_truth": "have dinner with friends from the gym",
+    "predicted": "She planned to join the community meeting to contribute to making the community better (i.e., join the meeting about flood/solutions).",
+    "score": 0,
+    "judge_reasoning": "The predicted answer describes attending a community meeting about flood solutions, which does not match the ground truth of having dinner with friends from the gym.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 124,
+    "question": "What kind of activities did Maria do at the picnic with her church friends?",
+    "ground_truth": "played games like charades and a scavenger hunt",
+    "predicted": "She chilled under the trees, played games (charades and a scavenger hunt), and ate yummy food.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the core information (played charades and a scavenger hunt); additional details do not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 125,
+    "question": "What does John appreciate about the veteran's hospital visit?",
+    "ground_truth": "the resilience of the veterans and their inspiring stories",
+    "predicted": "He appreciated meeting “amazing people” and hearing stories—especially from an elderly veteran named Samuel—whose resilience inspired him, filled him with hope, and made him appreciate what we have and the need to give back.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core idea: he valued meeting veterans and hearing their inspiring, resilient stories (with extra supportive details that don't contradict).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 126,
+    "question": "What did John take away from visiting the veteran's hospital?",
+    "ground_truth": "appreciation for giving back",
+    "predicted": "He said the visit was eye‑opening — it made him appreciate what we have and the need to give back; hearing veteran Samuel’s inspiring yet heartbreaking stories filled him with hope and reminded him why he wanted to join the military.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly states he appreciated what we have and the need to give back, matching the ground truth’s ‘appreciation for giving back.’ Additional details do not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 127,
+    "question": "Why did John feel inspired to join the military after the visit to the hospital?",
+    "ground_truth": "seeing the resilience of the veterans",
+    "predicted": "Because hearing veterans’ stories—especially from an elderly veteran named Samuel—and seeing their resilience (both inspiring and heartbreaking) filled him with hope and reminded him why he wanted to serve in the military.",
+    "score": 1,
+    "judge_reasoning": "The prediction conveys the same core reason—he was inspired by seeing the veterans' resilience (and their stories)—matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 128,
+    "question": "In what activity did Maria and her church friends participate in July 2023?",
+    "ground_truth": "hiking",
+    "predicted": "She went hiking with her church friends.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state that she went hiking with her church friends in July 2023.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 129,
+    "question": "What does John think about trying new classes at the yoga studio?",
+    "ground_truth": "Trying new classes is a fun way to switch up the exercise routine.",
+    "predicted": "He’s positive about it — the studio offers classes like yoga, kickboxing, and circuit training that “keep things interesting,” and he says trying new classes is a great way to push yourself and mix things up.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state John is positive and that trying new classes is a fun/good way to mix up the exercise routine (prediction adds compatible detail about keeping things interesting and pushing yourself).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 130,
+    "question": "Which activity has John done apart from yoga at the studio?",
+    "ground_truth": "weight training",
+    "predicted": "He has done weight training.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly in meaning: both state he has done weight training.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 131,
+    "question": "What community service did Maria mention that she was involved in on 31 July, 2023?",
+    "ground_truth": "volunteered at a homeless shelter",
+    "predicted": "She dropped off baked goods she had baked at the homeless shelter.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer describes a community service activity involving a homeless shelter (dropping off baked goods), which corresponds to 'volunteered at a homeless shelter.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 132,
+    "question": "How did Maria start volunteering at the homeless shelter?",
+    "ground_truth": "Witnessed a family struggling on the streets and reached out to the shelter",
+    "predicted": "She was inspired by her aunt's example of helping the family when they struggled, and about a year ago—after witnessing a family struggling on the streets—she reached out to the homeless shelter and asked if they needed volunteers.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the core facts: she witnessed a family struggling on the streets and reached out to the homeless shelter; extra details (aunt, timing) do not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 133,
+    "question": "What did John do the week before August 3, 2023 involving his kids?",
+    "ground_truth": "Had a meaningful experience at a military memorial",
+    "predicted": "He took his kids to a military memorial during the week of July 27–August 2, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: he had a meaningful experience at a military memorial involving his kids, and the timing (week of July 27–Aug 2, 2023) is the week before Aug 3, 2023.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 134,
+    "question": "How did John describe his kids' reaction at the military memorial?",
+    "ground_truth": "awestruck and humbled",
+    "predicted": "He said they were \"awestruck and humbled.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly — it states the kids were 'awestruck and humbled.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 135,
+    "question": "Why does Maria think it's important for younger generations to visit military memorials?",
+    "ground_truth": "To remember and appreciate those who served",
+    "predicted": "Maria says visiting military memorials helps younger generations remember and appreciate those who served.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth: both state Maria believes visits help younger generations remember and appreciate those who served.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 136,
+    "question": "What does John believe is important for children regarding veterans?",
+    "ground_truth": "Teaching them to respect and appreciate those who served",
+    "predicted": "He believes it's important to show children how to respect and appreciate those who served our country.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning: teaching children to respect and appreciate those who served (phrased as showing children how to do so).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 137,
+    "question": "What happened to John's job in August 2023?",
+    "ground_truth": "John lost his job at the mechanical engineering company.",
+    "predicted": "He lost his job at the mechanical engineering company in August 2023 after the company \"tanked\" (went under).",
+    "score": 1,
+    "judge_reasoning": "Prediction matches ground truth: John lost his job at the mechanical engineering company; adds that it occurred in August 2023 and that the company went under, which does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 138,
+    "question": "What activity did Maria take up with her friends from church in August 2023?",
+    "ground_truth": "community work",
+    "predicted": "She volunteered at the homeless shelter (charity/volunteering) in August 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches core meaning: volunteering at a homeless shelter is community work/charity, so the predicted answer conveys the same activity.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 139,
+    "question": "What did John do to help his community last year in his hometown?",
+    "ground_truth": "Helped renovate a rundown community center.",
+    "predicted": "He helped renovate a rundown community center in his hometown last year.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: it states he helped renovate a rundown community center in his hometown last year.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 140,
+    "question": "What cause did the 5K charity run organized by John support?",
+    "ground_truth": "veterans and their families",
+    "predicted": "The 5K charity run John organized supported veterans and their families.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: it states the run supported veterans and their families.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 141,
+    "question": "Who did John work with to raise awareness and funds for victims of domestic abuse?",
+    "ground_truth": "a local organization",
+    "predicted": "He worked with a local organization that helps victims of domestic abuse (collaborating at his 5K charity run).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states he worked with a local organization, matching the ground truth; extra detail about the 5K event does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 142,
+    "question": "What recognition did Maria receive at the homeless shelter in August 2023?",
+    "ground_truth": "a medal for volunteering",
+    "predicted": "She was awarded a medal by the homeless shelter in August 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core fact: Maria was awarded a medal by the homeless shelter in August 2023 (matches 'a medal for volunteering').",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 143,
+    "question": "What is the name of Maria's puppy she got two weeks before August 11, 2023?",
+    "ground_truth": "Coco",
+    "predicted": "Her name is Coco.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same name as the ground truth ('Coco'), matching the question's answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 144,
+    "question": "What activity did John and Max enjoy together last summer?",
+    "ground_truth": "Camping",
+    "predicted": "They went on a camping trip last summer—during it John and Max hiked and swam.",
+    "score": 1,
+    "judge_reasoning": "Prediction states they went on a camping trip, matching the ground truth; additional details (hiked and swam) do not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 145,
+    "question": "How does John describe the camping trip with Max?",
+    "ground_truth": "Peaceful and awesome",
+    "predicted": "John says Max and he \"had a blast\" on their camping trip last summer — they hiked, swam, and made great memories. He describes it as a really peaceful, awesome, and \"so chill\" break from the everyday hustle and bustle.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly states the trip was \"peaceful\" and \"awesome\" and conveys the same core meaning with additional compatible detail.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 146,
+    "question": "Why does John say he feels stuck and questioning his decisions and goals?",
+    "ground_truth": "Not feeling like making much of an impact",
+    "predicted": "Because he feels like he's not making much of an impact—he wants to positively affect people but doesn't know how to channel his passion and enthusiasm, so he feels stuck and is questioning his decisions and goals.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state he feels he's not making much of an impact; the prediction adds compatible detail about wanting to help but not knowing how, which does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 147,
+    "question": "What is the name of Maria's second puppy?",
+    "ground_truth": "Shadow",
+    "predicted": "Her second puppy is named Shadow.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (both state the second puppy's name is Shadow).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 148,
+    "question": "How is Maria's new puppy adjusting to its new home?",
+    "ground_truth": "doing great - learning commands and house training",
+    "predicted": "Maria's new pup is adjusting well — Coco (got two weeks earlier) brings joy and always greets Maria when she comes home, and the shelter pup Shadow is \"doing great,\" learning commands and being house-trained; Maria says it's been an adjustment but totally worth it and they get along great.",
+    "score": 1,
+    "judge_reasoning": "Prediction states the puppy is \"doing great,\" learning commands and being house-trained, matching the ground truth; extra positive details don't contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 149,
+    "question": "What is John currently doing as a volunteer in August 2023?",
+    "ground_truth": "mentoring students at a local school",
+    "predicted": "He’s volunteering as a mentor for a local school.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same meaning as ground truth: mentoring students at a local school (volunteering as a mentor).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 150,
+    "question": "What activities does John's family enjoy doing together?",
+    "ground_truth": "going for hikes, hanging out at the park, having picnics, playing board games, having movie nights",
+    "predicted": "John's family enjoy hiking; picnics in the park; playground activities (climbing, sliding, swinging); walks and beach/ocean outings (including sunset strolls and playing in the waves); boot-camp workouts together (three times a week); making pizza, shared meals and cooking/baking; arts & crafts and other community event activities; attending live music/violin concerts; family trips/vacations; and playing board games and having movie nights.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes all core activities from the ground truth: hiking, hanging out at the park (including picnics/playground), playing board games, and having movie nights, along with additional details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 151,
+    "question": "What did the donations help John's community acquire on 16 August, 2023?",
+    "ground_truth": "a brand new fire truck",
+    "predicted": "They helped acquire a brand new fire truck.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer exactly matches the ground truth: both state the donations acquired a brand new fire truck.",
+    "category": 4,
+    "error": null
+  }
+]

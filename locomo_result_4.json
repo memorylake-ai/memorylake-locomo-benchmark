@@ -1,0 +1,1992 @@
+[
+  {
+    "question_index": 0,
+    "question": "Is it likely that Nate has friends besides Joanna?",
+    "ground_truth": "Yesteammates on hisvideo game team.",
+    "predicted": "Yes. Nate mentions many other friends—tournament friends and teammates, people he met at a game convention (planned gaming sessions), a vegan diet group he shared vegan ice cream with, \"old friends and teammates\" who attended his gaming party (7 people), and the couple he met on a walk who arranged doggy playdates.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer affirms Nate has teammates on his video game team and provides supporting examples, which matches the ground truth that he has teammates on his video game team.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 1,
+    "question": "What kind of interests do Joanna and Nate share?",
+    "ground_truth": "Watching movies, making desserts",
+    "predicted": "They both enjoy watching movies and reading books. They also share interests in desserts/cooking (Joanna bakes cakes and dairy‑free recipes; Nate makes coconut‑milk ice cream) and animals/pets (Joanna likes turtles; Nate has a dog, Max, plus turtles and fish).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both core items from the ground truth (watching movies and making desserts). Additional details do not negate those facts.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 2,
+    "question": "When did Joanna first watch \"Eternal Sunshine of the Spotless Mind?",
+    "ground_truth": "2019",
+    "predicted": "She first watched it around January 21, 2019.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer specifies January 21, 2019, which matches the ground truth year 2019 and therefore conveys the same temporal information.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 3,
+    "question": "When did Nate win his first video game tournament?",
+    "ground_truth": "the week before 21Janury, 2022",
+    "predicted": "Nate won his first video game tournament the week of January 14–20, 2022.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer (week of Jan 14–20, 2022) matches the ground truth ('the week before Jan 21, 2022') and conveys the same time period.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 4,
+    "question": "What pets wouldn't cause any discomfort to Joanna?",
+    "ground_truth": "Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",
+    "predicted": "Stuffed animals — e.g., the stuffed dog \"Tilly\" (the toy pup Nate gave) — wouldn't cause Joanna any discomfort; she is allergic to most reptiles, animals with fur, and cockroaches.",
+    "score": 0,
+    "judge_reasoning": "Incorrect. Ground truth says hairless cats or pigs (no fur). Prediction says stuffed animals (toys) and gives a different list of allergies; it does not mention hairless pets and contradicts the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 5,
+    "question": "What are Joanna's hobbies?",
+    "ground_truth": "Writing, watchingmovies, exploringnature, hanging withfriends.",
+    "predicted": "Joanna's hobbies include writing (screenplays, journaling; she joined a writers' group), reading, and watching movies (especially dramas and romcoms). She also enjoys hiking/exploring nature, acting (her first passion that she may return to), cooking/baking (experimenting with recipes and dairy‑free desserts), and hanging out with friends.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all ground-truth hobbies (writing, watching movies, exploring nature, hanging out with friends) and adds extra non-contradictory details, so it is correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 6,
+    "question": "How long has Nate had his first two turtles?",
+    "ground_truth": "three years",
+    "predicted": "He'd had them for 3 years (Nate said on January 23, 2022, \"I've had them for 3 years now\").",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state he had them for three years and references the January 23, 2022 remark.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 7,
+    "question": "When did Joanna finish her first screenplay?",
+    "ground_truth": "The Friday before 23January, 2022",
+    "predicted": "Joanna finished (and printed) her first full screenplay on January 21, 2022.",
+    "score": 1,
+    "judge_reasoning": "Correct — the Friday before January 23, 2022 is January 21, 2022; the prediction matches the ground truth (extra detail about printing does not contradict).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 8,
+    "question": "When did Nate get his first two turtles?",
+    "ground_truth": "2019",
+    "predicted": "Around January 23, 2019.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer specifies a date in 2019; matches the ground-truth year (2019). Additional specificity is acceptable.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 9,
+    "question": "What major achievement did Joanna accomplish in January 2022?",
+    "ground_truth": "finished her screenplay and printed it",
+    "predicted": "She finished her first full screenplay and printed it.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states she finished and printed her screenplay, matching the ground truth; the added phrase 'first full' is extra but not contradictory.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 10,
+    "question": "What emotions is Joanna feeling about  the screenplay she submitted?",
+    "ground_truth": "Relief, excitement,worry, hope,anxiety.",
+    "predicted": "She’s feeling a rollercoaster of emotions — relief, excitement, and worry/anxiety about the submitted screenplay; later she also felt bummed/disheartened after receiving a rejection.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes relief, excitement, and worry/anxiety (covering most ground-truth emotions). It omits 'hope' but adds an extra detail (feeling bummed after rejection); overall it captures the main emotions.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 11,
+    "question": "What is Joanna allergic to?",
+    "ground_truth": "Most reptiles,animals with fur,cockroaches, dairy",
+    "predicted": "Joanna is allergic to most reptiles, animals with fur, and cockroaches.",
+    "score": 1,
+    "judge_reasoning": "Prediction lists 3 of the 4 allergens from the ground truth (most reptiles, animals with fur, cockroaches); it omitted dairy but includes the majority of items.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 12,
+    "question": "What underlying condition might Joanna have based on her allergies?",
+    "ground_truth": "asthma",
+    "predicted": "Given her allergies to most reptiles, animals with fur, and cockroaches, Joanna may have atopy — a general allergic predisposition that often presents as allergic rhinitis or allergic (atopic) asthma.",
+    "score": 1,
+    "judge_reasoning": "The prediction mentions atopy and explicitly notes atopic asthma as a likely presentation, which includes the ground-truth answer 'asthma.'",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 13,
+    "question": "When did Joanna have an audition for a writing gig?",
+    "ground_truth": "23 March, 2022.",
+    "predicted": "Joanna's audition for the writing gig was on March 23, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (23 March 2022), so it is correct.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 14,
+    "question": "What nickname does Nate use for Joanna?",
+    "ground_truth": "Jo",
+    "predicted": "He calls her \"Jo.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state the nickname is 'Jo.'",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 15,
+    "question": "When did Nate get purple hair?",
+    "ground_truth": "The week before 15April, 2022.",
+    "predicted": "He dyed it the week before April 15, 2022 — i.e., around April 8–14, 2022.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state the week before April 15, 2022 (approx. April 8–14, 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 16,
+    "question": "What physical transformation did Nate undergo in April 2022?",
+    "ground_truth": "dyed his hair purple",
+    "predicted": "Nate dyed his hair purple (changed his hair color to a bright purple) in April 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state Nate dyed his hair purple in April 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 17,
+    "question": "What movie did Joanna watch on 1 May, 2022?",
+    "ground_truth": "Lord of the Rings",
+    "predicted": "She watched \"The Lord of the Rings\" Trilogy.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer names 'The Lord of the Rings', matching the ground truth; the added word 'Trilogy' is an acceptable extra detail.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 18,
+    "question": "Which outdoor spot did Joanna visit in May?",
+    "ground_truth": "Whispering Falls waterfall",
+    "predicted": "Joanna visited Whispering Falls (mentioned May 12, 2022).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer identifies Whispering Falls as the outdoor spot Joanna visited and correctly references the May 12, 2022 timestamp; it matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 19,
+    "question": "How many times has Joanna found new hiking trails?",
+    "ground_truth": "twice",
+    "predicted": "Twice — on April 17, 2022 she found “an awesome hiking trail” in her hometown, and on May 12, 2022 she went hiking and “found some more amazing trails” (including Whispering Falls).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states 'Twice' and cites the two specific instances/dates, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 20,
+    "question": "When did Nate adopt Max?",
+    "ground_truth": "May 2022",
+    "predicted": "Nate adopted Max on May 20, 2022.",
+    "score": 1,
+    "judge_reasoning": "The prediction specifies a date (May 20, 2022) that falls within the ground-truth month and year (May 2022), so it is correct.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 21,
+    "question": "Who was the new addition to Nate's family in May 2022?",
+    "ground_truth": "Max",
+    "predicted": "It was Max — a dog.",
+    "score": 1,
+    "judge_reasoning": "Prediction names the correct new family member (Max) and adds consistent detail (a dog); matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 22,
+    "question": "When did Joanna start writing her third screenplay?",
+    "ground_truth": "May 2022",
+    "predicted": "She started writing it on February 25, 2022.",
+    "score": 0,
+    "judge_reasoning": "The prediction (February 25, 2022) does not match the ground truth (May 2022); the month and date are different.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 23,
+    "question": "Which of Joanna's screenplay were rejected from production companies?",
+    "ground_truth": "first screenplay on drama and romance, third screenplay on loss identity and connection",
+    "predicted": "Joanna’s first screenplay, which was about drama and romance, was rejected by a production company. Her third screenplay, which dealt with themes of loss, identity, and connection, was also rejected.",
+    "score": 1,
+    "judge_reasoning": "Prediction correctly identifies both the first screenplay (drama and romance) and third screenplay (loss, identity, and connection) as the ones rejected, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 24,
+    "question": "When is Nate hosting a gaming party?",
+    "ground_truth": "The weekend after 3June, 2022.",
+    "predicted": "Nate is hosting a gaming party the weekend after June 3, 2022.",
+    "score": 1,
+    "judge_reasoning": "Prediction places the gaming party on the weekend after June 3, 2022, matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 25,
+    "question": "When did Joanna hike with her buddies?",
+    "ground_truth": "The weekend after 3June, 2022.",
+    "predicted": "The weekend of June 4–5, 2022 (Joanna said on June 3, 2022 she was hiking with some buddies \"this weekend\").",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: the weekend after June 3, 2022 (June 4–5, 2022) and cites the June 3 comment.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 26,
+    "question": "When did Nate win his third tourney?",
+    "ground_truth": "The week before 3June, 2022",
+    "predicted": "He won his third tournament the week of 2022-05-27 to 2022-06-02.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer specifies May 27–June 2, 2022, which matches 'the week before 3 June 2022.'",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 27,
+    "question": "What places has Joanna submitted her work to?",
+    "ground_truth": "film contest, film festival.",
+    "predicted": "She’s submitted to film festivals, to a film contest, to a major company (which sent a rejection letter), and to movie producers/directors (via producer meetings/pitches).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground truth items (film contest and film festival); extra mentioned submissions do not contradict the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 28,
+    "question": "When did Nate make vegan icecream and share it with a vegan diet group?",
+    "ground_truth": "The Friday before 24June, 2022.",
+    "predicted": "He made and shared it on June 17, 2022.",
+    "score": 1,
+    "judge_reasoning": "Correct — the Friday before June 24, 2022 is June 17, 2022, which matches the predicted date.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 29,
+    "question": "When is Joanna going to make Nate's ice cream for her family?",
+    "ground_truth": "The weekend of 24June, 2022.",
+    "predicted": "She said she'd make it \"this weekend\" in the June 24, 2022 message — the weekend of June 25–26, 2022.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: both indicate the weekend associated with the June 24, 2022 message (interpreted as June 25–26, 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 30,
+    "question": "What kind of writings does Joanna do?",
+    "ground_truth": "Screenplays,books, online blog posts, journal",
+    "predicted": "Joanna writes screenplays/movie scripts (e.g., the script \"Finding Home\" and several scripts that have screened), plus other scripts. She also writes a book (novel in progress), journal entries, blog posts, and early/notebook drafts containing dialogue and stories.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes screenplays, a book, journal entries, and blog posts, matching the ground truth (extra details do not contradict).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 31,
+    "question": "When did Nate win his fourth video game tournament?",
+    "ground_truth": "The Friday before 10July, 2022.",
+    "predicted": "Nate won his fourth video game tournament on Friday, July 8, 2022.",
+    "score": 1,
+    "judge_reasoning": "The predicted date, Friday, July 8, 2022, matches 'the Friday before July 10, 2022' from the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 32,
+    "question": "Where did Joanna travel to in July 2022?",
+    "ground_truth": "Woodhaven",
+    "predicted": "Woodhaven.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: Joanna traveled to Woodhaven in July 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 33,
+    "question": "When did someone write Joanna a touching letter?",
+    "ground_truth": "The week before 14August, 2022.",
+    "predicted": "The letter was written the week before August 14, 2022 — on August 7, 2022.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: both state the letter was written the week before August 14, 2022; the specified date (August 7, 2022) falls within that week.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 34,
+    "question": "What book recommendations has Joanna given to Nate?",
+    "ground_truth": "\"Little Women\",'A Court of Thorns andRoses'.",
+    "predicted": "She recommended the book/movie \"Little Women\" and suggested he find/read a fantasy book series (a general recommendation to try a fantasy series).",
+    "score": 1,
+    "judge_reasoning": "Includes 'Little Women' and a second fantasy recommendation; although the prediction omitted the specific title 'A Court of Thorns and Roses', it captures one of two items (at least half), so marked correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 35,
+    "question": "When did Nate take time off to chill with his pets?",
+    "ground_truth": "The weekend of 22August, 2022.",
+    "predicted": "He said on August 22, 2022 that he was taking that weekend off to chill with his pets.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both indicate the weekend of August 22, 2022 as when Nate took time off to chill with his pets.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 36,
+    "question": "When did Joanna share her book with her writers group?",
+    "ground_truth": "The week before 22August, 2022.",
+    "predicted": "She shared it in the week before August 22, 2022 — August 15–21, 2022.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state the week before August 22, 2022, and the predicted answer correctly specifies August 15–21, 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 37,
+    "question": "When did Nate win an international tournament?",
+    "ground_truth": "21 August, 2022",
+    "predicted": "He won an international tournament on August 21, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (21 August 2022); wording is equivalent.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 38,
+    "question": "When did Joanna make a desert with almond milk?",
+    "ground_truth": "The Friday before 14September, 2022",
+    "predicted": "She made the dessert with almond milk on Friday, September 9, 2022.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: the Friday before September 14, 2022 is September 9, 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 39,
+    "question": "When did Nate attend a cooking show?",
+    "ground_truth": "The Monday before 14September, 2022",
+    "predicted": "He attended the cooking show on September 12, 2022.",
+    "score": 1,
+    "judge_reasoning": "Correct — the Monday before September 14, 2022 is September 12, 2022, which matches the predicted answer.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 40,
+    "question": "When did Joanna's laptop crash?",
+    "ground_truth": "The week before 14September, 2022",
+    "predicted": "Joanna's laptop crashed the week of September 5–11, 2022.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer specifies the week immediately before September 14, 2022 (Sep 5–11), which matches the ground truth's 'the week before 14 September 2022'.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 41,
+    "question": "When did Joanna make a chocolate tart with raspberries?",
+    "ground_truth": "5 October, 2022",
+    "predicted": "She made it on October 5, 2022 (she said \"yesterday\" in the October 6, 2022 message).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (October 5, 2022) and correctly explains 'yesterday' reference from the October 6 message.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 42,
+    "question": "What movies have both Joanna and Nate seen?",
+    "ground_truth": "\"Little Women\", \"Lord of the Rings\"",
+    "predicted": "They’ve both seen “Little Women” and “Lord of the Rings.”",
+    "score": 1,
+    "judge_reasoning": "Prediction lists both films — Little Women and Lord of the Rings — that Joanna and Nate have both seen, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 43,
+    "question": "How long did it take for Joanna to finish writing her book?",
+    "ground_truth": "four months",
+    "predicted": "She started the book on July 10, 2022 and finished in the week of September 26–October 2, 2022, so it took about 11–12 weeks (roughly 2.5–3 months).",
+    "score": 0,
+    "judge_reasoning": "Predicted answer states ~2.5–3 months (11–12 weeks), but the ground truth is four months. The prediction underestimates the duration and thus contradicts the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 44,
+    "question": "When did Nate win a lot of money in a video game tournament?",
+    "ground_truth": "September 2022",
+    "predicted": "He won it the week of September 26–October 2, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer places the win in the week of Sep 26–Oct 2, 2022, which corresponds to late September 2022 (matches the ground truth month). The small overlap into Oct 1–2 does not contradict the ground-truth month.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 45,
+    "question": "When did Joanna finish up the writing for her book?",
+    "ground_truth": "The week before 6October, 2022",
+    "predicted": "She finished the writing the week of September 26–October 2, 2022.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: the week of Sept 26–Oct 2, 2022 is the week immediately before October 6, 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 46,
+    "question": "What board games has Nate played?",
+    "ground_truth": "Chess, Catan.",
+    "predicted": "He has played Catan and Chess.",
+    "score": 1,
+    "judge_reasoning": "Prediction lists both games (Catan and Chess), matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 47,
+    "question": "What places has Nate met new people?",
+    "ground_truth": "A tournament and agaming convention.",
+    "predicted": "- At video game tournaments (e.g., meeting people outside his circle at the tournament)  \n- At a game convention  \n- On a walk while walking his dog Max (ran into a couple with a dog)",
+    "score": 1,
+    "judge_reasoning": "Contains both ground-truth items (tournament and gaming convention); extra mention of meeting people on a dog walk does not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 48,
+    "question": "When did Nate go to a convention and meet new people?",
+    "ground_truth": "The Friday before 9October, 2022.",
+    "predicted": "He went on October 7, 2022.",
+    "score": 1,
+    "judge_reasoning": "October 7, 2022 is the Friday before October 9, 2022, so the predicted date matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 49,
+    "question": "How many times has Joanna's scripts been rejected?",
+    "ground_truth": "Twice",
+    "predicted": "Two times.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth exactly—'Two times' is equivalent to 'Twice.'",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 50,
+    "question": "What is something Nate gave to Joanna that brings her a lot of joy?",
+    "ground_truth": "stuffed toy pup",
+    "predicted": "He gave Joanna a stuffed animal dog (a stuffed pup) that she named Tilly and cherishes.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth: both state Nate gave Joanna a stuffed toy pup (stuffed animal dog), plus extra harmless detail (name Tilly).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 51,
+    "question": "When did Nate get Tilly for Joanna?",
+    "ground_truth": "25 May, 2022",
+    "predicted": "Nate gave Joanna the stuffed animal (Tilly) on May 25, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (May 25, 2022) and conveys the same information.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 52,
+    "question": "How many of Joanna's writing have made it to the big screen?",
+    "ground_truth": "two",
+    "predicted": "Three of Joanna's writings have made it to the big screen.",
+    "score": 0,
+    "judge_reasoning": "Incorrect — ground truth states two, but the prediction says three, which conflicts with the correct answer.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 53,
+    "question": "How many times has Nate taken his turtles on a walk?",
+    "ground_truth": "Twice.",
+    "predicted": "Two times — on October 25, 2022 (\"took my turtles out for a walk\") and on November 11, 2022 (\"took my turtles to the beach in Tampa yesterday\").",
+    "score": 1,
+    "judge_reasoning": "Prediction matches ground truth: two occasions (Oct 25, 2022 and Nov 11, 2022), so 'twice' is correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 54,
+    "question": "When was Joanna's second movie script shown on the big screens?",
+    "ground_truth": "The Sunday before 25October, 2022.",
+    "predicted": "Joanna's second movie script was shown on the big screens on June 4, 2022.",
+    "score": 0,
+    "judge_reasoning": "Incorrect date. Ground truth: the Sunday before Oct 25, 2022 (Oct 23, 2022). Prediction: June 4, 2022, does not match.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 55,
+    "question": "What is Joanna inspired by?",
+    "ground_truth": "Personal experiences,her own journey ofself discovery, Nate,nature, validation,stories about findingcourage and takingrisks, people she knows, stuff she sees, imagination",
+    "predicted": "Joanna is inspired by her personal experiences and her own journey of self-discovery; by Nate; by nature — especially hiking trails and sunsets; by validation and encouragement from readers; by stories about finding courage and taking risks; by people she knows; by things she observes around her; and by her imagination.",
+    "score": 1,
+    "judge_reasoning": "Prediction comprehensively covers the major inspiration sources listed in the ground truth: personal experiences, self-discovery, Nate, nature, validation, courage/risk stories, people she knows, things she sees, and imagination.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 56,
+    "question": "What animal do both Nate and Joanna like?",
+    "ground_truth": "Turtles.",
+    "predicted": "Both Nate and Joanna like turtles.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state that Nate and Joanna like turtles.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 57,
+    "question": "When did Joanna plan to go over to Nate's and share recipes?",
+    "ground_truth": "5 November, 2022.",
+    "predicted": "She planned to come over on November 5, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (November 5, 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 58,
+    "question": "What things has Nate reccomended to Joanna?",
+    "ground_truth": "A pet,\"The Lord of the Rings\" movies,a dragon book series,coconut flavoring,\"Project Hail Mary\" book,Xenoblade Chronicles, dairy-free margarine, coconut oil",
+    "predicted": "He’s recommended using coconut milk for dairy‑free desserts (and shared/gave his coconut‑milk/vegan ice cream recipe), encouraged Joanna to try his dairy‑free dessert recipes, recommended a book/series “with awesome battles and interesting characters” (the series he sent a poster for), and suggested she attend a writing convention.",
+    "score": 0,
+    "judge_reasoning": "The prediction misses most items from the ground truth (pet, LOTR movies, Project Hail Mary, Xenoblade, coconut oil/margarine, dragon book series explicitly) and adds an unrelated suggestion (writing convention); only the coconut/dairy-free recommendation and an unclear book mention partially overlap.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 59,
+    "question": "What does Joanna do to remember happy memories?",
+    "ground_truth": "Hangs them on a corkboard, writes themin a notebook.",
+    "predicted": "She writes down her favorite memories in a notebook.",
+    "score": 1,
+    "judge_reasoning": "Includes one of the two actions (writing memories in a notebook). Since at least half of the listed items are present, it's considered correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 60,
+    "question": "What Console does Nate own?",
+    "ground_truth": "A Nintendo Switch; since the game \"Xenoblade 2\" is made for this console.",
+    "predicted": "Nate owns a Nintendo console — specifically a Nintendo Switch.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state Nate owns a Nintendo Switch (Nintendo console).",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 61,
+    "question": "What mediums does Nate use to play games?",
+    "ground_truth": "Gamecube, PC,Playstation.",
+    "predicted": "He plays video games — e.g., Counter-Strike: Global Offensive, Street Fighter, Cyberpunk 2077, and “Xeonoblade Chronicles” — on PC/console (including Nintendo) and in online and in-person tournaments; he also plays tabletop/board games like Catan and chess.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes PC and Nintendo (covers GameCube) and mentions consoles generally (implying PlayStation); it captures the core platforms and adds extra (tabletop) details.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 62,
+    "question": "How many letters has Joanna recieved?",
+    "ground_truth": "Two",
+    "predicted": "Joanna has received 2 letters.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Joanna received 2 letters, which matches the ground-truth answer 'Two.'",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 63,
+    "question": "What video games does Nate play?",
+    "ground_truth": "Valorant, Counter Strike:Global Offensive,Xenoblade Chronicles, StreetFighter, Cyberpunk 2077",
+    "predicted": "Counter-Strike: Global Offensive (CS:GO); Street Fighter; Cyberpunk 2077; and Xeonoblade Chronicles.",
+    "score": 1,
+    "judge_reasoning": "Prediction lists 4 of the 5 games (CS:GO, Street Fighter, Cyberpunk 2077, Xenoblade [spelling variant]); missing Valorant, but includes at least half of the ground-truth items.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 64,
+    "question": "When did Nate win a big Valorant tourney?",
+    "ground_truth": "The Saturday before 7November, 2022",
+    "predicted": "Nate won the big Valorant tournament on Saturday, November 5, 2022.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: the Saturday before November 7, 2022 is November 5, 2022, so the predicted date is correct.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 65,
+    "question": "Which torunament did Nate win in the beginning of November 2022?",
+    "ground_truth": "Valorant",
+    "predicted": "He won a Valorant tournament (he was the champion in the final in early November 2022).",
+    "score": 1,
+    "judge_reasoning": "The prediction correctly identifies Valorant as the tournament won in early November 2022 and restates the timing; it matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 66,
+    "question": "What alternative career might Nate consider after gaming?",
+    "ground_truth": "an animalkeeper at a localzoo and workingwith turtles; as heknows a great dealabout turtles andhow to care for them,and he enjoys it.",
+    "predicted": "He might become a YouTube gaming content creator — creating gaming content for YouTube.",
+    "score": 0,
+    "judge_reasoning": "Predicted answer does not match ground truth. Ground truth says an animal keeper working with turtles at a zoo; prediction says YouTube gaming creator, which is unrelated.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 67,
+    "question": "What pets does Nate have?",
+    "ground_truth": "A dog and threeturtles.",
+    "predicted": "He has multiple turtles (three turtles) and a dog named Max.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: a dog and three turtles. Extra detail (dog named Max) does not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 68,
+    "question": "How many hikes has Joanna been on?",
+    "ground_truth": "Four",
+    "predicted": "Four — she referenced a hike last summer near Fort Wayne; a hike a few days before April 15, 2022; a hike on/about April 16, 2022 when she found an awesome trail in her hometown; and a May 12, 2022 hike to Whispering Falls.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth count (four) and correctly lists the four hikes referenced.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 69,
+    "question": "How many turtles does Nate have?",
+    "ground_truth": "Three",
+    "predicted": "Nate has three turtles.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly (three turtles) and conveys the same meaning.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 70,
+    "question": "What activities does Nate do with his turtles?",
+    "ground_truth": "takes them onwalks, holds them,feeds themstrawberries, givesthem baths.",
+    "predicted": "He walks them, takes them to the beach (Tampa), brings them into the kitchen to watch him make food, feeds them vegetables/fruits/insects (e.g., strawberries), holds them, gives them baths, lets them soak in the sun/relax in their tank, watches them play/eat, and takes photos of them.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes all ground-truth activities (walking them, holding them, feeding them strawberries, and giving them baths); extra details are harmless.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 71,
+    "question": "What do both Joanna and Nate appreciate the beauty of?",
+    "ground_truth": "Nature",
+    "predicted": "They both appreciate the beauty of nature (including sunsets, hiking scenery, and natural spots like Whispering Falls).",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both answers state they appreciate the beauty of nature; prediction adds compatible examples but does not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 72,
+    "question": "When did Joanna plan on going to Nate's to watch him play with his turtles?",
+    "ground_truth": "10 November, 2022",
+    "predicted": "She planned to go on November 10, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (10 November 2022); wording difference does not change meaning.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 73,
+    "question": "What state did Joanna visit in summer 2021?",
+    "ground_truth": "Indiana",
+    "predicted": "Indiana — she visited Fort Wayne.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Indiana and adds a consistent detail (Fort Wayne); matches the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 74,
+    "question": "What recommendations has Nate received from Joanna?",
+    "ground_truth": "\"Eternal Sunshine of the Spotless Mind\" movie, \"A Court of Thorns and Roses\" book, pointers for making living room comfy, starting a cork board for memories, \"Little Women\" movie",
+    "predicted": "Joanna recommended a romantic drama about memory and relationships (poster of a man and woman on a bench), recommended the film \"Little Women\", advised Nate to read lots, try different genres and practice/share his writing to get feedback, and suggested he pick a fantasy book series to read.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes Eternal Sunshine (described), Little Women, and suggestion to pick a fantasy series (A Court of Thorns and Roses). It omits the living-room-comfort pointers and the cork-board-for-memories, but covers at least half of the ground-truth items.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 75,
+    "question": "What are Nate's favorite desserts?",
+    "ground_truth": "coconut milk icecream, dairy-free chocolate cake with berries, chocolate and mixed-berry icecream, dairy-free chocolate mousse",
+    "predicted": "Coconut milk ice cream and a dairy-free chocolate mousse; he also enjoys chocolate- and mixed-berry–flavored desserts.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes coconut milk ice cream, dairy-free chocolate mousse, and chocolate- and mixed-berry–flavored desserts (covering the chocolate/mixed-berry ice cream); only the specific dairy-free chocolate cake with berries is not named but the key items are present.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 76,
+    "question": "How has Nate tried to disburse his vegan ice-cream recipes?",
+    "ground_truth": "teaching others, cooking show",
+    "predicted": "Nate has taught people how to make his vegan ice cream in person, shared samples with members of his vegan diet group, offered and sent the recipe directly to Joanna via messages, and invited her to come over to try it. He also taught the recipe on his own cooking show on 2022-09-12.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes both core points from the ground truth: Nate taught others (in person, via messages, sharing samples) and presented the recipe on his cooking show.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 77,
+    "question": "When did Nate win his second tournament?",
+    "ground_truth": "The week before 2 May, 2022.",
+    "predicted": "He won his second tournament in the week of 2022-04-25 to 2022-05-01 (the week before May 2, 2022).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth—both state the week before May 2, 2022 (Apr 25–May 1, 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 78,
+    "question": "How many video game tournaments has Nate participated in?",
+    "ground_truth": "nine",
+    "predicted": "Nate has participated in nine video game tournaments.",
+    "score": 1,
+    "judge_reasoning": "Prediction states nine tournaments, matching the ground truth count exactly.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 79,
+    "question": "How many screenplays has Joanna written?",
+    "ground_truth": "three",
+    "predicted": "Joanna has written three screenplays.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state Joanna wrote three screenplays.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 80,
+    "question": "How many tournaments has Nate won?",
+    "ground_truth": "seven",
+    "predicted": "Nate has won seven tournaments.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state Nate has won seven tournaments.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 81,
+    "question": "What recipes has Joanna made?",
+    "ground_truth": "dairy free vanilla cake with strawberry filling and coconut cream frosting, parfait, strawberry chocolate cake, chocolate coconut cupcakes, chocolate raspberry tart, chocolate cake with raspberries, blueberry cheesecake bars",
+    "predicted": "Dairy-free vanilla cake with strawberry filling and coconut cream frosting; dairy-free chocolate coconut cupcakes with raspberry frosting; a chocolate raspberry tart (almond flour crust, chocolate ganache, fresh raspberries); a dairy-free chocolate cake with raspberries (made with almond flour, coconut oil, chocolate, and raspberries); a blueberry dessert made with blueberries, coconut milk, and a gluten-free crust; a dessert made with almond milk; plus assorted dairy-free cookies, pies, cakes, and a revised old cake with strawberries and chocolate.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes the majority of the ground-truth recipes: dairy-free vanilla cake with strawberry filling and coconut cream frosting; chocolate coconut cupcakes; chocolate raspberry tart; chocolate cake with raspberries; and a blueberry blueberry-style dessert (covers blueberry cheesecake bars). It also references a strawberry/chocolate cake. It omits an explicit 'parfait' and adds extra/general items, but captures the core list.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 82,
+    "question": "What recipes has Nate made?",
+    "ground_truth": "coconut milk icecream, chocolate and vanilla swirl",
+    "predicted": "Nate has made dairy-free coconut-milk ice cream (homemade/vegan, in multiple flavors and with sprinkles), a chocolate-and-vanilla swirl ice cream, and a dairy-free chocolate cake with berries.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both items from the ground truth (coconut milk ice cream and chocolate-and-vanilla swirl); the extra cake detail does not contradict the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 83,
+    "question": "What are the skills that Nate has helped others learn?",
+    "ground_truth": "coconut milk ice cream recipe, reset high scores, tips to improve gaming skills",
+    "predicted": "He’s taught people how to make dairy-free desserts (notably coconut‑milk/vegan ice cream) and helped others improve at video games (giving tips, practicing with them and helping reset/high scores at tournaments).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all ground-truth items: coconut-milk/vegan ice cream recipe, tips to improve gaming skills, and resetting/high scores (practice/help at tournaments).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 84,
+    "question": "Was the first half of September 2022 a good month career-wise for Nate and Joanna? Answer yes or no.",
+    "ground_truth": "No; because both of them faced setbacks in their career",
+    "predicted": "No.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth core response (No). The omitted explanatory clause is not required for correctness.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 85,
+    "question": "What kind of job is Joanna beginning to preform the duties of because of her movie scripts?",
+    "ground_truth": "filmmaker.",
+    "predicted": "She's beginning to perform the duties of a film director (filmmaker)—she's filming her own movie and working on set to show her vision.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same role (filmmaker/film director) as the ground truth, matching the intended meaning.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 86,
+    "question": "When did Nate take his turtles to the beach?",
+    "ground_truth": "10 November, 2022",
+    "predicted": "He took them to the beach on November 10, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (10 November 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 87,
+    "question": "What state did Nate visit?",
+    "ground_truth": "Florida",
+    "predicted": "No U.S. state is mentioned — the excerpts do not specify any state that Nate visited.",
+    "score": 0,
+    "judge_reasoning": "Incorrect. The ground truth states Nate visited Florida, but the prediction claims no state was mentioned.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 88,
+    "question": "What is one of Joanna's favorite movies?",
+    "ground_truth": "\"Eternal Sunshineof the Spotless Mind\"",
+    "predicted": "Little Women.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer ('Little Women') does not match the ground truth ('Eternal Sunshine of the Spotless Mind').",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 89,
+    "question": "What color did Nate choose for his hair?",
+    "ground_truth": "purple",
+    "predicted": "He dyed his hair purple.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states the hair color as purple, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 90,
+    "question": "What is Nate's favorite movie trilogy?",
+    "ground_truth": "Lord of the Rings",
+    "predicted": "Nate's favorite movie trilogy is The Lord of the Rings trilogy.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer names 'The Lord of the Rings' trilogy, matching the ground truth 'Lord of the Rings.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 91,
+    "question": "What is Nate's favorite book series about?",
+    "ground_truth": "dragons",
+    "predicted": "Nate’s favorite book series is about dragons — an epic fantasy series featuring dragons, adventures, magic, and interesting characters.",
+    "score": 1,
+    "judge_reasoning": "Prediction identifies dragons as the central subject of Nate’s favorite book series, matching the ground truth; the additional fantasy genre descriptors are consistent.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 92,
+    "question": "What kind of lighting does Nate's gaming room have?",
+    "ground_truth": "red and purple lighting",
+    "predicted": "The excerpts do not state what lighting Nate's gaming room currently has. Joanna suggested he get “lights that can be dimmed” for a comfy setup and Nate said he'd try that out.",
+    "score": 0,
+    "judge_reasoning": "Incorrect — the ground truth states Nate's gaming room has red and purple lighting, but the predicted answer claims the excerpts don't state the current lighting and only mentions a suggestion to get dimmable lights.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 93,
+    "question": "What game was the second tournament that Nate won based on?",
+    "ground_truth": "Street Fighter",
+    "predicted": "It was a local Street Fighter tournament.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning—the tournament was for Street Fighter (adds 'local' but does not contradict).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 94,
+    "question": "What is Joanna's third screenplay about?",
+    "ground_truth": "loss, identity, and connection",
+    "predicted": "Joanna's third screenplay is about loss, identity, and connection.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: Joanna's third screenplay is about loss, identity, and connection.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 95,
+    "question": "What is Nate's favorite video game?",
+    "ground_truth": "Xenoblade Chronicles",
+    "predicted": "Xeonoblade Chronicles — he says he's currently playing it, calls it an \"awesome fantasy RPG,\" and highly recommends it.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth — predicted answer names Xenoblade Chronicles (minor spelling error 'Xeonoblade' is clearly the same) and adds harmless extra commentary.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 96,
+    "question": "What type of movies does Nate enjoy watching the most?",
+    "ground_truth": "action and sci-fi",
+    "predicted": "He most enjoys action and sci-fi movies.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state he most enjoys action and sci-fi movies.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 97,
+    "question": "What did Joanna just finish last Friday on 23 January, 2022?",
+    "ground_truth": "screenplay",
+    "predicted": "She finished her first full screenplay and printed it.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states she finished a screenplay (specifically her first full screenplay) — it includes the ground-truth fact 'screenplay' and adds harmless detail.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 98,
+    "question": "What genre is Joanna's first screenplay?",
+    "ground_truth": "drama and romance",
+    "predicted": "Joanna's first screenplay is a mix of drama and romance (a romantic drama).",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state the screenplay is drama and romance (romantic drama).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 99,
+    "question": "What are Joanna's plans for her finished screenplay in January 2022?",
+    "ground_truth": "submit it to film festivals and get producers and directors to check it out",
+    "predicted": "She planned to submit the finished screenplay to film festivals and (hopefully) get producers and directors to check it out.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth: submit the screenplay to film festivals and seek attention from producers and directors.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 100,
+    "question": "For how long has Nate had his turtles?",
+    "ground_truth": "3 years",
+    "predicted": "Nate has had his turtles for 3 years.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state Nate has had his turtles for 3 years.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 101,
+    "question": "What did Nate think of the coconut milk ice cream he made?",
+    "ground_truth": "Super good, rich and creamy",
+    "predicted": "Nate said it was “super good” — rich, smooth and creamy — might be his new favorite snack, and he was proud of himself for making it.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer captures the core description—'super good' and creamy/rich (phrased as smooth and creamy)—and extra positive comments don't contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 102,
+    "question": "Which dairy-free dessert flavors does Nate enjoy?",
+    "ground_truth": "chocolate and mixed berry",
+    "predicted": "Nate enjoys coconut milk (as an ice‑cream base), chocolate (including dairy‑free chocolate mousse), mixed‑berry flavors, and vanilla.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both 'chocolate' and 'mixed berry' as dairy-free flavors (matches ground truth); extra items do not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 103,
+    "question": "What did Joanna recently watch and recommend to Nate on February 7, 2022?",
+    "ground_truth": "\"Little Women\"",
+    "predicted": "She watched the film \"Little Women\" and recommended it to Nate.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: Joanna watched and recommended the film 'Little Women' to Nate.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 104,
+    "question": "What is \"Little Women\" about according to Joanna?",
+    "ground_truth": "Sisterhood, love, and reaching for your dreams",
+    "predicted": "Joanna says Little Women is a story about sisterhood, love, and reaching for your dreams.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—states Little Women is about sisterhood, love, and reaching for your dreams.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 105,
+    "question": "What flavor of ice cream did Nate make for his friend on 25 February, 2022?",
+    "ground_truth": "chocolate and vanilla swirl",
+    "predicted": "He made a chocolate and vanilla swirl ice cream.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: chocolate and vanilla swirl ice cream.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 106,
+    "question": "What inspired Joanna's new screenplay on 25 February, 2022?",
+    "ground_truth": "personal experiences and her own journey of self-discovery",
+    "predicted": "It was inspired by Joanna's personal experiences and her own journey of self-discovery.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: both state the screenplay was inspired by Joanna's personal experiences and her journey of self-discovery.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 107,
+    "question": "Why does Nate like turtles as pets?",
+    "ground_truth": "Their slow pace and calming nature",
+    "predicted": "Because they bring him joy and peace and help him relax; he finds them calming, low‑maintenance, and a nice slow counterpoint to life's rush. He’s liked turtles since he was a boy and enjoys their unique personalities (watching them eat, soak up sun, and just be).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core reasons—turtles' calming, slow nature that helps him relax—while adding harmless extra details; matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 108,
+    "question": "How does Nate describe the process of taking care of turtles?",
+    "ground_truth": "Not tough; keep their area clean, feed them properly, give them enough light.",
+    "predicted": "Nate says it’s not hard: “Just keep their area clean, feed them properly, and make sure they get enough light.” He adds they’re low‑maintenance, eat a mix of vegetables, fruits and insects, enjoy soaking in the sun, and he even gives them baths and takes them for walks.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the core points (not hard; keep area clean, feed properly, provide enough light) and adds non-contradictory extra details, so it is correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 109,
+    "question": "What was Joanna's audition for?",
+    "ground_truth": "writing gig",
+    "predicted": "She auditioned for a writing gig.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth: Joanna auditioned for a writing gig.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 110,
+    "question": "Why did Nate choose the hair color he did?",
+    "ground_truth": "Bright and bold - like him",
+    "predicted": "He chose it because it was bright and bold—“like me”—and he wanted to stand out from the regular options.",
+    "score": 1,
+    "judge_reasoning": "Matches core meaning: both state he chose the color because it was bright and bold (like him); added detail about wanting to stand out does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 111,
+    "question": "What are the main ingredients of the ice cream recipe shared by Nate?",
+    "ground_truth": "Coconut milk, vanilla extract, sugar, salt",
+    "predicted": "Coconut milk, vanilla extract, sugar, and a pinch of salt.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same main ingredients as the ground truth (coconut milk, vanilla extract, sugar, salt). 'A pinch of salt' matches 'salt.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 112,
+    "question": "What is Joanna's project called in the writers group?",
+    "ground_truth": "\"Finding Home\"",
+    "predicted": "Joanna's project in the writers group is called \"Finding Home.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly, naming the project as \"Finding Home.\"",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 113,
+    "question": "What is Nate's favorite genre of movies?",
+    "ground_truth": "Fantasy and sci-fi",
+    "predicted": "Action and sci-fi movies.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes 'sci-fi' (1 of 2 ground-truth genres). Per the list guideline (at least half present), this is considered correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 114,
+    "question": "What kind of books does Nate enjoy?",
+    "ground_truth": "Adventures and magic",
+    "predicted": "Nate enjoys fantasy book series — ones with adventures, magic, great characters, strong world‑building and action/battles.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes 'adventures' and 'magic' (plus compatible extra details), matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 115,
+    "question": "What kind of films does Joanna enjoy?",
+    "ground_truth": "Dramas and emotionally-driven films",
+    "predicted": "Joanna enjoys dramas, romcoms (romantic comedies), and emotionally-driven films.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes 'dramas' and 'emotionally-driven films' from the ground truth; the added 'romcoms' is extra but not contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 116,
+    "question": "Which activity helps Nate escape and stimulates his imagination?",
+    "ground_truth": "watching fantasy and sci-fi movies",
+    "predicted": "Watching fantasy and sci‑fi movies.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly (watching fantasy and sci‑fi movies).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 117,
+    "question": "What filling did Joanna use in the cake she made recently in May 2022?",
+    "ground_truth": "strawberry",
+    "predicted": "She used a strawberry filling.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state the filling was strawberry.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 118,
+    "question": "What kind of frosting did Joanna use on the cake she made recently in May 2022?",
+    "ground_truth": "coconut cream",
+    "predicted": "She used coconut cream frosting.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state she used coconut cream frosting.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 119,
+    "question": "What does Nate feel he could do when out in cool places like Whispering Falls?",
+    "ground_truth": "write a whole movie",
+    "predicted": "Nate says he gets deep in thought and thinks about his life or new recipes.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer does not match the ground truth. The correct response is that Nate feels he could 'write a whole movie,' but the prediction says he gets deep in thought about life or recipes, which is not equivalent.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 120,
+    "question": "What creative activity does Nate joke about pursuing after being inspired by their hikes with Jo?",
+    "ground_truth": "Start thinking about a drama and publish a screenplay",
+    "predicted": "He jokes about writing and publishing his own drama screenplay.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state he jokes about writing/publishing a drama screenplay.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 121,
+    "question": "Who invited Nate to join her on the trails sometime?",
+    "ground_truth": "Joanna",
+    "predicted": "Joanna invited Nate.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both identify Joanna as the person who invited Nate.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 122,
+    "question": "What did Nate do for Joanna on 25 May, 2022?",
+    "ground_truth": "get her a stuffed animal",
+    "predicted": "He got her a new stuffed-animal pup (shared a photo of a stuffed dog).",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state he got her a stuffed animal (the prediction specifies it was a stuffed pup and included a photo).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 123,
+    "question": "How does Nate describe the stuffed animal he got for Joanna?",
+    "ground_truth": "A stuffed animal to remind you of the good vibes",
+    "predicted": "He calls it \"a stuffed animal to remind you of the good vibes.\"",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly in meaning (same wording, quoted).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 124,
+    "question": "What event is Nate organizing in June 2022?",
+    "ground_truth": "A gaming party",
+    "predicted": "He is organizing a gaming party (scheduled two weekends after June 3, 2022 — i.e., mid‑June 2022).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: it identifies a gaming party and correctly situates it in mid-June 2022.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 125,
+    "question": "Who did Nate plan to invite to his gaming party in June 2022?",
+    "ground_truth": "Tournament friends, old friends, teammates",
+    "predicted": "He planned to invite his tournament friends, plus some old friends and teammates from other tournaments.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes tournament friends, old friends, and teammates—matching the ground truth (extra detail about tournaments does not contradict).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 126,
+    "question": "What special items did Nate get for everyone at his gaming party?",
+    "ground_truth": "Custom controller decorations",
+    "predicted": "He got custom controller decorations for everyone.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer exactly matches the ground truth meaning: he gave custom controller decorations to everyone.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 127,
+    "question": "What did Joanna write yesterday that appeared on the big screen?",
+    "ground_truth": "screenplay bits",
+    "predicted": "She wrote a few bits for a screenplay.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth—both state she wrote bits for a screenplay (same meaning).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 128,
+    "question": "What superhero is Joanna a fan of?",
+    "ground_truth": "Spider-Man",
+    "predicted": "Spider-Man.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly (Spider-Man).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 129,
+    "question": "Which superhero toy figure does Nate share a photo of?",
+    "ground_truth": "Iron Man",
+    "predicted": "He shares a photo of an Iron Man toy figure.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly — both state the toy figure is Iron Man.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 130,
+    "question": "What is displayed on Joanna's cork board for motivation and creativity?",
+    "ground_truth": "inspiring quotes, photos, and little keepsakes",
+    "predicted": "Inspiring quotes and pictures for motivation and creativity — including a family photo.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes inspiring quotes and photos (including a family photo), which matches the ground truth; it omits 'little keepsakes' but captures most key items.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 131,
+    "question": "What does the photo on Joanna's cork board remind her of?",
+    "ground_truth": "love and encouragement from her family",
+    "predicted": "It reminds her of the love and encouragement from her family every day.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core meaning as the ground truth (love and encouragement from her family); the added phrase 'every day' does not contradict it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 132,
+    "question": "What did Nate make and share with his vegan diet group?",
+    "ground_truth": "vegan ice cream",
+    "predicted": "He made vegan ice cream — coconut milk ice cream — and shared it with members of his vegan diet group.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth (vegan ice cream); adds harmless detail (coconut milk) and states it was shared with the group.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 133,
+    "question": "How many people attended the gaming party hosted by Nate in June 2022?",
+    "ground_truth": "7",
+    "predicted": "Seven people attended Nate's gaming party in June 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth value (7 attendees) and restates it accurately.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 134,
+    "question": "What recipe Nate offer to share with Joanna?",
+    "ground_truth": "vegan ice cream recipe",
+    "predicted": "He offered to share his coconut-milk dairy-free (vegan) ice cream recipe.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state he offered a vegan ice cream recipe; prediction adds compatible detail (coconut-milk, dairy-free).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 135,
+    "question": "What did Joanna plan to do with the recipe Nate promised to share?",
+    "ground_truth": "make it for her family",
+    "predicted": "She planned to make it for her family that weekend.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches ground truth: she planned to make the recipe for her family (adds timing 'that weekend', which doesn't contradict).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 136,
+    "question": "How many video game tournaments has Nate won by July 10, 2022?",
+    "ground_truth": "Four",
+    "predicted": "He had won four video game tournaments by July 10, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states he had won four tournaments by that date, matching the ground truth (Four).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 137,
+    "question": "Where did Joanna go for a road trip for research?",
+    "ground_truth": "Woodhaven",
+    "predicted": "Woodhaven, a small town in the Midwest.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer names the correct location (Woodhaven) and adds non-contradictory extra detail.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 138,
+    "question": "What did Joanna discover at the library in Woodhaven?",
+    "ground_truth": "cool old book collection",
+    "predicted": "She stumbled upon a book from the 1900s containing stories and sketches about the town and its people.",
+    "score": 1,
+    "judge_reasoning": "The prediction conveys the same core idea—she found an old book(s) at the library; it adds detail about date and content but matches the ground truth 'old book collection.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 139,
+    "question": "What specific themes are explored in Joanna's new book?",
+    "ground_truth": "loss, redemption, and forgiveness",
+    "predicted": "Joanna's new book explores loss, redemption, and forgiveness.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: it lists loss, redemption, and forgiveness as the explored themes.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 140,
+    "question": "What inspired Joanna's new script in July 2022?",
+    "ground_truth": "Woodhaven's interesting past and people",
+    "predicted": "Her road trip to Woodhaven — seeing its scenery and historic buildings and learning about the town’s interesting past (including a super-cool book from the 1900s with stories and sketches she found in the Woodhaven library) inspired her new script.",
+    "score": 1,
+    "judge_reasoning": "The prediction attributes the inspiration to Woodhaven’s past (and related local details), which matches the ground truth that her script was inspired by Woodhaven's interesting past and people.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 141,
+    "question": "What did Nate do while Joanna was on her road trip?",
+    "ground_truth": "Won a video game tournament",
+    "predicted": "Nate won his fourth video game tournament — an online tournament.",
+    "score": 1,
+    "judge_reasoning": "Contains the core fact that Nate won a video game tournament; additional details (fourth, online) do not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 142,
+    "question": "What does Nate do that he loves and can make money from?",
+    "ground_truth": "Competing in video game tournaments",
+    "predicted": "He competes in video game tournaments (professional gaming), which he loves and earns money from.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state he competes in video game tournaments (professional gaming) that he loves and earns money from.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 143,
+    "question": "How did Joanna feel when someone wrote her a letter after reading her blog post?",
+    "ground_truth": "Touched",
+    "predicted": "She felt touched and moved — the letter \"touched\" her, she thought it was \"awesome\" that her story had brought someone comfort, and it reminded her why she loves writing.",
+    "score": 1,
+    "judge_reasoning": "Prediction states she felt touched (and moved), matching the ground truth; extra supportive detail does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 144,
+    "question": "What kind of impact does Joanna hope to have with her writing?",
+    "ground_truth": "share her stories and hopefully have an impact",
+    "predicted": "She hopes her writing \"brings [people] comfort\" and \"makes a difference\" in readers' lives—helping others through themes of loss, identity, self-discovery, courage and connection. Ultimately she wants those stories to reach audiences (ideally on the big screen) and inspire or change people.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both say she wants to share her stories and have a meaningful impact on readers (comfort, inspire/change people).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 145,
+    "question": "What kind of content did Joanna share that someone wrote her a letter about?",
+    "ground_truth": "A blog post about a hard moment in her life",
+    "predicted": "An online blog post she wrote about a hard moment in her life.",
+    "score": 1,
+    "judge_reasoning": "Prediction conveys the same meaning: a blog post about a hard moment in her life (adds 'online' and 'she wrote' but does not change meaning).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 146,
+    "question": "What motivates Joanna to keep writing even on tough days?",
+    "ground_truth": "Knowing that her writing can make a difference",
+    "predicted": "Her motivation comes from a mix of things: writing as an emotional escape and way to heal, encouragement from supportive friends (including Nate) and her writers' group, concrete reminders like her cork board of quotes/photos (including a family photo) and her stuffed dog Tilly, inspiration from nature/hiking, and external validation — a reader's letter saying her blog brought comfort, positive feedback/producer meetings, and seeing her scripts and characters come alive on the big screen.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes external validation (a reader's letter, positive feedback, seeing scripts come alive), which matches the ground truth that she keeps writing because she knows her writing can make a difference.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 147,
+    "question": "What type of ice cream does Joanna mention that Nate makes and is delicious?",
+    "ground_truth": "Coconut milk ice cream",
+    "predicted": "Coconut milk ice cream (a dairy-free coconut milk ice cream).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly; the added clarification about being dairy-free does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 148,
+    "question": "How did Nate feel about sharing his love for dairy-free desserts with Joanna?",
+    "ground_truth": "Happy to share",
+    "predicted": "Nate said sharing his love for dairy-free desserts was \"fun and rewarding.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys a positive reaction ('fun and rewarding'), which matches 'happy to share' in meaning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 149,
+    "question": "What did Joanna share with her writers group in August 2022?",
+    "ground_truth": "her book",
+    "predicted": "She shared her book with her writers group.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state she shared her book with her writers group.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 150,
+    "question": "How did Joanna celebrate after sharing her book with her writers group?",
+    "ground_truth": "making a delicious treat",
+    "predicted": "She celebrated by making a delicious treat — a dessert.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state she celebrated by making a delicious treat (a dessert).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 151,
+    "question": "How did Nate celebrate winning the international tournament?",
+    "ground_truth": "Taking time off to chill with pets",
+    "predicted": "He celebrated by taking some time off to chill with his pets — relaxing at home and spending quality time with his little dudes.",
+    "score": 1,
+    "judge_reasoning": "Prediction describes taking time off to relax with his pets, matching the ground truth of ‘taking time off to chill with pets.’",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 152,
+    "question": "Why is Joanna experimenting with dairy-free options in her dessert recipes?",
+    "ground_truth": "lactose intolerance",
+    "predicted": "Because Joanna is lactose intolerant, she experiments with dairy-free options (e.g., coconut or almond milk) to make desserts that work for her and suit everyone's diets.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states the same reason (Joanna is lactose intolerant) and adds explanatory detail, which matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 153,
+    "question": "What substitution does Nate suggest for butter in dairy-free baking?",
+    "ground_truth": "dairy-free margarine or coconut oil",
+    "predicted": "He suggests using dairy-free margarine or coconut oil in place of butter.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth exactly: suggests dairy-free margarine or coconut oil as butter substitutes.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 154,
+    "question": "What type of show did Nate host where he taught vegan ice cream recipes?",
+    "ground_truth": "a cooking show",
+    "predicted": "He hosted a cooking show — specifically his own cooking show where he taught vegan ice cream recipes.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state he hosted a cooking show (with added detail that it was his own and taught vegan ice cream recipes).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 155,
+    "question": "What is Nate's favorite dish from the cooking show he hosted?",
+    "ground_truth": "Coconut milk ice cream",
+    "predicted": "His favorite dish from the cooking show is coconut milk ice cream.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: coconut milk ice cream is stated as Nate's favorite dish.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 156,
+    "question": "What is one of Nate's favorite dairy-free treats besides coconut milk ice cream?",
+    "ground_truth": "dairy-free chocolate mousse",
+    "predicted": "A dairy-free chocolate mousse.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly in meaning (dairy-free chocolate mousse).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 157,
+    "question": "What dessert did Joanna share a photo of that has an almond flour crust, chocolate ganache, and fresh raspberries?",
+    "ground_truth": "chocolate raspberry tart",
+    "predicted": "She shared a photo of a chocolate raspberry tart (with an almond flour crust, chocolate ganache, and fresh raspberries).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer exactly matches the ground truth: chocolate raspberry tart with the described components.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 158,
+    "question": "What kind of cake did Joanna share a photo of that she likes making for birthdays and special days?",
+    "ground_truth": "chocolate cake with raspberries",
+    "predicted": "A dairy-free chocolate cake with raspberries (made with almond flour, coconut oil, chocolate, and raspberries).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the core information — a chocolate cake with raspberries — and only adds non-contradictory details (dairy-free, ingredients).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 159,
+    "question": "What two main ingredients are part of the dessert Joanna shared a photo of with blueberries, coconut milk, and a gluten-free crust?",
+    "ground_truth": "blueberries and coconut milk",
+    "predicted": "Blueberries and coconut milk.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer exactly matches the ground truth: both list blueberries and coconut milk as the two main ingredients.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 160,
+    "question": "What movie did Nate recently watch and enjoy on October 6, 2022?",
+    "ground_truth": "Little Women",
+    "predicted": "He watched \"Little Women.\"",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states he watched 'Little Women,' which exactly matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 161,
+    "question": "What did Joanna make for one of the ladies at her writing club?",
+    "ground_truth": "a bookmark",
+    "predicted": "She made a cute little bookmark for one of the ladies at her writing club.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state she made a bookmark for one of the ladies; extra adjectives do not change meaning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 162,
+    "question": "What game did Nate play at the game convention he attended on 9 October, 2022?",
+    "ground_truth": "Catan",
+    "predicted": "He played Catan (the board game).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state he played Catan (the board game).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 163,
+    "question": "What movie has Nate recently seen that blew his mind?",
+    "ground_truth": "\"Inception\"",
+    "predicted": "He recently saw the movie Inception.",
+    "score": 1,
+    "judge_reasoning": "Prediction names the same movie ('Inception') as the ground truth, conveying the same meaning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 164,
+    "question": "What game has Nate been playing nonstop with a futuristic setting and gameplay on October 9, 2022?",
+    "ground_truth": "Cyberpunk 2077",
+    "predicted": "He was playing Cyberpunk 2077 nonstop.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer names the same game as the ground truth (Cyberpunk 2077), conveying the same information.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 165,
+    "question": "What did Nate share a photo of when mentioning unwinding at home?",
+    "ground_truth": "a bookcase filled with dvds and movies",
+    "predicted": "He shared a photo of a bookcase filled with DVDs and movies.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state he shared a photo of a bookcase filled with DVDs/movies.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 166,
+    "question": "How did Joanna describe the classic movie he watched?",
+    "ground_truth": "gripping with great actors",
+    "predicted": "She said it was \"awesome\" — \"the story was so gripping and the actors were great,\" and that it really stuck with her.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the core description—that the story was gripping and the actors were great—matching the ground truth; extra detail is harmless.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 167,
+    "question": "What does Joanna recommend to make a living room comfy like hers?",
+    "ground_truth": "couch for multiple people, fluffy blanket, lights that can be dimmed",
+    "predicted": "Joanna recommends: a couch that seats multiple people (so you can lie down) and is really fluffy; a blanket that has a bit of weight to it; and dimmable lights.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all three items from the ground truth—multi-person couch, fluffy/weighted blanket, and dimmable lights—conveying the same meaning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 168,
+    "question": "What helps Joanna stay focused and brings her joy?",
+    "ground_truth": "stuffed animal dog named Tilly",
+    "predicted": "Her stuffed animal dog named Tilly.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: her stuffed animal dog named Tilly.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 169,
+    "question": "What does Joanna do while she writes?",
+    "ground_truth": "have a stuffed animal dog named Tilly with her",
+    "predicted": "She keeps the stuffed animal dog Nate gave her—named Tilly—always with her while she writes.",
+    "score": 1,
+    "judge_reasoning": "The prediction states she keeps the stuffed animal dog named Tilly with her while she writes, matching the ground truth (additional detail about Nate giving it does not contradict).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 170,
+    "question": "Why did Joanna name the stuffed animal dog Tilly?",
+    "ground_truth": "after a dog she had in Michigan",
+    "predicted": "She named it Tilly because she used to have a dog named Tilly back in Michigan, and the stuffed animal helps her remember that dog from before her allergies forced them to rehome her.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states she named it after a dog she had in Michigan, matching the ground truth; extra details about allergies/rehoming do not contradict the core fact.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 171,
+    "question": "What does Joanna do after receiving a rejection from a production company?",
+    "ground_truth": "keep grinding and moving ahead",
+    "predicted": "She doesn't quit — Joanna keeps writing (starting another screenplay) and keeps submitting/pitching her work to film festivals, contests, and producers, saying she won't let the rejection slow her down.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning: Joanna persists after rejection by continuing to write and submit her work, matching 'keep grinding and moving ahead.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 172,
+    "question": "How does Nate feel about Joanna's ability to bounce back from setbacks?",
+    "ground_truth": "respect Joanna for being able to bounce back",
+    "predicted": "He admires and respects her resilience — telling Joanna he \"really respect[s]\" her for being able to bounce back, repeatedly encouraging her not to give up and offering support.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: he respects/admires Joanna's ability to bounce back; additional supportive details do not contradict the core meaning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 173,
+    "question": "What encouragement does Nate give to Joanna after her setback?",
+    "ground_truth": "rejections don't define her, keep grinding and she'll find the perfect opportunity",
+    "predicted": "Nate tells Joanna, “Rejection stinks, but it doesn't mean you're not talented. Don't give up on your dreams!” and “Don't get discouraged, just keep going,” and later says, “Rejections suck, but don't forget they don't define you. Keep at it and you'll find the perfect opportunity,” adding he respects her ability to “bounce back.”",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core message: rejections don't define her and she should keep going/grinding and she'll find the right opportunity; added supportive phrasing does not conflict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 174,
+    "question": "What does Nate rely on for cheer and joy?",
+    "ground_truth": "his turtles",
+    "predicted": "His pet turtles — Nate says his turtles bring him tons of joy and peace.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states Nate relies on his pet turtles for joy, matching the ground truth 'his turtles.' Additional wording about joy and peace doesn't contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 175,
+    "question": "What does Joanna use to remember her dog from Michigan?",
+    "ground_truth": "naming a stuffed animal dog Tilly",
+    "predicted": "She uses the name \"Tilly\" to remember her dog from Michigan.",
+    "score": 1,
+    "judge_reasoning": "The prediction conveys the core fact (she uses the name 'Tilly' to remember her dog), which matches the ground truth (naming a stuffed animal dog Tilly).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 176,
+    "question": "What did Joanna contribute to that was shown on the big screen on the Sunday before October 25, 2022?",
+    "ground_truth": "movie script",
+    "predicted": "She contributed to a movie script (a film) that was shown on the big screen.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth: Joanna contributed to a movie script (a film shown on the big screen).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 177,
+    "question": "What inspires Joanna to create drawings of her characters?",
+    "ground_truth": "visuals to help bring the characters alive in her head so she can write better",
+    "predicted": "She makes drawings as visuals to help bring her characters alive in her head and write better. She's inspired by ideas \"from everywhere\" — people she knows, stuff she saw, and what she imagined — and by seeing an idea take shape into a person with their own wants, worries, and wishes.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth core idea—she draws to create visuals that make characters come alive and improve her writing—and adds non-contradictory supplementary detail about inspirations.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 178,
+    "question": "Where does Joanna get her ideas for the characters from?",
+    "ground_truth": "people she knows, things she saw, her imagination",
+    "predicted": "She says she gets ideas \"from everywhere: people I know, stuff I saw, even what I imagined.\"",
+    "score": 1,
+    "judge_reasoning": "Prediction matches ground truth: lists people she knows, things she saw, and her imagination (phrased as 'what I imagined').",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 179,
+    "question": "How did Joanna feel on October 25, 2022 about seeing her characters come alive on the big screen?",
+    "ground_truth": "surreal and cool",
+    "predicted": "She said it was an amazing, surreal and deeply rewarding experience—her favorite part—seeing her characters “jump off the page and become real.”",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes 'surreal' and conveys the same meaning as 'cool' by saying 'amazing,' matching the ground truth description.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 180,
+    "question": "What type of diet do Nate's turtles have?",
+    "ground_truth": "combination of vegetables, fruits, and insects",
+    "predicted": "They have a varied diet of vegetables, fruits, and insects.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state the turtles eat vegetables, fruits, and insects (a varied/combination diet).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 181,
+    "question": "What ingredient did Nate use to make the ice cream lactose-free?",
+    "ground_truth": "coconut milk",
+    "predicted": "Nate used coconut milk.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state Nate used coconut milk to make the ice cream lactose-free.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 182,
+    "question": "What did Joanna find in old notebooks last week that prompted her to reflect on her progress as a writer?",
+    "ground_truth": "early writings",
+    "predicted": "She found her early writings — including a story from when she was 10 about a brave little turtle.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states she found her early writings, matching the ground truth; the additional example about the turtle is extra but does not contradict the truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 183,
+    "question": "What game is Nate currently playing and recommends to others on November 7, 2022?",
+    "ground_truth": "\"Xenoblade Chronicles\"",
+    "predicted": "He was playing and recommending the fantasy RPG \"Xeonoblade Chronicles.\"",
+    "score": 1,
+    "judge_reasoning": "Correct—the predicted answer identifies the same game (misspelling 'Xeonoblade' accepted as 'Xenoblade Chronicles') and matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 184,
+    "question": "What did Joanna receive from her brother that brought back childhood memories?",
+    "ground_truth": "a handwritten letter",
+    "predicted": "A handwritten letter (one of the cute notes) that her brother wrote, which reminded her of their childhood.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states she received a handwritten letter from her brother that reminded her of childhood, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 185,
+    "question": "What is the type of game \"Xenoblade Chronicles\" that Nate is playing?",
+    "ground_truth": "fantasy RPG",
+    "predicted": "Xeonoblade Chronicles is a fantasy RPG (role-playing game).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information—identifies Xenoblade Chronicles as a fantasy RPG; minor typo ignored.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 186,
+    "question": "What dish did Nate make on 9 November, 2022?",
+    "ground_truth": "Homemade coconut ice cream",
+    "predicted": "He made homemade coconut ice cream.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: homemade coconut ice cream.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 187,
+    "question": "What project is Joanna working on in her notebook on November 9, 2022?",
+    "ground_truth": "A suspenseful thriller set in a small Midwestern town",
+    "predicted": "She’s working on a suspenseful thriller set in a small Midwestern town.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: Joanna is working on a suspenseful thriller set in a small Midwestern town.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 188,
+    "question": "What is Nate creating for YouTube on 9 November, 2022?",
+    "ground_truth": "gaming content",
+    "predicted": "On November 9, 2022, Nate is creating gaming content (gaming videos) for YouTube.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: both state Nate is creating gaming content (gaming videos) for YouTube on that date.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 189,
+    "question": "What inspired Nate to start making gaming videos?",
+    "ground_truth": "Love of gaming and connecting with others who enjoy it too",
+    "predicted": "He was a big fan of gaming videos, thought making them would be fun, and wanted to share his love of gaming and connect with others who enjoy it.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth: it cites his love of gaming and the desire to connect with others who enjoy gaming (with only harmless extra detail).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 190,
+    "question": "What new content is Nate creating for YouTube?",
+    "ground_truth": "Gaming videos",
+    "predicted": "He's creating gaming content for YouTube — making gaming videos to entertain viewers and share his love of video games.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state he is creating gaming videos/content for YouTube.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 191,
+    "question": "What advice does Joanna give to Nate about making YouTube videos?",
+    "ground_truth": "Watch other people's videos to understand what the audience likes",
+    "predicted": "Joanna tells Nate to watch other people's videos first to get a handle on what his audience likes so his videos don't flop when he posts them.",
+    "score": 1,
+    "judge_reasoning": "Conveys the same advice: watch others' videos to learn what the audience likes; extra wording about avoiding flops does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 192,
+    "question": "What did Joanna take a picture of near Fort Wayne last summer?",
+    "ground_truth": "Sunset",
+    "predicted": "She took a picture of a sunflower in a field with a sunset in the background near Fort Wayne last summer.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the ground-truth item (sunset); extra details about a sunflower and field do not contradict the core answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 193,
+    "question": "What inspired Joanna to take a picture of the sunset in the field near Fort Wayne?",
+    "ground_truth": "The incredible sunset and surrounding beauty",
+    "predicted": "The incredible sunset and the surrounding beauty she saw while hiking near Fort Wayne — it reminded her of nature's beauty.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both cite the incredible sunset and surrounding beauty as the inspiration (with harmless extra detail about hiking and being reminded of nature).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 194,
+    "question": "Why did Nate get a third turtle?",
+    "ground_truth": "He saw another one at a pet store and wanted to get it",
+    "predicted": "He saw another turtle at a pet store, said turtles “bring [him] joy and peace,” and because his tank was big enough for three he decided to get a third.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the core reason—he saw another turtle at a pet store and wanted to get it—and adds noncontradictory extra details, so it matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 195,
+    "question": "What does Nate want to do when he goes over to Joanna's place?",
+    "ground_truth": "Watch one of Joanna's movies together or go to the park",
+    "predicted": "He wants to watch one of Joanna's movies together or go to the park.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: watch one of Joanna's movies together or go to the park.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 196,
+    "question": "What did Nate take to the beach in Tampa?",
+    "ground_truth": "turtles",
+    "predicted": "He took his turtles to the beach in Tampa.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth — that Nate took turtles to the beach in Tampa.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 197,
+    "question": "What does Nate love most about having turtles?",
+    "ground_truth": "They make him feel calm and don't require much looking after",
+    "predicted": "He loves that they make him feel calm.",
+    "score": 1,
+    "judge_reasoning": "The prediction captures one of the two key points (they make him feel calm). With two items in the ground truth, matching one meets the 'at least half' criterion.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 198,
+    "question": "What did Nate share a photo of as a part of his experimentation in November 2022?",
+    "ground_truth": "colorful bowls of coconut milk ice cream",
+    "predicted": "He shared a photo of colorful bowls of coconut milk ice cream.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: both state he shared a photo of colorful bowls of coconut milk ice cream.",
+    "category": 4,
+    "error": null
+  }
+]

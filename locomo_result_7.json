@@ -1,0 +1,1502 @@
+[
+  {
+    "question_index": 0,
+    "question": "What are John's suspected health problems?",
+    "ground_truth": "Obesity",
+    "predicted": "None — the conversation does not mention any suspected health problems for John; it only notes he’s been stressed/overworked and that his “fingers are too big” (affecting bowling).",
+    "score": 0,
+    "judge_reasoning": "Incorrect. The ground truth lists obesity as John's suspected health problem; the predicted answer denies any suspected health problems and does not mention obesity.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 1,
+    "question": "Which recreational activity was James pursuing on March 16, 2022?",
+    "ground_truth": "bowling",
+    "predicted": "He was bowling — James went bowling (and got 2 strikes) on March 16, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer correctly identifies the activity as bowling; additional detail about strikes does not contradict the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 2,
+    "question": "Which places or events have John and James planned to meet at?",
+    "ground_truth": "VR Club, McGee's, baseball game",
+    "predicted": "- VR gaming session on March 19, 2022 (planned \"next Saturday\" on Mar 17, 2022).  \n- Meeting at McGee's Pub on August 27, 2022 (planned \"tomorrow\" on Aug 26, 2022).  \n- A baseball game on September 11, 2022 (planned \"next Sunday\" on Sep 4, 2022).  \n- Join John’s movie night with his friends (invited to \"join us next time\" — no date specified).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes VR Club, McGee's, and the baseball game (matches ground truth). The extra movie-night item does not contradict and can be ignored.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 3,
+    "question": "Do both James and John have pets?",
+    "ground_truth": "No",
+    "predicted": "No — James owns dogs (Max, Daisy and Ned). John does not currently have pets; he says he wants one someday.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both conclude 'No' and correctly explains James has dogs while John does not currently have pets.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 4,
+    "question": "When did John resume playing drums in his adulthood?",
+    "ground_truth": "February 2022",
+    "predicted": "Around February 27, 2022 (he said on March 27, 2022 that he'd been playing drums for a month).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer correctly identifies February 2022 (gives a plausible specific date around Feb 27 consistent with 'one month' as of March 27, 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 5,
+    "question": "What are John and James' favorite games?",
+    "ground_truth": "John's favorite game is CS:GO, and James's is Apex Legends.",
+    "predicted": "John's favorite game is CS:GO. James's favorite game is Apex Legends.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer exactly matches the ground truth: John — CS:GO; James — Apex Legends.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 6,
+    "question": "Does James live in Connecticut?",
+    "ground_truth": "Likely yes",
+    "predicted": "Likely yes — James mentions details about his area that are consistent with living in Connecticut, such as proximity to certain locations and seasonal weather patterns typical of the Northeast.",
+    "score": 1,
+    "judge_reasoning": "Prediction infers that James likely lives in Connecticut based on contextual clues, aligning with the ground truth’s ‘Likely yes.’",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 7,
+    "question": "In which state is the shelter from which James adopted the puppy?",
+    "ground_truth": "Connecticut.",
+    "predicted": "The shelter was in Stamford, Connecticut.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer names Stamford, Connecticut, which includes the correct state (Connecticut) from the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 8,
+    "question": "How many pets does James have?",
+    "ground_truth": "Three dogs.",
+    "predicted": "James has three pets — three dogs: Max, Daisy, and Ned.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: states James has three pets, all dogs, with consistent names provided.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 9,
+    "question": "What are the names of James's dogs?",
+    "ground_truth": "Ned, Daisy, Max",
+    "predicted": "James's dogs are Max, Daisy, and Ned.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same three dog names (Max, Daisy, Ned) as the ground truth, order doesn't matter.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 10,
+    "question": "When did James adopt Ned?",
+    "ground_truth": "first week of April 2022",
+    "predicted": "James adopted Ned during the week of April 5–11, 2022.",
+    "score": 1,
+    "judge_reasoning": "The predicted timeframe (week of April 5–11, 2022) falls within/overlaps the first week of April 2022, so it conveys the same core timing as the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 11,
+    "question": "How was John feeling on April 10, 2022?",
+    "ground_truth": "seeking solitude",
+    "predicted": "The provided excerpts do not state how John was feeling on April 10, 2022.",
+    "score": 0,
+    "judge_reasoning": "Incorrect. The ground truth states John was 'seeking solitude' on April 10, 2022; the prediction claims no information is given, which contradicts the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 12,
+    "question": "Did James have a girlfriend during April 2022?",
+    "ground_truth": "Presumably not",
+    "predicted": "No — James did not have a girlfriend in April 2022; he began dating Samantha in early September 2022 (he asked her to be his girlfriend on September 3, 2022).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer affirms the same conclusion (he did not have a girlfriend in April 2022) and only adds compatible details about when he started dating Samantha.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 13,
+    "question": "When did James visit Italy?",
+    "ground_truth": "In 2021",
+    "predicted": "James visited Italy in 2021.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state James visited Italy in 2021.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 14,
+    "question": "When did James buy himself a new adventure book?",
+    "ground_truth": "April 26, 2022",
+    "predicted": "He bought it on April 26, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly (April 26, 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 15,
+    "question": "When did James start playing Civilization VI?",
+    "ground_truth": "March 2022",
+    "predicted": "Around March 29, 2022 (one month before his April 29, 2022 message).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer specifies a date in March 2022 (March 29, 2022), which matches the ground truth month of March 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 16,
+    "question": "What is the game with different colored cards that was John talking about with James?",
+    "ground_truth": "UNO",
+    "predicted": "He was describing the card game UNO.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly (UNO).",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 17,
+    "question": "What is the board game where you have to find the imposter that John mentions to James?",
+    "ground_truth": "Mafia",
+    "predicted": "Among Us.",
+    "score": 0,
+    "judge_reasoning": "Incorrect. Ground truth is the party game 'Mafia'; 'Among Us' is a video game inspired by Mafia but is not the board game named in the answer.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 18,
+    "question": "Which books has John recommended to James?",
+    "ground_truth": "The Name of the Wind, Stormlight Archive, Kingkiller Chronicles, Expanse",
+    "predicted": "\"The Name of the Wind\"; \"The Stormlight Archive\"; \"Kingkiller Chronicle\"; and \"The Expanse\" series.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same four recommendations—The Name of the Wind, The Stormlight Archive, Kingkiller Chronicles (minor singular/plural wording difference), and The Expanse series—matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 19,
+    "question": "Was James feeling lonely before meeting Samantha?",
+    "ground_truth": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date.",
+    "predicted": "Most likely yes — James mentioned that the only creatures giving him real joy were his dogs, and he was actively trying to date, which suggests he felt lonely before meeting Samantha.",
+    "score": 1,
+    "judge_reasoning": "Prediction identifies key indicators of loneliness (dogs as primary joy source, active dating attempts) matching the ground truth’s reasoning.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 20,
+    "question": "How many charity tournaments has John organized till date?",
+    "ground_truth": "two",
+    "predicted": "Two — a CS:GO charity tournament raising money for a dog shelter (May 8, 2022) and a gaming tourney (Fortnite/Overwatch/Apex Legends) raising funds for a children's hospital (Oct 31, 2022).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states two tournaments and lists both events, matching the ground truth count of two.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 21,
+    "question": "When did John first organize a charity tournament with his friends?",
+    "ground_truth": "May 7, 2022",
+    "predicted": "John first organized a charity CS:GO tournament with his friends on May 7, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (May 7, 2022) and adds no contradicting information.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 22,
+    "question": "Who or which organizations have been the beneficiaries of John's charity tournaments?",
+    "ground_truth": "animal shelter, homeless, children's hospital",
+    "predicted": "John's charity tournaments have benefited a dog shelter (near the street where he lives) and a children's hospital.",
+    "score": 1,
+    "judge_reasoning": "The prediction mentions the animal (dog) shelter and the children's hospital — two of the three ground-truth beneficiaries. It omits the homeless but meets the 'at least half' criterion for list items.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 23,
+    "question": "When will John start his new job?",
+    "ground_truth": "In July, 2022",
+    "predicted": "John will start his new job in July 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth month and year (July 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 24,
+    "question": "What kind of games has James tried to develop?",
+    "ground_truth": "football simulator, virtual world inspired by Witcher 3",
+    "predicted": "James has tried to develop a football simulator game and a virtual world game inspired by The Witcher 3.",
+    "score": 1,
+    "judge_reasoning": "Prediction identifies both game development projects — a football simulator and a Witcher 3-inspired virtual world — matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 25,
+    "question": "Are John and James fans of the same football team?",
+    "ground_truth": "No, James is a Liverpool fan and John is a Manchester City fan.",
+    "predicted": "No — James supports Liverpool, while John is a Manchester City fan.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: James supports Liverpool and John supports Manchester City.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 26,
+    "question": "Which countries has James visited?",
+    "ground_truth": "Italy, Mexico, Turkey, Canada, Greenland",
+    "predicted": "James has visited Italy, Turkey, Mexico, Canada (Toronto and Vancouver), and Greenland (Nuuk).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same five countries as the ground truth (Italy, Mexico, Turkey, Canada, Greenland); extra city details do not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 27,
+    "question": "What kind of classes has James joined?",
+    "ground_truth": "game design course, cooking classes",
+    "predicted": "James joined a game design course and cooking classes.",
+    "score": 1,
+    "judge_reasoning": "Prediction lists both classes from the ground truth: a game design course and cooking classes.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 28,
+    "question": "When did James volunteer at an organization?",
+    "ground_truth": "May 2022",
+    "predicted": "May 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly (May 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 29,
+    "question": "When did James depart for his trip to Canada?",
+    "ground_truth": "July 11, 2022",
+    "predicted": "He departed on the evening of July 11, 2022.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth date (July 11, 2022); added 'evening' detail does not contradict the answer.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 30,
+    "question": "Which country did James book tickets for in July 2022?",
+    "ground_truth": "Canada",
+    "predicted": "Canada — he bought air tickets to Toronto.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state Canada (prediction adds consistent detail: tickets to Toronto).",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 31,
+    "question": "How many days did James plan to spend on his trip in Canada?",
+    "ground_truth": "19 days",
+    "predicted": "He planned to leave on July 11, 2022 and return on July 20, 2022 — a 9-day trip.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer states a 9-day trip (July 11–20), which contradicts the ground truth of 19 days.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 32,
+    "question": "Where was James at on July 12, 2022?",
+    "ground_truth": "Toronto, Canada",
+    "predicted": "He was in Toronto on July 12, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (Toronto). Omitting 'Canada' is acceptable as the location is unambiguous.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 33,
+    "question": "Did John and James study together?",
+    "ground_truth": "Yes",
+    "predicted": "No — there’s no indication they studied together; James took a gaming/programming course, while John taught/mentored others and ran seminars, but they did not study together.",
+    "score": 0,
+    "judge_reasoning": "Ground truth answer is 'Yes' but the predicted answer says 'No' and contradicts it by asserting they did not study together; therefore it is incorrect.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 34,
+    "question": "Which countries did James visit in July 2022?",
+    "ground_truth": "Canada, Greenland",
+    "predicted": "Canada and Greenland.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth list of countries (Canada and Greenland).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 35,
+    "question": "What additional country did James visit during his trip to Canada?",
+    "ground_truth": "Greenland",
+    "predicted": "He visited Nuuk, Greenland.",
+    "score": 1,
+    "judge_reasoning": "Prediction specifies Nuuk, Greenland, which includes the ground truth country (Greenland).",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 36,
+    "question": "Who is Jill?",
+    "ground_truth": "Most likely John's partner.",
+    "predicted": "Jill is John’s partner/significant other — the person John says “will be delighted” to receive a souvenir.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning — Jill is John's partner/significant other — and adds contextual detail without contradicting the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 37,
+    "question": "When did John spend time with his sister and dogs?",
+    "ground_truth": "July 21, 2022",
+    "predicted": "The excerpts do not mention John spending time with his sister and dogs.",
+    "score": 0,
+    "judge_reasoning": "Incorrect — the ground truth states John spent time with his sister and dogs on July 21, 2022, but the prediction claims the excerpts do not mention this. This contradicts the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 38,
+    "question": "What happened to John's job situation in 2022?",
+    "ground_truth": "quit his IT Job, secured his dream job, aspires to become an eSports competition organizer",
+    "predicted": "On June 13, 2022 John said he had gotten his dream job and would start \"next month\" (i.e., July 2022). By August 6, 2022 he’d left his IT job of three years and was happy in the new job.",
+    "score": 1,
+    "judge_reasoning": "Prediction states he left his IT job and secured his dream job in mid-2022 (matches ground truth). It omits the aspiration to become an eSports competition organizer, but captures the main job changes.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 39,
+    "question": "When did John start his job in IT?",
+    "ground_truth": "2019",
+    "predicted": "John started his IT job around August 2019.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer specifies August 2019, which is within the correct year (2019) and matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 40,
+    "question": "What kind of tricks do James's pets know?",
+    "ground_truth": "swimming, catching frisbees, balancing on a skateboard, sit, stay, paw, and rollover",
+    "predicted": "James's dogs know sit, stay, paw, and rollover; Max also catches frisbees (plays fetch) and is a strong swimmer, and James taught the dogs to balance on a skateboard.",
+    "score": 1,
+    "judge_reasoning": "The prediction lists all tricks from the ground truth: swimming, catching frisbees, balancing on a skateboard, sit, stay, paw, and rollover.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 41,
+    "question": "When did James meet Samantha?",
+    "ground_truth": "August 9, 2022",
+    "predicted": "He met Samantha on August 9, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly (August 9, 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 42,
+    "question": "When did James take his 3 dogs to the beach?",
+    "ground_truth": "August 9, 2022",
+    "predicted": "He took his three dogs to the beach on August 9, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly (August 9, 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 43,
+    "question": "When did John plan his next meeting with his siblings?",
+    "ground_truth": "In September, 2022",
+    "predicted": "September 2022 — John said on August 21, 2022 he was organizing one with his siblings \"next month.\"",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state the meeting was planned for September 2022; predicted answer correctly uses the August 21, 2022 'next month' remark as context.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 44,
+    "question": "Why didn't John want to go to Starbucks?",
+    "ground_truth": "Possibly because he likes to drink beer on his days off.",
+    "predicted": "Because he preferred to have a beer instead—he suggested going to a pub (McGee's) rather than Starbucks.",
+    "score": 1,
+    "judge_reasoning": "Conveys the same core meaning: he preferred to drink beer on his day off and suggested going to a pub instead of Starbucks.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 45,
+    "question": "What kind of beer does McGee's bar serve?",
+    "ground_truth": "Stout, lager",
+    "predicted": "They serve a great stout — and also offer light beers, including lager.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes both 'stout' and 'lager' from the ground truth; extra detail about 'light beers' doesn't contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 46,
+    "question": "When did John and James meet at McGee's bar?",
+    "ground_truth": "August 27, 2022",
+    "predicted": "They met at McGee's bar on August 27, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly: August 27, 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 47,
+    "question": "When did James ask Samantha to be his girlfriend?",
+    "ground_truth": "September 3, 2022",
+    "predicted": "He asked her on September 3, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly: September 3, 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 48,
+    "question": "When did James, Samantha and John go to the baseball game together?",
+    "ground_truth": "September 11, 2022",
+    "predicted": "They went on September 11, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly: September 11, 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 49,
+    "question": "What gaming equipments did John buy or refurbish?",
+    "ground_truth": "Sennheiser headphones, Logitech mouse, gaming desk",
+    "predicted": "John refurbished his gaming desk and bought new gaming equipment: Sennheiser headphones and a Logitech mouse.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all three items from the ground truth: Sennheiser headphones, Logitech mouse, and gaming desk (refurbished).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 50,
+    "question": "When did James start taking cooking classes?",
+    "ground_truth": "September 2, 2022",
+    "predicted": "He signed up (and began) the cooking class on September 2, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer gives the same date, September 2, 2022, matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 51,
+    "question": "Which new games did John start play during the course of the conversation with James?",
+    "ground_truth": "AC Valhalla, Witcher 3, FIFA 23, Dungeons of the Dragons, futuristic dystopian game",
+    "predicted": "John started playing: chess; the board game \"Dungeons of the Dragon\"; The Witcher 3; Assassin's Creed Valhalla; Cyberpunk 2077; and FIFA 23.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all ground-truth games (Assassin's Creed Valhalla, The Witcher 3, FIFA 23, Dungeons of the Dragon, and a futuristic dystopian game represented as Cyberpunk 2077). Extra item (chess) does not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 52,
+    "question": "When did John start working on his 2D Adventure mobile game?",
+    "ground_truth": "approximately summer of 2022",
+    "predicted": "As of September 20, 2022, John said he'd been working on it \"for the past few months,\" so he likely started around June–July 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth—both indicate he began in summer 2022 (June–July), consistent with the September 20, 2022 timestamp.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 53,
+    "question": "How long did it take for James to complete his Witcher-inspired game?",
+    "ground_truth": "six months",
+    "predicted": "He didn't specify a duration; James only said it \"took loads of time and effort\" to finish.",
+    "score": 0,
+    "judge_reasoning": "Incorrect. Ground truth states the duration was six months; the predicted answer claims no duration was specified, contradicting the evidence.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 54,
+    "question": "What kind of programming-related events has John hosted?",
+    "ground_truth": "online programming competition, programming seminar",
+    "predicted": "He organized a programming seminar (mentioned: \"I organized the programming seminar last week\").",
+    "score": 1,
+    "judge_reasoning": "The prediction includes one of the two ground-truth items (programming seminar). With two items listed, containing at least half (1) meets the tolerance criteria; it omits the online programming competition.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 55,
+    "question": "When did John and his programming friends host an online programming competition?",
+    "ground_truth": "Last week before 13 October 2022.",
+    "predicted": "During the week of October 6–12, 2022 (John said they organized an online comp \"last week\" on the October 13, 2022 message).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer correctly identifies 'last week before 13 October 2022' as the week of October 6–12, 2022 and matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 56,
+    "question": "Which of James's family members have visited him in the last year?",
+    "ground_truth": "mother, sister",
+    "predicted": "His sister and his mother.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same family members (sister and mother) as the ground truth; meaning is preserved.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 57,
+    "question": "When did James' mother and her friend visit him?",
+    "ground_truth": "October 19, 2022",
+    "predicted": "They visited James on October 19, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly (October 19, 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 58,
+    "question": "When did James try Cyberpunk 2077 game?",
+    "ground_truth": "October 20, 2022",
+    "predicted": "He tried Cyberpunk 2077 on October 20, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly (October 20, 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 59,
+    "question": "When did John and his gaming friends organize the charity tournament?",
+    "ground_truth": "On the night of October 30 to 31, 2022",
+    "predicted": "They organized the CS:GO charity tournament on May 7, 2022.",
+    "score": 0,
+    "judge_reasoning": "Predicted date (May 7, 2022) does not match the ground truth (night of Oct 30–31, 2022); temporal information is incorrect.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 60,
+    "question": "What games has John played with his friends at charity tournaments?",
+    "ground_truth": "CS:GO, Fortnite, Overwatch and Apex Legends",
+    "predicted": "John played CS:GO, Fortnite, Overwatch, and Apex Legends with his friends at charity tournaments.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same four games (CS:GO, Fortnite, Overwatch, Apex Legends) as the ground truth and matches the meaning exactly.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 61,
+    "question": "What was James' big moment with Samantha in October 2023?",
+    "ground_truth": "They decided to live together and rented an apartment not far from McGee's bar.",
+    "predicted": "James and Samantha decided to move in together — they rented an apartment not far from McGee's bar (mentioned on October 31, 2022).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth: James and Samantha decided to move in together and rented an apartment near McGee's bar; it also correctly references the Oct 31, 2022 mention.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 62,
+    "question": "How long did James and Samantha date for before deciding to move in together?",
+    "ground_truth": "nearly three months",
+    "predicted": "James and Samantha dated for nearly three months before deciding to move in together — from early September to late November 2022.",
+    "score": 1,
+    "judge_reasoning": "Prediction states nearly three months of dating before moving in, matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 63,
+    "question": "When did James, his family and his dogs start on a road trip together?",
+    "ground_truth": "November 4, 2022",
+    "predicted": "They started the road trip on November 4, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly: November 4, 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 64,
+    "question": "How long did John practice chess for before winning the chess tournament?",
+    "ground_truth": "nearly four months",
+    "predicted": "John practiced chess for nearly four months before winning the tournament — from around late July to early November 2022.",
+    "score": 1,
+    "judge_reasoning": "Prediction states nearly four months of chess practice, matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 65,
+    "question": "When did James and his family visit Mark and Josh?",
+    "ground_truth": "November 7, 2022",
+    "predicted": "They visited Josh and Mark on November 7, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly (November 7, 2022). Name order difference is irrelevant.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 66,
+    "question": "When did John work with a game developer on a project?",
+    "ground_truth": "November 5-6, 2022",
+    "predicted": "On the weekend of November 5–6, 2022 (he reported it on November 7, 2022).",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth dates (November 5–6, 2022); additional note about reporting on November 7, 2022 is consistent with the provided timestamps.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 67,
+    "question": "What programming languages has James worked with?",
+    "ground_truth": "Python and C++",
+    "predicted": "James has worked with Python and C++.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state James has worked with Python and C++.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 68,
+    "question": "What type of mobile application does James plan to build with John?",
+    "ground_truth": "An app for dog walking and pet care",
+    "predicted": "A dog-walking and pet-care mobile app to connect pet owners with reliable dog walkers and provide helpful information on pet care.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: both describe a dog-walking and pet-care mobile app (prediction adds consistent details about connecting owners with walkers and pet-care info).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 69,
+    "question": "How does James plan to make his dog-sitting app unique?",
+    "ground_truth": "By allowing users to customize their pup's preferences/needs",
+    "predicted": "By adding a personal touch—letting users enter each pup’s preferences/needs so the app is customized for every owner and dog.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state the app's uniqueness comes from letting users input each dog's preferences/needs for customization.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 70,
+    "question": "What has John mostly found with the metal detector so far?",
+    "ground_truth": "bottle caps",
+    "predicted": "He’s mostly found bottle caps.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state he mostly found bottle caps.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 71,
+    "question": "What did James offer to do for John regarding pets?",
+    "ground_truth": "help find the perfect pet",
+    "predicted": "He offered to help John find the perfect pet — “If you're interested, I can help find the perfect one for you — you'd make a great pet parent!”",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states he offered to help John find the perfect pet, matching the ground truth exactly (with added quoted wording).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 72,
+    "question": "What instrument is John learning to play as of 27 March, 2022?",
+    "ground_truth": "Drums",
+    "predicted": "John is learning to play the drums (drum kit).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state John is learning to play the drums (drum kit).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 73,
+    "question": "How long has John been playing the drums as of 27 March, 2022?",
+    "ground_truth": "One month",
+    "predicted": "As of March 27, 2022, John had been playing the drums for one month.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: it states John had been playing the drums for one month as of March 27, 2022.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 74,
+    "question": "What game did John play in an intense tournament at the gaming convention in March 2022?",
+    "ground_truth": "CS:GO",
+    "predicted": "He played CS:GO.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth—both state that he played CS:GO.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 75,
+    "question": "What game was James playing in the online gaming tournament in April 2022?",
+    "ground_truth": "Apex Legends",
+    "predicted": "The excerpts do not specify which game James was playing in the April 2022 online tournament.",
+    "score": 0,
+    "judge_reasoning": "Ground truth states the game was Apex Legends, but the predicted answer claims the excerpts do not specify the game, which contradicts the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 76,
+    "question": "How does James communicate with his gaming team?",
+    "ground_truth": "voice chat",
+    "predicted": "He uses voice chat to communicate with his gaming team.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same meaning as the ground truth: James communicates with his team via voice chat.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 77,
+    "question": "What advice did James receive from the famous players he met at the tournament?",
+    "ground_truth": "never put your ego above team success",
+    "predicted": "They told him to always communicate correctly with the team and never put his ego above the team's success.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the ground-truth advice ('never put your ego above the team's success') and adds a compatible detail about communication, which does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 78,
+    "question": "What did James adopt in April 2022?",
+    "ground_truth": "a pup",
+    "predicted": "He adopted a pup named Ned from a shelter in Stamford.",
+    "score": 1,
+    "judge_reasoning": "Prediction states he adopted a pup, matching the ground truth; added details (name, shelter, location) do not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 79,
+    "question": "What is the name of the pup that was adopted by James?",
+    "ground_truth": "Ned",
+    "predicted": "The pup's name is Ned.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth name 'Ned'.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 80,
+    "question": "Why did James embody the appearance of the game character from the woman he saw during a walk?",
+    "ground_truth": "He found her appearance and eyes amazing.",
+    "predicted": "Because her eyes and appearance amazed him—he felt like he fell in love at first sight and, having not approached her, remembered her look and used it as inspiration for the game character.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core reason—that her appearance and eyes amazed him—and adds harmless explanatory detail, so it matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 81,
+    "question": "What inspired James to create the game character in the virtual world?",
+    "ground_truth": "Appearance of a woman he saw during a walk",
+    "predicted": "He was inspired by a stranger he saw on a walk with his dogs two weeks earlier — her eyes and appearance amazed him, and he embodied her appearance in the game's character.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state he was inspired by the appearance of a woman he saw during a walk; predicted adds consistent details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 82,
+    "question": "Which country did James visit in 2021?",
+    "ground_truth": "Italy",
+    "predicted": "Italy.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer 'Italy.' matches the ground truth 'Italy'.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 83,
+    "question": "What impresses John about Japan?",
+    "ground_truth": "Technologically advanced megacities and tasty street food",
+    "predicted": "He's impressed by Japan's megacities — how technologically advanced everything is, the huge screens on buildings — and its tasty street food.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: mentions technologically advanced megacities (including large screens) and tasty street food.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 84,
+    "question": "What kind of assignment was giving John a hard time at work?",
+    "ground_truth": "Coding assignment",
+    "predicted": "A difficult assignment that involves coding — a challenging coding (programming) task.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state it was a coding/programming assignment (noting it was difficult).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 85,
+    "question": "What breed is Daisy, one of James' dogs?",
+    "ground_truth": "Labrador",
+    "predicted": "Daisy, one of James' dogs, is a Labrador.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states Daisy is a Labrador, which exactly matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 86,
+    "question": "What type of pizza is James' favorite?",
+    "ground_truth": "Pepperoni",
+    "predicted": "James' favorite is pepperoni pizza.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states James' favorite is pepperoni pizza, which matches the ground truth 'Pepperoni.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 87,
+    "question": "What type of pizza is John's favorite?",
+    "ground_truth": "Hawaiian",
+    "predicted": "John's favorite pizza is Hawaiian pizza.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: both state John's favorite is Hawaiian pizza.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 88,
+    "question": "What did John organize with his friends on May 8, 2022?",
+    "ground_truth": "A tournament for CS:GO",
+    "predicted": "He organized a CS:GO tournament with his friends to raise money for charity (for a dog shelter).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states he organized a CS:GO tournament with his friends, matching the ground truth; added charity detail is extra but not contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 89,
+    "question": "What did John and his friends do with the remaining money after helping the dog shelter?",
+    "ground_truth": "Bought groceries and cooked food for the homeless",
+    "predicted": "They used the leftover money to buy groceries and cook food for the homeless.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly — they bought groceries and cooked food for the homeless.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 90,
+    "question": "What was the main goal of the money raised from the charity tournament organized by John and his friends in May 2022?",
+    "ground_truth": "Raise money for a dog shelter",
+    "predicted": "The main goal was to raise money for a dog shelter located not far from the street where John lives.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state the fundraiser's main goal was to raise money for a dog shelter; extra location detail is harmless.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 91,
+    "question": "What did the system John created help the charitable foundation with?",
+    "ground_truth": "tracking inventory, resources, and donations",
+    "predicted": "John’s system moved the foundation from paper records to a structured smartphone application that streamlined their operations by consolidating inventory management (tracking inventory, resources, and donations) and generating reports for analysis.",
+    "score": 1,
+    "judge_reasoning": "Prediction explicitly states the system tracked inventory, resources, and donations (matching the ground truth) and adds acceptable contextual details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 92,
+    "question": "What did John create for the charitable foundation that helped generate reports for analysis?",
+    "ground_truth": "computer application on smartphones",
+    "predicted": "He created an application (a smartphone app) — a software tool to structure their inventory, track inventory/resources/donations, and generate reports for analysis.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states he created a smartphone application (software tool) to generate reports, matching the ground truth 'computer application on smartphones' and adds compatible details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 93,
+    "question": "What did John receive for achieving second place in the tournament?",
+    "ground_truth": "money and a trophy",
+    "predicted": "He received some money for 2nd place and also got a trophy.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: states he received money and a trophy for second place.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 94,
+    "question": "What project is James working on in his game design course?",
+    "ground_truth": "a new part of the football simulator, collecting player databases",
+    "predicted": "He's working on a new part of a football simulator — specifically collecting player databases.",
+    "score": 1,
+    "judge_reasoning": "The prediction matches the ground truth exactly: a new part of a football simulator involving collecting player databases.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 95,
+    "question": "Who does James support in football matches?",
+    "ground_truth": "Liverpool",
+    "predicted": "James supports Liverpool (Liverpool FC).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly — both state James supports Liverpool (Liverpool FC).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 96,
+    "question": "Which football club does John support?",
+    "ground_truth": "Manchester City",
+    "predicted": "John supports Manchester City.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state John supports Manchester City.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 97,
+    "question": "What disagreement do James and John have about their football teams?",
+    "ground_truth": "debating on which team will perform better in the championship",
+    "predicted": "They disagree about which club is better and who will win the title: James supports Liverpool and expects them to finish higher, while John is a Manchester City fan and bets City will win the championship.",
+    "score": 1,
+    "judge_reasoning": "Matches core meaning: both state they dispute which team will perform better/win the championship; predicted answer adds consistent team-specific details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 98,
+    "question": "What is Max good at doing according to James?",
+    "ground_truth": "catching frisbees in mid-air",
+    "predicted": "According to James, Max is excellent at catching frisbees in mid-air and is a pro swimmer who loves playing in the water.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the ground-truth fact (Max catches frisbees in mid-air); additional noncontradictory details do not negate correctness.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 99,
+    "question": "What is the main focus of the organization that James volunteered with?",
+    "ground_truth": "providing necessary items to those who are less fortunate",
+    "predicted": "Providing necessary items to people who are less fortunate (helping those in need).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same main focus as the ground truth—providing necessary items to people who are less fortunate/ helping those in need.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 100,
+    "question": "Will there be an interview required to volunteer with the organization James volunteered for?",
+    "ground_truth": "No",
+    "predicted": "No — James said no interview was necessary; John just needs to be friendly, polite, and have a strong desire to help.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states 'No' and provides consistent additional details; matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 101,
+    "question": "How did John relax in his free time on 9 July, 2022?",
+    "ground_truth": "Reading",
+    "predicted": "He relaxed by reading—enjoying entering the imaginative worlds of authors.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning (he relaxed by reading); extra detail does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 102,
+    "question": "What did James enjoy doing on cold winter days?",
+    "ground_truth": "Reading while snuggled under the covers",
+    "predicted": "He enjoyed reading, especially while snuggled under the covers on a cold winter day.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same meaning: he enjoyed reading while snuggled under the covers on cold winter days.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 103,
+    "question": "What new hobby did James become interested in on 9 July, 2022?",
+    "ground_truth": "Extreme sports",
+    "predicted": "He became interested in extreme sports—specifically rope jumping (he jumped from 150 meters) and had recently been surfing.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (extreme sports) and provides consistent additional details about rope jumping and surfing.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 104,
+    "question": "Where did James plan to visit after Toronto?",
+    "ground_truth": "Vancouver",
+    "predicted": "James planned to visit Vancouver.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly—Vancouver.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 105,
+    "question": "When did James plan to return from his trip to Toronto and Vancouver?",
+    "ground_truth": "July 20",
+    "predicted": "He planned to return on July 20, 2022.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth date (July 20); adding the year does not contradict the answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 106,
+    "question": "What online game did John start playing recently for improving strategy?",
+    "ground_truth": "Chess",
+    "predicted": "He started playing chess—mostly online—to improve his strategy.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer clearly states he started playing chess online to improve strategy, matching the ground truth 'Chess.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 107,
+    "question": "What made John leave his IT job?",
+    "ground_truth": "to focus on things that align with his values and passions",
+    "predicted": "He left because he wanted something that \"made a difference\" and to focus on work that aligned with his values and passions — notably pursuing opportunities in the gaming industry (e.g., organizing eSports tournaments).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth reason (to focus on work aligned with his values and passions) and adds consistent details about wanting to make a difference and pursuing gaming-related opportunities.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 108,
+    "question": "Which game tournaments does John plan to organize besides CS:GO?",
+    "ground_truth": "Fortnite competitions",
+    "predicted": "John plans to organize Fortnite competitions, and also wants to make competitions for strategy games and RPGs.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the ground truth (Fortnite competitions); extra mentioned tournaments do not contradict the answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 109,
+    "question": "What happened to James's puppy during the recent visit to the clinic?",
+    "ground_truth": "routine examination and vaccination",
+    "predicted": "It was just a routine examination, and the puppy was vaccinated to prevent him from catching the seasonal canine disease.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core facts — the puppy had a routine exam and was vaccinated; added preventive detail does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 110,
+    "question": "What game genre did John start exploring instead of shooters?",
+    "ground_truth": "strategy and RPG games",
+    "predicted": "He started exploring strategy and RPG games.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly (strategy and RPG games).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 111,
+    "question": "Which RPG game is John playing and enjoying on 10 August, 2022?",
+    "ground_truth": "The Witcher 3",
+    "predicted": "John is playing and enjoying The Witcher 3.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state John is playing and enjoying The Witcher 3.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 112,
+    "question": "What aspect of \"The Witcher 3\" does John find immersive?",
+    "ground_truth": "shaping the world with choices",
+    "predicted": "He finds The Witcher 3's world and story—especially the monster-hunter character and the choices that shape the world—immersive.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes that he finds the choices that shape the world immersive, matching the ground truth; extra details are consistent and non-contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 113,
+    "question": "Whose phone number did James receive during the beach outing?",
+    "ground_truth": "Samantha",
+    "predicted": "He received Samantha's phone number.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state he received Samantha's phone number.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 114,
+    "question": "What is James planning to do after receiving Samantha's phone number?",
+    "ground_truth": "call her",
+    "predicted": "He plans to call Samantha the next day (August 11, 2022) to ask her out on a date.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the core action—he plans to call Samantha—which matches the ground truth; additional details (timing and purpose) do not contradict it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 115,
+    "question": "What is John organizing with his siblings?",
+    "ground_truth": "a gaming night",
+    "predicted": "He's organizing a family game night (a gaming night) with his siblings next month.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (gaming night) and includes consistent additional detail; core meaning preserved.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 116,
+    "question": "What type of beer does John not like?",
+    "ground_truth": "dark beer",
+    "predicted": "John does not like dark beer.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth: that John does not like dark beer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 117,
+    "question": "What were some difficulties James faced during the development of his game?",
+    "ground_truth": "balancing mechanics and ensuring fairness",
+    "predicted": "James said it was challenging to get everything right — specifically balancing mechanics and ensuring fairness — the project took loads of time and effort and required perseverance, patience, and trial-and-error, plus relying on feedback and collaboration.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly includes the ground-truth difficulties (balancing mechanics and ensuring fairness); extra details do not contradict and are acceptable.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 118,
+    "question": "What has John been teaching his siblings?",
+    "ground_truth": "coding",
+    "predicted": "He’s been teaching them programming (coding), helping them create basic programs and games — including a simple text‑based adventure game.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states he taught programming/coding and even gives examples; it contains the ground-truth 'coding'.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 119,
+    "question": "What kind of programs are John's siblings making?",
+    "ground_truth": "basic games and stories",
+    "predicted": "John's siblings are making basic games and stories — specifically a simple text-based adventure game.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (basic games and stories) and adds a compatible specific example, so it is correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 120,
+    "question": "Which company's headphones did John choose for gaming?",
+    "ground_truth": "Sennheiser",
+    "predicted": "John chose headphones from Sennheiser.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state John chose Sennheiser headphones.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 121,
+    "question": "What did James and Samantha discover they both enjoy at McGee's bar?",
+    "ground_truth": "Lager beer",
+    "predicted": "They discovered they both enjoy a good lager beer.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth: both enjoy lager beer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 122,
+    "question": "How much does James pay per cooking class?",
+    "ground_truth": "$10",
+    "predicted": "James pays $10 per cooking class.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state James pays $10 per cooking class.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 123,
+    "question": "What did James learn to make in the cooking class besides omelette and meringue?",
+    "ground_truth": "Dough",
+    "predicted": "He learned how to make the dough.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state he learned to make dough.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 124,
+    "question": "Why did James sign up for a cooking class?",
+    "ground_truth": "He wanted to learn something new",
+    "predicted": "James signed up because, although he had never liked cooking, he wanted to learn something new.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer contains the ground-truth reason ('he wanted to learn something new') and adds non-contradictory extra detail, so it is correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 125,
+    "question": "What did James prepare for the first time in the cooking class?",
+    "ground_truth": "Omelette",
+    "predicted": "He prepared a great omelette.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core fact (he prepared an omelette); extra adjective does not change correctness.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 126,
+    "question": "What is the name of the board game John tried in September 2022?",
+    "ground_truth": "Dungeons of the Dragon",
+    "predicted": "The board game is \"Dungeons of the Dragon.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state the board game is 'Dungeons of the Dragon.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 127,
+    "question": "Where does James get his ideas from?",
+    "ground_truth": "books, movies, dreams",
+    "predicted": "James gets ideas from books, movies, and dreams; he’s also inspired by video games (e.g., The Witcher 3) and real-life experiences like a walk with his dogs (a stranger’s appearance inspiring a game character).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth sources (books, movies, dreams) and only adds non-contradictory extra inspirations, so it is correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 128,
+    "question": "What kind of dream did James have recently?",
+    "ground_truth": "a dream with a medieval castle full of puzzles and traps",
+    "predicted": "He had a vivid \"crazy\" dream of a medieval castle with a labyrinth full of puzzles and traps — it felt like playing a video game in real life.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both describe a dream of a medieval castle full of puzzles and traps; extra vivid/video-game details do not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 129,
+    "question": "What kind of music does John like?",
+    "ground_truth": "electronic and rock music",
+    "predicted": "John likes electronic and rock music.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—states John likes electronic and rock music.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 130,
+    "question": "What instrument did James used to play when he was younger?",
+    "ground_truth": "guitar",
+    "predicted": "He used to play the guitar.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth—both state he played the guitar.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 131,
+    "question": "What did John use to play when he was younger to let off steam?",
+    "ground_truth": "drums",
+    "predicted": "He used to play drums.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state he played drums to let off steam.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 132,
+    "question": "What career milestone did John achieve recently in September 2022?",
+    "ground_truth": "making his first mobile game",
+    "predicted": "He made his first mobile game — a 2D adventure with puzzles and exploration — which he said is launching next month.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states he made his first mobile game, matching the ground truth; added non-contradictory details about genre and launch timing.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 133,
+    "question": "What type of game is John's upcoming mobile game?",
+    "ground_truth": "2D adventure",
+    "predicted": "John's upcoming mobile game is a 2D adventure game with puzzles and exploration.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly states '2D adventure', matching the ground truth; additional details (puzzles and exploration) are extra but not contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 134,
+    "question": "What does John do to stay informed and constantly learn about game design?",
+    "ground_truth": "watch tutorials and keep up with developer forums",
+    "predicted": "He reads books/magazines with tips and developer interviews (e.g., the book that helped him create the puzzles), watches tutorials, and keeps up with developer forums.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both core items from ground truth (watches tutorials and keeps up with developer forums) and adds extra related activities, which is allowed.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 135,
+    "question": "What kind of gig was John offered at the game dev non-profit organization?",
+    "ground_truth": "programming mentor for game developers",
+    "predicted": "He was offered a programming mentor gig — to teach coding and assist game developers with their projects.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: he was offered a programming mentor role for game developers; the extra detail about teaching coding and assisting projects is consistent.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 136,
+    "question": "What does John feel about starting the journey as a programming mentor for game developers?",
+    "ground_truth": "excited and inspired",
+    "predicted": "John feels excited and inspired; he sees it as a great chance to help others, boost his own skills, and finds mentoring programmers rewarding.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth core feelings (excited and inspired) and adds compatible supporting details; meaning is preserved.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 137,
+    "question": "What kind of games is James excited to play with his new video card?",
+    "ground_truth": "RPGs",
+    "predicted": "He's excited to play RPGs (role‑playing games).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly, stating RPGs (role-playing games).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 138,
+    "question": "What inspired James to create his game?",
+    "ground_truth": "Witcher 3",
+    "predicted": "James says he was inspired by childhood sketches/comics (he’d sketched the main character as a kid), by The Witcher 3’s world and storytelling, by strategy games like Civilization and Total War, by a walk with his dogs where a stranger’s appearance inspired a character, and by sources like books, movies, and vivid dreams.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly includes The Witcher 3 as an inspiration, matching the ground truth; extra details do not contradict it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 139,
+    "question": "What sparked James' passion for gaming when he was a kid?",
+    "ground_truth": "Super Mario and The Legend of Zelda games",
+    "predicted": "Playing on his first Nintendo console—playing Super Mario and The Legend of Zelda for hours—sparked James' passion for gaming.",
+    "score": 1,
+    "judge_reasoning": "Prediction states that playing Super Mario and The Legend of Zelda on his first Nintendo console sparked his passion, which matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 140,
+    "question": "What did James lose progress on due to a power outage?",
+    "ground_truth": "a game",
+    "predicted": "He lost progress in his game—the one he'd just reached the big reveal in—because the power outage caused him to forget to save.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states he lost progress in his game, which matches the ground truth (a game); extra context doesn't contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 141,
+    "question": "What games were played at the gaming tournament organized by John on 31 October, 2022?",
+    "ground_truth": "Fortnite, Overwatch, Apex Legends",
+    "predicted": "Fortnite, Overwatch, and Apex Legends.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same three games (Fortnite, Overwatch, Apex Legends) as the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 142,
+    "question": "What was the purpose of the gaming tournament organized by John on 31 October, 2022?",
+    "ground_truth": "To raise money for a children's hospital",
+    "predicted": "Its purpose was to raise money for a children's hospital.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning as the ground truth: the tournament was held to raise money for a children's hospital.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 143,
+    "question": "What decision did James and Samantha make on 31 October, 2022?",
+    "ground_truth": "To move in together",
+    "predicted": "On 31 October 2022, James and Samantha decided to move in together and rented an apartment not far from McGee's bar.",
+    "score": 1,
+    "judge_reasoning": "The prediction states they decided to move in together on that date, matching the ground truth; added detail about renting an apartment does not contradict the answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 144,
+    "question": "Where did James and Samantha decide to live together on 31 October, 2022?",
+    "ground_truth": "In an apartment not far from McGee's bar",
+    "predicted": "They rented an apartment not far from McGee's bar.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state they lived in an apartment not far from McGee's bar; the added word 'rented' does not contradict the original.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 145,
+    "question": "Why did James and Samantha choose an apartment near McGee's bar?",
+    "ground_truth": "They love spending time together at the bar",
+    "predicted": "Because they both love spending time at McGee's bar — proximity to McGee's was explicitly one of their criteria when choosing the apartment.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state they chose the apartment because they love spending time at McGee's bar; predicted adds consistent detail about proximity being a criterion.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 146,
+    "question": "What game is John hooked on playing on 5 November, 2022?",
+    "ground_truth": "FIFA 23",
+    "predicted": "John was hooked on FIFA 23.",
+    "score": 1,
+    "judge_reasoning": "Prediction states John was hooked on FIFA 23, which matches the ground truth answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 147,
+    "question": "What did John suggest James practice before playing FIFA 23 together?",
+    "ground_truth": "Control with a gamepad and timing",
+    "predicted": "John said James should \"practice a little first,\" recommending using a gamepad and working on a sense of timing.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: it says to practice a little first, use a gamepad, and work on timing, which conveys the same core points.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 148,
+    "question": "What project did John work on with a game developer by 7 November, 2022?",
+    "ground_truth": "An online board game",
+    "predicted": "He collaborated with a game developer to create an online board game (they were about to release a demo).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states the same project—an online board game—and adds non-conflicting detail about a demo, so it matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 149,
+    "question": "What is the name of John's cousin's dog?",
+    "ground_truth": "Luna",
+    "predicted": "John's cousin's dog is named Luna.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states the dog's name is Luna, which matches the ground truth.",
+    "category": 4,
+    "error": null
+  }
+]

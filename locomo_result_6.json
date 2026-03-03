@@ -1,0 +1,1232 @@
+[
+  {
+    "question_index": 0,
+    "question": "Which year did Audrey adopt the first three of her dogs?",
+    "ground_truth": "2020",
+    "predicted": "Audrey adopted Pepper, Precious, and Panda in 2020.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states the adoption year as 2020, which matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 1,
+    "question": "When did Andrew start his new job as a financial analyst?",
+    "ground_truth": "The week before March 27, 2023",
+    "predicted": "He started the new Financial Analyst job on March 20, 2023.",
+    "score": 1,
+    "judge_reasoning": "March 20, 2023 is within the week before March 27, 2023, so the predicted date matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 2,
+    "question": "What kind of indoor activities has Andrew pursued with his girlfriend?",
+    "ground_truth": "boardgames, volunteering at pet shelter, wine tasting, growing flowers",
+    "predicted": "Andrew and his girlfriend have enjoyed board games together, volunteered at a pet shelter, attended a wine-tasting event, and started growing flowers at home.",
+    "score": 1,
+    "judge_reasoning": "Prediction lists all four indoor activities from the ground truth: board games, pet shelter volunteering, wine tasting, and growing flowers.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 3,
+    "question": "What kind of places have Andrew and his girlfriend checked out around the city?",
+    "ground_truth": "cafes, new places to eat, open space for hikes, pet shelter, wine tasting event, park",
+    "predicted": "They’ve been checking out new places to eat around town — especially cafes (including a cozy cafe with pastries and a spot with a view), a sushi restaurant, and a wine‑tasting venue — and have also visited parks/outdoor spots for picnics and bike rides.",
+    "score": 1,
+    "judge_reasoning": "Matches most items (cafes, new eateries, wine tasting, parks/outdoor spots). It omits the pet shelter but otherwise conveys the same key places.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 4,
+    "question": "When did Audrey make muffins for herself?",
+    "ground_truth": "The week of April 3rd to 9th",
+    "predicted": "She made them the week of April 9–15, 2023 (she said \"last week\" in her April 16, 2023 message).",
+    "score": 0,
+    "judge_reasoning": "Incorrect — the prediction gives the week of April 9–15, 2023, but the ground truth specifies the week of April 3–9, 2023 (they do not match).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 5,
+    "question": "When did Audrey see a hummingbird?",
+    "ground_truth": "first week of May 2023",
+    "predicted": "Audrey saw a hummingbird during a hike in the first week of May 2023.",
+    "score": 1,
+    "judge_reasoning": "Prediction places the hummingbird sighting in the first week of May 2023, matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 6,
+    "question": "When did Audrey adopt Pixie?",
+    "ground_truth": "around April 2, 2023",
+    "predicted": "Audrey adopted Pixie on April 2, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (around April 2, 2023); exact phrasing is acceptable.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 7,
+    "question": "How many years passed between Audrey adopting Pixie and her other three dogs?",
+    "ground_truth": "three years",
+    "predicted": "Three years — Pepper, Precious and Panda were adopted around March 27, 2020 (Audrey had them for 3 years as of March 27, 2023), and Pixie was adopted on April 2, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (three years) and provides consistent date details aligning with the session timestamps.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 8,
+    "question": "Did Andrew have a pet dog during March 2023?",
+    "ground_truth": "No",
+    "predicted": "No — on March 27, 2023 Andrew said, \"No, no pets right now,\" so he did not have a pet dog then.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both say No and the prediction cites Andrew's March 27, 2023 statement that he had no pets, supporting the answer.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 9,
+    "question": "What kind of classes or groups has Audrey joined to take better care of her dogs?",
+    "ground_truth": "positive reinforcement training workshop to bond with pets, dog training course, agility training course, grooming course, dog-owners group",
+    "predicted": "She’s joined a workshop about bonding with pets (a positive-reinforcement training class), agility classes at a dog park, a dog grooming course, and a dog owners group.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the positive-reinforcement bonding workshop/dog training class, agility classes, grooming course, and a dog-owners group, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 10,
+    "question": "When did Audrey's positive reinforcement training course for dogs take place?",
+    "ground_truth": "June, 2023",
+    "predicted": "June 2023 — she signed up on May 11, 2023 for a workshop “next month” (June), and by July 3, 2023 she reported she was taking the dog training course.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer identifies June 2023 as the timing, matching the ground truth; additional contextual details (sign-up on May 11 for 'next month' and status by July 3) do not contradict the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 11,
+    "question": "When did Andrew go rock climbing?",
+    "ground_truth": "June 11, 2023",
+    "predicted": "He went rock climbing on June 11, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly (June 11, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 12,
+    "question": "What outdoor activities has Andrew done other than hiking in nature?",
+    "ground_truth": "rock climbing, fishing, camping",
+    "predicted": "Besides hiking, Andrew has gone rock climbing (he took a class and made it to the top), fishing, and camping.",
+    "score": 1,
+    "judge_reasoning": "Prediction lists rock climbing, fishing, and camping as outdoor activities besides hiking, matching all three items from the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 13,
+    "question": "When did Audrey move to a new place?",
+    "ground_truth": "June 2023",
+    "predicted": "Audrey moved to a new place on June 26, 2023.",
+    "score": 1,
+    "judge_reasoning": "The prediction specifies June 26, 2023, which falls within the ground truth month of June 2023 and matches the provided conversation timestamp, so it is correct.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 14,
+    "question": "What is something that Andrew really misses while working in the city?",
+    "ground_truth": "being in nature",
+    "predicted": "He really misses \"the peacefulness of being out on a hike\" — i.e., being out in nature and hiking.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: both state he misses being in nature (specifically hiking/out in nature).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 15,
+    "question": "What is a shared frustration regarding dog ownership for Audrey and Andrew?",
+    "ground_truth": "Not being able to find pet friendly spots.",
+    "predicted": "Both Audrey and Andrew are frustrated by how hard it can be to find dog‑friendly places — apartments, trails, and other spots to take their dogs.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state frustration about difficulty finding pet- or dog-friendly places (apartments, trails, etc.).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 16,
+    "question": "When is Andrew going to go hiking with Audrey?",
+    "ground_truth": "August",
+    "predicted": "They planned the hike for Saturday — November 4, 2023.",
+    "score": 0,
+    "judge_reasoning": "Incorrect. Ground truth says August (per the July 8 conversation); the prediction gives November 4, 2023, which contradicts the ground-truth month.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 17,
+    "question": "How many times did Audrey and Andew plan to hike together?",
+    "ground_truth": "three times",
+    "predicted": "They planned to hike together twice — once in July (planning a \"next month\" hike) and again in late October when they picked a Saturday for a hike.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer says twice, but the ground truth is three times—prediction omits one planned hike and contradicts the correct count.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 18,
+    "question": "Where did Audrey get Pixie from?",
+    "ground_truth": "breeder",
+    "predicted": "She adopted Pixie.",
+    "score": 0,
+    "judge_reasoning": "Ground truth states Pixie came from a breeder; the prediction says she adopted Pixie, which does not match.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 19,
+    "question": "What is an indoor activity that Andrew would enjoy doing while make his dog happy?",
+    "ground_truth": "cook dog treats",
+    "predicted": "Indoor dog training—e.g., teaching tricks or using puzzle toys (Audrey suggested puzzles, training, and hide-and-seek, and Andrew said he'd give those a try).",
+    "score": 0,
+    "judge_reasoning": "The predicted answer (indoor training, puzzle toys, hide-and-seek) does not match the ground-truth activity of cooking dog treats.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 20,
+    "question": "Which meat does Audrey prefer eating more than others?",
+    "ground_truth": "chicken",
+    "predicted": "Chicken — Audrey repeatedly mentions chicken (e.g., roasted chicken and her favorite Chicken Pot Pie).",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state Audrey prefers chicken; prediction includes supporting examples.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 21,
+    "question": "What are the classes that Audrey took for her dogs to?",
+    "ground_truth": "Positive reinforcement training class for bonding, dog training course, agility class",
+    "predicted": "She signed up for a bonding/positive-reinforcement training workshop (a positive reinforcement training class), took a dog-training course, and started agility classes at a dog park.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same three classes—positive reinforcement bonding class, a dog-training course, and agility classes—matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 22,
+    "question": "Where did Andrew go during the first weekend of August 2023?",
+    "ground_truth": "camping with girlfriend",
+    "predicted": "He went camping with his girlfriend and Toby (weekend of 2023-08-05 to 2023-08-06).",
+    "score": 1,
+    "judge_reasoning": "Matches core fact (he went camping with his girlfriend); extra mention of Toby is additional detail and does not contradict the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 23,
+    "question": "What are some problems that Andrew faces before he adopted Toby?",
+    "ground_truth": "Finding the right dog and pet-friendly apartments close to open spaces",
+    "predicted": "Before adopting Toby, Andrew struggled to find pet‑friendly housing in the city — he had difficulty locating a dog‑friendly place, was contacting landlords and checking neighborhoods, and felt discouraged. He also found the adoption search time‑consuming and annoying (browsing websites, visiting shelters, and asking friends).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer captures the two main problems: difficulty finding the right dog (time-consuming adoption search) and trouble securing pet-friendly housing (contacting landlords, checking neighborhoods), matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 24,
+    "question": "Did Audrey and Andrew grow up with a pet dog?",
+    "ground_truth": "Yes",
+    "predicted": "Audrey — Yes; she grew up with a dog named Max. Andrew — No; the conversation gives no indication he had a pet dog growing up.",
+    "score": 0,
+    "judge_reasoning": "Ground truth is 'Yes' (both did); the prediction says Andrew did not, which contradicts the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 25,
+    "question": "When did Andrew and his girlfriend go fishing?",
+    "ground_truth": "weekend before August 24, 2023",
+    "predicted": "They went fishing the weekend of August 19–20, 2023.",
+    "score": 1,
+    "judge_reasoning": "August 19–20, 2023 is the weekend immediately before August 24, 2023, so the predicted answer matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 26,
+    "question": "What is the biggest stressor in Andrew's life besides not being able to hike frequently?",
+    "ground_truth": "work",
+    "predicted": "His work — a heavy, stressful workload (he says work’s been piling up and been tough/stressful).",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state that his work (a heavy, stressful workload) is the biggest stressor.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 27,
+    "question": "How does Andrew feel about his current work?",
+    "ground_truth": "Stressful",
+    "predicted": "He finds his current work stressful and piling up — he's often stuck inside, feels overwhelmed and misses being outdoors, and is struggling with work–life balance.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: states his work is stressful and adds consistent supporting details (overwhelmed, stuck inside, work–life balance issues).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 28,
+    "question": "What is something that Audrey often dresses up her dogs with?",
+    "ground_truth": "Hats",
+    "predicted": "Party hats.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer 'party hats' is a specific type of 'hats', which matches the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 29,
+    "question": "What are the names of Audrey's dogs?",
+    "ground_truth": "Pepper, Precious, Panda, and Pixie",
+    "predicted": "Audrey's dogs are Pepper, Precious, Panda, and Pixie.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer exactly matches the ground truth list of names: Pepper, Precious, Panda, and Pixie.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 30,
+    "question": "When is Andrew planning to go to the beach with his girlfriend?",
+    "ground_truth": "November 2023",
+    "predicted": "He's planning to go next month — November 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (November 2023) and conveys the same timing.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 31,
+    "question": "What has Andrew done with his dogs?",
+    "ground_truth": "Taking walks and hiking",
+    "predicted": "He’s taken his dog Toby on hikes and trail walks (shared hiking photos), brought Toby to the dog park (once chased a squirrel), and had a picnic with his girlfriend and Toby; he’s also included Toby in home/social moments (a board‑game night). He’s planned trips with Toby too—an upcoming camping weekend and a beach outing.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes taking hikes and trail walks (walking and hiking), which matches the ground truth; extra activities do not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 32,
+    "question": "What kind of tattoo does Audrey have on her arm?",
+    "ground_truth": "Tattoos of her four dogs.",
+    "predicted": "She has a tattoo of her dogs — specifically her four dogs — on her arm, featuring dogs and sunflowers.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches ground truth: both state she has tattoos of her four dogs on her arm; additional detail (sunflowers) does not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 33,
+    "question": "What can Andrew potentially do to improve his stress and accomodate his living situation with his dogs?",
+    "ground_truth": "Change to a hybrid or remote job so he can move away from the city to the suburbs to have a larger living space and be closer to nature.",
+    "predicted": "He should keep using the pet‑friendly rental websites Audrey recommended (those with dog filters) and prioritize apartments near a park or woods so Toby and Buddy have room to run; meanwhile schedule regular hikes, picnics and beach trips for nature time to reset.  \nMake city life more manageable by adding plants at home, using durable collars/tags and leashes, and providing indoor enrichment (toys, new beds, playdates, and positive‑reinforcement training) plus simple daily self‑care (morning coffee or lunchtime walks) to reduce stress.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer suggests staying in the city, using pet-friendly listings, and lifestyle adjustments (parks, enrichment, self-care) but does not propose changing to a hybrid/remote job to move to the suburbs as in the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 34,
+    "question": "How many months passed between Andrew adopting Toby and Buddy?",
+    "ground_truth": "three months",
+    "predicted": "About 3 months — Toby was adopted around July 11, 2023 and Buddy around October 19, 2023 (3 months and 8 days apart).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (three months). It provides the same core conclusion and correctly notes the exact interval (about 3 months, 8 days) using the given timestamps.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 35,
+    "question": "What are the names of Andrew's dogs?",
+    "ground_truth": "Toby, Scout, Buddy",
+    "predicted": "Toby, Buddy, and Scout.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same three dog names (Toby, Buddy, Scout); order differs but meaning is identical.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 36,
+    "question": "What are some foods that Audrey likes eating?",
+    "ground_truth": "chicken pot pie, chicken roast, blueberry muffins, sushi",
+    "predicted": "Audrey likes pastries — e.g., croissants, muffins (including blueberry muffins), and tarts — and she also enjoys roasted chicken (Mediterranean-style with garlic, lemon, and herbs), Chicken Pot Pie (her family recipe), and sushi; garlic is her go-to ingredient.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all ground-truth items (chicken pot pie, roasted chicken, blueberry muffins, sushi). Extra details are additional but do not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 37,
+    "question": "When did Audrey get into an accident in the park?",
+    "ground_truth": "between October 19 and 24, 2023",
+    "predicted": "Audrey got into an accident in the park between October 19 and 24, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted date range of October 19–24, 2023 matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 38,
+    "question": "When did Andrew and his girlfriend go on a wine tasting trip?",
+    "ground_truth": "the weekend before October 24, 2023",
+    "predicted": "They went wine tasting the weekend of October 21–22, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: the weekend before Oct 24, 2023 is Oct 21–22, 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 39,
+    "question": "What did Audrey get wtih having so many dogs?",
+    "ground_truth": "Companionship",
+    "predicted": "She got a tattoo of her four dogs on her arm.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer states she got a tattoo of her four dogs, but the ground truth is 'Companionship'; the responses do not match.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 40,
+    "question": "What is a good place for dogs to run around freely and meet new friends?",
+    "ground_truth": "The dog park",
+    "predicted": "The dog park.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state 'The dog park' as the place for dogs to run freely and meet new friends.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 41,
+    "question": "What are the breeds of Audrey's dogs?",
+    "ground_truth": "Mongrel mixed with Lab for Pepper and Panda. Mongrel mixed with Chihuahua for Precious and Pixie.",
+    "predicted": "All four are mutts. Multiple excerpts describe them as two Jack Russell mixes and two Chihuahua mixes, but a later excerpt specifies Precious and Pixie are Chihuahua mixes while Pepper and Panda are Lab mixes.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer assigns Pepper and Panda as Lab mixes and Precious and Pixie as Chihuahua mixes, matching the ground truth (mongrel+Lab for Pepper/Panda; mongrel+Chihuahua for Precious/Pixie).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 42,
+    "question": "What technique is Audrey using to discipline her dogs?",
+    "ground_truth": "Positive reinforcement",
+    "predicted": "She is using positive reinforcement techniques to discipline her dogs.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—states she uses positive reinforcement to discipline her dogs.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 43,
+    "question": "Which US state do Audrey and Andrew potentially live in?",
+    "ground_truth": "Minnesota",
+    "predicted": "California — their mentions of nearby beaches and surfing, road trips to a national park, ocean-view hikes, river bike routes, cacti/Peruvian lilies, lakes and forests best fit California’s diverse coastal-to-mountain landscapes.",
+    "score": 0,
+    "judge_reasoning": "Incorrect — ground truth is Minnesota, but the prediction says California and provides details that don't match the ground-truth state.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 44,
+    "question": "Which national park could Audrey and Andrew be referring to in their conversations?",
+    "ground_truth": "Voyageurs National Park",
+    "predicted": "They only refer to \"a national park\" generically—no specific national park name is mentioned (Audrey's road trip to a national park occurred on 2023-05-05).",
+    "score": 0,
+    "judge_reasoning": "Incorrect — the ground truth names Voyageurs National Park, but the prediction says no specific park is mentioned, which contradicts the correct answer.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 45,
+    "question": "How many pets will Andrew have, as of December 2023?",
+    "ground_truth": "three",
+    "predicted": "Three — Toby, Buddy, and Scout.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth count (three) and adds consistent pet names; aligns with the temporal context.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 46,
+    "question": "How many pets did Andrew have, as of September 2023?",
+    "ground_truth": "one",
+    "predicted": "One — he had one dog, Toby.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state he had one pet; extra detail (dog Toby) is consistent with provided context.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 47,
+    "question": "How many months passed between Andrew adopting Buddy and Scout",
+    "ground_truth": "one month",
+    "predicted": "About one month — Buddy was adopted on October 19, 2023 and Scout on November 22, 2023 (≈1 month and 3 days apart).",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: the predicted answer correctly states about one month and provides dates consistent with the given timestamps (≈1 month and 3 days apart).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 48,
+    "question": "What does Andrew view his pets as?",
+    "ground_truth": "Family",
+    "predicted": "He views his pets as family — friends and confidantes.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly states he views his pets as family and adds compatible details (friends and confidantes), matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 49,
+    "question": "What does Audrey view her pets as?",
+    "ground_truth": "Family",
+    "predicted": "She views them as family—her \"four fur babies\" who are \"more important to me than anything\" and who provide companionship, comfort, and unconditional love.",
+    "score": 1,
+    "judge_reasoning": "Prediction states she views her pets as family and includes supporting details; matches the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 50,
+    "question": "What is a skill that Audrey learned to take care of her dogs?",
+    "ground_truth": "Grooming",
+    "predicted": "She learned dog grooming — she took a dog grooming course and learned techniques like grooming slowly and gently, paying attention to sensitive areas (ears and paws) and staying patient and positive.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly states she learned dog grooming and includes supporting details, matching the ground truth 'Grooming.'",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 51,
+    "question": "What items has Audrey bought or made for her dogs?",
+    "ground_truth": "dog tags, toys, dog beds, collars",
+    "predicted": "She’s bought/obtained dog shoes and a leash (shown as a red retractable leash with a black handle), party hats, toys (bought at a pet store), new dog beds, and set up a doggy play area with agility equipment and toys; she’s made handmade ID tags and homemade treats/goodies.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes dog tags (handmade ID tags), toys, and dog beds — three of four ground-truth items. It omits collars but extra items are allowed, so overall correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 52,
+    "question": "What is something that Andrew could do to make birdwatching hobby to fit in his city schedule?",
+    "ground_truth": "Install a bird feeder outside where he can see the birds without going outdoors.",
+    "predicted": "Andrew could install a bird feeder outside his window so he can watch birds without needing to leave the apartment — a low-effort way to fit birdwatching into his city schedule.",
+    "score": 1,
+    "judge_reasoning": "Prediction suggests installing a bird feeder for at-home birdwatching, matching the ground truth recommendation.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 53,
+    "question": "What is a career that Andrew could potentially pursue with his love for animals and nature?",
+    "ground_truth": "Park ranger or a similar position working for the National Park Services.",
+    "predicted": "Andrew could pursue a career as a park ranger or a similar position with the National Park Service — it would combine his love for animals, nature, hiking, and the outdoors.",
+    "score": 1,
+    "judge_reasoning": "Prediction suggests a park ranger role with the National Park Service, directly matching the ground truth career recommendation.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 54,
+    "question": "What activity do Audrey's dogs like to do in the dog park?",
+    "ground_truth": "Play fetch with ball and frisbee, run around and meet other dogs",
+    "predicted": "They love playing fetch — chasing a ball or frisbee — and running/socializing with other pups at the dog park.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: mentions playing fetch with ball/frisbee, running, and socializing/meeting other dogs.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 55,
+    "question": "When did Andrew make his dogs a fun indoor area?",
+    "ground_truth": "few days before November 22, 2023",
+    "predicted": "He didn't—there's no mention of Andrew making an indoor play area; on June 26, 2023 he shared a photo and said the doggy daycare near him has a big indoor space for dogs to play.",
+    "score": 0,
+    "judge_reasoning": "Incorrect. The ground truth says Andrew made the indoor area a few days before Nov 22, 2023; the prediction denies this and gives a June 26, 2023 event instead, which contradicts the timestamped evidence.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 56,
+    "question": "Has Andrew moved into a new apartment for his dogs?",
+    "ground_truth": "No",
+    "predicted": "No — Andrew has not moved; he currently lives in an apartment and has been searching/contacting landlords and looking for dog‑friendly places.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (No) and adds consistent supporting details without contradiction.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 57,
+    "question": "When did Andrew adopt Scout?",
+    "ground_truth": "few days before November 2023",
+    "predicted": "A few days before November 22, 2023 — approximately November 19–21, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth timeframe—both state the adoption occurred a few days before Nov 22, 2023; the predicted dates (Nov 19–21, 2023) are consistent with that.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 58,
+    "question": "What did Audrey eat for dinner on October 24, 2023?",
+    "ground_truth": "sushi",
+    "predicted": "She ordered sushi for dinner.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information—Audrey ate sushi for dinner (adds that she ordered it), which matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 59,
+    "question": "How long has it been since Andrew adopted his first pet, as of November 2023?",
+    "ground_truth": "4 months",
+    "predicted": "Andrew adopted his first pet, Toby, on July 11, 2023; as of November 2023 that was about four months earlier.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: adoption on July 11, 2023 is about four months before November 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 60,
+    "question": "How many dogs does Andrew have?",
+    "ground_truth": "3",
+    "predicted": "Andrew has three dogs — Toby, Buddy, and Scout.",
+    "score": 1,
+    "judge_reasoning": "Prediction states Andrew has three dogs and names them, matching the ground truth count of 3.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 61,
+    "question": "Which specific type of bird mesmerizes Andrew?",
+    "ground_truth": "Eagles",
+    "predicted": "Eagles.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly ('Eagles').",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 62,
+    "question": "What did Andrew express missing about exploring nature trails with his family's dog?",
+    "ground_truth": "The peaceful moments",
+    "predicted": "He said he missed \"the peaceful moments out in nature\" — the peacefulness of being out on a hike with his family's dog.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core meaning—the peaceful moments/peacefulness of being out in nature with the family dog—matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 63,
+    "question": "What kind of pastries did Andrew and his girlfriend have at the cafe?",
+    "ground_truth": "croissants, muffins, and tarts",
+    "predicted": "They had croissants, muffins, and tarts.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: croissants, muffins, and tarts.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 64,
+    "question": "What kind of flowers does Audrey have a tattoo of?",
+    "ground_truth": "sunflowers",
+    "predicted": "She has sunflowers tattooed.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information: Audrey has sunflowers tattooed (matches ground truth).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 65,
+    "question": "What does Audrey do during dog playdates in the park?",
+    "ground_truth": "chat with people while dogs make new friends",
+    "predicted": "She plays fetch and frisbee with the dogs, lets them run off-leash to mingle and make friends, chats with other dog owners (she sometimes organizes the playdates), and watches them from nearby benches — often bringing toys, treats and even party hats.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth action—she chats with other people while the dogs make friends—along with extra compatible details, so it matches.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 66,
+    "question": "What type of dog was Andrew looking to adopt based on his living space?",
+    "ground_truth": "smaller dog",
+    "predicted": "He was looking to adopt a smaller dog suitable for apartment living.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning—he wanted a smaller dog—adding acceptable contextual detail about apartment suitability.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 67,
+    "question": "Where does Andrew want to live to give their dog a large, open space to run around?",
+    "ground_truth": "near a park or woods",
+    "predicted": "He wants to live near a park or woods.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly — expresses that he wants to live near a park or woods.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 68,
+    "question": "Why did Audrey sign up for a workshop about bonding with pets?",
+    "ground_truth": "Strengthen the bond with her pets",
+    "predicted": "She wanted to learn new techniques and strengthen her bond with her pets—specifically a positive-reinforcement training class she found via a flyer at her local pet store.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the core reason—strengthening her bond with her pets—and adds consistent extra details, so it matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 69,
+    "question": "How did Audrey hear about the workshop on bonding with pets?",
+    "ground_truth": "Saw a workshop flyer at the local pet store",
+    "predicted": "She saw a flyer for the workshop at her local pet store.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth: Audrey saw a workshop flyer at her local pet store.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 70,
+    "question": "What type of training was the workshop Audrey signed up for in May 2023?",
+    "ground_truth": "Positive reinforcement training",
+    "predicted": "She signed up for a positive reinforcement training class.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth — both state she signed up for positive reinforcement training.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 71,
+    "question": "How did Audrey describe she dog he met at the pet store?",
+    "ground_truth": "Friendly and playful",
+    "predicted": "She said he was \"so friendly and playful.\"",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth — both state the dog was friendly and playful.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 72,
+    "question": "Why did Audrey think positive reinforcement training is important for pets?",
+    "ground_truth": "To have pets learn how to behave in a positive way",
+    "predicted": "Because she believes punishment is never the proper way and she doesn't want to hurt her dogs; positive reinforcement (patience, rewards and praise) builds trust and a stronger bond while effectively teaching them good behavior.",
+    "score": 1,
+    "judge_reasoning": "Matches core meaning: she favors positive reinforcement to teach pets good behavior; prediction adds compatible reasons (avoid punishment, build trust/bond) which align with the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 73,
+    "question": "What challenge is Andrew facing in their search for a pet?",
+    "ground_truth": "Finding a pet-friendly spot in the city",
+    "predicted": "He’s having trouble finding a pet-friendly (dog-friendly) place to rent/live in the city.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state difficulty finding a pet-/dog-friendly place to live in the city.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 74,
+    "question": "How does Andrew feel about their search for a pet-friendly place?",
+    "ground_truth": "Discouraged but determined",
+    "predicted": "Andrew feels discouraged and frustrated — finding a pet‑friendly place has been tough and challenging — but he's determined and keeps searching.",
+    "score": 1,
+    "judge_reasoning": "Matches core meaning: states Andrew is discouraged but determined (adds compatible detail about frustration and continued searching).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 75,
+    "question": "What outdoor activities does Andrew plan on trying after the rock climbing class?",
+    "ground_truth": "kayaking and bungee jumping",
+    "predicted": "Andrew plans to try kayaking and maybe bungee jumping.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists both activities (kayaking and bungee jumping); the added 'maybe' does not contradict the ground truth and still conveys the same items.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 76,
+    "question": "How long does Audrey typically walk her dogs for?",
+    "ground_truth": "about an hour",
+    "predicted": "Audrey usually walks her dogs for about an hour, though it varies depending on the day.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state she walks her dogs for about an hour; the prediction's extra note about variation does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 77,
+    "question": "What did Audrey set up in the backyard for their dogs on June 26, 2023?",
+    "ground_truth": "a doggy play area with agility stuff and toys",
+    "predicted": "She set up a doggy play area in the backyard with agility equipment (agility stuff) and toys.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state she set up a doggy play area in the backyard with agility equipment/stuff and toys.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 78,
+    "question": "What did Audrey and her friends stumble across during a hike a few years back, as mentioned on June 26, 2023?",
+    "ground_truth": "a stunning lake in the mountains",
+    "predicted": "They stumbled across a stunning lake in the mountains.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: they discovered a stunning lake in the mountains during a hike.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 79,
+    "question": "What is Audrey's favorite recipe that she shares with Andrew on 3 July, 2023?",
+    "ground_truth": "Chicken Pot Pie",
+    "predicted": "Her favorite recipe is Chicken Pot Pie.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: Chicken Pot Pie.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 80,
+    "question": "What dish is one of Audrey's favorite dishes that includes garlic and is shared with Andrew on 3 July, 2023?",
+    "ground_truth": "Roasted Chicken",
+    "predicted": "Roasted Chicken.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly ('Roasted Chicken').",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 81,
+    "question": "What did Andrew and his GF do on the Monday before July 24, 2023?",
+    "ground_truth": "volunteered at a pet shelter",
+    "predicted": "Andrew and his girlfriend volunteered at a pet shelter on the Monday before July 24, 2023.",
+    "score": 1,
+    "judge_reasoning": "Prediction correctly identifies the activity as volunteering at a pet shelter on the Monday before July 24, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 82,
+    "question": "What is the name of Audrey's childhood dog?",
+    "ground_truth": "Max",
+    "predicted": "Her childhood dog's name is Max.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth ('Max').",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 83,
+    "question": "What special memories does Audrey have with her childhood dog, Max?",
+    "ground_truth": "Long walks in the neighborhood, exploring new paths, sharing worries and hopes",
+    "predicted": "She remembers taking long neighborhood walks exploring new paths while Max sniffed and marked his territory, playing lots of fetch (he had boundless energy), and confiding in him—sharing her worries and hopes—because he was a great listener and close companion.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all key memories (long neighborhood walks, exploring new paths, and sharing worries and hopes) and adds non-contradictory details, so it matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 84,
+    "question": "What are some of the personalities of Audrey's four fur babies?",
+    "ground_truth": "oldest is relaxed, second is playful, third can be naughty but loves cuddles, youngest is full of life",
+    "predicted": "The oldest is relaxed—like a wise old sage; the second is always ready for a game; the third can be naughty but loves a good cuddle; and the youngest is full of life and always up for an adventure.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth: oldest relaxed, second playful, third naughty but cuddly, youngest full of life (additional descriptive phrasing does not change meaning).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 85,
+    "question": "What type of classes did Audrey start with her pups recently on 4 August, 2023?",
+    "ground_truth": "Agility classes",
+    "predicted": "She started agility classes with her pups at a dog park.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states she started agility classes, matching the ground truth; the additional location detail does not contradict the answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 86,
+    "question": "How often does Audrey take her pups to the park for practice?",
+    "ground_truth": "Twice a week",
+    "predicted": "She takes them to the park for practice twice a week.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state she takes them twice a week.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 87,
+    "question": "How long did the trail hike that Audrey went on with her pups take?",
+    "ground_truth": "Two hours",
+    "predicted": "The hike took two hours.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state the hike took two hours.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 88,
+    "question": "What advice did Audrey give to Andrew regarding grooming Toby?",
+    "ground_truth": "Grooming slowly and gently, paying attention to sensitive areas like ears and paws. And remember to stay patient and positive throughout the grooming process.",
+    "predicted": "She told him to groom slowly and gently, pay attention to sensitive areas like ears and paws, and stay patient and positive throughout the grooming process.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly in content: groom slowly and gently, focus on sensitive areas (ears and paws), and remain patient and positive.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 89,
+    "question": "What is essential to keep the dogs looking good according to Audrey?",
+    "ground_truth": "Daily brushing, regular baths, nail trims, and lots of love",
+    "predicted": "Regular grooming is essential: daily brushing, regular baths, nail trims, and lots of love.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all items from the ground truth (daily brushing, regular baths, nail trims, and lots of love) and correctly summarizes them as regular grooming.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 90,
+    "question": "What did Audrey organize with the neighbors' dogs?",
+    "ground_truth": "a doggy playdate",
+    "predicted": "She organized a doggy playdate with the neighbors' dogs.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state she organized a doggy playdate with the neighbors' dogs.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 91,
+    "question": "What did Audrey do to give her dogs extra comfort as the weather cooled down?",
+    "ground_truth": "Got new beds for them",
+    "predicted": "She got new beds for her dogs to give them extra comfort as the weather cooled down.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: she got new beds for her dogs to give them extra comfort as the weather cooled down.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 92,
+    "question": "How does Audrey describe the new beds for her dogs?",
+    "ground_truth": "Super cozy and comfy",
+    "predicted": "She says the new beds are \"super cozy and comfy,\" give the dogs \"extra comfort,\" and that they \"curl up and snuggle like they're in a cloud.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth phrase 'super cozy and comfy' and adds compatible details about extra comfort and dogs curling up, so it matches the core meaning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 93,
+    "question": "How did Audrey calm down her dog after the leash incident?",
+    "ground_truth": "Petted, hugged, spoke calmly and slowly walked the dog",
+    "predicted": "She petted and hugged her, spoke calmly, and slowly walked her to help her relax.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: petted and hugged the dog, spoke calmly, and slowly walked her to calm her down.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 94,
+    "question": "How often does Audrey take her dogs for walks?",
+    "ground_truth": "Multiple times a day",
+    "predicted": "Very often — multiple times a day.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth exactly, stating she walks her dogs multiple times a day.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 95,
+    "question": "What kind of flowers does Audrey take care of?",
+    "ground_truth": "Peruvian Lilies",
+    "predicted": "She takes care of Peruvian Lilies.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state Peruvian Lilies.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 96,
+    "question": "What did Andrew learn from reading books about ecological systems?",
+    "ground_truth": "about animals, plants, and ecosystems and how they work together",
+    "predicted": "He learned a lot about animals, plants, and ecosystems — notably how they all work together.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state he learned about animals, plants, ecosystems and how they work together.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 97,
+    "question": "What did Andrew suggest as a way to reduce carbon footprint?",
+    "ground_truth": "biking or using public transport",
+    "predicted": "Andrew suggested reducing the carbon footprint by biking or using public transport.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—biking or using public transport as ways to reduce carbon footprint.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 98,
+    "question": "How does Andrew suggest helping the planet while also training the body?",
+    "ground_truth": "by biking",
+    "predicted": "He suggests reducing your carbon footprint by biking (or using public transport) — biking also trains the body.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth suggestion of biking (adds public transport as extra, which doesn't contradict), so it matches the intended answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 99,
+    "question": "What did Audrey do with her pups over the weekend before 4th October, 2023?",
+    "ground_truth": "Took them to the beach",
+    "predicted": "She took her pups to the nearby dog park on Saturday, September 30, 2023, where they ran and played in a big grassy area (with shaded spots) and had a great time.",
+    "score": 0,
+    "judge_reasoning": "Ground truth says she took her pups to the beach; the predicted answer says she took them to a dog park, which does not match.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 100,
+    "question": "What was the reason Audrey couldn't walk her dogs for a period of time?",
+    "ground_truth": "Knee injury",
+    "predicted": "Audrey couldn't walk her dogs for a time because she suffered a knee injury.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state she couldn't walk her dogs due to a knee injury.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 101,
+    "question": "What type of jewelry does Audrey make?",
+    "ground_truth": "Jewelry made from recycled objects",
+    "predicted": "She makes jewelry from recycled objects — one‑of‑a‑kind pieces (e.g., necklaces and earrings) crafted from items like bottle caps, buttons, and broken jewelry.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: states she makes jewelry from recycled objects and gives consistent examples.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 102,
+    "question": "Why does Audrey make jewelry out of recycled objects?",
+    "ground_truth": "To show love for creativity and sustainability",
+    "predicted": "She does it to combine creativity and sustainability—turning things like bottle caps, buttons, and broken jewelry into one‑of‑a‑kind pieces as a small way to reduce waste. She also sells the jewelry and donates a portion of the profits to an animal shelter.",
+    "score": 1,
+    "judge_reasoning": "The prediction states she combines creativity and sustainability and reduces waste, which matches the ground truth; the extra detail about selling/donating is additional but not contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 103,
+    "question": "What organization does Audrey donate a portion of his profits to?",
+    "ground_truth": "Animal shelter",
+    "predicted": "Audrey donates a portion of her profits to an animal shelter.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state Audrey donates a portion of profits to an animal shelter.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 104,
+    "question": "How does Audrey help out the animal shelter?",
+    "ground_truth": "By donating a portion of his profits frmo selling jwelery",
+    "predicted": "She donates a portion of the profits from the recycled-material jewelry she makes and sells to an animal shelter, and she used to volunteer at the shelter but can't volunteer there anymore.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states she donates a portion of the profits from selling jewelry, which matches the ground truth; additional details (recycled materials, past volunteering) do not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 105,
+    "question": "What type of games do Audrey's dogs like to play at the park?",
+    "ground_truth": "Fetch and Frisbee",
+    "predicted": "Audrey’s dogs love playing fetch and frisbee (e.g., playing fetch with a ball or a frisbee).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth—states they play fetch and frisbee, with equivalent wording and examples.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 106,
+    "question": "What did Audrey make to thank her neighbors?",
+    "ground_truth": "Goodies",
+    "predicted": "She made goodies—specifically cookies—to thank her neighbors.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth 'goodies' and the added detail (cookies) does not contradict the answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 107,
+    "question": "How do Audrey's dogs react to snow?",
+    "ground_truth": "Confused",
+    "predicted": "They hate snow — when Audrey took them to a snowy park last winter they were \"so confused.\" They definitely prefer nice, sunny days in the grass.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly states the dogs were 'so confused,' matching the ground truth; extra details about preferring sunny days don't contradict it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 108,
+    "question": "How does Audrey describe her dogs' response to snow?",
+    "ground_truth": "They definitely prefer nice, sunny days in the grass.",
+    "predicted": "She says they \"hate\" snow — when she took them to a snowy one last winter they were \"so confused\" and definitely prefer nice, sunny days in the grass.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the core statement that they prefer nice, sunny days in the grass and adds consistent supporting detail about disliking snow.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 109,
+    "question": "What kind of experiences are Audrey's dogs the best companions for?",
+    "ground_truth": "Exploring the great outdoors",
+    "predicted": "Audrey's dogs are the best companions for cuddles and companionship.",
+    "score": 0,
+    "judge_reasoning": "The ground truth says they are best for exploring the great outdoors; the prediction says they are best for cuddles and companionship, which does not match.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 110,
+    "question": "What activity do Andrew and Buddy enjoy doing together?",
+    "ground_truth": "Walking",
+    "predicted": "Andrew and Buddy enjoy going on walks together.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same meaning as ground truth—both state that Andrew and Buddy enjoy walking/going on walks together.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 111,
+    "question": "What do Andrew and Buddy like doing on walks?",
+    "ground_truth": "Checking out new hiking trails",
+    "predicted": "Andrew and Buddy enjoy walks to spend time together, get fresh air, and check out new hiking trails.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly includes 'check out new hiking trails,' matching the ground truth; additional harmless details do not contradict it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 112,
+    "question": "What cuisine did Andrew recently try at a new spot in town?",
+    "ground_truth": "sushi",
+    "predicted": "He tried sushi at a new spot in town.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: it states he tried sushi.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 113,
+    "question": "Which type of sushi did Audrey suggest trying first to someone new to sushi?",
+    "ground_truth": "California or salmon roll",
+    "predicted": "She suggested trying a California roll or a salmon roll first.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: California roll or salmon roll suggested first.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 114,
+    "question": "What type of date is Andrew going on Sunday?",
+    "ground_truth": "picnic date",
+    "predicted": "He's going on a picnic date.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth—Andrew is going on a picnic date.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 115,
+    "question": "What did Andrew and Audrey plan to do on the Saturday after October 28, 2023?",
+    "ground_truth": "Go hiking",
+    "predicted": "On Saturday, November 4, 2023, Andrew and Audrey planned to go hiking with their dogs on a dog‑friendly trail by the lake, bringing snacks.",
+    "score": 1,
+    "judge_reasoning": "Prediction correctly states they planned to go hiking (adds acceptable extra details and the correct date, Nov 4, 2023).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 116,
+    "question": "What aspect of autumn does Andrew find beautiful?",
+    "ground_truth": "The autumn colors",
+    "predicted": "He finds the autumn colors beautiful.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state that he finds the autumn colors beautiful.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 117,
+    "question": "What did Audrey do in November 2023 to better take care of her dogs?",
+    "ground_truth": "Joined a dog owners group",
+    "predicted": "She joined a dog owners group to learn how to better take care of her dogs and meets with other dog owners about once a week for tips and playdates.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth fact that she joined a dog owners group and adds non-contradictory details, so it is correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 118,
+    "question": "How often does Audrey meet up with other dog owners for tips and playdates?",
+    "ground_truth": "Once a week",
+    "predicted": "She meets up with other dog owners once a week.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: she meets up once a week.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 119,
+    "question": "What did Audrey share to show ways to keep dogs active in the city?",
+    "ground_truth": "photography of a basket full of stuffed animals",
+    "predicted": "She listed: regular park walks (about an hour) and off‑leash play, playing fetch with a ball and frisbee, doggie playdates at the dog park, agility classes (twice a week), joining a dog‑owners group (meetups once a week), indoor toys/games (basket of stuffed animals) and mental‑stimulation activities like puzzles, training and hide‑and‑seek.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes ‘basket of stuffed animals’ (photography of a basket full of stuffed animals) along with extra details, so it contains the ground-truth information.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 120,
+    "question": "What type of activities does Audrey suggest for mental stimulation of the dogs?",
+    "ground_truth": "puzzles, training, hide-and-seek",
+    "predicted": "Audrey suggests puzzles, training, and hide-and-seek.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth exactly: puzzles, training, and hide-and-seek.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 121,
+    "question": "What is Andrew planning to do with Scout, Toby, and Buddy?",
+    "ground_truth": "Take them to a nearby park",
+    "predicted": "He’s planning to take Scout, Toby, and Buddy to a nearby park to have fun and get some fresh air.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth — it states he will take them to a nearby park and adds harmless details about having fun and getting fresh air.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 122,
+    "question": "What did Andrew get for Scout to create a safe and fun space for them?",
+    "ground_truth": "essentials like a bed, toys, and puppy pads",
+    "predicted": "He got Scout a bed, toys, and puppy pads.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth—lists the same essentials: a bed, toys, and puppy pads.",
+    "category": 4,
+    "error": null
+  }
+]

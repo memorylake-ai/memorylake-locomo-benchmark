@@ -1,0 +1,1522 @@
+[
+  {
+    "question_index": 0,
+    "question": "When did Caroline go to the LGBTQ support group?",
+    "ground_truth": "7 May 2023",
+    "predicted": "Caroline went to the LGBTQ support group on May 7, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (7 May 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 1,
+    "question": "When did Melanie paint a sunrise?",
+    "ground_truth": 2022,
+    "predicted": "Melanie painted the lake sunrise in 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states the painting occurred in 2022, matching the ground truth (adds noncontradictory detail 'lake sunrise').",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 2,
+    "question": "What fields would Caroline be likely to pursue in her educaton?",
+    "ground_truth": "Psychology, counseling certification",
+    "predicted": "Caroline would most likely pursue education in counseling and mental health — e.g., training in counseling/therapy (mental health counseling or clinical psychology) or social work — with a focus on LGBTQ+/trans-affirming practice.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes counseling and psychology training (mental health counseling/clinical psychology), matching the ground truth; extra related options (social work, LGBTQ+/trans focus) do not contradict.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 3,
+    "question": "What did Caroline research?",
+    "ground_truth": "Adoption agencies",
+    "predicted": "She researched adoption agencies—specifically agencies that help LGBTQ+ people with adoption.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (adoption agencies) and adds a compatible, non-contradictory detail about a focus on agencies serving LGBTQ+ people.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 4,
+    "question": "What is Caroline's identity?",
+    "ground_truth": "Transgender woman",
+    "predicted": "Caroline is a transgender woman; she identifies as a trans woman and has been transitioning since 2020-06-09.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Caroline is a transgender woman, matching the ground truth; extra detail about transition date does not contradict the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 5,
+    "question": "When did Melanie run a charity race?",
+    "ground_truth": "The sunday before 25 May 2023",
+    "predicted": "She ran the charity race for mental health on 2023-05-20 (May 20, 2023).",
+    "score": 1,
+    "judge_reasoning": "Ground truth is the Sunday before 25 May 2023 (May 21, 2023). Prediction gives May 20, 2023 — one day off; per instructions, a one-day difference is acceptable.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 6,
+    "question": "When is Melanie planning on going camping?",
+    "ground_truth": "June 2023",
+    "predicted": "On May 25, 2023 Melanie said they were thinking about going camping \"next month,\" i.e., in June 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: prediction identifies 'next month' from May 25, 2023 as June 2023, which is correct.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 7,
+    "question": "What is Caroline's relationship status?",
+    "ground_truth": "Single",
+    "predicted": "Caroline is single — she references planning as a \"single parent\" and mentions a past \"tough breakup.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Caroline is single and provides supporting details; it matches the ground truth 'Single.'",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 8,
+    "question": "When did Caroline give a speech at a school?",
+    "ground_truth": "The week before 9 June 2023",
+    "predicted": "She gave the speech during the week of June 2–8, 2023 (she said on June 9, 2023 it was \"last week\").",
+    "score": 1,
+    "judge_reasoning": "The prediction states the speech occurred the week of June 2–8, 2023, which is equivalent to 'the week before 9 June 2023' and matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 9,
+    "question": "When did Caroline meet up with her friends, family, and mentors?",
+    "ground_truth": "The week before 9 June 2023",
+    "predicted": "They met up the week of June 2–8, 2023 (the week before June 9, 2023).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both indicate the week before June 9, 2023 (June 2–8, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 10,
+    "question": "How long has Caroline had her current group of friends for?",
+    "ground_truth": "4 years",
+    "predicted": "She’s known her current group of friends for 4 years.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state she has known her current group of friends for 4 years.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 11,
+    "question": "Where did Caroline move from 4 years ago?",
+    "ground_truth": "Sweden",
+    "predicted": "She moved from Sweden.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states she moved from Sweden, which matches the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 12,
+    "question": "How long ago was Caroline's 18th birthday?",
+    "ground_truth": "10 years ago",
+    "predicted": "Ten years ago — in 2013 (as stated in the June 27, 2023 excerpt).",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state 10 years ago and correctly place it in 2013 relative to the June 27, 2023 timestamp.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 13,
+    "question": "What career path has Caroline decided to persue?",
+    "ground_truth": "counseling or mental health for Transgender people",
+    "predicted": "She decided to pursue a career in counseling and mental health—specifically hoping to work with and support transgender people.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth: counseling/mental health focused on supporting transgender people.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 14,
+    "question": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+    "ground_truth": "Likely no",
+    "predicted": "No. Caroline explicitly attributes her choice to pursue counseling to the support she received—saying \"the support I got made a huge difference\" and that that support led her to start looking into counseling—so without that support she likely wouldn't have been motivated toward that career.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth by stating 'no' and giving the same rationale that without support she likely wouldn't have pursued counseling.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 15,
+    "question": "What activities does Melanie partake in?",
+    "ground_truth": "pottery, camping, painting, swimming",
+    "predicted": "Melanie swims with her kids; runs (including a charity race for mental health) for stress relief; reads; plays the violin; paints (landscapes, still life, sunsets, abstracts) and does pottery (pottery class, projects, workshops with her kids). She also goes camping (roasting marshmallows, watching meteor showers), hikes and explores nature, takes her kids to the beach and parks, and attends concerts/shows (e.g., \"Summer Sounds\").",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all four activities from the ground truth (pottery, camping, painting, swimming); extra details are allowed.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 16,
+    "question": "When did Melanie sign up for a pottery class?",
+    "ground_truth": "2 July 2023",
+    "predicted": "Melanie signed up for a pottery class on July 2, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (2 July 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 17,
+    "question": "When is Caroline going to the transgender conference?",
+    "ground_truth": "July 2023",
+    "predicted": "She’s going in July 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (both state July 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 18,
+    "question": "Where has Melanie camped?",
+    "ground_truth": "beach, mountains, forest",
+    "predicted": "She has camped in the mountains, in the forest, and at the beach.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same three locations (mountains, forest, beach) as the ground truth, conveying the same meaning.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 19,
+    "question": "What do Melanie's kids like?",
+    "ground_truth": "dinosaurs, nature",
+    "predicted": "Melanie’s kids love nature — camping, hiking and exploring forests and parks — plus beach trips and roasting marshmallows. They enjoy museums (they were stoked for the dinosaur exhibit and love learning about animals and bones) and creative activities like pottery and painting (nature‑inspired).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer clearly includes both core items from ground truth — nature and dinosaurs — and adds consistent supporting details, so it is correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 20,
+    "question": "When did Melanie go to the museum?",
+    "ground_truth": "5 July 2023",
+    "predicted": "Melanie went to the museum on July 5, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted date (July 5, 2023) matches the ground truth date of 5 July 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 21,
+    "question": "When did Caroline have a picnic?",
+    "ground_truth": "The week before 6 July 2023",
+    "predicted": "She had a picnic during the week before July 6, 2023 — around late June 2023.",
+    "score": 1,
+    "judge_reasoning": "The prediction correctly places the picnic in the week before July 6, 2023, consistent with the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 22,
+    "question": "Would Caroline likely have Dr. Seuss books on her bookshelf?",
+    "ground_truth": "Yes, since she collects classic children's books",
+    "predicted": "Yes. Caroline said she’s building a children’s library with “lots of kids’ books—classics, stories from different cultures, educational books,” so it’s likely she would include Dr. Seuss.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both say yes and cite her collecting classic children’s books as the reason.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 23,
+    "question": "What books has Melanie read?",
+    "ground_truth": "\"Nothing is Impossible\", \"Charlotte's Web\"",
+    "predicted": "Melanie has read \"Charlotte's Web\" (her childhood favorite) and has been reading the book Caroline recommended—\"Becoming Nicole\" by Amy Ellis Nutt; she also mentioned an unnamed inspirational book she read last year.",
+    "score": 0,
+    "judge_reasoning": "Predicted answer misses 'Nothing is Impossible' and instead lists 'Becoming Nicole' and an unnamed inspirational book not in the ground truth; does not match the required two titles.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 24,
+    "question": "What does Melanie do to destress?",
+    "ground_truth": "Running, pottery",
+    "predicted": "Melanie de-stresses by running, painting, and doing pottery (which she calls therapeutic), reading, playing instruments (violin and clarinet), swimming and spending time camping/hiking with her kids and family, and being with her pets Luna and Oliver.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes both running and pottery (the ground-truth items), though it adds extra activities; contains the required information.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 25,
+    "question": "When did Caroline go to the LGBTQ conference?",
+    "ground_truth": "10 July 2023",
+    "predicted": "Caroline attended the LGBTQ conference on July 10, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer gives the same date as the ground truth (10 July 2023), only formatted differently.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 26,
+    "question": "When did Melanie read the book \"nothing is impossible\"?",
+    "ground_truth": 2022,
+    "predicted": "Melanie read \"nothing is impossible\" in 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth year (2022) exactly.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 27,
+    "question": "Would Caroline pursue writing as a career option?",
+    "ground_truth": "LIkely no; though she likes reading, she wants to be a counselor",
+    "predicted": "No — there’s no indication Caroline would pursue writing as a career; she’s focused on counseling/mental health work, LGBTQ advocacy (mentoring, volunteering, art shows), and adoption.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: correctly states 'no' and emphasizes her focus on counseling/mental health rather than writing; minor detail about liking reading omitted but not required.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 28,
+    "question": "When did Caroline go to the adoption meeting?",
+    "ground_truth": "The friday before 15 July 2023",
+    "predicted": "Caroline attended the adoption council meeting on July 14, 2023.",
+    "score": 1,
+    "judge_reasoning": "July 14, 2023 is the Friday before July 15, 2023, so the predicted date matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 29,
+    "question": "When did Melanie go to the pottery workshop?",
+    "ground_truth": "The Friday before 15 July 2023",
+    "predicted": "She went on Friday, July 14, 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted date (Friday, July 14, 2023) matches 'the Friday before 15 July 2023'.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 30,
+    "question": "Would Melanie be considered a member of the LGBTQ community?",
+    "ground_truth": "Likely no, she does not refer to herself as part of it",
+    "predicted": "No — the excerpts never state Melanie is LGBTQ; she appears as a supportive ally (encouraging Caroline, interested in and supporting the LGBTQ/trans community).",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state she is likely not LGBTQ and is presented as a supportive ally rather than identifying as part of the community.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 31,
+    "question": "When did Melanie go camping in June?",
+    "ground_truth": "The week before 27 June 2023",
+    "predicted": "Melanie went camping June 20–26, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: 'the week before 27 June 2023' corresponds to June 20–26, 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 32,
+    "question": "What LGBTQ+ events has Caroline participated in?",
+    "ground_truth": "Pride parade, school speech, support group",
+    "predicted": "Caroline has participated in an LGBTQ support group; an LGBTQ+ counseling workshop; a school event where she spoke about her transgender journey; LGBTQ+ Pride parades; a transgender/LGBTQ conference; a transgender poetry reading; a mentorship program for LGBTQ youth; volunteering at an LGBTQ+ youth center; joining the \"Connected LGBTQ Activists\" group (attending meetings and campaigns); and organizing/participating in an LGBTQ art show.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly includes Pride parades, a school speech about her transgender journey, and participation in an LGBTQ support group, which matches the ground truth; extra details are acceptable.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 33,
+    "question": "When did Caroline go to a pride parade during the summer?",
+    "ground_truth": "The week before 3 July 2023",
+    "predicted": "She attended a pride parade the week of June 26–July 2, 2023, and again on August 11, 2023.",
+    "score": 1,
+    "judge_reasoning": "The prediction correctly identifies the week of June 26–July 2, 2023 (the week before July 3, 2023); the additional August 11, 2023 detail is extra but not contradictory.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 34,
+    "question": "What events has Caroline participated in to help children?",
+    "ground_truth": "Mentoring program, school speech",
+    "predicted": "Caroline gave a school talk to students about her transgender journey, joined a mentorship program for LGBTQ youth (mentoring a transgender teen), and completed/passed adoption agency interviews as part of pursuing adoption for kids.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both items from the ground truth (school speech and mentoring program); the additional detail about adoption is extra but not contradictory.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 35,
+    "question": "When did Melanie go camping in July?",
+    "ground_truth": "two weekends before 17 July 2023",
+    "predicted": "Melanie went camping two weekends before July 17, 2023 — around early July, on the weekend of July 1–2.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer identifies the camping trip as two weekends before July 17, 2023, matching the ground truth timeframe.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 36,
+    "question": "When did Caroline join a mentorship program?",
+    "ground_truth": "The weekend before 17 July 2023",
+    "predicted": "She joined the mentorship program the weekend before July 17, 2023 (around July 15–16, 2023).",
+    "score": 1,
+    "judge_reasoning": "Prediction places the mentorship program start on the weekend immediately before July 17, matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 37,
+    "question": "What did Melanie paint recently?",
+    "ground_truth": "sunset",
+    "predicted": "She painted a horse — a horse painting (a photo shows it painted on a wooden wall).",
+    "score": 0,
+    "judge_reasoning": "The predicted answer says she painted a horse, but the ground truth is 'sunset' — they do not match.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 38,
+    "question": "What activities has Melanie done with her family?",
+    "ground_truth": "Pottery, painting, camping, museum, swimming, hiking",
+    "predicted": "Melanie has done these activities with her family: swimming with the kids; multiple camping trips (mountains — family camping trip 2023-06-20 to 2023-06-26 — plus forest and beach camping) including hiking, roasting marshmallows around a campfire, and watching the Perseid meteor shower; visiting the beach (kite flying, building sandcastles); taking her kids to a pottery workshop (they made pots, e.g., a cup with a dog face) and attending pottery classes herself; painting together (a nature-inspired sunset with a palm tree); attending a concert for her daughter’s birthday (Matt Patterson); visiting a waterfall; park outings; and a family road trip to the Grand Canyon (during which a car accident occurred).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes pottery, painting, camping, swimming, and hiking (5 of 6 ground-truth items). Missing only 'museum'; extra details do not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 39,
+    "question": "In what ways is Caroline participating in the LGBTQ community?",
+    "ground_truth": "Joining activist group, going to pride parades, participating in an art show, mentoring program",
+    "predicted": "Caroline participates by attending an LGBTQ support group and an LGBTQ+ counseling workshop, giving a school talk about her transgender journey to encourage student involvement, attending pride parades and an LGBTQ conference. She joined the activist group \"Connected LGBTQ Activists\" (helping plan events/campaigns), volunteers at an LGBTQ+ youth center and in a mentorship program (mentoring a transgender teen and helping organize a youth talent show), and creates/exhibits LGBTQ-themed art (including an LGBTQ art show) to advocate for trans rights and inclusion.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes all ground-truth activities (joined an activist group, attends pride parades, participates in an art show, and is involved in a mentoring program) and adds compatible details, so it is correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 40,
+    "question": "How many times has Melanie gone to the beach in 2023?",
+    "ground_truth": 2,
+    "predicted": "Three times: camping at the beach on July 6, 2023; a beach visit mentioned on July 20, 2023; and a beach visit during Aug 18–24, 2023 (mentioned Aug 25, 2023).",
+    "score": 0,
+    "judge_reasoning": "Predicted answer states three beach visits in 2023, but the ground truth is 2; the counts do not match.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 41,
+    "question": "When did Caroline join a new activist group?",
+    "ground_truth": "The Tuesday before 20 July 2023",
+    "predicted": "Caroline joined the new LGBTQ activist group on July 18, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth date: the Tuesday before July 20, 2023 is July 18, 2023; added detail about the group's focus is not contradictory.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 42,
+    "question": "Would Melanie be more interested in going to a national park or a theme park?",
+    "ground_truth": "National park; she likes the outdoors",
+    "predicted": "National park. Melanie repeatedly describes camping, hiking in mountains and forests, enjoying campfires and nature (she even visited the Grand Canyon), showing a clear preference for outdoor/nature experiences over theme-park activities.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches ground truth: both state 'National park' and give supporting outdoor preference details.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 43,
+    "question": "What kind of art does Caroline make?",
+    "ground_truth": "abstract art",
+    "predicted": "Caroline creates paintings (including self-portraits, landscapes/sunsets, abstract pieces, and works expressing her trans experience), drawings (flowers and figure studies), and stained-glass windows (made for a local church).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly mentions 'abstract pieces' among Caroline's works, so it includes the ground-truth 'abstract art' while adding extra details.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 44,
+    "question": "When is Melanie's daughter's birthday?",
+    "ground_truth": "13 August",
+    "predicted": "Melanie's daughter's birthday is August 13, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth date (13 August); including the year 2023 does not contradict the answer.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 45,
+    "question": "When did Caroline attend a pride parade in August?",
+    "ground_truth": "The Friday before 14 August 2023",
+    "predicted": "She attended a pride parade on August 11, 2023.",
+    "score": 1,
+    "judge_reasoning": "August 11, 2023 is the Friday immediately before August 14, 2023, so the predicted date matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 46,
+    "question": "Would Melanie be considered an ally to the transgender community?",
+    "ground_truth": "Yes, she is supportive",
+    "predicted": "Yes — Melanie is an ally: she repeatedly offers strong support to Caroline, praises her transgender talks and courage (e.g., June 09 and Aug 25 excerpts), affirms LGBTQ inclusivity, and encourages Caroline’s advocacy.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: it affirms Melanie is supportive/an ally and cites supportive actions as evidence.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 47,
+    "question": "Who supports Caroline when she has a negative experience?",
+    "ground_truth": "Her mentors, family, and friends",
+    "predicted": "Her friends, family and mentors — plus the LGBTQ support groups/community (e.g., her support group and activist group) — support Caroline when she has a negative experience.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes mentors, family, and friends (the ground truth) and adds extra supportive groups; extra noncontradictory detail is allowed.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 48,
+    "question": "What types of pottery have Melanie and her kids made?",
+    "ground_truth": "bowls, cup",
+    "predicted": "Melanie has made multiple bowls (a stack of decorated bowls, a black-and-white flower-design bowl, and colorful patterned bowls) and a plate with a bunch of flowers. She and her kids made pots/clay sculptures at a pottery workshop, and the kids made a cup with a dog face.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes both bowls and a cup (ground truth items); extra details (plate, sculptures) do not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 49,
+    "question": "When did Caroline and Melanie go to a pride fesetival together?",
+    "ground_truth": 2022,
+    "predicted": "They went to a Pride festival together in 2022 (Caroline referenced \"last year\" on Aug 17, 2023).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth (2022) and correctly references the Aug 17, 2023 'last year' context.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 50,
+    "question": "What would Caroline's political leaning likely be?",
+    "ground_truth": "Liberal",
+    "predicted": "Caroline is likely liberal/progressive (left-leaning), given her active LGBTQ+ advocacy (joining \"Connected LGBTQ Activists\"), participation in pride events, and focus on trans rights, inclusivity, and community organizing.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Caroline is liberal/progressive (left-leaning), which matches the ground truth 'Liberal' and gives supporting reasons.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 51,
+    "question": "What has Melanie painted?",
+    "ground_truth": "Horse, sunset, sunrise",
+    "predicted": "Melanie has painted a lake sunrise (painted last year); a sunset with a palm tree (a family painting she and her kids made); a horse painted on a wooden wall; a sunflower painting on canvas; a sunset painting with a pink sky; and an abstract painting featuring peaceful blue streaks.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes horse, sunrise, and sunset as in the ground truth (extra items are additional but do not contradict).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 52,
+    "question": "What are Melanie's pets' names?",
+    "ground_truth": "Oliver, Luna, Bailey",
+    "predicted": "Melanie's pets are Luna, Oliver, and Bailey.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same three pet names (Luna, Oliver, Bailey) as the ground truth; order difference is irrelevant.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 53,
+    "question": "When did Caroline apply to adoption agencies?",
+    "ground_truth": "The week of 23 August 2023",
+    "predicted": "She applied the week of August 23, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly — both state she applied the week of August 23, 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 54,
+    "question": "When did Caroline draw a self-portrait?",
+    "ground_truth": "The week before 23 August 2023",
+    "predicted": "She drew the self-portrait the week before August 23, 2023 — approximately August 16–22, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state the week before 23 August 2023; predicted gives an accurate date range (Aug 16–22, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 55,
+    "question": "What subject have Caroline and Melanie both painted?",
+    "ground_truth": "Sunsets",
+    "predicted": "They have both painted sunsets.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth: both state that Caroline and Melanie painted sunsets.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 56,
+    "question": "What symbols are important to Caroline?",
+    "ground_truth": "Rainbow flag, transgender symbol",
+    "predicted": "Caroline values a necklace with a cross and a heart (a gift from her grandma that stands for love, faith and strength); a rainbow flag mural — especially the eagle in it (symbolizing the courage, strength, freedom, pride and resilience of the trans community); a rainbow sidewalk (vibrant, welcoming, love and acceptance); a stained-glass window featuring a key (the key to discovering true potential); and the woman in her painting \"Embracing Identity\" (representing the journey of acceptance).",
+    "score": 1,
+    "judge_reasoning": "The prediction includes the rainbow flag (one of the two ground-truth symbols) and references the trans community (though it doesn't explicitly name the transgender symbol), so it captures the essential items.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 57,
+    "question": "When did Caroline encounter people on a hike and have a negative experience?",
+    "ground_truth": "The week before 25 August 2023",
+    "predicted": "Caroline encountered people on a hike and had a negative experience during the week before August 25, 2023 — around mid-to-late August.",
+    "score": 1,
+    "judge_reasoning": "The prediction correctly places the negative hiking encounter in the week before August 25, 2023, aligning with the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 58,
+    "question": "When did Melanie make a plate in pottery class?",
+    "ground_truth": "24 August 2023",
+    "predicted": "Melanie made the plate in pottery class on August 24, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (24 August 2023), just formatted differently.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 59,
+    "question": "Would Caroline be considered religious?",
+    "ground_truth": "Somewhat, but not extremely religious",
+    "predicted": "Somewhat — Caroline wears a cross necklace that she says stands for “love, faith and strength,” suggesting she has some religious or spiritual inclination, but she doesn’t appear to be extremely devout or regularly practice a religion.",
+    "score": 1,
+    "judge_reasoning": "The prediction acknowledges Caroline’s cross necklace as a sign of moderate religiosity without claiming she is extremely religious, which aligns with the ground truth ‘somewhat, but not extremely religious.’",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 60,
+    "question": "What instruments does Melanie play?",
+    "ground_truth": "clarinet and violin",
+    "predicted": "Melanie plays the clarinet.",
+    "score": 0,
+    "judge_reasoning": "Incorrect — predicted answer lists only clarinet but omits violin from the ground-truth instruments.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 61,
+    "question": "What musical artists/bands has Melanie seen?",
+    "ground_truth": "Summer Sounds, Matt Patterson",
+    "predicted": "Melanie has seen Matt Patterson and the band \"Summer Sounds.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same two artists (Matt Patterson and Summer Sounds) as the ground truth, just reordered.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 62,
+    "question": "When did Melanie go to the park?",
+    "ground_truth": "27 August 2023",
+    "predicted": "She went to the park on August 27, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states the same date as the ground truth (27 August 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 63,
+    "question": "When is Caroline's youth center putting on a talent show?",
+    "ground_truth": "September 2023",
+    "predicted": "They're putting on the talent show in September 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state the talent show is in September 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 64,
+    "question": "Would Melanie likely enjoy the song \"The Four Seasons\" by Vivaldi?",
+    "ground_truth": "Yes; it's classical music",
+    "predicted": "Yes. Melanie said she's a fan of classical composers like Bach and Mozart and plays clarinet, so she'd likely enjoy Vivaldi's The Four Seasons.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth—both say yes and justify by her liking classical composers and playing clarinet, so she'd likely enjoy Vivaldi.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 65,
+    "question": "What are some changes Caroline has faced during her transition journey?",
+    "ground_truth": "Changes to her body, losing unsupportive friends",
+    "predicted": "Caroline has faced physical changes to her body during her transition and has lost some unsupportive friends who couldn’t handle her transition, though she’s also gained a supportive community and increased her public advocacy.",
+    "score": 1,
+    "judge_reasoning": "Prediction identifies both key changes from the ground truth: changes to her body and losing unsupportive friends; the additional details about community and advocacy do not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 66,
+    "question": "What does Melanie do with her family on hikes?",
+    "ground_truth": "Roast marshmallows, tell stories",
+    "predicted": "She explores nature with them—hiking in the mountains and forests and enjoying the view from the top.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer describes exploring nature and enjoying views, but the ground truth says she roasts marshmallows and tells stories on hikes; the responses do not match.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 67,
+    "question": "When did Caroline go biking with friends?",
+    "ground_truth": "The weekend before 13 September 2023",
+    "predicted": "She went biking with friends on the weekend of September 9–10, 2023 (the weekend before her Sept 13, 2023 message).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: it specifies the weekend immediately before Sept 13, 2023 (Sept 9–10, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 68,
+    "question": "How long has Melanie been practicing art?",
+    "ground_truth": "Since 2016",
+    "predicted": "Melanie has been practicing art for seven years.",
+    "score": 1,
+    "judge_reasoning": "Since 2016 to the timestamp in Sept 2023 is seven years, so 'seven years' matches 'since 2016.'",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 69,
+    "question": "What personality traits might Melanie say Caroline has?",
+    "ground_truth": "Thoughtful, authentic, driven",
+    "predicted": "Melanie would likely call Caroline courageous (saying \"you've got guts\"), inspiring and strong. She'd also describe her as empathetic, understanding, passionate, hardworking, creative, supportive and caring.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys two of the three core traits: thoughtful (empathetic/understanding) and driven (passionate/hardworking). It omits an explicit mention of 'authentic' but otherwise matches the ground truth's key characteristics.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 70,
+    "question": "What transgender-specific events has Caroline attended?",
+    "ground_truth": "Poetry reading, conference",
+    "predicted": "Caroline attended an LGBTQ support group that featured transgender stories; a school event where she gave a talk about her transgender journey; an LGBTQ+ counseling workshop that covered how to work with trans people; a transgender conference (also referred to as an LGBTQ conference); and a transgender poetry reading.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly includes both a transgender poetry reading and a transgender conference, which matches the ground truth (poetry reading, conference); extra details are acceptable.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 71,
+    "question": "What book did Melanie read from Caroline's suggestion?",
+    "ground_truth": "\"Becoming Nicole\"",
+    "predicted": "She read \"Becoming Nicole\" by Amy Ellis Nutt.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth; the predicted answer names the same book (with correct author as additional detail).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 72,
+    "question": "When did Melanie's friend adopt a child?",
+    "ground_truth": 2022,
+    "predicted": "Melanie's friend adopted a child in 2022.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: both state the adoption occurred in 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 73,
+    "question": "When did Melanie get hurt?",
+    "ground_truth": "September 2023",
+    "predicted": "Melanie got hurt in September 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state Melanie was hurt in September 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 74,
+    "question": "When did Melanie's family go on a roadtrip?",
+    "ground_truth": "The weekend before 20 October 2023",
+    "predicted": "They went on the roadtrip the weekend of October 14–15, 2023.",
+    "score": 1,
+    "judge_reasoning": "The weekend before October 20, 2023 corresponds to October 14–15, 2023, so the predicted answer matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 75,
+    "question": "How many children does Melanie have?",
+    "ground_truth": 3,
+    "predicted": "Melanie has three children.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (3 children) expressed in words.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 76,
+    "question": "When did Melanie go on a hike after the roadtrip?",
+    "ground_truth": "19 October 2023",
+    "predicted": "October 19, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (same day, different formatting).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 77,
+    "question": "Would Melanie go on another roadtrip soon?",
+    "ground_truth": "Likely no; since this one went badly",
+    "predicted": "Probably not soon — the Grand Canyon roadtrip didn’t go well (her son was injured in an accident), so Melanie would likely be hesitant to plan another roadtrip in the near future.",
+    "score": 1,
+    "judge_reasoning": "Prediction says ‘probably not soon’ because the recent roadtrip went badly, aligning with the ground truth that she would likely not go on another roadtrip since this one went badly.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 78,
+    "question": "What items has Melanie bought?",
+    "ground_truth": "Figurines, shoes",
+    "predicted": "Melanie bought a pair of new pink running shoes (sneakers) and a couple of wooden figurines (wooden dolls).",
+    "score": 1,
+    "judge_reasoning": "Prediction includes both items from the ground truth—figurines and shoes—matching the required answer (extra details acceptable).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 79,
+    "question": "When did Caroline pass the adoption interview?",
+    "ground_truth": "The Friday before 22 October 2023",
+    "predicted": "She passed the adoption interview on October 20, 2023.",
+    "score": 1,
+    "judge_reasoning": "October 20, 2023 is the Friday before October 22, 2023, so the predicted answer matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 80,
+    "question": "When did Melanie buy the figurines?",
+    "ground_truth": "21 October 2023",
+    "predicted": "She bought the figurines on October 21, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (21 October 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 81,
+    "question": "Would Caroline want to move back to her home country soon?",
+    "ground_truth": "No; she's in the process of adopting children.",
+    "predicted": "No — there's no indication she plans to move back to Sweden soon. She moved from Sweden in 2019 and is building a life locally (education/counseling and mental‑health plans, adoption process, LGBTQ activism and mentoring).",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: answers 'No' and explicitly notes she is in the adoption process and building a life locally, so not planning to move back.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 82,
+    "question": "What did the charity race raise awareness for?",
+    "ground_truth": "mental health",
+    "predicted": "The charity race raised awareness for mental health.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state the race raised awareness for mental health.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 83,
+    "question": "What did Melanie realize after the charity race?",
+    "ground_truth": "self-care is important",
+    "predicted": "She realized that self-care—taking care of her mental health—is really important, and that when she looks after herself she can better look after her family.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning—self-care is important—and adds compatible detail about mental-health and benefits for family, which does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 84,
+    "question": "How does Melanie prioritize self-care?",
+    "ground_truth": "by carving out some me-time each day for activities like running, reading, or playing the violin",
+    "predicted": "She carves out daily \"me-time\" and prioritizes self-care with running (she's been running farther to de-stress and bought running shoes), reading, and playing instruments (violin and clarinet). She also relies on creative outlets—painting and pottery—family activities like swimming with the kids, camping and hiking, and community/fitness events (she ran a charity race for mental health).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the core idea—she carves out daily me-time for running, reading, and playing the violin—and adds extra (noncontradictory) activities, so it matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 85,
+    "question": "What are Caroline's plans for the summer?",
+    "ground_truth": "researching adoption agencies",
+    "predicted": "This summer Caroline plans to attend a transgender conference, host an LGBTQ art show (next month/August), continue volunteering as a mentor at the LGBTQ youth center, and keep researching counseling/mental-health career options and adoption agencies.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes 'keep researching ... adoption agencies,' which matches the ground truth; extra details are allowed.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 86,
+    "question": "What type of individuals does the adoption agency Caroline is considering support?",
+    "ground_truth": "LGBTQ+ individuals",
+    "predicted": "The agency supports LGBTQ+ individuals (LGBTQ+ folks).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth exactly: both state the agency supports LGBTQ+ individuals.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 87,
+    "question": "Why did Caroline choose the adoption agency?",
+    "ground_truth": "because of their inclusivity and support for LGBTQ+ individuals",
+    "predicted": "She chose that agency because they help LGBTQ+ folks with adoption — their inclusivity and support spoke to her.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning: she chose the agency for its inclusivity and support of LGBTQ+ individuals.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 88,
+    "question": "What is Caroline excited about in the adoption process?",
+    "ground_truth": "creating a family for kids who need one",
+    "predicted": "Caroline is excited to become a mom and build a safe, loving family/home for children in need — she applied to adoption agencies and was thrilled to have passed the adoption agency interviews as a big step toward that goal.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: Caroline is excited to create/build a family/home for children in need (become a mom); extra details are consistent.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 89,
+    "question": "What does Melanie think about Caroline's decision to adopt?",
+    "ground_truth": "she thinks Caroline is doing something amazing and will be an awesome mom",
+    "predicted": "Melanie is very supportive and enthusiastic—she congratulates Caroline, calls the decision “awesome,” says “your future family is gonna be so lucky to have you,” expresses pride, wishes her the best, and calls Caroline “strong and inspiring.” She even says Caroline’s choice makes her consider adoption herself.",
+    "score": 1,
+    "judge_reasoning": "The prediction matches the ground truth: Melanie is supportive and enthusiastic, says Caroline's decision is awesome and that she'll be a great mom; extra supportive details do not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 90,
+    "question": "How long have Mel and her husband been married?",
+    "ground_truth": "Mel and her husband have been married for 5 years.",
+    "predicted": "Mel and her husband have been married for 5 years.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state they have been married for 5 years.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 91,
+    "question": "What does Caroline's necklace symbolize?",
+    "ground_truth": "love, faith, and strength",
+    "predicted": "Caroline says the necklace stands for love, faith, and strength and serves as a reminder of her roots in Sweden and the love and support from her family.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the exact symbols (love, faith, and strength) from the ground truth; extra contextual details do not contradict and are acceptable.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 92,
+    "question": "What country is Caroline's grandma from?",
+    "ground_truth": "Sweden",
+    "predicted": "Caroline's grandma is from Sweden.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (both state Sweden).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 93,
+    "question": "What was grandma's gift to Caroline?",
+    "ground_truth": "necklace",
+    "predicted": "A necklace — specifically a cross-and-heart necklace given to her by her grandma from Sweden.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer identifies a necklace, matching the ground truth; added specific details do not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 94,
+    "question": "What is Melanie's hand-painted bowl a reminder of?",
+    "ground_truth": "art and self-expression",
+    "predicted": "Melanie's hand-painted bowl is a reminder of art and self-expression.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly, stating the bowl reminds of art and self-expression.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 95,
+    "question": "What did Melanie and her family do while camping?",
+    "ground_truth": "explored nature, roasted marshmallows, and went on a hike",
+    "predicted": "While camping, Melanie and her family explored nature and went on hikes (including a climb to a scenic viewpoint), roasted marshmallows and told stories around the campfire, unplugged and hung out together, and watched the Perseid meteor shower (stargazing and making wishes).",
+    "score": 1,
+    "judge_reasoning": "The prediction includes exploring nature, roasting marshmallows, and going on a hike; extra details are additional and do not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 96,
+    "question": "What kind of counseling and mental health services is Caroline interested in pursuing?",
+    "ground_truth": "working with trans people, helping them accept themselves and supporting their mental health",
+    "predicted": "Caroline wants to work in counseling and mental health specifically with trans people and LGBTQ+ individuals—helping them accept themselves and supporting their mental health (e.g., LGBTQ+ counseling, workshops, mentoring transgender teens).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: Caroline aims to work with trans (and broader LGBTQ+) individuals to help them accept themselves and support their mental health; extra examples do not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 97,
+    "question": "What workshop did Caroline attend recently?",
+    "ground_truth": "LGBTQ+ counseling workshop",
+    "predicted": "She attended an LGBTQ+ counseling workshop.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth: Caroline attended an LGBTQ+ counseling workshop.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 98,
+    "question": "What was discussed in the LGBTQ+ counseling workshop?",
+    "ground_truth": "therapeutic methods and how to best work with trans people",
+    "predicted": "They discussed different therapeutic methods and how to best work with trans people, including ways professionals can create a safe space.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth—therapeutic methods and working with trans people—and adds a compatible detail (creating a safe space).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 99,
+    "question": "What motivated Caroline to pursue counseling?",
+    "ground_truth": "her own journey and the support she received, and how counseling improved her life",
+    "predicted": "Her own struggles with mental health and her experience transitioning — and the help she received from counseling, support groups, friends, family and mentors — motivated her; seeing how that support improved her life made her want to help others and create a safe, supportive place.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: cites her personal journey and the support/counseling she received, and that seeing counseling improve her life motivated her to help others.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 100,
+    "question": "What kind of place does Caroline want to create for people?",
+    "ground_truth": "a safe and inviting place for people to grow",
+    "predicted": "She wants to create a \"safe, inviting place for people to grow.\"",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: Caroline wants to create a safe, inviting place for people to grow.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 101,
+    "question": "Did Melanie make the black and white bowl in the photo?",
+    "ground_truth": "Yes",
+    "predicted": "Yes — Melanie confirmed she made the black-and-white bowl in her class.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer affirms 'Yes' and adds consistent supporting detail that Melanie confirmed she made the bowl; matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 102,
+    "question": "What kind of books does Caroline have in her library?",
+    "ground_truth": "kids' books - classics, stories from different cultures, educational books",
+    "predicted": "She has lots of kids' books — classics, stories from different cultures, and educational books.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: kids' books including classics, multicultural stories, and educational books.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 103,
+    "question": "What was Melanie's favorite book from her childhood?",
+    "ground_truth": "\"Charlotte's Web\"",
+    "predicted": "Melanie's favorite childhood book was \"Charlotte's Web.\"",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: Melanie's favorite childhood book was \"Charlotte's Web.\"",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 104,
+    "question": "What book did Caroline recommend to Melanie?",
+    "ground_truth": "\"Becoming Nicole\"",
+    "predicted": "Caroline recommended \"Becoming Nicole\" by Amy Ellis Nutt.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer names the correct book title (Becoming Nicole) and adds the author, which matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 105,
+    "question": "What did Caroline take away from the book \"Becoming Nicole\"?",
+    "ground_truth": "Lessons on self-acceptance and finding support",
+    "predicted": "She said it taught her self-acceptance and how to find support, showed that tough times don't last and that hope and love exist, and reminded her that pets bring joy.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the core points—self-acceptance and finding support—and adds extra noncontradictory details, so it matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 106,
+    "question": "What are the new shoes that Melanie got used for?",
+    "ground_truth": "Running",
+    "predicted": "She got them for running — Melanie uses the new shoes to run farther to de-stress and clear her mind.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state the shoes are for running; extra explanatory detail is consistent and doesn't contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 107,
+    "question": "What is Melanie's reason for getting into running?",
+    "ground_truth": "To de-stress and clear her mind",
+    "predicted": "Melanie took up running to de-stress and support her mental health — it refreshes her, clears her mind/boosts her headspace, and helps her be more present for her family.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core reason—running to de-stress and clear her mind—while adding compatible context about mental health and family presence.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 108,
+    "question": "What does Melanie say running has been great for?",
+    "ground_truth": "Her mental health",
+    "predicted": "She says running has been \"to de-stress,\" which has been \"great for my headspace\" (i.e., her mental health).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same meaning: running is great for her headspace/to de-stress, i.e., her mental health.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 109,
+    "question": "What did Mel and her kids make during the pottery workshop?",
+    "ground_truth": "pots",
+    "predicted": "Mel and her kids made their own pots at the pottery workshop — notably a cup with a dog face on it.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state they made pots; the prediction adds a correct extra detail (a dog-face cup) without contradicting.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 110,
+    "question": "What kind of pot did Mel and her kids make with clay?",
+    "ground_truth": "a cup with a dog face on it",
+    "predicted": "They made a cup decorated with a dog face on it.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state they made a cup with a dog face on it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 111,
+    "question": "What creative project do Mel and her kids do together besides pottery?",
+    "ground_truth": "painting",
+    "predicted": "They paint together — especially nature‑inspired paintings (e.g., a sunset with a palm tree).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (painting) and even provides an example; meaning is preserved.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 112,
+    "question": "What did Mel and her kids paint in their latest project in July 2023?",
+    "ground_truth": "a sunset with a palm tree",
+    "predicted": "They painted a nature-inspired sunset featuring a palm tree.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core information: they painted a sunset featuring a palm tree (nature-inspired), matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 113,
+    "question": "What did Caroline see at the council meeting for adoption?",
+    "ground_truth": "many people wanting to create loving homes for children in need",
+    "predicted": "She saw many people who wanted to create loving homes for children in need.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth meaning exactly: many people wanting to create loving homes for children in need.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 114,
+    "question": "What do sunflowers represent according to Caroline?",
+    "ground_truth": "warmth and happiness",
+    "predicted": "Caroline says sunflowers represent \"warmth and happiness.\"",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state that sunflowers represent warmth and happiness.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 115,
+    "question": "Why are flowers important to Melanie?",
+    "ground_truth": "They remind her to appreciate the small moments and were a part of her wedding decor",
+    "predicted": "Flowers bring Melanie joy; they represent growth and beauty and remind her to appreciate the small moments. They were an important part of her wedding decor and always remind her of that day.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes both key points from the ground truth: flowers remind Melanie to appreciate small moments and were part of her wedding decor; extra positive details do not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 116,
+    "question": "What inspired Caroline's painting for the art show?",
+    "ground_truth": "visiting an LGBTQ center and wanting to capture unity and strength",
+    "predicted": "She painted it after visiting an LGBTQ center — she wanted to capture the community’s unity and strength.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state she was inspired by visiting an LGBTQ center and aimed to capture unity and strength.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 117,
+    "question": "How often does Melanie go to the beach with her kids?",
+    "ground_truth": "once or twice a year",
+    "predicted": "Melanie said she and her kids go to the beach only once or twice a year.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth meaning exactly: Melanie goes to the beach with her kids once or twice a year.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 118,
+    "question": "What did Melanie and her family see during their camping trip last year?",
+    "ground_truth": "Perseid meteor shower",
+    "predicted": "They saw the Perseid meteor shower.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state they saw the Perseid meteor shower.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 119,
+    "question": "How did Melanie feel while watching the meteor shower?",
+    "ground_truth": "in awe of the universe",
+    "predicted": "She felt \"tiny and in awe of the universe,\" saying it was amazing, awe-inspiring, and that they \"felt so at one with the universe.\"",
+    "score": 1,
+    "judge_reasoning": "Prediction conveys the same core meaning — she felt in awe of the universe (tiny, amazed, awe-inspired, at one with the universe).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 120,
+    "question": "Whose birthday did Melanie celebrate recently?",
+    "ground_truth": "Melanie's daughter",
+    "predicted": "She celebrated her daughter's birthday.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state Melanie celebrated her daughter's birthday.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 121,
+    "question": "Who performed at the concert at Melanie's daughter's birthday?",
+    "ground_truth": "Matt Patterson",
+    "predicted": "Matt Patterson.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (Matt Patterson).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 122,
+    "question": "Why did Melanie choose to use colors and patterns in her pottery project?",
+    "ground_truth": "She wanted to catch the eye and make people smile.",
+    "predicted": "Melanie said she's \"obsessed with\" those colors and patterns, so she made the piece \"to catch the eye and make people smile\"; pottery/painting also helps her \"express [her] feelings and be creative\" — \"each stroke carries a part of me.\"",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the ground-truth reason (to catch the eye and make people smile) and adds harmless extra context about personal expression, so it matches.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 123,
+    "question": "What pet does Caroline have?",
+    "ground_truth": "guinea pig",
+    "predicted": "Caroline has a guinea pig named Oscar.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Caroline has a guinea pig (adds a name), which matches the ground truth that she has a guinea pig.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 124,
+    "question": "What pets does Melanie have?",
+    "ground_truth": "Two cats and a dog",
+    "predicted": "Melanie has a dog named Oliver and two cats named Luna and Bailey.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: predicts one dog and two cats (adds names), which is consistent with 'Two cats and a dog.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 125,
+    "question": "Where did Oliver hide his bone once?",
+    "ground_truth": "In Melanie's slipper",
+    "predicted": "He hid his bone in Melanie's slipper.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly (both state the bone was hidden in Melanie's slipper).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 126,
+    "question": "What activity did Caroline used to do with her dad?",
+    "ground_truth": "Horseback riding",
+    "predicted": "Caroline used to go horseback riding with her dad.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly, stating she used to go horseback riding with her dad.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 127,
+    "question": "What did Caroline make for a local church?",
+    "ground_truth": "a stained glass window",
+    "predicted": "She made a stained glass window for a local church.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth — that Caroline made a stained glass window for a local church.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 128,
+    "question": "What did Caroline find in her neighborhood during her walk?",
+    "ground_truth": "a rainbow sidewalk",
+    "predicted": "She found a rainbow sidewalk for Pride Month in her neighborhood and photographed it.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth fact (a rainbow sidewalk). Additional details (Pride Month, photographed) do not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 129,
+    "question": "Which song motivates Caroline to be courageous?",
+    "ground_truth": "Brave by Sara Bareilles",
+    "predicted": "\"Brave\" by Sara Bareilles.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly (\"Brave\" by Sara Bareilles).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 130,
+    "question": "Which  classical musicians does Melanie enjoy listening to?",
+    "ground_truth": "Bach and Mozart",
+    "predicted": "Johann Sebastian Bach and Wolfgang Amadeus Mozart.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer correctly names Bach and Mozart (full names provided), matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 131,
+    "question": "Who is Melanie a fan of in terms of modern music?",
+    "ground_truth": "Ed Sheeran",
+    "predicted": "Melanie is a fan of Ed Sheeran — specifically his song \"Perfect.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the correct person (Ed Sheeran) and adds a relevant specific song; it contains the ground-truth information.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 132,
+    "question": "How long has Melanie been creating art?",
+    "ground_truth": "7 years",
+    "predicted": "Melanie has been creating art for seven years (she said \"Seven years now\" on September 13, 2023).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (7 years) and includes consistent supporting detail.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 133,
+    "question": "What precautionary sign did Melanie see at the café?",
+    "ground_truth": "A sign stating that someone is not being able to leave",
+    "predicted": "She saw a sign posted on a door stating that \"someone is not being able to leave.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state she saw a sign indicating someone was not able to leave (posted on a door).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 134,
+    "question": "What advice does Caroline give for getting started with adoption?",
+    "ground_truth": "Do research, find an adoption agency or lawyer, gather necessary documents, and prepare emotionally.",
+    "predicted": "Do your research and find an adoption agency or lawyer to help with the process; gather documents like references, financial information, and medical checks; and prepare emotionally for the potentially long wait.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: advises researching, finding an agency/lawyer, gathering required documents, and preparing emotionally (adds acceptable specific examples and mentions possible long wait).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 135,
+    "question": "What setback did Melanie face in October 2023?",
+    "ground_truth": "She got hurt and had to take a break from pottery.",
+    "predicted": "She got hurt and had to take a break from pottery, the creative outlet she uses for self-expression and peace.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core facts — she was injured and paused pottery — with harmless extra context about pottery being a creative outlet.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 136,
+    "question": "What does Melanie do to keep herself busy during her pottery break?",
+    "ground_truth": "Read a book and paint.",
+    "predicted": "She’s been reading the book Caroline recommended and doing painting to keep busy.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state she reads a book and paints to stay busy (adds harmless detail about the book's recommendation).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 137,
+    "question": "What painting did Melanie show to Caroline on October 13, 2023?",
+    "ground_truth": "A painting inspired by sunsets with a pink sky.",
+    "predicted": "She showed a painting of a sunset with a pink sky (her sunset painting).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth: both state she showed a sunset painting with a pink sky.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 138,
+    "question": "What kind of painting did Caroline share with Melanie on October 13, 2023?",
+    "ground_truth": "An abstract painting with blue streaks on a wall.",
+    "predicted": "Caroline shared an abstract painting.",
+    "score": 1,
+    "judge_reasoning": "Prediction correctly identifies it as an abstract painting; it captures the main fact though it omits the blue streaks and wall detail.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 139,
+    "question": "What was the poetry reading that Caroline attended about?",
+    "ground_truth": "It was a transgender poetry reading where transgender people shared their stories.",
+    "predicted": "It was a transgender poetry reading where transgender people shared their stories through poetry — a safe, empowering space for self-expression and celebrating trans identities.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning as the ground truth (a transgender poetry reading where trans people shared their stories) and only adds non-contradictory contextual details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 140,
+    "question": "What did the posters at the poetry reading say?",
+    "ground_truth": "\"Trans Lives Matter\"",
+    "predicted": "The posters said \"trans lives matter.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth phrase exactly (only capitalization differs), so it is correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 141,
+    "question": "What does Caroline's drawing symbolize for her?",
+    "ground_truth": "Freedom and being true to herself.",
+    "predicted": "Caroline says her drawing symbolizes freedom and being real — a nudge to always stay true to herself and embrace her womanhood.",
+    "score": 1,
+    "judge_reasoning": "Captures the core meaning: symbolizes freedom and staying true to herself; extra note about embracing womanhood doesn't contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 142,
+    "question": "How do Melanie and Caroline describe their journey through life together?",
+    "ground_truth": "An ongoing adventure of learning and growing.",
+    "predicted": "They describe it as bonding through vulnerability and mutual support—saying they \"bond and understand each other\" and can \"tackle life's challenges together\" (\"We got this!\"); they also call life \"an ongoing adventure of learning and growing\" and are glad \"we can be on this trip together.\"",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly includes the ground-truth phrase 'an ongoing adventure of learning and growing' and conveys the same meaning, with additional compatible details about mutual support and bonding.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 143,
+    "question": "What happened to Melanie's son on their road trip?",
+    "ground_truth": "He got into an accident",
+    "predicted": "He was involved in a car accident on the road trip (Oct 14–15, 2023), but thankfully he was okay.",
+    "score": 1,
+    "judge_reasoning": "Prediction states he was involved in a car accident, matching the ground truth that he got into an accident; additional harmless details are included.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 144,
+    "question": "How did Melanie's son handle the accident?",
+    "ground_truth": "He was scared but reassured by his family",
+    "predicted": "He was scared at first but was reassured by his family — Melanie said they comforted him and he ended up being okay.",
+    "score": 1,
+    "judge_reasoning": "Prediction captures both elements of the ground truth: the son was initially scared but was reassured by family support.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 145,
+    "question": "How did Melanie feel about her family after the accident?",
+    "ground_truth": "They are important and mean the world to her",
+    "predicted": "She said the accident reminded her life is precious and to cherish her family — they “mean the world” to her and are her “biggest motivation and support.”",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning: her family means the world to her and are very important, adding consistent supporting detail about motivation/support.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 146,
+    "question": "How did Melanie's children handle the accident?",
+    "ground_truth": "They were scared but resilient",
+    "predicted": "They were scared, but Melanie reassured them and explained their brother would be OK — “they’re tough kids.”",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning: the children were scared but resilient (reassured, described as ‘tough kids’), matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 147,
+    "question": "How did Melanie feel after the accident?",
+    "ground_truth": "Grateful and thankful for her family",
+    "predicted": "Melanie felt scared and \"freaked\" out, but relieved and thankful that her son was okay; the experience reminded her life is precious and to cherish her family.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes that Melanie was thankful/grateful for her family (and to cherish them), matching the ground truth; additional details do not contradict it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 148,
+    "question": "What was Melanie's reaction to her children enjoying the Grand Canyon?",
+    "ground_truth": "She was happy and thankful",
+    "predicted": "She said she was thankful and happy, writing “Thankfully, they enjoyed the Grand Canyon a lot!”",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same meaning — that she was happy and thankful — matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 149,
+    "question": "What do Melanie's family give her?",
+    "ground_truth": "Strength and motivation",
+    "predicted": "They give her love, support, motivation, and strength.",
+    "score": 1,
+    "judge_reasoning": "Includes the ground-truth items (strength and motivation); extra positive details do not contradict the answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 150,
+    "question": "How did Melanie feel about her family supporting her?",
+    "ground_truth": "She appreciated them a lot",
+    "predicted": "Melanie felt grateful and supported — her family \"helped out and showed lots of love and support,\" motivating her, giving her strength, and being her biggest source of encouragement.",
+    "score": 1,
+    "judge_reasoning": "Matches core meaning — expresses that Melanie appreciated and felt grateful for her family's strong support and encouragement.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 151,
+    "question": "What did Melanie do after the road trip to relax?",
+    "ground_truth": "Went on a nature walk or hike",
+    "predicted": "Melanie went for a walk on a trail with her family to relax after the road trip.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core meaning—Melanie took a nature walk/hike (a walk on a trail)—with only an extra detail about family, so it matches the ground truth.",
+    "category": 4,
+    "error": null
+  }
+]

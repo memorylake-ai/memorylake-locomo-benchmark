@@ -1,0 +1,1782 @@
+[
+  {
+    "question_index": 0,
+    "question": "what are John's goals with regards to his basketball career?",
+    "ground_truth": "improve shooting percentage, win a championship",
+    "predicted": "On-court: winning a championship, improving his shooting (including increasing his shooting percentage), making more of an impact and being known as a consistent performer who helps his team. Off-court/career: building his brand and pursuing endorsements (e.g., Nike, talks with Gatorade), starting a foundation/charity to support youth sports and underserved communities, and mentoring younger players.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both ground-truth goals—winning a championship and improving shooting percentage—and adds extra (noncontradictory) off-court goals, so it is correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 1,
+    "question": "What are John's goals for his career that are not related to his basketball skills?",
+    "ground_truth": "get endorsements, build his brand, do charity work",
+    "predicted": "John aims to make a positive difference off the court—doing charity work and inspiring others (even “start a foundation”), supporting youth sports and fighting for fair chances for underserved communities (organizing basketball camps and benefit games), mentoring younger players, and expanding endorsements/building his personal brand (has signed Nike and is in talks with Gatorade) as he plans for life after basketball.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes all three ground-truth goals: doing charity work, obtaining endorsements, and building his personal brand (plus related, consistent details like mentoring and community programs).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 2,
+    "question": "What items does John collect?",
+    "ground_truth": "sneakers, fantasy movie DVDs, jerseys",
+    "predicted": "John collects sneakers, a complete Harry Potter collection, and basketball jerseys.",
+    "score": 1,
+    "judge_reasoning": "Contains all three items: sneakers, fantasy movie DVDs (given as a complete Harry Potter collection), and jerseys (specified as basketball jerseys). The prediction matches the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 3,
+    "question": "Would Tim enjoy reading books by C. S. Lewis or John Greene?",
+    "ground_truth": "C. S.Lewis",
+    "predicted": "Yes — Tim would likely enjoy C. S. Lewis, since he repeatedly says he loves immersive fantasy (Harry Potter, Patrick Rothfuss, The Hobbit, Lord of the Rings, The Name of the Wind). He'd be less of a natural fit for John Greene's contemporary YA style, although he might still appreciate some emotionally driven or character-focused titles given his interest in books that inspire and explore personal growth.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer affirms C. S. Lewis and explains why, matching the ground truth that Tim would enjoy C. S. Lewis.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 4,
+    "question": "What books has Tim read?",
+    "ground_truth": "Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of Time.",
+    "predicted": "Tim has read Harry Potter; Game of Thrones (including A Dance with Dragons); The Name of the Wind (Patrick Rothfuss); The Hobbit; The Lord of the Rings; and The Alchemist.",
+    "score": 1,
+    "judge_reasoning": "Prediction lists 6 of the 7 ground-truth books (Harry Potter; Game of Thrones and A Dance with Dragons; The Name of the Wind; The Hobbit; The Alchemist). It omits Wheel of Time and adds The Lord of the Rings, but core items match.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 5,
+    "question": "Based on Tim's collections, what is a shop that he would enjoy visiting in New York city?",
+    "ground_truth": "House of MinaLima",
+    "predicted": "Based on Tim’s Harry Potter collections, he would enjoy visiting the House of MinaLima in New York City — a shop and gallery featuring graphic art and props from the Harry Potter and Fantastic Beasts films.",
+    "score": 1,
+    "judge_reasoning": "Prediction correctly identifies House of MinaLima as a shop Tim would enjoy based on his Harry Potter collections, matching the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 6,
+    "question": "In which month's game did John achieve a career-high score in points?",
+    "ground_truth": "June 2023",
+    "predicted": "John achieved his career-high 40-point game in July 2023.",
+    "score": 0,
+    "judge_reasoning": "Incorrect month. Ground truth is June 2023, but the prediction states July 2023, so it does not match.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 7,
+    "question": "Which geographical locations has Tim been to?",
+    "ground_truth": "California, London, the Smoky Mountains",
+    "predicted": "Tim has been to London; California (CA); the United Kingdom (visited a castle there); the Smoky Mountains; and Galway, Ireland.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists California, London, and the Smoky Mountains (matches ground truth); extra locations are additional but not contradictory.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 8,
+    "question": "Which outdoor gear company likely signed up John for an endorsement deal?",
+    "ground_truth": "Under Armour",
+    "predicted": "Renowned Outdoor Gear Company",
+    "score": 0,
+    "judge_reasoning": "The predicted answer is generic and does not name Under Armour as the company; it fails to match the specific ground-truth answer.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 9,
+    "question": "Which endorsement deals has John been offered?",
+    "ground_truth": "basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor gear company",
+    "predicted": "He signed a basketball shoe/gear deal with Nike, has an endorsement with Gatorade, and also landed a deal with a renowned outdoor gear company.",
+    "score": 1,
+    "judge_reasoning": "Includes the Nike, Gatorade and outdoor-gear endorsements from the ground truth (missing Moxie and slightly overstates Gatorade as confirmed rather than 'potential'), but captures most key items.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 10,
+    "question": "When was John in Seattle for a game?",
+    "ground_truth": "early August, 2023",
+    "predicted": "He said on July 16, 2023 that his game in Seattle was \"next month\" — i.e., August 2023.",
+    "score": 1,
+    "judge_reasoning": "Prediction correctly identifies August 2023 as the time; it matches the ground truth (early August 2023) even if it omits the word 'early.'",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 11,
+    "question": "What sports does John like besides basketball?",
+    "ground_truth": "surfing",
+    "predicted": "None — only basketball is mentioned; no other sports John likes are stated.",
+    "score": 0,
+    "judge_reasoning": "Incorrect. The ground truth indicates John also likes surfing; the prediction asserts no other sports are mentioned, which contradicts that.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 12,
+    "question": "What year did John start surfing?",
+    "ground_truth": "2018",
+    "predicted": "John started surfing in 2018 — about July 16, 2018.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states 2018, matching the ground truth; the added specific date (July 16, 2018) does not contradict the year.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 13,
+    "question": "What does Tim do to escape reality?",
+    "ground_truth": "Read fantasy books.",
+    "predicted": "Tim escapes reality primarily by reading fantasy books — he says they transport him to other worlds and mentions favorites like Harry Potter, Game of Thrones and works by Patrick Rothfuss. He also collects Harry Potter memorabilia (a MinaLima picture and a large bookshelf), writes articles about fantasy novels and works on Harry Potter fan projects, and visits Potter‑related sites (e.g., a Harry Potter tour in London and a castle he visited in the UK).",
+    "score": 1,
+    "judge_reasoning": "The prediction states Tim escapes reality by reading fantasy books (matching the ground truth) and adds related details, which are allowed.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 14,
+    "question": "What kind of writing does Tim do?",
+    "ground_truth": "comments on favorite books in a fantasy literature forum, articles on fantasy novels, studying characters, themes, and making book recommendations, writing a fantasy novel",
+    "predicted": "He writes articles about fantasy novels for an online magazine and also writes fantasy fiction — he’s working on a fantasy novel.",
+    "score": 1,
+    "judge_reasoning": "The prediction states he writes articles on fantasy novels and is working on a fantasy novel, matching key items from the ground truth. Although it omits forum comments and studying/themes/recommendations, it includes at least half of the listed activities, so it's correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 15,
+    "question": "Who is Anthony?",
+    "ground_truth": "likely John's friend, colleague or family",
+    "predicted": "Anthony is John's friend who went with him to a charity event and they both ended up in a Harry Potter trivia contest.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer identifies Anthony as John's friend, which matches the ground truth's likely relationship; extra event details are additional but not contradictory.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 16,
+    "question": "After how many weeks did Tim reconnect with the fellow Harry Potter fan from California?",
+    "ground_truth": "three weeks",
+    "predicted": "Tim reconnected with the fellow Harry Potter fan from California about three weeks after their initial chat.",
+    "score": 1,
+    "judge_reasoning": "Prediction states approximately three weeks for the reconnection, matching the ground truth of ‘three weeks.’",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 17,
+    "question": "How many games has John mentioned winning?",
+    "ground_truth": "6",
+    "predicted": "John mentioned winning six games.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth count (6 games).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 18,
+    "question": "What authors has Tim read books from?",
+    "ground_truth": "J.K. Rowling, R.R. Martin, Patrick Rothfuss, Paulo Coelho, and J. R. R. Tolkien.",
+    "predicted": "Tim has read books by J.K. Rowling, Patrick Rothfuss, George R. R. Martin, J.R.R. Tolkien, and Paulo Coelho.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same five authors as the ground truth (George R. R. Martin is the same as R.R. Martin), so it matches.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 19,
+    "question": "What is a prominent charity organization that John might want to work with and why?",
+    "ground_truth": "Good Sports, because they work with Nike, Gatorade, and Under Armour and they aim toprovide youth sports opportunities for kids ages 3-18 in high-need communities.",
+    "predicted": "NBA Cares — it’s the NBA’s global community outreach arm that funds youth sports and programs for underserved communities, which directly aligns with John’s work organizing basketball camps and benefit games and his goal to use his platform to expand access to youth sports.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer names a different but still relevant prominent charity focused on youth sports in underserved communities; it conveys the same core idea—that John should partner with an organization that funds youth sports and expands access, aligning with his goals.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 20,
+    "question": "Which city was John in before traveling to Chicago?",
+    "ground_truth": "Seattle",
+    "predicted": "Seattle.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly (Seattle).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 21,
+    "question": "Which US cities does John mention visiting to Tim?",
+    "ground_truth": "Seattle, Chicago, New York",
+    "predicted": "John mentions visiting Seattle and New York City.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists Seattle and New York City—2 of the 3 cities (Seattle, Chicago, New York). Per the list criterion (at least half present), this is marked correct, though Chicago is omitted.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 22,
+    "question": "When did John meet with his teammates after returning from Chicago?",
+    "ground_truth": "August 15, 2023",
+    "predicted": "John met up with his teammates on August 15, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly (August 15, 2023) and conveys the same meaning.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 23,
+    "question": "When is Tim attending a book conference?",
+    "ground_truth": "September 2023",
+    "predicted": "September 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly (September 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 24,
+    "question": "Where was John between August 11 and August 15 2023?",
+    "ground_truth": "Chicago",
+    "predicted": "Seattle — he was in Seattle for a game.",
+    "score": 0,
+    "judge_reasoning": "Predicted answer says Seattle, but ground truth is Chicago; locations do not match.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 25,
+    "question": "What similar sports collectible do Tim and John own?",
+    "ground_truth": "signed basketball",
+    "predicted": "They both own athletic shoes/sneakers — Tim has a pair of black and pink running shoes, and John has a sneaker collection including lucky basketball shoes.",
+    "score": 0,
+    "judge_reasoning": "Ground truth is 'signed basketball'; predicted answer says they own sneakers/athletic shoes, which does not match.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 26,
+    "question": "Which TV series does Tim mention watching?",
+    "ground_truth": "That, Wheel of Time",
+    "predicted": "Tim mentions the TV series \"The Wheel of Time.\"",
+    "score": 1,
+    "judge_reasoning": "The prediction includes 'The Wheel of Time,' which matches one of the items in the ground truth list; at least half of the listed shows are present.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 27,
+    "question": "Which popular time management technique does Tim use to prepare for exams?",
+    "ground_truth": "Pomodoro technique",
+    "predicted": "Tim uses the Pomodoro technique — 25 minutes of studying followed by a 5-minute break.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: identifies the Pomodoro technique and correctly describes the 25/5 study/break pattern.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 28,
+    "question": "Which popular music composer's tunes does Tim enjoy playing on the piano?",
+    "ground_truth": "John Williams",
+    "predicted": "Tim enjoys playing tunes by John Williams — specifically the theme from \"Harry Potter and the Philosopher's Stone\" — on the piano.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer identifies John Williams as the composer Tim enjoys, matching the ground truth; additional detail about a specific theme does not contradict.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 29,
+    "question": "What schools did John play basketball in and how many years was he with his team during high school?",
+    "ground_truth": "Middle school, high school, and college and he was with his high school team for 4 years.",
+    "predicted": "He played basketball in middle school, high school, and college (after earning a college scholarship), and he was with his high‑school team for four years.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: lists middle school, high school, and college, and states he was with his high-school team for four years; extra college scholarship detail doesn't contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 30,
+    "question": "Which cities has John been to?",
+    "ground_truth": "Seattle, Chicago, New York, and Paris.",
+    "predicted": "John has been to Seattle, New York City, Paris, and Chicago.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same four cities (Seattle, Chicago, New York City, Paris) as the ground truth, just in a different order.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 31,
+    "question": "What month did Tim plan on going to Universal Studios?",
+    "ground_truth": "September, 2023",
+    "predicted": "September 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth month and year (September 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 32,
+    "question": "Which US states might Tim be in during September 2023 based on his plans of visiting Universal Studios?",
+    "ground_truth": "California or Florida",
+    "predicted": "California (Universal Studios Hollywood) or Florida (Universal Orlando Resort in Orlando) in September 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth—California or Florida—adding specific Universal locations and the same September 2023 timeframe.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 33,
+    "question": "When does John plan on traveling with his team on a team trip?",
+    "ground_truth": "October, 2023",
+    "predicted": "John plans to take the team trip in October 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state the team trip is planned for October 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 34,
+    "question": "What could John do after his basketball career?",
+    "ground_truth": "become a basketball coach since he likes giving back and leadership",
+    "predicted": "He could start a foundation and do charity work (e.g., supporting youth sports and fighting for fair chances for underserved communities, organizing basketball camps). He could also continue mentoring/coaching young athletes and focus on building his brand through endorsements and marketing opportunities.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes becoming a coach/mentor and giving back through youth programs, matching the ground truth; added details (foundation, endorsements) do not contradict.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 35,
+    "question": "What outdoor activities does John enjoy?",
+    "ground_truth": "Hiking, surfing",
+    "predicted": "John enjoys surfing (the ocean; has been surfing for five years), hiking and exploring nature (forest hikes, rivers), road trips/traveling and exploring cities (Chicago, New York City; a European coastline road trip), and playing basketball (stadium games, team practices).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly includes both hiking and surfing (matching the ground truth); extra listed activities do not contradict the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 36,
+    "question": "Who is Tim and John's favorite basketball player?",
+    "ground_truth": "LeBron James",
+    "predicted": "Both Tim's and John's favorite basketball player is LeBron James.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth by identifying LeBron James as the favorite basketball player for both Tim and John.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 37,
+    "question": "Which week did Tim visit the UK for the Harry Potter Conference?",
+    "ground_truth": "The week before October 13th, 2023.",
+    "predicted": "The week of October 6–12, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: the week before Oct 13, 2023 is Oct 6–12, 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 38,
+    "question": "which country has Tim visited most frequently in his travels?",
+    "ground_truth": "UK",
+    "predicted": "United Kingdom — Tim mentions multiple visits there (London and a recent trip during which he visited a castle).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (UK = United Kingdom) and correctly identifies it as the country Tim visited most frequently.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 39,
+    "question": "What year did Tim go to the Smoky Mountains?",
+    "ground_truth": "2022",
+    "predicted": "Tim went to the Smoky Mountains in 2023.",
+    "score": 0,
+    "judge_reasoning": "Incorrect — the ground truth year is 2022, but the prediction states 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 40,
+    "question": "Has Tim been to North Carolina and/or Tennesee states in the US?",
+    "ground_truth": "Yes",
+    "predicted": "Tim said he \"snapped that pic on my trip to the Smoky Mountains last year.\" The Great Smoky Mountains span both Tennessee and North Carolina, so he’s been to that region, but the conversation doesn’t specify whether he visited the Tennessee side, the North Carolina side, or both.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer affirms Tim visited the Great Smoky Mountains, which span Tennessee and North Carolina, matching the ground-truth 'Yes' (it notes only which side is unspecified).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 41,
+    "question": "What kind of fiction stories does Tim write?",
+    "ground_truth": "Fantasy stories with plot twists",
+    "predicted": "He writes fantasy fiction—specifically fantasy novels (magical/epic fantasy in the vein of Harry Potter, Game of Thrones, and Patrick Rothfuss).",
+    "score": 1,
+    "judge_reasoning": "The prediction identifies the correct genre (fantasy fiction). It adds specifics but does not contradict the ground truth; it captures the main point.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 42,
+    "question": "What has John cooked?",
+    "ground_truth": "Soup, a slow cooker meal, and honey garlic chicken with roasted veg.",
+    "predicted": "He’s cooked a tasty soup (made with butternut and sage), a slow-cooker meal, and honey garlic chicken with roasted vegetables.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same three items—soup, a slow-cooker meal, and honey garlic chicken with roasted vegetables—matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 43,
+    "question": "What does John like about Lebron James?",
+    "ground_truth": "His heart, determination, skills, and leadership.",
+    "predicted": "John likes LeBron James' skills and leadership, his work ethic and dedication to the game, and his determination and heart (e.g., the chasedown block in Game 7 of the 2016 Finals).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all four attributes from the ground truth (heart, determination, skills, leadership) and adds compatible details, so it conveys the same core meaning.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 44,
+    "question": "When did John and his wife go on a European vacation?",
+    "ground_truth": "November, 2023.",
+    "predicted": "They left for their European vacation on November 6, 2023.",
+    "score": 1,
+    "judge_reasoning": "Prediction specifies November 6, 2023, which falls within the ground-truth month (November 2023) and does not contradict it.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 45,
+    "question": "Which country was Tim visiting in the second week of November?",
+    "ground_truth": "UK",
+    "predicted": "The United Kingdom (UK).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: 'The United Kingdom (UK)' is equivalent to 'UK.'",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 46,
+    "question": "Where was Tim in the week before 16 November 2023?",
+    "ground_truth": "UK",
+    "predicted": "He was in the UK — visiting a castle (he went last Friday, 10 November 2023).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states he was in the UK, which matches the ground truth; additional details (castle, 10 Nov 2023) do not contradict and are within the referenced week.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 47,
+    "question": "When did John get married at a greenhouse?",
+    "ground_truth": "last week of September 2023",
+    "predicted": "During the week of September 25–October 1, 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer (week of Sept 25–Oct 1, 2023) corresponds to the last week of September 2023, matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 48,
+    "question": "When did John get an ankle injury in 2023?",
+    "ground_truth": "around November 16, 2023",
+    "predicted": "He hurt his ankle \"last season\" — during the 2022–2023 season (i.e., earlier in 2023, prior to November 21, 2023).",
+    "score": 0,
+    "judge_reasoning": "Incorrect. The ground truth specifies around November 16, 2023, but the prediction says the injury occurred 'last season' during the 2022–2023 season (earlier in 2023), which does not match the November 16, 2023 date.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 49,
+    "question": "How many times has John injured his ankle?",
+    "ground_truth": "two times",
+    "predicted": "John injured his ankle once.",
+    "score": 0,
+    "judge_reasoning": "Ground truth states John injured his ankle two times, but the predicted answer says once; this contradicts the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 50,
+    "question": "Which book was John reading during his recovery from an ankle injury?",
+    "ground_truth": "The Alchemist",
+    "predicted": "He was reading \"Dune\" by Frank Herbert.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer ('Dune') does not match the ground truth ('The Alchemist').",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 51,
+    "question": "What kind of yoga for building core strength might John benefit from?",
+    "ground_truth": "Hatha Yoga",
+    "predicted": "Hatha Yoga would be beneficial for John — it builds core strength through sustained poses and controlled breathing, which would also support his basketball flexibility and injury recovery.",
+    "score": 1,
+    "judge_reasoning": "Prediction recommends Hatha Yoga for core strength building, matching the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 52,
+    "question": "What does John do to supplement his basketball training?",
+    "ground_truth": "Yoga, strength training",
+    "predicted": "He incorporates strength training into his routine — he found a new gym, follows a schedule that balances basketball work and strength training (with a written workout plan and morning workouts), and uses physical therapy/rehab when recovering from an ankle injury.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes strength training (one of the two ground-truth items). Although it omits yoga, it still contains at least half of the listed supplements and adds compatible detail, so it's acceptable.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 53,
+    "question": "What other exercises can help John with his basketball performance?",
+    "ground_truth": "Sprinting, long-distance running, and boxing.",
+    "predicted": "Sprinting, long-distance running, and boxing could all help improve John’s basketball performance — sprinting for explosiveness, distance running for endurance, and boxing for footwork, agility, and conditioning.",
+    "score": 1,
+    "judge_reasoning": "Prediction lists sprinting, long-distance running, and boxing as beneficial exercises for basketball, matching all three items in the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 54,
+    "question": "When did John take a trip to the Rocky Mountains?",
+    "ground_truth": "2022",
+    "predicted": "John took the trip to the Rocky Mountains in 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth year (2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 55,
+    "question": "When did John start playing professionally?",
+    "ground_truth": "May, 2023",
+    "predicted": "John began playing professionally around December 2022 (just under a year before his statement on 2023-12-06).",
+    "score": 0,
+    "judge_reasoning": "The predicted answer (December 2022) contradicts the ground truth (May 2023); the dates do not match.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 56,
+    "question": "When did Tim start playing the violin?",
+    "ground_truth": "August 2023",
+    "predicted": "By December 6, 2023 — Tim said on that date he had \"recently started\" learning the violin.",
+    "score": 0,
+    "judge_reasoning": "Ground truth specifies August 2023. The prediction only states Tim had 'recently started' by Dec 6, 2023 and does not give the August 2023 start date, so it does not match the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 57,
+    "question": "What instruments does Tim play?",
+    "ground_truth": "piano, violin",
+    "predicted": "Tim plays the piano and is learning the violin.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both instruments (piano and violin); extra detail about learning the violin does not contradict the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 58,
+    "question": "When did John attend the Harry Potter trivia?",
+    "ground_truth": "August 2023.",
+    "predicted": "August 2023 (mentioned in the August 2, 2023 excerpt).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (August 2023) and correctly references the August 2, 2023 timestamp.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 59,
+    "question": "Which career-high performances did John achieve in 2023?",
+    "ground_truth": "highest point score, highest assist",
+    "predicted": "John scored a career-high 40 points in a game during the week of July 9–15, 2023. He also recorded a career-high in assists in the game on Friday, December 8, 2023 (reported December 11, 2023).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer correctly identifies the two career-highs (points and assists) and provides supporting game dates, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 60,
+    "question": "When did John achieve a career-high assist performance?",
+    "ground_truth": "December 11, 2023",
+    "predicted": "John achieved his career-high assist performance on December 11, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted date of December 11, 2023 matches the ground truth exactly.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 61,
+    "question": "What books has John read?",
+    "ground_truth": "inpsiring book on dreaming big, The Alchemist, fantasy series, non-fiction books on personal development, Dune",
+    "predicted": "John has read The Alchemist (he recently reread it), The Hobbit, and is currently reading Dune by Frank Herbert; he’s also a big fan of The Lord of the Rings (familiar with Aragorn and Middle‑earth).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes The Alchemist, Dune, and fantasy series (The Hobbit/LOTR), which correspond to three key items from the ground truth. It omits the inspiring book on dreaming big and non-fiction personal-development books, but covers at least half the listed items, so marked correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 62,
+    "question": "What does John do to share his knowledge?",
+    "ground_truth": "gives seminars, mentors younger players.",
+    "predicted": "He mentors younger players on his team, runs seminars on sports and marketing, speaks at charity events, organized a basketball camp for kids in his hometown, and collaborates with organizations to create opportunities for young athletes.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both core items from the ground truth (gives seminars and mentors younger players); extra related details do not contradict and are acceptable.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 63,
+    "question": "When did John organize a basketball camp for kids?",
+    "ground_truth": "summer 2023",
+    "predicted": "He organized the basketball camp last summer — summer 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly (summer 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 64,
+    "question": "Which month was John in Italy?",
+    "ground_truth": "December, 2023",
+    "predicted": "December 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly (December 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 65,
+    "question": "What fantasy movies does Tim like?",
+    "ground_truth": "Lord of the Rings, Harry Potter, and Star Wars.",
+    "predicted": "Tim likes the Harry Potter movies, The Lord of the Rings, Star Wars, Elf, and The Santa Clause.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all three ground-truth movies (Lord of the Rings, Harry Potter, Star Wars); extra titles do not contradict the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 66,
+    "question": "What is a Star Wars book that Tim might enjoy?",
+    "ground_truth": "Star Wars: Jedi Apprentice by Judy Blundell and David Farland. It is a highly rated and immersive series about his favorite movies.",
+    "predicted": "Tim might enjoy “Star Wars: Jedi Apprentice” by Judy Blundell and David Farland — it’s a highly rated, immersive book series set in the Star Wars universe, which is one of his favorite film franchises.",
+    "score": 1,
+    "judge_reasoning": "Prediction recommends Star Wars: Jedi Apprentice, matching the ground truth recommendation; the description of it being highly rated and immersive also aligns.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 67,
+    "question": "What would be a good hobby related to his travel dreams for Tim to pick up?",
+    "ground_truth": "Writing a travel blog.",
+    "predicted": "Travel photography combined with travel writing — Tim already writes (fantasy/articles), joined a travel club/globetrotters, and is learning languages, so photographing trips (Italy, Barcelona, Edinburgh, NYC, Seattle) and turning them into blog articles or a photojournal would perfectly fuel his travel dreams.",
+    "score": 1,
+    "judge_reasoning": "Prediction recommends travel photography plus travel writing and explicitly suggests creating blog articles/photojournals, which matches the ground truth 'writing a travel blog'.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 68,
+    "question": "What day did Tim get into his study abroad program?",
+    "ground_truth": "Januarty 5, 2024",
+    "predicted": "Tim got into his study abroad program on Friday, January 5, 2024.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (January 5, 2024) and correctly adds the day of week (Friday).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 69,
+    "question": "When will Tim leave for Ireland?",
+    "ground_truth": "February, 2024",
+    "predicted": "Tim will leave for Ireland in February 2024.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth date (February 2024) exactly.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 70,
+    "question": "Which Star Wars-related locations would Tim enjoy during his visit to Ireland?",
+    "ground_truth": "Skellig Michael, Malin Head, Loop Head, Ceann Sibéal, and Brow Head because they are Star Wars filming locations.",
+    "predicted": "Forbidden Planet (Dublin) for collectibles, the Irish Film Institute (IFI) in Dublin for special Star Wars screenings/exhibitions, and fan events like Dublin Comic Con — plus any touring Star Wars exhibitions (e.g., Star Wars: Identities) if they’re scheduled while he’s in Ireland.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer lists shops, screenings, and fan events in Dublin and touring exhibitions, but does not mention the Star Wars filming locations named in the ground truth (Skellig Michael, Malin Head, Loop Head, Ceann Sibéal, Brow Head).",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 71,
+    "question": "Which team did John sign with on 21 May, 2023?",
+    "ground_truth": "The Minnesota Wolves",
+    "predicted": "John signed with the Minnesota Wolves.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state John signed with the Minnesota Wolves.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 72,
+    "question": "What is John's position on the team he signed with?",
+    "ground_truth": "shooting guard",
+    "predicted": "John is a shooting guard for the Minnesota Wolves.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states John is a shooting guard, which matches the ground truth; extra team detail does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 73,
+    "question": "What challenge did John encounter during pre-season training?",
+    "ground_truth": "fitting into the new team's style of play",
+    "predicted": "During pre-season, John struggled with fitting into the new team's style of play.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core meaning as the ground truth: John struggled to fit into the new team's style of play during pre-season.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 74,
+    "question": "What aspects of the Harry Potter universe will be discussed in John's fan project collaborations?",
+    "ground_truth": "characters, spells, magical creatures",
+    "predicted": "The Harry Potter fan project collaborations will discuss characters, spells, and magical creatures from the Harry Potter universe.",
+    "score": 1,
+    "judge_reasoning": "Prediction identifies characters, spells, and magical creatures as the discussion topics for the fan project, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 75,
+    "question": "What forum did Tim join recently?",
+    "ground_truth": "fantasy literature forum",
+    "predicted": "He joined a fantasy literature forum (referred to as the \"fantasy lit forum\").",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state he joined a fantasy literature (fantasy lit) forum.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 76,
+    "question": "What kind of picture did Tim share as part of their Harry Potter book collection?",
+    "ground_truth": "MinaLima's creation from the Harry Potter films",
+    "predicted": "He shared a photo of his bookshelf that included a picture from MinaLima (the studio that created the Harry Potter film props).",
+    "score": 1,
+    "judge_reasoning": "The prediction states the picture was from MinaLima (the studio behind the Harry Potter film props), which matches the ground truth that it was a MinaLima creation; extra context about it appearing on his bookshelf does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 77,
+    "question": "What was the highest number of points John scored in a game recently?",
+    "ground_truth": "40 points",
+    "predicted": "John scored 40 points.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: 40 points.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 78,
+    "question": "What did John celebrate at a restaurant with teammates?",
+    "ground_truth": "a tough win",
+    "predicted": "He celebrated scoring 40 points—his career-high—and the team's tough win.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the ground truth ('the team's tough win') and adds extra (career-high 40 points), which does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 79,
+    "question": "What kind of deals did John sign with Nike and Gatorade?",
+    "ground_truth": "basketball shoe and gear deal with Nike, potential sponsorship deal with Gatorade",
+    "predicted": "He signed a basketball shoe and gear deal with Nike, and was in talks with Gatorade about a potential sponsorship.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: states a basketball shoe and gear deal with Nike and a potential sponsorship/talks with Gatorade.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 80,
+    "question": "Which city is John excited to have a game at?",
+    "ground_truth": "Seattle",
+    "predicted": "Seattle — he’s stoked for his game there next month.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer correctly identifies Seattle; extra commentary does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 81,
+    "question": "How long has John been surfing?",
+    "ground_truth": "five years",
+    "predicted": "John has been surfing for five years.",
+    "score": 1,
+    "judge_reasoning": "Prediction restates the ground truth ('five years') exactly, conveying the same information.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 82,
+    "question": "How does John feel while surfing?",
+    "ground_truth": "super exciting and free-feeling",
+    "predicted": "He says \"the feeling was unreal\" — surfing feels \"super exciting and free‑feeling,\" and he loves the connection to nature.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth description ('super exciting and free-feeling') and adds compatible detail; meaning is preserved.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 83,
+    "question": "What kind of articles has Tim been writing about for the online magazine?",
+    "ground_truth": "different fantasy novels, characters, themes, and book recommendations",
+    "predicted": "Tim has been writing articles about fantasy novels for an online magazine—analyzing characters and themes and making book recommendations.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: states Tim writes about fantasy novels, analyzing characters and themes and giving book recommendations.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 84,
+    "question": "Which two fantasy novels does Tim particularly enjoy writing about?",
+    "ground_truth": "Harry Potter and Game of Thrones",
+    "predicted": "Tim particularly enjoys writing about Harry Potter and Game of Thrones.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly, stating Tim enjoys writing about Harry Potter and Game of Thrones.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 85,
+    "question": "What did Anthony and John end up playing during the charity event?",
+    "ground_truth": "an intense Harry Potter trivia contest",
+    "predicted": "Anthony and John ended up playing in an intense Harry Potter trivia contest.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state they played an intense Harry Potter trivia contest.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 86,
+    "question": "What did John share with the person he skyped about?",
+    "ground_truth": "Characters from Harry Potter",
+    "predicted": "He shared a photo of his sneaker collection — a photo of a circle of shoes on the floor.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer (a photo of sneakers) does not match the ground truth (characters from Harry Potter).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 87,
+    "question": "How did John describe the team bond?",
+    "ground_truth": "Awesome",
+    "predicted": "John said the team bond was \"awesome\" and \"like having a second family,\" with teammates pushing, supporting and encouraging each other.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the ground-truth description \"awesome\"; additional supportive details do not contradict it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 88,
+    "question": "How did John get introduced to basketball?",
+    "ground_truth": "Dad signed him up for a local league",
+    "predicted": "He watched NBA games with his dad as a kid, and when he turned ten his dad signed him up for a local league; he then played through middle and high school, earned a college scholarship, and was later drafted.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly states that his dad signed him up for a local league, which matches the ground truth; additional details do not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 89,
+    "question": "What is John's number one goal in his basketball career?",
+    "ground_truth": "Winning a championship",
+    "predicted": "John's number one goal is winning a championship.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state his top goal is winning a championship.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 90,
+    "question": "What organization is John teaming up with for his charity work?",
+    "ground_truth": "A local organization helping disadvantaged kids with sports and school",
+    "predicted": "He's teaming up with a local organization that helps disadvantaged kids with sports and school.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state John is teaming up with a local organization that helps disadvantaged kids with sports and school.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 91,
+    "question": "When did John meet back up with his teammates after his trip in August 2023?",
+    "ground_truth": "Aug 15th",
+    "predicted": "John met back up with his teammates on August 15, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (Aug 15th), specifying the same day and year.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 92,
+    "question": "What did John's teammates give him when they met on Aug 15th?",
+    "ground_truth": "a basketball with autographs on it",
+    "predicted": "They gave him a basketball autographed by his teammates (an autographed basketball).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state he was given an autographed basketball (a basketball with teammates' signatures).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 93,
+    "question": "Why did John's teammates sign the basketball they gave him?",
+    "ground_truth": "to show their friendship and appreciation",
+    "predicted": "They signed it to show their friendship and appreciation — a keepsake to remind John of the bond and support from his teammates.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: it states they signed it to show friendship and appreciation, adding a congruent explanation about it being a keepsake.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 94,
+    "question": "What is the main intention behind Tim wanting to attend the book conference?",
+    "ground_truth": "to learn more about literature and create a stronger bond to it",
+    "predicted": "To learn more about literature and create a stronger bond to it.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state Tim's intention is to learn more about literature and deepen his connection to it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 95,
+    "question": "What new activity has Tim started learning in August 2023?",
+    "ground_truth": "play the piano",
+    "predicted": "In August 2023, Tim started learning to play the piano.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—Tim began learning to play the piano in August 2023.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 96,
+    "question": "Which movie's theme is Tim's favorite to play on the piano?",
+    "ground_truth": "\"Harry Potter and the Philosopher's Stone\"",
+    "predicted": "The theme from \"Harry Potter and the Philosopher's Stone.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: the theme from 'Harry Potter and the Philosopher's Stone.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 97,
+    "question": "What special memory does \"Harry Potter and the Philosopher's Stone\" bring to Tim?",
+    "ground_truth": "Watching it with his family",
+    "predicted": "It reminds him of watching the first movie, \"Harry Potter and the Philosopher's Stone,\" with his family—getting comfy with snacks and a blanket and being totally absorbed.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states the same core memory—watching the film with his family—and adds harmless, consistent details about the setting.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 98,
+    "question": "Which movie does Tim mention they enjoy watching during Thanksgiving?",
+    "ground_truth": "\"Home Alone\"",
+    "predicted": "Tim says he enjoys watching \"Home Alone\" during Thanksgiving.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state Tim enjoys watching 'Home Alone' during Thanksgiving.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 99,
+    "question": "What tradition does Tim mention they love during Thanksgiving?",
+    "ground_truth": "Prepping the feast and talking about what they're thankful for",
+    "predicted": "He says they love prepping the Thanksgiving feast and talking about what they're thankful for — then watching movies afterwards (they usually watch \"Home Alone\").",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the ground-truth tradition (prepping the feast and talking about thankfulness); extra detail about watching movies is additional but not contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 100,
+    "question": "How long did John and his high school basketball teammates play together?",
+    "ground_truth": "Four years",
+    "predicted": "They played together for four years in high school.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state they played together for four years.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 101,
+    "question": "How was John's experience in New York City?",
+    "ground_truth": "Amazing",
+    "predicted": "He loved New York City—called it “amazing,” saying everywhere was new and exciting, exploring the city and trying all the restaurants was awesome and a must‑visit. He did have some trouble figuring out the subway at first, but someone helped explain it and then it was easy.",
+    "score": 1,
+    "judge_reasoning": "Prediction explicitly says he called NYC 'amazing' and conveys the same positive experience; added minor details don't contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 102,
+    "question": "What did John say about NYC, enticing Tim to visit?",
+    "ground_truth": "It's got so much to check out - the culture, food - you won't regret it.",
+    "predicted": "John said: \"It was amazing. Everywhere you go there's something new and exciting. Exploring the city and trying all the restaurants was awesome. It's a must-visit!\"",
+    "score": 1,
+    "judge_reasoning": "Prediction conveys the same core message: NYC is amazing with lots to explore (culture/food) and is strongly recommended to visit.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 103,
+    "question": "What kind of soup did John make recently?",
+    "ground_truth": "tasty soup with sage",
+    "predicted": "He made a butternut squash soup — described as tasty, and he said he added sage for flavor.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states the soup was tasty and included sage, matching the ground truth; extra detail (butternut squash) is acceptable.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 104,
+    "question": "What spice did John add to the soup for flavor?",
+    "ground_truth": "sage",
+    "predicted": "John added sage to the soup.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states John added sage to the soup, which matches the ground truth 'sage.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 105,
+    "question": "What is Tim excited to see at Universal Studios?",
+    "ground_truth": "The Harry Potter stuff",
+    "predicted": "He's excited to see the Harry Potter stuff — i.e., the Harry Potter attractions — at Universal Studios.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches ground truth: both state he is excited to see the Harry Potter attractions/stuff at Universal Studios.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 106,
+    "question": "Where are John and his teammates planning to explore on a team trip?",
+    "ground_truth": "a new city",
+    "predicted": "Edinburgh, Scotland.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer specifies a particular city (Edinburgh), which satisfies the ground truth of 'a new city'.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 107,
+    "question": "What city did Tim suggest to John for the team trip next month?",
+    "ground_truth": "Edinburgh, Scotland",
+    "predicted": "Edinburgh, Scotland.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: Edinburgh, Scotland.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 108,
+    "question": "What does John want to do after his basketball career?",
+    "ground_truth": "positively influence and inspire others, potentially start a foundation and engage in charity work",
+    "predicted": "He wants to use his platform to make a positive difference—start a foundation, do charity/charitable work, and inspire others.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: aims to inspire and positively influence others, start a foundation, and engage in charity work.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 109,
+    "question": "What advice did Tim give John about picking endorsements?",
+    "ground_truth": "Ensure they align with values and brand, look for companies that share the desire to make a change and help others, make sure the endorsement feels authentic",
+    "predicted": "He advised John to choose endorsements that align with his values and brand, pick companies that share his desire to make a positive change/help others, and make sure any endorsement feels authentic to his followers.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: align with values/brand, pick companies that share desire to make positive change/help others, and ensure endorsements feel authentic (extra phrasing about followers is harmless).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 110,
+    "question": "What book recommendation did Tim give to John for the trip?",
+    "ground_truth": "A fantasy novel by Patrick Rothfuss",
+    "predicted": "He recommended the Patrick Rothfuss fantasy novel \"The Name of the Wind.\"",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: a Patrick Rothfuss fantasy novel; predicted answer even specifies the title 'The Name of the Wind.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 111,
+    "question": "What type of venue did John and his girlfriend choose for their wedding ceremony?",
+    "ground_truth": "Greenhouse",
+    "predicted": "They chose a lovely greenhouse venue for a smaller, more intimate gathering.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states they chose a greenhouse venue, matching the ground truth (adds harmless detail about intimacy).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 112,
+    "question": "What was the setting for John and his wife's first dance?",
+    "ground_truth": "Cozy restaurant",
+    "predicted": "They had their first dance at a cozy, candlelit restaurant.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth — identifies a cozy restaurant as the setting; added detail ('candlelit') does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 113,
+    "question": "Which basketball team does Tim support?",
+    "ground_truth": "The Wolves",
+    "predicted": "Tim supports the Los Angeles Lakers.",
+    "score": 0,
+    "judge_reasoning": "Ground truth: 'The Wolves'. Predicted answer: 'Los Angeles Lakers', which does not match.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 114,
+    "question": "What passion does Tim mention connects him with people from all over the world?",
+    "ground_truth": "passion for fantasy stuff",
+    "predicted": "His passion for fantasy—especially Harry Potter and other fantasy books—connects him with people from all over the world.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth: both state his passion for fantasy (with examples) connects him globally.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 115,
+    "question": "How does John describe the game season for his team?",
+    "ground_truth": "intense with tough losses and great wins",
+    "predicted": "He says it was \"an intense season with both tough losses and great wins,\" and that \"overall, I'd say we did pretty well.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground truth description (intense with tough losses and great wins); the extra comment about overall performance does not contradict it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 116,
+    "question": "How does John say his team handles tough opponents?",
+    "ground_truth": "by backing each other up and not quitting",
+    "predicted": "He says facing tough opponents “drives us to get better” and that they “back each other up and won’t quit.”",
+    "score": 1,
+    "judge_reasoning": "Includes the core idea: they back each other up and won't quit; extra comment about getting better doesn't contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 117,
+    "question": "What motivates John's team to get better, according to John?",
+    "ground_truth": "facing tough opponents",
+    "predicted": "Facing tough opponents — that's what John says drives his team to get better.",
+    "score": 1,
+    "judge_reasoning": "Prediction restates the ground truth exactly—John says facing tough opponents motivates his team to improve.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 118,
+    "question": "What did John's team win at the end of the season?",
+    "ground_truth": "a trophy",
+    "predicted": "John's team, the Minnesota Wolves, won a trophy.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states the team won a trophy, which matches the ground truth; extra team name is additional but not contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 119,
+    "question": "Where did Tim capture the photography of the sunset over the mountain range?",
+    "ground_truth": "Smoky Mountains",
+    "predicted": "He snapped it on his trip to the Smoky Mountains last year (the Smoky Mountains).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer identifies the same location — the Smoky Mountains — matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 120,
+    "question": "How does John feel about being seen as a mentor by some of the younger players?",
+    "ground_truth": "It feels great",
+    "predicted": "John finds it \"really rewarding\" and \"fulfilling\" — he enjoys being a positive role model, values having their trust and admiration, and loves watching the younger players develop.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning—John feels positively (rewarded/fulfilled) about being seen as a mentor—matching 'It feels great.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 121,
+    "question": "What does John find rewarding about mentoring the younger players?",
+    "ground_truth": "Seeing their growth, improvement, and confidence",
+    "predicted": "He finds sharing his skills and knowledge rewarding, watching the younger players develop and reach their goals, being a positive role model who earns their trust and admiration, and inspiring them to go after their dreams (while staying involved in the game during the off-season).",
+    "score": 1,
+    "judge_reasoning": "The prediction includes watching younger players develop and reach goals (growth and improvement) and mentions earning trust/admiration and inspiring them (confidence)—matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 122,
+    "question": "What has John been able to help the younger players achieve?",
+    "ground_truth": "reach their goals",
+    "predicted": "He’s helped the younger players develop and reach their goals — showing growth, improvement, and increased confidence.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground truth ('reach their goals') and adds compatible details about development and improvement, so it conveys the same core meaning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 123,
+    "question": "What genre is the novel that Tim is writing?",
+    "ground_truth": "Fantasy",
+    "predicted": "Tim is writing a fantasy novel.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state the novel's genre is fantasy.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 124,
+    "question": "Who is one of Tim's sources of inspiration for writing?",
+    "ground_truth": "J.K. Rowling",
+    "predicted": "J.K. Rowling is one of Tim's sources of inspiration for writing.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly — J.K. Rowling is identified as one of Tim's inspirations.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 125,
+    "question": "What J.K. Rowling quote does Tim resonate with?",
+    "ground_truth": "\"Turn on the light - happiness hides in the darkest of times.\"",
+    "predicted": "Tim resonates with J.K. Rowling's quote: \"Turn on the light - happiness hides in the darkest of times.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth quote exactly.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 126,
+    "question": "What does John write on the whiteboard to help him stay motivated?",
+    "ground_truth": "motivational quotes and strategies",
+    "predicted": "He writes motivational quotes and strategies to help him stay focused and push through tough workouts.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground truth ('motivational quotes and strategies') and adds compatible context; meaning is preserved.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 127,
+    "question": "What hobby is a therapy for John when away from the court?",
+    "ground_truth": "Cooking",
+    "predicted": "Cooking is therapy for John when he's away from the court.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states the same core fact — that cooking is John's therapy away from the court — matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 128,
+    "question": "What type of meal does John often cook using a slow cooker?",
+    "ground_truth": "honey garlic chicken with roasted veg",
+    "predicted": "John often cooks \"honey garlic chicken with roasted veg\" in a slow cooker.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly, stating John cooks honey garlic chicken with roasted veg in a slow cooker.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 129,
+    "question": "How will John share the honey garlic chicken recipe with the other person?",
+    "ground_truth": "write it down and mail it",
+    "predicted": "John will write the recipe down and mail it to Tim.",
+    "score": 1,
+    "judge_reasoning": "Contains the core information: John will write the recipe down and mail it (adds recipient 'Tim', which doesn't contradict the ground truth).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 130,
+    "question": "What was Tim's huge writing issue last week,as mentioned on November 6, 2023?",
+    "ground_truth": "He got stuck on a plot twist",
+    "predicted": "He got stuck on a plot twist and couldn't find his way out.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer contains the ground truth fact that he got stuck on a plot twist; the extra phrasing does not contradict it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 131,
+    "question": "What does Tim have that serves as a reminder of hard work and is his prized possession?",
+    "ground_truth": "a basketball signed by his favorite player",
+    "predicted": "A basketball signed by his favorite player (kept in a display case).",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth exactly; extra detail about a display case does not contradict the answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 132,
+    "question": "Why do Tim and John find LeBron inspiring?",
+    "ground_truth": "LeBron's determination and the epic block in Game 7 of the '16 Finals",
+    "predicted": "Tim finds LeBron inspiring for his on‑court skill and, especially, the famous chase‑down block in Game 7 of the 2016 Finals that exemplified determination and a “never give up” spirit. John admires LeBron for his skills, leadership, determination, and heart, which motivate him to work harder.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes LeBron's determination and the Game 7 (2016) chase‑down block and attributes similar motivating qualities to John; matches the ground truth while adding compatible details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 133,
+    "question": "How did John describe the views during their road trip out on the European coastline?",
+    "ground_truth": "Spectacular",
+    "predicted": "He said the views were \"spectacular.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same meaning as the ground truth — it states the views were 'spectacular.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 134,
+    "question": "What is one of Tim's favorite fantasy TV shows, as mentioned on November 11, 2023?",
+    "ground_truth": "\"That\"",
+    "predicted": "One of Tim's favorite fantasy TV shows is \"That\".",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly, stating that the show is \"That.\"",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 135,
+    "question": "How does Tim stay motivated during difficult study sessions?",
+    "ground_truth": "Visualizing goals and success",
+    "predicted": "Tim stays motivated during difficult study sessions by visualizing his goals and imagining success — picturing where he wants to be helps him push through the tough parts.",
+    "score": 1,
+    "judge_reasoning": "Prediction describes visualizing goals and success as Tim’s study motivation strategy, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 136,
+    "question": "What did Tim say about his injury on 16 November, 2023?",
+    "ground_truth": "The doctor said it's not too serious",
+    "predicted": "Tim said that the doctor said it’s not too serious — he was reassured by the medical assessment and told John to rest up and take it easy.",
+    "score": 1,
+    "judge_reasoning": "Prediction conveys the doctor’s assessment that the injury is not too serious, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 137,
+    "question": "What was the setback Tim faced in his writing project on 21 November, 2023?",
+    "ground_truth": "Story based on experiences in the UK didn't go as planned",
+    "predicted": "Tim’s story based on his experiences in the UK didn’t go as planned — he hit a wall with the narrative and was struggling to get it to work the way he envisioned.",
+    "score": 1,
+    "judge_reasoning": "Prediction describes the UK-based story not going as planned, matching the ground truth about the writing project setback.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 138,
+    "question": "How did John overcome his ankle injury from last season?",
+    "ground_truth": "stayed focused on recovery and worked hard to strengthen his body",
+    "predicted": "John recovered from his last-season ankle injury by taking time off and doing physical therapy/rehab and strengthening exercises, staying focused and patient; he did daily PT/rehab work and eventually reached milestones like jogging with no pain.",
+    "score": 1,
+    "judge_reasoning": "Matches core meaning: describes staying focused on recovery and working hard to strengthen his body via physical therapy and strengthening exercises; additional details are consistent with ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 139,
+    "question": "What motivated Tim to keep pushing himself to get better in writing and reading?",
+    "ground_truth": "Love for writing and reading",
+    "predicted": "He was driven by the joy of creating whole new worlds and being transported by books (e.g., reading about castles in the UK), inspiration from other media and authors—specifically J.K. Rowling—and the satisfaction of overcoming challenges (like breaking through a plot block) plus the sense that his hard work was paying off.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer expresses the same core motivation—love/joy for writing and reading—while adding related supporting details; it matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 140,
+    "question": "How did John overcome a mistake he made during a big game in basketball?",
+    "ground_truth": "Worked hard to get better and focused on growth",
+    "predicted": "He didn’t dwell on it — he owned up to the mistake, worked hard to get better through focused practice and reflection, leaned on his passion and his teammates’ support, and used resilience to move forward.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core idea — he worked hard to improve and focused on growth — while adding consistent supporting details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 141,
+    "question": "What book did John recently finish rereading that left him feeling inspired and hopeful about following dreams?",
+    "ground_truth": "The Alchemist",
+    "predicted": "John recently finished rereading \"The Alchemist.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state John reread \"The Alchemist.\"",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 142,
+    "question": "How did \"The Alchemist\" impact John's perspective on following dreams?",
+    "ground_truth": "made him think again about following dreams and searching for personal legends",
+    "predicted": "It inspired him—reading The Alchemist made John reflect on the importance of following his dreams and searching for his \"personal legend,\" leaving him feeling motivated and hopeful.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state the book made him reconsider following dreams and searching for his personal legend; the prediction adds compatible details about feeling motivated and hopeful.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 143,
+    "question": "What is John trying out to improve his strength and flexibility after recovery from ankle injury?",
+    "ground_truth": "yoga",
+    "predicted": "John is trying out yoga.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states John is trying out yoga, which matches the ground truth 'yoga'.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 144,
+    "question": "How long does John usually hold the yoga pose he shared with Tim?",
+    "ground_truth": "30-60 seconds",
+    "predicted": "John typically holds that yoga pose for 30–60 seconds.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly (30–60 seconds) and conveys the same meaning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 145,
+    "question": "Where was the forest picture shared by John on December 1,2023 taken?",
+    "ground_truth": "near his hometown",
+    "predicted": "It was taken in a forest near John's hometown.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth—the photo was taken near John's hometown (stating it was in a forest is consistent with the question).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 146,
+    "question": "What did Tim recently start learning in addition to being part of a travel club and working on studies?",
+    "ground_truth": "an instrument",
+    "predicted": "He recently started learning the violin.",
+    "score": 1,
+    "judge_reasoning": "The prediction specifies a violin, which is an instrument, matching the ground truth that he started learning an instrument.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 147,
+    "question": "What instrument is Tim learning to play in December 2023?",
+    "ground_truth": "violin",
+    "predicted": "Tim is learning to play the violin.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Tim is learning the violin, matching the ground truth 'violin'.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 148,
+    "question": "How long has Tim been playing the piano for, as of December 2023?",
+    "ground_truth": "about four months",
+    "predicted": "Tim has been playing the piano for about four months as of December 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth meaning exactly: about four months as of December 2023.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 149,
+    "question": "What book did Tim just finish reading on 8th December, 2023?",
+    "ground_truth": "\"A Dance with Dragons\"",
+    "predicted": "Tim had just finished reading \"A Dance with Dragons\" by George R. R. Martin.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth book title (and correctly adds the author), so it matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 150,
+    "question": "Which book did Tim recommend to John as a good story on 8th December, 2023?",
+    "ground_truth": "\"A Dance with Dragons\"",
+    "predicted": "Tim recommended \"A Dance with Dragons.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state Tim recommended 'A Dance with Dragons.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 151,
+    "question": "What is the topic of discussion between John and Tim on 11 December, 2023?",
+    "ground_truth": "Academic achievements and sports successes",
+    "predicted": "On December 11, John and Tim discussed their recent academic achievements and sports successes — celebrating milestones they’d both reached.",
+    "score": 1,
+    "judge_reasoning": "Prediction correctly identifies academic achievements and sports successes as the discussion topics on December 11, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 152,
+    "question": "What kind of game did John have a career-high in assists in?",
+    "ground_truth": "basketball",
+    "predicted": "John had a career-high in assists in a basketball game — a big rivalry matchup where he facilitated plays for his teammates.",
+    "score": 1,
+    "judge_reasoning": "Prediction identifies basketball as the sport for the career-high assists performance, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 153,
+    "question": "What was John's way of dealing with doubts and stress when he was younger?",
+    "ground_truth": "practicing basketball outside for hours",
+    "predicted": "He practiced basketball outside for hours, dreaming of playing in big games.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the ground-truth fact that he practiced basketball outside for hours; added detail (dreaming) does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 154,
+    "question": "How did John feel about the atmosphere during the big game against the rival team?",
+    "ground_truth": "electric and intense",
+    "predicted": "He said the atmosphere in the arena was \"really electric\" and the rivalry added an extra level of intensity, making it a memorable night.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core meaning—the atmosphere was electric and intense—while adding context, so it matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 155,
+    "question": "How did John feel after being able to jog without pain?",
+    "ground_truth": "It was a huge success.",
+    "predicted": "John felt it was a huge success — being able to jog again without pain was a major milestone in his recovery and he was really happy about the progress.",
+    "score": 1,
+    "judge_reasoning": "Prediction captures the same sentiment as the ground truth: jogging without pain was viewed as a huge success.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 156,
+    "question": "What kind of deal did John get in December?",
+    "ground_truth": "Deal with a renowned outdoor gear company",
+    "predicted": "He got a deal with a renowned outdoor gear company — an endorsement for hiking/outdoor gear.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: both state he got a deal with a renowned outdoor gear company; the added note that it's an endorsement for hiking/outdoor gear is consistent.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 157,
+    "question": "Where was the photoshoot done for John's gear deal?",
+    "ground_truth": "In a gorgeous forest",
+    "predicted": "The photoshoot was done in a gorgeous forest.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state the photoshoot was done in a gorgeous forest.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 158,
+    "question": "In which area has John's team seen the most growth during training?",
+    "ground_truth": "Communication and bonding",
+    "predicted": "John's team has seen the most growth in communication and bonding.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly, stating the team's most growth area is communication and bonding.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 159,
+    "question": "What type of seminars is John conducting?",
+    "ground_truth": "Sports and marketing seminars",
+    "predicted": "John is conducting seminars that help people with sports and marketing.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state John is conducting sports and marketing seminars (phrased as seminars that help people with sports and marketing).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 160,
+    "question": "What activity did Tim do after reading the stories about the Himalayan trek?",
+    "ground_truth": "visited a travel agency",
+    "predicted": "Tim visited a travel agency to see what the requirements would be for his next dream trip.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Tim visited a travel agency, matching the ground truth; extra detail about checking requirements does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 161,
+    "question": "What is one cause that John supports with his influence and resources?",
+    "ground_truth": "youth sports and fair chances in sports",
+    "predicted": "Supporting youth sports — specifically increasing access and fair chances in sports for underserved communities.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth—both state support for youth sports and increasing fair access/chances in sports (with added detail about underserved communities).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 162,
+    "question": "What new fantasy TV series is Tim excited about?",
+    "ground_truth": "\"The Wheel of Time\"",
+    "predicted": "Tim is excited about the new fantasy TV series \"The Wheel of Time.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: Tim is excited about 'The Wheel of Time.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 163,
+    "question": "Which language is Tim learning?",
+    "ground_truth": "German",
+    "predicted": "Tim is learning German.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly states Tim is learning German, which matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 164,
+    "question": "What language does Tim know besides German?",
+    "ground_truth": "Spanish",
+    "predicted": "He knows French.",
+    "score": 0,
+    "judge_reasoning": "The ground truth answer is Spanish, but the predicted answer states French, which does not match.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 165,
+    "question": "What book did Tim get in Italy that inspired him to cook?",
+    "ground_truth": "a cooking book",
+    "predicted": "Tim got a cooking book in Italy that inspired him to start cooking — the recipes and food culture he encountered on the trip sparked his culinary interest.",
+    "score": 1,
+    "judge_reasoning": "Prediction identifies a cooking book from Italy as the inspiration for Tim’s cooking, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 166,
+    "question": "What is John's favorite book series?",
+    "ground_truth": "Harry Potter",
+    "predicted": "John's favorite book series is The Lord of the Rings.",
+    "score": 0,
+    "judge_reasoning": "Ground truth is 'Harry Potter' but the predicted answer states 'The Lord of the Rings,' which does not match.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 167,
+    "question": "According to John, who is his favorite character from Lord of the Rings?",
+    "ground_truth": "Aragorn",
+    "predicted": "John's favorite character from Lord of the Rings is Aragorn.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state Aragorn as John's favorite character.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 168,
+    "question": "Why does John like Aragorn from Lord of the Rings?",
+    "ground_truth": "brave, selfless, down-to-earth attitude",
+    "predicted": "John likes Aragorn because he grows hugely as a character—becoming a great leader who puts others first—and is brave, selfless, down-to-earth, never gives up, and stands up for justice, qualities that inspire John (he even has a painting of Aragorn in his room).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth traits (brave, selfless, down-to-earth) and adds compatible details; matches core meaning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 169,
+    "question": "What kind of painting does John have in his room as a reminder?",
+    "ground_truth": "a painting of Aragorn",
+    "predicted": "A painting of Aragorn (from The Lord of the Rings).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly, adding only contextual detail that Aragorn is from The Lord of the Rings.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 170,
+    "question": "What is the painting of Aragorn a reminder for John to be in everything he does?",
+    "ground_truth": "be a leader",
+    "predicted": "It reminds John to stay true and be a leader in everything he does.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth meaning ('be a leader') and adds a compatible detail ('stay true'), so it conveys the same core message.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 171,
+    "question": "What map does Tim show to his friend John?",
+    "ground_truth": "a map of Middle-earth from LOTR",
+    "predicted": "He shows a map of Middle-earth from The Lord of the Rings.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: a map of Middle-earth from The Lord of the Rings.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 172,
+    "question": "Where will Tim be going for a semester abroad?",
+    "ground_truth": "Ireland",
+    "predicted": "Galway, Ireland.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the correct country (Ireland) and adds a specific city (Galway), so it contains the ground-truth answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 173,
+    "question": "Which city in Ireland will Tim be staying in during his semester abroad?",
+    "ground_truth": "Galway",
+    "predicted": "Tim will be staying in Galway, Ireland.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state Tim will be staying in Galway, Ireland.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 174,
+    "question": "What charity event did John organize recently in 2024?",
+    "ground_truth": "benefit basketball game",
+    "predicted": "He organized a benefit basketball game to raise money for charity.",
+    "score": 1,
+    "judge_reasoning": "Contains the same core information: the event was a benefit basketball game (additional clarification about raising money for charity is consistent).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 175,
+    "question": "What achievement did John share with Tim in January 2024?",
+    "ground_truth": "endorsement with a popular beverage company",
+    "predicted": "He said he held a successful benefit basketball game that raised money for charity (shared Jan 7, 2024) and announced he got an endorsement with a popular beverage company (shared Jan 12, 2024).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the ground-truth fact — an endorsement with a popular beverage company — along with extra details, so it is correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 176,
+    "question": "What was Johns's reaction to sealing the deal with the beverage company?",
+    "ground_truth": "crazy feeling, sense of accomplishment",
+    "predicted": "John said it \"felt crazy\" — a \"total dream come true\" — and that sealing the deal made him feel like all his hard work and training had paid off.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys both elements: it describes the deal feeling \"crazy\" and expresses a sense of accomplishment (dream come true, hard work paid off), matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 177,
+    "question": "Which city did John recommend to Tim in January 2024?",
+    "ground_truth": "Barcelona",
+    "predicted": "He recommended Barcelona.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (both state Barcelona).",
+    "category": 4,
+    "error": null
+  }
+]

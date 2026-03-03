@@ -1,0 +1,1562 @@
+[
+  {
+    "question_index": 0,
+    "question": "What kind of car does Evan drive?",
+    "ground_truth": "Prius",
+    "predicted": "Evan drives a Prius — specifically he recently bought a new Prius.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Evan drives a Prius, matching the ground truth; extra detail about recently buying a new Prius does not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 1,
+    "question": "What kinds of things did Evan have broken?",
+    "ground_truth": "His old Prius and his new Prius.",
+    "predicted": "Evan had both his old Prius and his new Prius break down — the old one gave out first, and later his new Prius also developed problems and had a minor scrape.",
+    "score": 1,
+    "judge_reasoning": "Prediction identifies both the old and new Prius as things that broke, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 2,
+    "question": "Where has Evan been on roadtrips with his family?",
+    "ground_truth": "Rockies, Jasper",
+    "predicted": "He’s gone to the Rockies, taken a road trip to Jasper (driving the Icefields Parkway), and been on a family trip to Banff.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both ground-truth items (Rockies and Jasper); additional correct details (Banff, Icefields Parkway) do not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 3,
+    "question": "How many Prius has Evan owned?",
+    "ground_truth": "two",
+    "predicted": "Evan has owned two Priuses — an old Prius (repaired and sold) and a new Prius.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Evan owned two Priuses, matching the ground truth 'two' and providing consistent detail.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 4,
+    "question": "Which hobby did Sam take up in May 2023?",
+    "ground_truth": "painting",
+    "predicted": "Sam took up painting in May 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: both state that Sam took up painting in May 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 5,
+    "question": "Which country was Evan visiting in May 2023?",
+    "ground_truth": "Canada",
+    "predicted": "Canada — Evan said he took his family on a road trip to Jasper in the Canadian Rockies in May 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer names 'Canada' and includes consistent supporting detail, matching the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 6,
+    "question": "How many roadtrips did Evan take in May 2023?",
+    "ground_truth": "two",
+    "predicted": "Evan took 0 roadtrips in May 2023.",
+    "score": 0,
+    "judge_reasoning": "The prediction states 0 roadtrips in May 2023, but the ground truth is two; the answer contradicts the correct count.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 7,
+    "question": "What new hobbies did Sam consider trying?",
+    "ground_truth": "Painting, kayaking, hiking, cooking, running",
+    "predicted": "Sam considered trying painting (watercolor), kayaking, hiking, cooking, and running as new hobbies.",
+    "score": 1,
+    "judge_reasoning": "Prediction lists all five hobbies from the ground truth: painting, kayaking, hiking, cooking, and running.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 8,
+    "question": "What hobby did Evan start practicing a few years ago that he enjoys?",
+    "ground_truth": "Watercolor painting",
+    "predicted": "Evan started watercolor painting a few years ago and enjoys it.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Evan began watercolor painting a few years ago and enjoys it, which matches the ground truth (watercolor painting).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 9,
+    "question": "When did Evan go to Jasper with his family?",
+    "ground_truth": "weekend before May 24, 2023",
+    "predicted": "He went the weekend of May 20–21, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: the weekend before May 24, 2023 is May 20–21, 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 10,
+    "question": "Which type of vacation would Evan prefer with his family, walking tours in metropolitan cities or camping trip in the outdoors?",
+    "ground_truth": "camping trip in the outdoors",
+    "predicted": "Evan would prefer a camping trip in the outdoors. He repeatedly describes hiking, camping, road trips to the Rockies and Jasper, kayaking, skiing and other outdoor activities.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: predicts Evan prefers a camping trip outdoors and provides supporting examples of outdoor activities.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 11,
+    "question": "What health issue did Sam face that motivated him to change his lifestyle?",
+    "ground_truth": "Weight problem",
+    "predicted": "Sam’s weight problem motivated him to change his lifestyle — his excess weight led to health complications including gastritis, which served as the final wake-up call to get healthier.",
+    "score": 1,
+    "judge_reasoning": "Prediction identifies Sam’s weight problem as the root health issue motivating the lifestyle change, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 12,
+    "question": "When did Sam first go to the doctor and find out he had a weight problem?",
+    "ground_truth": "A few days before May 24, 2023.",
+    "predicted": "Around May 21, 2023 — Sam said a few days before his May 24, 2023 message he had a doctor’s check-up where his weight was flagged.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: indicates the visit occurred a few days before May 24, 2023 (around May 21, 2023), conveying the same temporal information.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 13,
+    "question": "When did Evan have his sudden heart palpitation incident that really shocked him up?",
+    "ground_truth": "first week of June 2023",
+    "predicted": "During the week before June 6, 2023 — i.e., the 7-day period May 30 to June 5, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: placing the event in the first week of June 2023 (May 30–June 5 overlaps the first week of June), so the temporal meaning is preserved.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 14,
+    "question": "What is Evan's favorite food?",
+    "ground_truth": "Ginger snaps",
+    "predicted": "Ginger snaps.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: 'Ginger snaps.'.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 15,
+    "question": "What kind of unhealthy snacks does Sam enjoy eating?",
+    "ground_truth": "soda, candy",
+    "predicted": "Sam enjoys soda and candy.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both list soda and candy as the unhealthy snacks Sam enjoys.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 16,
+    "question": "What recurring issue frustrates Sam at the grocery store?",
+    "ground_truth": "Malfunctioning self-checkout machines.",
+    "predicted": "Sam is frustrated by recurring problems with the self-checkout machines at the grocery store — they often break.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth: both state Sam is frustrated by recurring/malfunctioning self-checkout machines at the grocery store.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 17,
+    "question": "When did Sam's friends mock him for being overweight?",
+    "ground_truth": "Friday before 27 July 2023",
+    "predicted": "Sam's friends mocked him for being overweight on July 21, 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted date (July 21, 2023) is the Friday before July 27, 2023, matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 18,
+    "question": "What kind of healthy food suggestions has Evan given to Sam?",
+    "ground_truth": "flavored seltzer water, dark chocolate with high cocoa content, air-popped popcorn and fruit, veggies, healthy sandwich snacks, energy balls, grilled chicken salad with avocado",
+    "predicted": "Evan suggested swapping soda for flavored seltzer water and eating less processed food/sugary snacks, replacing candy with dark chocolate (high cocoa), choosing flavored seltzer with air-popped popcorn or fruit as low‑calorie snacks, trying “energy balls” (coconut/oats), healthier cookies (he offered recipes), and even limiting ginger snaps to two a day.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes most items from the ground truth: flavored seltzer water, dark chocolate (high cocoa), air-popped popcorn and fruit, and energy balls. It omits veggies, healthy sandwich snacks, and grilled chicken salad with avocado, but contains at least half the listed suggestions and adds harmless extras.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 19,
+    "question": "Considering their conversations and personal growth, what advice might Evan and Sam give to someone facing a major life transition or challenge?",
+    "ground_truth": "Evan and Sam would likely advise embracing small, consistent changes​​, finding stress-relieving activities like hiking​​, painting, and road trips​​, and the importance of friendship and support in navigating challenges​​.",
+    "predicted": "Evan might advise taking small, concrete steps—find enjoyable routines (e.g., watercolor, gym, hiking, swimming, yoga), make gradual diet changes (cut sugary snacks, eat more veggies), get professional help when needed (doctor, trainer, physical therapy), lean on family and friends for support, and celebrate each small win.  \nSam might stress “progress over perfection”: just take the first step, set a meal/workout plan, join a supportive group (e.g., Weight Watchers), try new hobbies (painting, kayaking, running) to stay motivated, and be patient and persistent.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer captures the core advice: embrace small, consistent changes, use stress-relieving activities (hiking, painting, etc.), and rely on social support. Extra practical details do not contradict the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 20,
+    "question": "In light of the health and dietary changes discussed, what would be an appropriate gift for both Evan and Sam to encourage their healthy lifestyles?",
+    "ground_truth": "a cookbook with healthy recipes or a subscription to a healthy meal delivery service.",
+    "predicted": "A healthy-cooking gift bundle: a Weight Watchers–friendly cookbook or voucher for a healthy cooking class (Sam is a Weight Watchers coach and already takes cooking classes) plus a SodaStream sparkling-water maker to swap soda for flavored seltzer. Add a fitness smartwatch (Evan already uses one and Sam said he was thinking of ordering one) to encourage activity tracking.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes a healthy cookbook option (matching the ground truth) and offers additional healthy-gift ideas; it therefore conveys the same core suggestion.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 21,
+    "question": "How does Evan describe the woman and his feelings for her that he met in Canada?",
+    "ground_truth": "He says she's cool, incredible, like something out of a movie, and that he feels alive around her. Every moment with her is fun and energetic, also Evan feels really lucky to have someone who gets him.",
+    "predicted": "He calls her an \"awesome Canadian woman,\" \"incredible\" and \"great,\" saying every moment with her is \"fun and energizing\" and that being with her \"makes me feel alive.\" He also says he was \"in love with her at first sight,\" describing it as \"like time stopped\" and \"a spark lit inside me.\"",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the main points: she’s described as incredible/awesome, time together is fun and energizing, and she makes him feel alive. Extra romantic details are acceptable and the omission of the 'feels lucky someone who gets him' is minor.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 22,
+    "question": "When Evan did meet his future wife?",
+    "ground_truth": "week before August 7, 2023.",
+    "predicted": "Evan says he fell in love with her \"at first sight\"; they got married the week of December 19–25, 2023 (he said \"got married last week\" on December 26, 2023).",
+    "score": 0,
+    "judge_reasoning": "Incorrect. Ground truth: 'week before August 7, 2023.' Predicted answer gives December 19–25, 2023 (marriage timing) and unrelated detail; does not match the August 2023 timeframe.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 23,
+    "question": "When did Sam start working out at the gym?",
+    "ground_truth": "July 28, 2023",
+    "predicted": "Sam said on July 27, 2023 that he'd start going to the gym \"starting tomorrow\" — i.e., July 28, 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth date (July 28, 2023) and correctly interprets 'starting tomorrow' from the July 27, 2023 timestamp.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 24,
+    "question": "What significant event happened in Sam's life towards the end of summer 2023?",
+    "ground_truth": "He fell in love with a Canadian woman",
+    "predicted": "Sam started a new diet and exercise routine on August 21, 2023.",
+    "score": 0,
+    "judge_reasoning": "Incorrect. The ground truth states Sam fell in love with a Canadian woman toward the end of summer 2023; the prediction claims he began a diet/exercise routine on Aug 21, 2023, which does not match the event described.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 25,
+    "question": "Which year did Evan start taking care of his health seriously?",
+    "ground_truth": "2021",
+    "predicted": "Evan began in 2021 (he said on August 7, 2023 that he'd been working on his health \"for two years now\").",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth (2021) and correctly cites the August 7, 2023 remark that he'd been working on his health for two years.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 26,
+    "question": "What motivates Evan to take care of his health?",
+    "ground_truth": "family, fitness tracker, thirst for adventure on interesting hikes",
+    "predicted": "Evan is motivated by his family—his kids/partner and the desire to create memories and expand the family—and by past health scares (a sudden heart‑palpitation incident and a later hospital/check‑up scare) that served as wake‑up calls. He’s also driven by the feeling of being “healthy and strong,” a thirst for adventure (hiking/outdoors), and concrete motivators like a fitness watch and symbolic reminders (e.g., a bonsai) that track and encourage his progress.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the three ground-truth motivators—family, a fitness tracker, and a thirst for adventurous hikes—and adds extra (noncontradictory) details like past health scares and symbolic reminders.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 27,
+    "question": "What electronic device could Evan gift Sam to help him keep up with his fitness goals?",
+    "ground_truth": "fitness tracker",
+    "predicted": "A fitness watch (smartwatch) that tracks activity and progress.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer (fitness watch/smartwatch tracking activity) conveys the same core idea as 'fitness tracker.'",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 28,
+    "question": "What kind of writing does Sam do to relax and cope with his health issues?",
+    "ground_truth": "journalling, creative writing",
+    "predicted": "He writes in his journal and does creative writing to express his innermost thoughts and feelings and as a therapeutic way to cope.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly states journaling and creative writing, matching the ground truth; additional therapeutic detail does not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 29,
+    "question": "Who did Evan meet on his trip to Canada, and who did he come back from Canada with?",
+    "ground_truth": "Evan met the woman he fell in love with and returned with her.",
+    "predicted": "He met \"this awesome Canadian woman\" on the trip, and he came back with his new SO — the same Canadian woman.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning: Evan met a Canadian woman (the one he fell in love with) and returned with her as his partner.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 30,
+    "question": "When Evan get back from a vacation with his SO?",
+    "ground_truth": "August 13, 2023",
+    "predicted": "He said he just got back on August 13, 2023 (from a vacation in Canada with his new SO).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer contains the exact date from the ground truth (August 13, 2023); additional details do not contradict it.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 31,
+    "question": "How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?",
+    "ground_truth": "Their experiences likely lead them to view challenges as opportunities for growth and change. They both have embraced healthier lifestyles, indicating a proactive approach to managing stress and challenges.",
+    "predicted": "Evan’s repeated health scares (a heart palpitation, a hospital scare), past health struggle, knee injury and two‑year “healthy road” have pushed him to take proactive, practical steps — dietary changes (cutting sugary snacks, eating more veggies/fruit), a fitness routine, using a health tracking tool, pursuing PT and low‑impact options like swimming, and leaning on hobbies and nature (painting, hiking, drives, beach sunsets) to manage stress.  \nSam’s wake‑up moments (eye‑opening doctor check‑up, friends’ mocking) have driven him toward structured changes — starting a diet and exercise routine, becoming a Weight Watchers coach, trying hiking, yoga, painting and kayaking, and using car rides and cooking to de‑stress — but he still battles cravings, family pressure and occasional setbacks, so he relies on small steps, social accountability and celebrating wins.",
+    "score": 1,
+    "judge_reasoning": "Prediction conveys the same core meaning: both respond to health scares by adopting healthier lifestyles and proactive strategies to manage stress and challenges; added details are consistent with the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 32,
+    "question": "What recurring frustration does Evan experience?",
+    "ground_truth": "Evan consistently misplaces his keys every week.",
+    "predicted": "Evan frequently misplaces his keys — he says he’s been “searching for [his] keys for the last half hour” and that he’s “losing it every week.”",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Evan frequently/misplaces his keys and cites his quote about searching and 'losing it every week,' which matches the ground truth that he consistently misplaces his keys weekly.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 33,
+    "question": "What is the recurring dream that Sam keeps having?",
+    "ground_truth": "he's flying over a cityscape.",
+    "predicted": "Sam's recurring dream is flying (soaring) over skyscrapers.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state Sam dreams of flying over a city/cityscape (skyscrapers).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 34,
+    "question": "What accidents has Evan's son faced lately?",
+    "ground_truth": "injured at a soccer game, fell off his bike",
+    "predicted": "He had a soccer accident that injured his ankle (doctor visit on 2023-08-12) and he fell off his bike (occurred the Tuesday before 2023-12-17, i.e., 2023-12-12), which left him needing crutches.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer contains both events from the ground truth (injured at a soccer game and fell off his bike) and adds compatible supporting details.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 35,
+    "question": "When was Evan's son injured at soccer?",
+    "ground_truth": "Saturday before August 15, 2023.",
+    "predicted": "Evan's son was injured on Saturday, August 12, 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted date (Saturday, August 12, 2023) is the Saturday immediately before August 15, 2023, so it matches the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 36,
+    "question": "What kind of foods or recipes has Sam recommended to Evan?",
+    "ground_truth": "grilled vegetables, grilled chicken and veggie stir-fry, poutine",
+    "predicted": "Sam has shared/recommended: a bowl of spinach, avocado and strawberries (a healthy/smoothie-style bowl), an easy roasted-veg recipe, a flavorful grilled chicken-and-vegetable stir-fry (with a homemade sauce), and a marinated grilled salmon with veggies from their cooking class.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes grilled chicken + vegetable stir-fry and a roasted-veg recipe (counts as grilled vegetables). It thus contains at least half of the ground-truth items; extra items are allowed.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 37,
+    "question": "What kind of healthy meals did Sam start eating after getting a health scare?",
+    "ground_truth": "salad, grilled salmon and vegetables, grilled chicken and veggie stir-fry, Beef Merlot, fruit bowl, smoothie bowl",
+    "predicted": "He started eating healthier meals like salads (e.g., a bowl of spinach, avocado and strawberries; salads with chicken, avocado, tomatoes, corn, and cheese), grilled chicken and veggie stir‑fry, grilled salmon with vegetables, and bowls of beef with vegetables (Healthy Choice).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes salads, grilled salmon with vegetables, grilled chicken and veggie stir-fry, and beef with vegetables (matching Beef Merlot). It omits fruit bowl and smoothie bowl but contains the majority of the listed items, so is correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 38,
+    "question": "What role does nature and the outdoors play in Evan and Sam's mental well-being?",
+    "ground_truth": "Nature and outdoor activities seem to be significant stress relievers and sources of joy for both Evan and Sam. These activities likely contribute positively to their mental well-being.",
+    "predicted": "Evan: Nature is a primary source of peace and recovery for him—he paints landscapes, goes hiking and kayaking, takes road trips to the Rockies, and retreats to a favorite beach spot to watch sunsets when health or life gets tough. Sam: Being outdoors helps him relax, get fresh air, de-stress and regain perspective—he went on an \"epic\" hiking trip last Friday, is planning more hikes, and is considering kayaking as a healthy outlet.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core meaning: nature and outdoor activities are important stress relievers and contribute positively to Evan and Sam’s mental well-being, with supporting examples for each.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 39,
+    "question": "How many months lapsed between Sam's first and second doctor's appointment?",
+    "ground_truth": "three months",
+    "predicted": "About 3 months (roughly from May 21, 2023 to mid‑August 2023 — around August 15, 2023).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning as the ground truth — about three months between the May and mid‑August appointments — so it is correct.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 40,
+    "question": "When did Evan start taking painting classes?",
+    "ground_truth": "Few days before 19 August, 2023.",
+    "predicted": "Evan started taking painting classes on August 16, 2023.",
+    "score": 1,
+    "judge_reasoning": "August 16, 2023 is a few days before August 19, 2023, matching the ground truth timeframe.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 41,
+    "question": "Which classes did Evan join in mid-August 2023?",
+    "ground_truth": "painting classes",
+    "predicted": "Evan joined painting classes—specifically watercolor painting—starting around August 16, 2023.",
+    "score": 1,
+    "judge_reasoning": "The prediction states Evan joined painting classes, which matches the ground truth. The added specifics (watercolor, ~Aug 16) are consistent with 'mid-August 2023' and do not contradict the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 42,
+    "question": "How did Evan get into painting?",
+    "ground_truth": "His friend got him into it by gifting him a painting and giving him some advice. The painting inspired Evan.",
+    "predicted": "A friend introduced him to painting — they gave him a painting and some advice, which inspired him and got him hooked on watercolor painting.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: a friend gave him a painting and advice which inspired him; extra detail about watercolor doesn't contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 43,
+    "question": "How often does Sam get health checkups?",
+    "ground_truth": "every three months",
+    "predicted": "Not stated — Sam mentions recent check-ups (a few days before May 24, 2023 and a check-up on the Monday before October 8, 2023) but the conversation gives no regular frequency.",
+    "score": 0,
+    "judge_reasoning": "Ground truth: 'every three months.' Predicted answer says no regular frequency is given, which contradicts the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 44,
+    "question": "What kind of subjects does Evan enjoy painting?",
+    "ground_truth": "nature landscapes, portraits, abstract minimalism",
+    "predicted": "Evan enjoys painting landscapes and nature scenes — especially sunsets, the ocean, mountains, forests, and desert/cactus scenes — and he also does contemporary figurative work expressing emotion.",
+    "score": 1,
+    "judge_reasoning": "The prediction correctly identifies nature/landscapes and figurative/portrait work (expressing emotion). It omits explicit mention of abstract minimalism but captures most of the ground-truth items.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 45,
+    "question": "Which places in Canada was Evan visiting in July 2023?",
+    "ground_truth": "Banff, Rocky Mountains",
+    "predicted": "Banff, Alberta (he was on a skiing trip there in July 2023).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer identifies Banff (in Alberta), which matches the ground truth (Banff, Rocky Mountains). The extra detail about a skiing trip does not contradict the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 46,
+    "question": "How do Evan and Sam use creative outlets to cope with life's challenges?",
+    "ground_truth": "Evan and Sam use creative activities, like painting and writing, as therapeutic tools to express themselves and cope with stress.",
+    "predicted": "Evan leans on visual art (especially watercolor and other paintings — landscapes, sunsets, a cactus/desert piece, ocean and mountain scenes; he’s taken painting classes, exhibited work including a contemporary figurative and minimalistic piece) and even music (a 1968 Kustom K-200A vintage guitar) to relieve stress and express emotion. Sam uses writing and drawing as therapy (journaling and creative writing to sort feelings), has been learning drawing, was inspired by exhibits, and planned to try painting with Evan (asked for supplies and scheduled a painting session).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core meaning: both use creative outlets (Evan: painting/music; Sam: writing/drawing) as therapeutic ways to express emotions and cope with stress, with additional consistent details.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 47,
+    "question": "When did Evan go skiing in Banff?",
+    "ground_truth": "July 2023",
+    "predicted": "Evan went skiing in Banff in July 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: July 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 48,
+    "question": "What new diet and lifestyle change did Sam adopt over time?",
+    "ground_truth": "Healthy eating, exercise routine, running, hiking",
+    "predicted": "Sam adopted a new diet-and-exercise routine: he cut back on soda and candy and started eating healthier (more vegetables/fruit — e.g., bowls with spinach, avocado and strawberries; grilled chicken and veggie stir‑fry). He also became more active (going hiking) and got involved with Weight Watchers, eventually becoming a Weight Watchers coach.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes healthy eating, an exercise routine and hiking (and additional related details), covering most key points from the ground truth (missing only an explicit mention of running).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 49,
+    "question": "Who was injured in Evan's family?",
+    "ground_truth": "Evan's son and Evan himself",
+    "predicted": "Both Evan’s son and Evan himself were injured — his son fell off his bike and hurt his ankle, and Evan had his own injuries including twisted ankles and health scares.",
+    "score": 1,
+    "judge_reasoning": "Prediction identifies both Evan’s son and Evan himself as the injured family members, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 50,
+    "question": "What kind of hobbies does Evan pursue?",
+    "ground_truth": "painting, hiking, reading books, biking, skiing, snowboarding, ice skating, swimming, camping, kayaking",
+    "predicted": "Evan pursues watercolor painting (paints landscapes and takes painting classes), hiking and road trips/driving, winter sports (skiing, snowboarding, ice skating, snowshoeing), swimming and gym/fitness, playing basketball (with his kids), caring for a bonsai tree, reading novels (e.g., The Great Gatsby), trying new recipes/cooking, and he recently acquired a guitar.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes most ground-truth hobbies (painting, hiking, reading, skiing, snowboarding, ice skating, swimming) and extra activities; missing biking, camping, and kayaking but covers the majority, so correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 51,
+    "question": "What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?",
+    "ground_truth": "Sam faces challenges like maintaining motivation and making dietary changes. He addresses them by enrolling in cooking classes and seeking support from friends like Evan.",
+    "predicted": "Sam faces weight and health concerns after a doctor’s check-up, teasing from friends about his weight, persistent cravings for soda and candy, family pressure and low motivation/confidence during setbacks. He addresses these by cutting back on soda and candy (trying flavored seltzer and healthier swaps), starting a diet and exercise routine, attending Weight Watchers meetings and becoming a Weight Watchers coach, taking a cooking class to learn healthy recipes, doing hiking and other low‑impact exercise (walking, yoga/beach walks), using painting to de‑stress, and planning a doctor appointment for guidance.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the core challenges (motivation, dietary changes) and the key solutions (enrolling in cooking classes and seeking support through groups/others). Although it adds extra details and doesn’t name Evan specifically, it conveys the same main points as the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 52,
+    "question": "Which activity do Evan and Sam plan on doing together during September 2023?",
+    "ground_truth": "painting",
+    "predicted": "They planned to attend a painting session together (painting).",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state they planned to do painting together in September 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 53,
+    "question": "When did Evan and Sam decide to paint together?",
+    "ground_truth": "Saturday after 11 September, 2023.",
+    "predicted": "They agreed on September 11, 2023 to paint \"next Saturday\" — i.e., they planned to paint together on September 16, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth: they agreed on Sept 11, 2023 to paint the following Saturday (Sept 16, 2023), which is the Saturday after Sept 11, 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 54,
+    "question": "What personal health incidents does Evan face in 2023?",
+    "ground_truth": "heart palpitations, twisted ankle, twisted ankle",
+    "predicted": "In 2023 Evan experienced heart palpitations (a health scare in June), twisted his ankle around August, and twisted his ankle again later in the year.",
+    "score": 1,
+    "judge_reasoning": "Prediction lists heart palpitations and two twisted-ankle incidents, matching the three health incidents in the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 55,
+    "question": "What recurring adventure does Evan have with strangers?",
+    "ground_truth": "Helping lost tourists and experiencing unexpected adventures in the city.",
+    "predicted": "He helps lost tourists find their way and often ends up taking an unexpected tour around the city with them.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches ground truth: both state he helps lost tourists and ends up on unexpected city adventures/tours with them.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 56,
+    "question": "What is Sam's persistent problem with his phone?",
+    "ground_truth": "His new phone malfunctioning, particularly with the navigation app.",
+    "predicted": "Sam's navigation app on his new phone keeps malfunctioning, making it hard for him to get around.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth: it states the new phone's navigation app keeps malfunctioning, which is the persistent problem described.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 57,
+    "question": "Which US state was Sam travelling in during October 2023?",
+    "ground_truth": "California",
+    "predicted": "California — Sam said they were traveling through Lake Tahoe (on the California–Nevada border) in October 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states California and includes supporting detail (Lake Tahoe), matching the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 58,
+    "question": "When did Evan start lifting weights?",
+    "ground_truth": "October 2022",
+    "predicted": "He started lifting weights on October 8, 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer specifies a date in October 2022, which matches the ground truth month (October 2022); extra specificity is acceptable.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 59,
+    "question": "When did Sam and his friend decide to try kayaking?",
+    "ground_truth": "October 14, 2023",
+    "predicted": "They decided on October 14, 2023 — Sam said he and his mate were about to go kayaking on Lake Tahoe.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer gives the correct date (October 14, 2023) and includes extra, non-contradictory detail about kayaking location.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 60,
+    "question": "Which new activity does Sam take up in October 2023?",
+    "ground_truth": "kayaking",
+    "predicted": "Kayaking — Sam says he and his mate are going to try kayaking on the lake on October 14, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state Sam takes up kayaking (prediction includes the same activity and the October 14, 2023 timing).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 61,
+    "question": "What kind of stress was Sam dealing with in October 2023?",
+    "ground_truth": "work-related stress",
+    "predicted": "He was dealing with work stress and struggling to stay motivated.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes 'work stress,' which matches the ground truth 'work-related stress.' The additional note about motivation is extra but not contradictory.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 62,
+    "question": "What health scares did Sam and Evan experience?",
+    "ground_truth": "Sam faced a health scare with stomach pains that turned out to be gastritis, prompting him to rethink his health habits. Evan, on the other hand, experienced two separate incidents: a sudden heart palpitation incident and a different event involving a misunderstanding during a medical check-up. These experiences have significantly influenced their perspectives on health and well-being.",
+    "predicted": "Sam: an ER visit for a severe stomachache that was diagnosed as gastritis.  \nEvan: a sudden heart‑palpitation incident and, on another occasion, a hospital visit after a suspicious finding at a check‑up that turned out to be a misunderstanding.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: Sam had stomach pains diagnosed as gastritis; Evan had a sudden heart-palpitation and a separate check-up misunderstanding/hospital visit.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 63,
+    "question": "When was Sam in the ER?",
+    "ground_truth": "weekend before 17 October, 2023.",
+    "predicted": "Sam was in the ER over the weekend of October 14–15, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: the weekend before Oct 17, 2023 is Oct 14–15, 2023, so the predicted date is correct.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 64,
+    "question": "Which ailment does Sam have to face due to his weight?",
+    "ground_truth": "gastritis",
+    "predicted": "Sam developed gastritis due to his weight — the condition caused a severe stomachache that landed him in the ER.",
+    "score": 1,
+    "judge_reasoning": "Prediction correctly identifies gastritis as the weight-related ailment, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 65,
+    "question": "Does Evan live close to a beach or mountains?",
+    "ground_truth": "beach",
+    "predicted": "Evan lives close to a beach — he grew up on (and still refers to) Little Island and has a favorite spot by the beach near his home. He also visits mountains on trips (Rockies, Jasper, Banff), with mountain lakes about a two-hour drive away.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer clearly states Evan lives close to a beach (matches ground truth); additional mountain-trip details do not contradict the core answer.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 66,
+    "question": "When did Evan lose his job?",
+    "ground_truth": "end of October 2023",
+    "predicted": "Evan lost his job in October 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer gives the correct month (October 2023), which includes the ground-truth timing (end of October 2023); acceptable level of specificity.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 67,
+    "question": "When did Evan and Sam planned a trip to the beach together?",
+    "ground_truth": "December, 2023",
+    "predicted": "They planned it on November 9, 2023 — Evan suggested \"next month,\" i.e., December 2023.",
+    "score": 1,
+    "judge_reasoning": "Prediction states the trip was planned on November 9, 2023 and scheduled for 'next month' (December 2023), which matches the ground truth of December 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 68,
+    "question": "What was Sam doing on December 4, 2023?",
+    "ground_truth": "Attending a Weight Watchers meeting",
+    "predicted": "The conversation does not mention any activity Sam was doing on December 4, 2023.",
+    "score": 0,
+    "judge_reasoning": "Incorrect — the ground truth states Sam was attending a Weight Watchers meeting on December 4, 2023; the prediction claims no activity was mentioned.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 69,
+    "question": "Which two significant life events occur in Evan's life in December 2023 with his partner?",
+    "ground_truth": "his partner gets pregnant and they get married",
+    "predicted": "He and his partner announced her pregnancy (Dec 9, 2023) and Evan got married to his partner (around Dec 19, 2023).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same two events — pregnancy announcement and marriage — matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 70,
+    "question": "How long did Evan and his partner date before getting married?",
+    "ground_truth": "four months",
+    "predicted": "Evan and his partner dated for about four months before getting married — they met around early August 2023 and married in late December 2023.",
+    "score": 1,
+    "judge_reasoning": "Prediction states approximately four months of dating before marriage, consistent with the ground truth of ‘four months.’",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 71,
+    "question": "Which major holiday season conincides with Evan's wedding?",
+    "ground_truth": "Christmas",
+    "predicted": "Evan's wedding coincides with the Christmas holiday season — the week of December 19–25, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer correctly identifies Christmas as the holiday season and adds a compatible date range; matches the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 72,
+    "question": "Which activity did Sam resume in December 2023 after a long time?",
+    "ground_truth": "hiking",
+    "predicted": "Sam resumed hiking — on December 29, 2023 he took his friends on an epic hiking trip.",
+    "score": 1,
+    "judge_reasoning": "Contains the ground-truth activity (hiking); extra date/detail does not contradict the answer.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 73,
+    "question": "When is Evan planning a big family reunion?",
+    "ground_truth": "Summer 2024",
+    "predicted": "He's planning it next summer — summer 2024 (June–August 2024).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (Summer 2024) and adds acceptable clarifying months.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 74,
+    "question": "When did Evan's son fall off his bike?",
+    "ground_truth": "Thursday before December 17, 2023.",
+    "predicted": "Evan's son fell off his bike on December 12, 2023.",
+    "score": 0,
+    "judge_reasoning": "Incorrect. The ground truth is the Thursday before Dec 17, 2023 (Dec 14, 2023); the prediction gives Dec 12, 2023, which does not match.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 75,
+    "question": "When did Evan announce his marriage to his extended family?",
+    "ground_truth": "January 5, 2024",
+    "predicted": "He told his extended family about the marriage on January 5, 2024.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (January 5, 2024) exactly.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 76,
+    "question": "When did Evan finish the painting that's hanging in the exhibit?",
+    "ground_truth": "few days before 17 December, 2023.",
+    "predicted": "Around December 14, 2023 (a few days before his December 17, 2023 message).",
+    "score": 1,
+    "judge_reasoning": "Prediction matches ground truth: December 14, 2023 is a few days before December 17, 2023, which conveys the same timing.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 77,
+    "question": "How does Evan spend his time with his bride after the wedding?",
+    "ground_truth": "family get-together, honeymoon in Canada to see snowy landscapes, ski, taste local cuisine and do some snowshoeing",
+    "predicted": "He and his bride go to Canada for their honeymoon — planning to ski, try local cuisine (poutine), and enjoy the snowy landscapes and beautiful views; they also tried snowshoeing together.",
+    "score": 1,
+    "judge_reasoning": "The prediction matches the main points of the ground truth—honeymoon in Canada, skiing, tasting local cuisine, enjoying snowy landscapes, and snowshoeing. It only omits the family get-together, but captures most key items.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 78,
+    "question": "Who did Evan tell about his marriage?",
+    "ground_truth": "To Sam, to his friends from work, and to his and his wife's families.",
+    "predicted": "He told his extended family and his work friends.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes work friends and the families (extended family), matching two of the three items in the ground truth; only 'Sam' is omitted, so it conveys the core information.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 79,
+    "question": "When will Evan and his partner have their honeymoon in Canada?",
+    "ground_truth": "February 2024",
+    "predicted": "They'll have their honeymoon in Canada in February 2024.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: February 2024.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 80,
+    "question": "When did Evan have a drunken night with his friends?",
+    "ground_truth": "January 9, 2023",
+    "predicted": "He had that drunken night on January 9, 2024.",
+    "score": 0,
+    "judge_reasoning": "Incorrect year: ground truth is January 9, 2023, but prediction gives January 9, 2024.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 81,
+    "question": "What is a stress reliever for Evan?",
+    "ground_truth": "Drawing, traveling, places with a beautiful view, yoga, sunsets or something comfortable for Evan",
+    "predicted": "Watercolor painting (painting) is a stress reliever for Evan.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer (watercolor painting) aligns with the ground truth's 'drawing'—both are artistic activities and a form of stress relief for Evan, so the core meaning is preserved.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 82,
+    "question": "What is a stress reliever for Sam?",
+    "ground_truth": "Unhealthy snacks, sweets, yoga, places with beautiful views",
+    "predicted": "Sam relieves stress with unhealthy snacks and sweets (his comfort foods), yoga sessions, and visiting places with beautiful views.",
+    "score": 1,
+    "judge_reasoning": "Prediction covers all stress relievers in the ground truth: unhealthy snacks/sweets, yoga, and places with beautiful views.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 83,
+    "question": "What type of car did Evan get after his old Prius broke down?",
+    "ground_truth": "new Prius",
+    "predicted": "He got a new Prius.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly — both state he got a new Prius.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 84,
+    "question": "How did Evan get into watercolor painting?",
+    "ground_truth": "friend's advice",
+    "predicted": "A friend gave him a painting and some advice, which inspired him and got him hooked on watercolor painting.",
+    "score": 1,
+    "judge_reasoning": "Prediction states a friend gave advice (and inspired him), which matches the ground truth; extra detail about a painting doesn't contradict it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 85,
+    "question": "What did Evan start doing a few years back as a stress-buster?",
+    "ground_truth": "watercolor painting",
+    "predicted": "Evan started watercolor painting a few years back as a stress-buster.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth—both state Evan began watercolor painting a few years ago as a stress-buster.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 86,
+    "question": "What advice did Evan give Sam about finding a passion?",
+    "ground_truth": "keep trying new things until something sparks excitement",
+    "predicted": "Evan told Sam: \"You'll find it, just keep trying new things until something sparks your excitement.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same advice—keep trying new things until something sparks excitement; wording difference is minor.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 87,
+    "question": "Where did Evan take his family for a road trip on 24 May, 2023?",
+    "ground_truth": "Jasper",
+    "predicted": "He took his family on a road trip to Jasper.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth — Jasper was the road trip destination.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 88,
+    "question": "What did Evan find relaxing about his road trip to Jasper?",
+    "ground_truth": "fresh air, peacefulness, cozy cabin surrounded by mountains and forests",
+    "predicted": "He found the fresh air, peacefulness, and a cozy cabin surrounded by mountains and forests relaxing.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—fresh air, peacefulness, and a cozy cabin surrounded by mountains and forests.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 89,
+    "question": "What habit is Sam trying to change in terms of diet?",
+    "ground_truth": "consuming soda and candy",
+    "predicted": "Sam is trying to reduce his soda and candy intake — cutting down on sugary drinks and snacks.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches ground truth: both state Sam is reducing/avoiding soda and candy (sugary drinks and snacks).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 90,
+    "question": "What new suggestion did Evan give to Sam regarding his soda and candy consumption?",
+    "ground_truth": "try flavored seltzer water and dark chocolate with high cocoa content",
+    "predicted": "Evan suggested Sam swap soda for flavored seltzer water (still bubbly and tasty but without the sugar) and replace candy with dark chocolate with high cocoa content.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: suggested flavored seltzer water instead of soda and dark chocolate with high cocoa content instead of candy.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 91,
+    "question": "What did Sam agree to try instead of soda and candy?",
+    "ground_truth": "flavored seltzer water and dark chocolate with high cocoa content",
+    "predicted": "Sam agreed to try flavored seltzer water instead of soda and dark chocolate with high cocoa content instead of candy.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: flavored seltzer water and dark chocolate with high cocoa content.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 92,
+    "question": "What frustrating issue did Sam face at the supermarket?",
+    "ground_truth": "broken self-checkout machines",
+    "predicted": "The supermarket’s self-checkout machines were all broken/out of order, which frustrated Sam.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state that the supermarket's self-checkout machines were broken/out of order, causing Sam's frustration.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 93,
+    "question": "What novel is Evan reading that he finds gripping?",
+    "ground_truth": "The Great Gatsby",
+    "predicted": "He’s reading \"The Great Gatsby.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: he is reading The Great Gatsby.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 94,
+    "question": "What kind of water does Evan suggest Sam try as an alternative to soda?",
+    "ground_truth": "Flavored seltzer water",
+    "predicted": "He suggests flavored seltzer water.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: 'flavored seltzer water.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 95,
+    "question": "What does the smartwatch help Evan with?",
+    "ground_truth": "tracks progress and serves as a constant reminder to keep going",
+    "predicted": "It tracks his progress and serves as a constant visual reminder, motivating him to stay on track with his health goals.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: says it tracks progress and acts as a constant reminder to keep going (adds consistent detail about motivating health goals).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 96,
+    "question": "What does the bonsai tree symbolize for Evan?",
+    "ground_truth": "strength and resilience",
+    "predicted": "For Evan, the bonsai tree symbolizes strength and resilience; taking care of it motivates him to keep going through tough times.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly states 'strength and resilience' and adds a consistent, non-contradictory elaboration about motivation during tough times.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 97,
+    "question": "Why did Evan decide to get the bonsai tree?",
+    "ground_truth": "motivates him to keep going through tough times",
+    "predicted": "He got the bonsai tree because it symbolizes strength and resilience, and taking care of it motivates him to keep going through tough times.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth reason (motivates him to keep going through tough times) and adds compatible detail about symbolism; meaning is preserved.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 98,
+    "question": "According to Sam, what is more important than perfection?",
+    "ground_truth": "progress",
+    "predicted": "Sam said that progress is more important than perfection.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning as the ground truth — it states that progress is more important than perfection.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 99,
+    "question": "What did Evan suggest Sam to check out for insights into his dream?",
+    "ground_truth": "dream interpretation book",
+    "predicted": "He suggested Sam check out a dream interpretation book.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state he suggested a dream interpretation book.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 100,
+    "question": "What did Evan mention he had been searching for fruitlessly for half an hour?",
+    "ground_truth": "his keys",
+    "predicted": "He said he'd been searching for his keys.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: both state Evan had been searching for his keys.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 101,
+    "question": "What class is Sam taking to learn how to make healthier meals?",
+    "ground_truth": "cooking class",
+    "predicted": "Sam is taking a cooking class.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly—both state Sam is taking a cooking class.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 102,
+    "question": "What dish did Sam make on 18 August, 2023 that turned out flavorful?",
+    "ground_truth": "grilled dish with salmon and vegetables",
+    "predicted": "He made a marinated grilled salmon with vegetables (a grilled dish of salmon and veggies).",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: a grilled salmon dish with vegetables (marinated grilled salmon and veggies).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 103,
+    "question": "What kind of recipe did Evan request from Sam on 19 August, 2023?",
+    "ground_truth": "recipes with more vegetables",
+    "predicted": "Evan asked Sam for recipes with more vegetables — he wanted to incorporate more veggies into his family’s meals.",
+    "score": 1,
+    "judge_reasoning": "Prediction identifies the recipe request as being for more vegetables, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 104,
+    "question": "What food did Sam share a photo of on 19 August, 2023?",
+    "ground_truth": "bowl of spinach, avocado, and strawberries",
+    "predicted": "Sam shared a photo of a bowl of spinach, avocado, and strawberries.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state a bowl of spinach, avocado, and strawberries.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 105,
+    "question": "What type of painting classes did Evan start taking in 2023?",
+    "ground_truth": "watercolor painting classes",
+    "predicted": "He started taking watercolor painting classes.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state he began taking watercolor painting classes in 2023.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 106,
+    "question": "What did Evan start painting years ago due to being inspired by a friend's gift?",
+    "ground_truth": "forest scene",
+    "predicted": "He started watercolor painting.",
+    "score": 0,
+    "judge_reasoning": "Incorrect: ground truth says he began painting a 'forest scene' specifically, while the prediction says he started 'watercolor painting' (different content).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 107,
+    "question": "What nature concept do watercolor painting classes emphasize according to Evan?",
+    "ground_truth": "observing nature and painting what is seen",
+    "predicted": "They emphasize \"observing nature and painting what we see.\"",
+    "score": 1,
+    "judge_reasoning": "Prediction conveys the same meaning as the ground truth: observing nature and painting what is seen.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 108,
+    "question": "What type of landscapes does Evan love painting the most?",
+    "ground_truth": "sunsets over the ocean",
+    "predicted": "He loves painting landscapes—nature scenes (e.g., sunsets over the ocean).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly includes 'sunsets over the ocean,' matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 109,
+    "question": "What fun activity did Evan mention doing in July 2023?",
+    "ground_truth": "skiing",
+    "predicted": "He went skiing in Banff in July 2023.",
+    "score": 1,
+    "judge_reasoning": "Includes the ground-truth activity (skiing); extra location detail (Banff) is acceptable.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 110,
+    "question": "What injury did Evan suffer from in August 2023?",
+    "ground_truth": "Twisted knee",
+    "predicted": "He suffered a twisted knee injury.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information—he suffered a twisted knee injury—as the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 111,
+    "question": "What sports activity has Evan been doing to stay active while dealing with the knee injury?",
+    "ground_truth": "Swimming",
+    "predicted": "Evan has been swimming to stay active while recovering from his knee injury.",
+    "score": 1,
+    "judge_reasoning": "Prediction states Evan has been swimming to stay active while recovering from his knee injury, which matches the ground truth 'Swimming'.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 112,
+    "question": "What suggestion did Sam give to Evan to help with his knee issue?",
+    "ground_truth": "Consider low-impact exercises or physical therapy",
+    "predicted": "Sam suggested Evan look into low-impact exercises or physical therapy, and specifically recommended swimming as a low-impact option.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth suggestion to try low-impact exercises or physical therapy and adds an acceptable specific example (swimming).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 113,
+    "question": "What did Evan suggest Sam try as a calming hobby?",
+    "ground_truth": "Painting",
+    "predicted": "He suggested painting—specifically watercolor painting—as a calming, de-stressing hobby.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth (painting); prediction adds acceptable detail (watercolor) without contradiction.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 114,
+    "question": "What did Evan recommend Sam acquire to get started with painting?",
+    "ground_truth": "Acrylic paints, brushes, canvas/paper, palette",
+    "predicted": "Evan recommended Sam get acrylic paints, brushes, a canvas or paper, and a palette.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth items (acrylic paints, brushes, canvas or paper, and a palette).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 115,
+    "question": "What activity does Evan do to keep himself busy while healing his knee?",
+    "ground_truth": "Watercolor painting",
+    "predicted": "He does watercolor painting to keep himself busy.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly — both state he does watercolor painting to stay busy while healing his knee.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 116,
+    "question": "What painting did Evan share with Sam in October?",
+    "ground_truth": "a cactus in the desert",
+    "predicted": "He shared a painting of a cactus in the desert.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same meaning as the ground truth: a painting of a cactus in the desert.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 117,
+    "question": "What kind of writing does Sam enjoy as a form of expression?",
+    "ground_truth": "creative writing",
+    "predicted": "Sam enjoys writing in her journal and doing creative writing to express her innermost thoughts and feelings.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly states Sam does creative writing (and journaling), matching the ground truth 'creative writing.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 118,
+    "question": "What electronics issue has been frustrating Sam lately?",
+    "ground_truth": "malfunctioning navigation app on the new phone",
+    "predicted": "Sam's new phone — its navigation app keeps malfunctioning, making getting around a bit of a challenge.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state the navigation app on Sam's new phone is malfunctioning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 119,
+    "question": "What activity did Evan start one year ago?",
+    "ground_truth": "lifting weights",
+    "predicted": "Evan started lifting weights one year ago.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state Evan started lifting weights one year ago.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 120,
+    "question": "What advice did Evan give to Sam to avoid injuries while starting weightlifting?",
+    "ground_truth": "Find a trainer",
+    "predicted": "Evan told Sam to start with good form and technique, find a trainer to help avoid injuries, begin with something small and gradually increase intensity as he gets stronger, and stay consistent with the routine.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly includes 'find a trainer' (along with extra, non-contradictory advice), so it contains the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 121,
+    "question": "Where did Sam and his mate plan to try kayaking?",
+    "ground_truth": "Lake Tahoe",
+    "predicted": "They planned to try kayaking on Lake Tahoe.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state they planned to try kayaking on Lake Tahoe.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 122,
+    "question": "What digestive issue did Sam experience lately?",
+    "ground_truth": "Gastritis",
+    "predicted": "Sam reported he'd been dealing with \"some discomfort\" that was limiting his movement (mentioned Nov 21, 2023).",
+    "score": 0,
+    "judge_reasoning": "Incorrect. Ground truth is 'Gastritis' but the prediction says only 'some discomfort limiting his movement' and does not identify gastritis.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 123,
+    "question": "What adventurous theme is emerging in Evan's life as mentioned by Sam?",
+    "ground_truth": "helping lost tourists",
+    "predicted": "Sam highlights an outdoors/adventure theme in Evan's life—his Canada trip with his new partner and activities like hiking, biking, camping (tent) and snowshoeing.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer describes outdoor/adventure activities (hiking, camping, etc.) rather than the ground-truth theme of 'helping lost tourists.' It does not mention helping lost tourists.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 124,
+    "question": "What does Evan mention about his progress at the gym to Sam?",
+    "ground_truth": "gaining strength",
+    "predicted": "He says he started lifting weights one year ago, it was a struggle at first but he's \"seeing some gains\" and is \"gaining strength\" (he even says he was just at the gym yesterday) and shares his gym membership card as a reminder of his commitment.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the ground-truth point—he says he's gaining strength—along with extra correct details, so it matches.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 125,
+    "question": "How did Evan start his transformation journey two years ago?",
+    "ground_truth": "Changed his diet and started walking regularly",
+    "predicted": "He changed his diet and started walking regularly (began walking on 2021-10-25), finding a fitness routine he enjoyed and cutting sugary snacks while eating more vegetables and fruit.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground truth (changed diet and started walking regularly) and adds non-contradictory details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 126,
+    "question": "What gift did Evan receive from a close friend?",
+    "ground_truth": "1968 Kustom K-200A vintage guitar",
+    "predicted": "Evan received a 1968 Kustom K-200A vintage guitar as a gift from a close friend.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer exactly matches the ground truth: Evan received a 1968 Kustom K-200A vintage guitar from a close friend.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 127,
+    "question": "Why had Evan been going through a tough time lately?",
+    "ground_truth": "Lost their job due to downsizing",
+    "predicted": "Because he lost his job last month when his company downsized.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state he lost his job due to company downsizing; the added timing detail does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 128,
+    "question": "How does Evan describe the island he grew up on?",
+    "ground_truth": "A happy place",
+    "predicted": "Evan calls it \"my happy place,\" describing it as serene and calming—\"a little slice of paradise\" that brings peace and holds a special place in his heart.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning—Evan describes the island as his \"happy place\"; additional descriptive details do not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 129,
+    "question": "What was the main reason for Evan's frustration with his new Prius breaking down?",
+    "ground_truth": "He relied on it for his active lifestyle and road trips",
+    "predicted": "Because he relies on the new Prius for his active lifestyle and road trips, its breaking down was a stressor—he was frustrated that a brand‑new car failed so soon.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core reason (he relied on the Prius for his active lifestyle and road trips) and adds non-contradictory context.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 130,
+    "question": "How did Sam suggest Evan view the setback with his broken Prius?",
+    "ground_truth": "As a chance to explore other ways of staying active and traveling",
+    "predicted": "Sam suggested Evan view the broken Prius as a chance to explore other ways of staying active and traveling — like biking, hiking, or trying public transit for a change.",
+    "score": 1,
+    "judge_reasoning": "Prediction captures the ground truth’s positive framing: viewing the setback as an opportunity to explore alternative travel and activity options.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 131,
+    "question": "What did Sam suggest Evan try for stress relief and flexibility?",
+    "ground_truth": "Yoga",
+    "predicted": "Sam suggested Evan try yoga, saying it had done wonders for Sam's flexibility and stress levels.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly states 'yoga,' matching the ground truth; extra context aligns and does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 132,
+    "question": "What did Sam offer Evan regarding yoga?",
+    "ground_truth": "Support and tips",
+    "predicted": "Sam offered to give Evan yoga tips (and help with anything else).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning: Sam offered yoga tips and general help/support, matching 'support and tips.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 133,
+    "question": "What news did Evan share with Sam on 9th December 2023?",
+    "ground_truth": "partner is pregnant",
+    "predicted": "He told Sam that his partner is pregnant — they’re excited and expecting a child.",
+    "score": 1,
+    "judge_reasoning": "Prediction states the same core fact (his partner is pregnant) and adds non-contradictory detail; matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 134,
+    "question": "What family event is Evan planning for next summer?",
+    "ground_truth": "big family reunion",
+    "predicted": "Evan is planning a big family reunion.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: both state Evan is planning a big family reunion.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 135,
+    "question": "What is the motto of Evan's family?",
+    "ground_truth": "'Bring it on Home'",
+    "predicted": "Evan’s family motto is \"Bring it on Home.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer exactly matches the ground truth motto.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 136,
+    "question": "According to Evan, what is important for Sam to believe in concerning his weight?",
+    "ground_truth": "Your worth is not defined by your weight",
+    "predicted": "Evan said it's important for Sam to believe in himself and that his worth is not defined by his weight.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth message that one's worth is not defined by weight (plus an additional compatible point about believing in himself).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 137,
+    "question": "Who helped Evan get the painting published in the exhibition?",
+    "ground_truth": "a close friend",
+    "predicted": "A close friend of Evan's.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same meaning as the ground truth — that a close friend helped Evan publish the painting.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 138,
+    "question": "What did Sam recently start enjoying to clear his head?",
+    "ground_truth": "running in the mornings",
+    "predicted": "Sam started enjoying running in the mornings.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: Sam started enjoying running in the mornings.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 139,
+    "question": "What did Sam suggest Evan should do with his keys?",
+    "ground_truth": "put a GPS sensor on them",
+    "predicted": "Sam suggested Evan put a GPS sensor on his keys.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: both state Sam suggested Evan put a GPS sensor on his keys.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 140,
+    "question": "How did Evan feel when he painted the piece with the bird flying over it?",
+    "ground_truth": "a sense of joy and freedom",
+    "predicted": "Evan felt a sense of joy and freedom—he experienced a massive rush of joy and a playful, liberated mood while painting it.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the ground truth 'a sense of joy and freedom' and adds compatible descriptive detail, so it conveys the same core meaning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 141,
+    "question": "What did Evan suggest Sam should keep doing to find his own version of love?",
+    "ground_truth": "Keep trying new things",
+    "predicted": "He told Sam to keep trying new things.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state that Evan told Sam to keep trying new things.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 142,
+    "question": "How did Evan describe the process of creating the painting with the bird flying over it?",
+    "ground_truth": "embracing the creative process without restraint",
+    "predicted": "Evan said he \"painted this with a sense of joy and freedom,\" using spontaneous strokes and bold colors to reflect a playful, liberated mood and \"embracing the creative process without restraint.\"",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the ground truth phrase 'embracing the creative process without restraint' and conveys the same meaning, with additional compatible detail.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 143,
+    "question": "What did Evan want to share with his work friends?",
+    "ground_truth": "getting married",
+    "predicted": "He wanted to tell his work friends that he was getting married.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth meaning exactly: he wanted to share that he was getting married.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 144,
+    "question": "What did Evan share with Sam after their hiking trip?",
+    "ground_truth": "a photo of a man standing on a rock looking out over a valley",
+    "predicted": "He shared healthy snacks — photos and recipes for cookies and energy balls (a bowl of coconut balls/oats).",
+    "score": 0,
+    "judge_reasoning": "The predicted answer does not match the ground truth. Ground truth says he shared a photo of a man standing on a rock overlooking a valley; the prediction describes sharing snacks, photos and recipes for cookies and energy balls, which is incorrect.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 145,
+    "question": "What did Evan offer to share with Sam after talking about healthy snacks?",
+    "ground_truth": "the recipes for cookies",
+    "predicted": "Evan offered to send Sam the recipes for the healthy snacks (including the cookies).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the ground-truth information that Evan offered the recipes for the cookies (noting they are healthy snacks and that he'd send them), so it matches.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 146,
+    "question": "What did Evan and his partner share with their extended family on January 5, 2024?",
+    "ground_truth": "their marriage",
+    "predicted": "On January 5, 2024, Evan and his partner told their extended family that they had gotten married.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning as the ground truth: they shared with extended family that they had gotten married.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 147,
+    "question": "What was Evan limiting himself to on his new diet?",
+    "ground_truth": "just two ginger snaps a day",
+    "predicted": "He was limiting himself to just two ginger snaps a day.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: he limited himself to just two ginger snaps a day.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 148,
+    "question": "What sports activity did Evan and his partner try in a recent weekend?",
+    "ground_truth": "Snowshoeing",
+    "predicted": "They tried snowshoeing.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state they tried snowshoeing.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 149,
+    "question": "What advice did Evan suggest Sam seek from a doctor?",
+    "ground_truth": "diet plan and low-impact exercises",
+    "predicted": "Evan suggested Sam ask the doctor for diet and exercise advice—specifically a balanced diet plan and guidance on low-impact exercises.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state asking doctor for a diet plan and guidance on low-impact exercises.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 150,
+    "question": "What suggestions did Evan give for low-impact exercises?",
+    "ground_truth": "swimming, yoga, walking",
+    "predicted": "He suggested swimming, yoga, and walking (including beach walks at sunset).",
+    "score": 1,
+    "judge_reasoning": "Contains all three items (swimming, yoga, walking); the added detail about beach walks is extra but doesn't contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 151,
+    "question": "What movie did Sam watch that motivated him to keep up with his routine?",
+    "ground_truth": "The Godfather",
+    "predicted": "Sam watched The Godfather.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: Sam watched The Godfather.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 152,
+    "question": "What activity helped Evan with stress and flexibility?",
+    "ground_truth": "Yoga",
+    "predicted": "Yoga.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state 'Yoga' as the activity.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 153,
+    "question": "What did Evan share a photo of that was taken on a camping trip?",
+    "ground_truth": "a kayak",
+    "predicted": "He shared a photo of a kayak seen from the front of the boat (an amazing sunset taken on the camping trip).",
+    "score": 1,
+    "judge_reasoning": "Prediction states he shared a photo of a kayak (with extra context about viewpoint and sunset), which matches the ground truth 'a kayak.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 154,
+    "question": "Why did Evan apologize to his partner?",
+    "ground_truth": "for a drunken night",
+    "predicted": "He apologized because, after a drunken night, he had a pee accident and urinated near some rose bushes.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the ground truth reason (a drunken night) and adds extra details; core meaning is preserved.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 155,
+    "question": "How does Evan describe being out on the water while kayaking and watching the sunset?",
+    "ground_truth": "peaceful",
+    "predicted": "He says it was \"truly unforgettable\" and that \"being out on the water is so peaceful.\"",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the core descriptor 'peaceful' (and expands with 'truly unforgettable'), matching the ground truth meaning.",
+    "category": 4,
+    "error": null
+  }
+]

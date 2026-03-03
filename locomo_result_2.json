@@ -1,0 +1,812 @@
+[
+  {
+    "question_index": 0,
+    "question": "When Jon has lost his job as a banker?",
+    "ground_truth": "19 January, 2023",
+    "predicted": "Jon lost his job as a banker on January 19, 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states the same date as the ground truth (19 January 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 1,
+    "question": "When Gina has lost her job at Door Dash?",
+    "ground_truth": "January, 2023",
+    "predicted": "She lost her Door Dash job in January 2023 (stated on January 20, 2023 that it happened \"this month\").",
+    "score": 1,
+    "judge_reasoning": "Prediction matches ground truth: both state she lost the DoorDash job in January 2023 and note the January 20, 2023 context.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 2,
+    "question": "How do Jon and Gina both like to destress?",
+    "ground_truth": "by dancing",
+    "predicted": "Both Jon and Gina destress by dancing — particularly contemporary dance.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both destress by dancing. Additional detail (contemporary dance) does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 3,
+    "question": "What do Jon and Gina both have in common?",
+    "ground_truth": "They lost their jobs and decided to start their own businesses.",
+    "predicted": "Jon and Gina are friends who are both passionate about contemporary dance (they use dance as stress relief), have competed in dance competitions/shows, and have attended dance sessions together. They also both lost their jobs (Jon lost his job as a banker; Gina lost her job at DoorDash) and became entrepreneurs (Jon started a dance studio; Gina opened an online clothing store).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the core facts from the ground truth: both lost their jobs and went on to start their own businesses; extra details do not contradict this.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 4,
+    "question": "Why did Jon decide to start his dance studio?",
+    "ground_truth": "He lost his job and decided to start his own business to share his passion.",
+    "predicted": "He lost his job as a banker and used that as a push to turn his lifelong passion for dancing into a career—he wanted to teach others, share the joy and self‑expression of dance, and find fulfillment/stress relief.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core meaning: he lost his job and launched a dance business to turn his passion into a way to teach and share dance. Additional details (banker, fulfillment) don't contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 5,
+    "question": "What Jon thinks the ideal dance studio should look like?",
+    "ground_truth": "By the water, with natural light and Marley flooring",
+    "predicted": "He pictures a downtown studio with lots of natural light and a view of the water/ocean, roomy enough in size, with proper Marley dance flooring that has enough bounce for safety (grippy, durable, easy to clean) and mirrored practice space.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all core elements: by the water/view of the ocean, natural light, and Marley flooring. Extra details do not conflict with ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 6,
+    "question": "When is Jon's group performing at a festival?",
+    "ground_truth": "February, 2023",
+    "predicted": "They're performing at a nearby festival in February 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth month and year (February 2023); extra word 'nearby' doesn't contradict facts.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 7,
+    "question": "When did Gina launch an ad campaign for her store?",
+    "ground_truth": "29 January, 2023",
+    "predicted": "Gina launched the ad campaign for her store on January 29, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (29 January 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 8,
+    "question": "When was Jon in Paris?",
+    "ground_truth": "28 January 2023",
+    "predicted": "Jon was in Paris on January 28, 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth date exactly (28 January 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 9,
+    "question": "Which city have both Jean and John visited?",
+    "ground_truth": "Rome",
+    "predicted": "Rome",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 10,
+    "question": "When did Gina team up with a local artist for some cool designs?",
+    "ground_truth": "February, 2023",
+    "predicted": "She teamed up with a local artist on February 8, 2023.",
+    "score": 1,
+    "judge_reasoning": "The prediction specifies February 8, 2023, which falls within February 2023 (matches the evidence timestamp), so it conveys the same temporal information.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 11,
+    "question": "When did Gina get her tattoo?",
+    "ground_truth": "A few years ago",
+    "predicted": "Gina says she got the tattoo \"a few years ago\" — i.e., a few years before February 8, 2023.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches ground truth: states 'a few years ago' and correctly anchors it to before Feb 8, 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 12,
+    "question": "When did Jon start to go to the gym?",
+    "ground_truth": "March, 2023",
+    "predicted": "He started hitting the gym the week of March 9–15, 2023 (he said “started hitting the gym last week” on March 16, 2023).",
+    "score": 1,
+    "judge_reasoning": "Prediction places start in the week of March 9–15, 2023, which falls in March 2023 as stated in the ground truth; extra detail is consistent with the timestamp (March 16 comment).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 13,
+    "question": "When did Gina open her online clothing store?",
+    "ground_truth": "16 March, 2023",
+    "predicted": "Gina opened her online clothing store on March 16, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (16 March 2023) despite different date format.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 14,
+    "question": "When did Jon start expanding his studio's social media presence?",
+    "ground_truth": "April, 2023",
+    "predicted": "He started expanding his studio's social media presence on April 03, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer specifies April 3, 2023, which falls within April 2023 (ground truth). This matches the required month and is therefore correct.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 15,
+    "question": "When did Jon host a dance competition?",
+    "ground_truth": "May, 2023",
+    "predicted": "May 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly (May 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 16,
+    "question": "When did Jon go to a fair to get more exposure for his dance studio?",
+    "ground_truth": "24 April, 2023",
+    "predicted": "Jon went to the fair on April 24, 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted date (April 24, 2023) exactly matches the ground truth (24 April, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 17,
+    "question": "Why did Gina decide to start her own clothing store?",
+    "ground_truth": "She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.",
+    "predicted": "Gina started the store after losing her job at Door Dash and wanting to take control of her own destiny. She’s passionate about fashion—finding unique pieces—and wanted to combine that love with her interest in dance.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes the core points: she lost her job and is passionate about finding unique fashion pieces, prompting her to start her own store. The extra detail about wanting control/destiny and dance interest does not contradict the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 18,
+    "question": "Do Jon and Gina start businesses out of what they love?",
+    "ground_truth": "Yes",
+    "predicted": "Yes. Jon started a dance studio because he’s passionate about dancing, and Gina started an online clothing store (blending her love of fashion and dance) after losing her DoorDash job.",
+    "score": 1,
+    "judge_reasoning": "The prediction affirms 'Yes' and provides supporting details about Jon and Gina starting businesses based on their passions, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 19,
+    "question": "When did Gina interview for a design internship?",
+    "ground_truth": "10 May, 2023",
+    "predicted": "Gina interviewed for the design internship on May 10, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer (May 10, 2023) matches the ground truth date (10 May, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 20,
+    "question": "When did Gina get accepted for the design internship?",
+    "ground_truth": "27 May, 2023",
+    "predicted": "Gina got accepted for the design internship on May 27, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (27 May 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 21,
+    "question": "When did Jon start reading \"The Lean Startup\"?",
+    "ground_truth": "May, 2023",
+    "predicted": "Jon started reading \"The Lean Startup\" on May 27, 2023.",
+    "score": 1,
+    "judge_reasoning": "The prediction places the start in May 2023 (specifically May 27, 2023), which is consistent with the ground truth of May 2023 and the provided timestamp.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 22,
+    "question": "When did Gina develop a video presentation to teach how to style her fashion pieces? ",
+    "ground_truth": "June, 2023",
+    "predicted": "Gina developed the video presentation on June 13, 2023.",
+    "score": 1,
+    "judge_reasoning": "The prediction specifies June 13, 2023, which falls within the ground truth month (June 2023) and matches the session timestamp provided, so it is correct.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 23,
+    "question": "How did Gina promote her clothes store?",
+    "ground_truth": "worked with an artist to make unique fashion pieces, made limited-edition sweatshirts, got some new offers and promotions for online store, developed a video presentation showing how to style her pieces",
+    "predicted": "She promoted her store by launching an ad campaign (started 2023-01-29), running offers and promotions (mentioned April 3 & April 25, 2023), and opening an online store (opened 2023-03-16) plus building a website (launched week of 2023-07-14). She also teamed up with a local artist for designs (Feb 8, 2023), created a limited-edition line (June 21, 2023), planned/used collaborations with fashion bloggers/influencers, emailed wholesalers to expand stock (reply on Feb 1, 2023), and made a video presentation showing how to style her pieces (June 13, 2023).",
+    "score": 1,
+    "judge_reasoning": "The prediction includes all key ground-truth points — collaboration with an artist, limited-edition pieces, online offers/promotions, and a styling video — so it matches despite extra details.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 24,
+    "question": "Which events has Jon participated in to promote his business venture?",
+    "ground_truth": "fair, networking events, dance competition",
+    "predicted": "Jon has participated in networking events (where he met investors and got advice), performed at a festival, prepared for/competed in a local dance competition, hosted a dance competition, gone to a fair to showcase his studio, and run workshops/classes for local schools and centers.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the three ground-truth events (fair, networking events, dance competition); extra details are acceptable.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 25,
+    "question": "What does Jon's dance studio offer?",
+    "ground_truth": "one-on-one metoring and training to dancers,  workshops and classes to local schools and centers",
+    "predicted": "Jon's Dance Studio offers dance classes, workshops (including sessions for local schools and centers), one-on-one mentoring and training, and hosts dance competitions/showcases to spotlight local talent.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes one-on-one mentoring/training and workshops/classes for local schools and centers as in the ground truth; extra detail about competitions/showcases does not contradict the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 26,
+    "question": "When did Jon receive mentorship to promote his venture?",
+    "ground_truth": "15 June, 2023",
+    "predicted": "He received mentorship on June 15, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted date (June 15, 2023) matches the ground truth (15 June, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 27,
+    "question": "Did Jon and Gina both participate in dance competitions?",
+    "ground_truth": "Yes",
+    "predicted": "Yes — Jon's dance crew took first in a local competition (he also rehearsed for a nearby dance competition), and Gina competed in several dance competitions, winning first place at regionals at age fifteen.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer affirms both participated in dance competitions and provides supporting details consistent with the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 28,
+    "question": "When was Jon in Rome?",
+    "ground_truth": "June 2023",
+    "predicted": "He was in Rome during the week of June 12–18, 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer specifies a week (June 12–18, 2023) that falls within the ground-truth month (June 2023), so it is consistent.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 29,
+    "question": "Which cities has Jon visited?",
+    "ground_truth": "Paris, Rome",
+    "predicted": "Jon has visited Paris and Rome.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (Paris and Rome) exactly.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 30,
+    "question": "When Jon is planning to open his dance studio?",
+    "ground_truth": "20 June, 2023",
+    "predicted": "He planned to open it on 2023-06-20 (June 20, 2023).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth date (20 June 2023), expressed in equivalent formats.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 31,
+    "question": "How long did it take for Jon to open his studio?",
+    "ground_truth": "six months",
+    "predicted": "It took Jon about six months to open his studio — he mentioned starting the process around January 2023, and the grand opening was in June 2023.",
+    "score": 1,
+    "judge_reasoning": "Prediction states approximately six months from January to June 2023, consistent with the ground truth of ‘six months.’",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 32,
+    "question": "When did Gina design a limited collection of hoodies?",
+    "ground_truth": "June 2023",
+    "predicted": "Gina designed the limited edition hoodies the week of June 14–20, 2023.",
+    "score": 1,
+    "judge_reasoning": "The prediction places the design in June 2023 (specifically the week of June 14–20), which is consistent with the ground truth month of June 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 33,
+    "question": "When did Jon visit networking events for his store?",
+    "ground_truth": "20 June, 2023",
+    "predicted": "He attended networking events on June 20, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (20 June 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 34,
+    "question": "When did Gina start being recognized by fashion editors?",
+    "ground_truth": "July 2023",
+    "predicted": "The week of July 2–8, 2023 (she said on July 9, 2023 that she was noticed “last week”).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer specifies the week of July 2–8, 2023, which falls within July 2023 and matches the July 9, 2023 statement—consistent with the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 35,
+    "question": "When did Jon start learning marketing and analytics tools?",
+    "ground_truth": "July, 2023",
+    "predicted": "Jon started learning marketing and analytics tools on July 9, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth month (July 2023); the predicted date (July 9, 2023) is within that month and aligns with the provided session timestamp.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 36,
+    "question": "When did Jon and Gina decide to collaborate to create dance content?",
+    "ground_truth": "21 July 2023",
+    "predicted": "They agreed to collaborate on July 21, 2023 — Gina offered to help create content and manage Jon’s social media that day and Jon accepted.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (21 July 2023) and adds non-contradictory details about Gina offering help and Jon accepting.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 37,
+    "question": "When did Gina mention Shia Labeouf?",
+    "ground_truth": " 23 July, 2023",
+    "predicted": "She mentioned Shia Labeouf on July 23, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (23 July 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 38,
+    "question": "When did Gina go to a dance class with a group of friends?",
+    "ground_truth": "21 July 2023",
+    "predicted": "She went to a dance class with a group of friends on July 21, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (21 July 2023) exactly.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 39,
+    "question": "What is Gina's favorite style of dance?",
+    "ground_truth": "Contemporary",
+    "predicted": "Gina's favorite style of dance is contemporary dance.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth: both state her favorite dance style is contemporary.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 40,
+    "question": "What is Jon's favorite style of dance?",
+    "ground_truth": "Contemporary",
+    "predicted": "Jon's favorite style is contemporary dance.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth: both state Jon's favorite style is contemporary (contemporary dance).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 41,
+    "question": "What was Gina's favorite dancing memory?",
+    "ground_truth": "Winning first place at a regionals dance competition",
+    "predicted": "Gina's favorite dancing memory was when her team won first place at a regional competition when she was fifteen.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core fact—winning first place at a regional/regionals dance competition—and adds a harmless detail (age fifteen). Matches ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 42,
+    "question": "What kind of dance piece did Gina's team perform to win first place?",
+    "ground_truth": "\"Finding Freedom\"",
+    "predicted": "They performed a contemporary piece called \"Finding Freedom.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground truth title \"Finding Freedom\" and adds a compatible detail (contemporary piece), so it matches.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 43,
+    "question": "What do the dancers in the photo represent?",
+    "ground_truth": "They are performing at the festival",
+    "predicted": "They represent grace and skill — Jon said they’re the dancers performing at the nearby festival who will “impress with their grace and skill.”",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth fact that they are performing at the festival and adds non-contradictory detail about grace and skill.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 44,
+    "question": "What does Gina say about the dancers in the photo?",
+    "ground_truth": "They look graceful",
+    "predicted": "She says, \"They're so graceful!\" and asks if they're his at the festival.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the core statement that they look graceful (\"They're so graceful!\") — extra question about the festival is additional but doesn't contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 45,
+    "question": "What is Jon's attitude towards being part of the dance festival?",
+    "ground_truth": "Glad",
+    "predicted": "He’s excited and enthusiastic about the nearby festival—can’t wait to perform, confident his crew will impress, and says performing there was awesome and reminded him why he’s passionate about dance.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys that Jon is glad—excited, enthusiastic, and positive about performing—matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 46,
+    "question": "What kind of flooring is Jon looking for in his dance studio?",
+    "ground_truth": "Marley flooring",
+    "predicted": "He's looking for Marley flooring.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth exactly: both state Jon is looking for Marley flooring.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 47,
+    "question": "What did Gina find for her clothing store on 1 February, 2023?",
+    "ground_truth": "The perfect spot for her store",
+    "predicted": "She found a wholesaler who replied \"yes\" to work with her clothing store.",
+    "score": 0,
+    "judge_reasoning": "The ground truth says she found 'the perfect spot for her store' (a location). The prediction says she found a wholesaler who agreed to work with her—this does not match the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 48,
+    "question": "What did Gina design for her store?",
+    "ground_truth": "the space, furniture, and decor",
+    "predicted": "She designed the interior/space of her clothing store — a cozy, inviting layout including the furniture and décor (notably a chandelier).",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: states she designed the store's interior/space, including furniture and decor (extra chandelier detail is consistent).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 49,
+    "question": "What did Gina want her customers to feel in her store?",
+    "ground_truth": "cozy and comfortable",
+    "predicted": "She wanted customers to feel cozy and like they're in a \"cool oasis.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes 'cozy' and conveys a comfortable, relaxed atmosphere ('cool oasis'), matching 'cozy and comfortable.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 50,
+    "question": "What did Jon say about Gina's progress with her store?",
+    "ground_truth": "hard work's paying off",
+    "predicted": "Jon repeatedly said Gina's hard work was paying off—he told her \"your store looks great,\" \"you found the perfect spot,\" that \"your store is growing,\" congratulated her on the store, and said her success inspires him.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning—Jon said Gina's hard work was paying off, with supporting quotes and praise.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 51,
+    "question": "What made Gina choose the furniture and decor for her store?",
+    "ground_truth": "personal style and customer comfort",
+    "predicted": "Gina chose furniture and decor to make the store reflect her own style and make customers feel cozy—picking pieces that \"look great and are comfy,\" with a chandelier to add a matching glam feel.",
+    "score": 1,
+    "judge_reasoning": "Matches core points: chosen to reflect her personal style and to make customers comfortable; extra detail about a chandelier doesn't contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 52,
+    "question": "What did Jon say about creating a special experience for customers?",
+    "ground_truth": "It's the key to making them feel welcome and coming back",
+    "predicted": "Jon said, \"Creating a special experience for customers is the key to making them feel welcome and coming back.\" He also said, \"I think you can create that space you're imagining.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth quote that creating a special experience is key to making customers feel welcome and return; the extra quoted line does not contradict it.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 53,
+    "question": "What did Gina say about creating an experience for her customers?",
+    "ground_truth": "making them want to come back",
+    "predicted": "Gina said making her spot \"comfortable and inviting\" for customers is key — she wants them to \"feel like they're in a cool oasis\" and is \"creating an experience that'll make 'em wanna come back.\"",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the ground-truth idea — Gina said she wants to create an experience that makes customers want to come back.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 54,
+    "question": "How is Gina's store doing?",
+    "ground_truth": "The store is doing great.",
+    "predicted": "Gina's online clothing store is doing well and growing — customers love her new offers and promotions and she's seeing increased sales. She launched an ad campaign (2023-01-29), secured a wholesaler, teamed up with a local artist, opened the online store by 2023-03-16, released limited-edition/unique pieces, and launched a store website the week of 2023-07-14 to expand her customer base.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning — the store is doing great/doing well — and adds consistent supporting details without contradiction.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 55,
+    "question": "What does Gina's tattoo symbolize?",
+    "ground_truth": "Freedom and expressing herself through dance",
+    "predicted": "Gina’s tattoo stands for freedom — specifically dancing without worrying what people think, a reminder to follow her passions and express herself.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state the tattoo symbolizes freedom and self-expression through dance (following passions and dancing without worrying what others think).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 56,
+    "question": "What did Jon and Gina compare their entrepreneurial journeys to?",
+    "ground_truth": "dancing together and supporting each other",
+    "predicted": "They compared their entrepreneurial journeys to a roller coaster — a wild/amazing ride.",
+    "score": 0,
+    "judge_reasoning": "Ground truth says they compared journeys to dancing together and supporting each other; predicted answer says a roller coaster — does not match.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 57,
+    "question": "What advice does Gina give to Jon about running a successful business?",
+    "ground_truth": "build relationships with customers, create a strong brand image, stay positive",
+    "predicted": "Gina advises Jon to focus on customer experience (make the space comfortable and inviting), build a strong brand image and relationships (network and reach out to people in the field), use social media (Instagram, TikTok) and influencer/local collaborations and promotions to raise awareness, track plans/goals visually (whiteboard/write things down), and stay motivated by reminding himself of successes, why he started, and leaning on a support system.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the three core points: building customer relationships, creating a strong brand image, and staying positive, plus additional consistent detail.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 58,
+    "question": "Why did Jon shut down his bank account?",
+    "ground_truth": "for his business",
+    "predicted": "He shut it down because he felt it was necessary for his business — he thought closing the account would help his biz grow.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core meaning — he closed the account for business reasons; extra detail about growth does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 59,
+    "question": "Why did Gina combine her clothing business with dance?",
+    "ground_truth": "she is passionate about dance and fashion",
+    "predicted": "Gina combined her clothing business with dance because she’s passionate about both—she wanted to blend her love for dance and fashion to showcase her creativity, share that passion with others, and offer dance-inspired items in her store.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core meaning—Gina combined them because she’s passionate about dance and fashion. Extra details (showcase creativity, share passion, offer dance-inspired items) are consistent and not contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 60,
+    "question": "What does Jon's dance make him?",
+    "ground_truth": "happy",
+    "predicted": "It makes him happy.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same meaning as the ground truth ('happy').",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 61,
+    "question": "What did Gina receive from a dance contest?",
+    "ground_truth": "a trophy",
+    "predicted": "She received a trophy — specifically a trophy with a glass globe on top.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states she received a trophy, matching the ground truth; it adds a harmless specific detail (glass globe) but includes the core fact.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 62,
+    "question": "How does Gina stay confident in her business?",
+    "ground_truth": "By reminding herself of her successes and progress, having a support system, and focusing on why she started",
+    "predicted": "She stays confident by reminding herself of her successes and progress, relying on a good support system, and focusing on why she started (her love of the work); she also uses dance as stress relief and even a tattoo that reminds her of freedom and to follow her passions.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes all core points—reminding herself of successes/progress, having a support system, and focusing on why she started—and adds extra, non-contradictory details (dance, tattoo).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 63,
+    "question": "What kind of professional experience did Gina get accepted for on May 23, 2023?",
+    "ground_truth": "fashion internship",
+    "predicted": "Gina was accepted for a fashion internship — a part‑time position in the fashion department of an international company.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (fashion internship) and only adds non-contradictory details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 64,
+    "question": "Where is Gina's fashion internship?",
+    "ground_truth": "fashion department of an international company",
+    "predicted": "At the fashion department of an international company.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: Gina's internship is at the fashion department of an international company.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 65,
+    "question": "What book is Jon currently reading?",
+    "ground_truth": "The Lean Startup",
+    "predicted": "Jon is reading \"The Lean Startup.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state Jon is reading 'The Lean Startup.'",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 66,
+    "question": "What is Jon offering to the dancers at his dance studio?",
+    "ground_truth": "One-on-one mentoring and training",
+    "predicted": "He's offering dance classes, workshops (including for local schools and centers), one-on-one mentoring and training, and he's hosting a dance competition to showcase local talent.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly includes 'one-on-one mentoring and training' from the ground truth, so it contains the required information despite additional details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 67,
+    "question": "How does Jon use the clipboard with a notepad attached to it?",
+    "ground_truth": "To set goals, track achievements, and find areas for improvement",
+    "predicted": "He uses it to stay organized and motivated—setting goals, tracking his achievements, and identifying areas to improve.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth: both say he sets goals, tracks achievements, and identifies areas for improvement (with extra acceptable phrasing about organization/motivation).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 68,
+    "question": "What does Jon tell Gina he won't do?",
+    "ground_truth": "quit",
+    "predicted": "Jon tells Gina he won't give up on his dreams.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same meaning: 'won't give up' = 'won't quit' (adds context about his dreams but matches the ground truth).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 69,
+    "question": "What did Jon take a trip to Rome for?",
+    "ground_truth": "To clear his mind",
+    "predicted": "He took a short trip to Rome \"to clear my mind a little.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same meaning as the ground truth — he went to Rome to clear his mind (phrased as 'to clear my mind a little').",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 70,
+    "question": "What is Jon working on opening?",
+    "ground_truth": "a dance studio",
+    "predicted": "He's working on opening his dance studio.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: both state he is opening a dance studio.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 71,
+    "question": "How does Gina describe the studio that Jon has opened?",
+    "ground_truth": "amazing",
+    "predicted": "Gina called Jon's dance studio \"awesome\" and \"amazing,\" described it as a creative space for dancers, and said it will be \"a go-to spot for self-expression.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth description 'amazing' (along with extra compatible details), so it matches.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 72,
+    "question": "How does Jon feel about the opening night of his dance studio?",
+    "ground_truth": "excited",
+    "predicted": "Jon is excited and eager—he “can’t wait” for the opening night, feels good and ready, and is looking forward to savoring the moment.",
+    "score": 1,
+    "judge_reasoning": "Prediction conveys the same core meaning (excited), including eagerness and anticipation, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 73,
+    "question": "How does Gina describe the feeling that dance brings?",
+    "ground_truth": "magical",
+    "predicted": "Gina says dance is her \"go-to for stress relief\" that makes her worries vanish, gives her freedom to express herself (\"dancing without worrying what people think\"), helps her find happiness, and is \"like air\"—she can't picture life without it.",
+    "score": 1,
+    "judge_reasoning": "The prediction conveys the same core meaning—dance gives her a transformative, freeing, almost magical feeling (worries vanish, happiness, essential like air)—so it matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 74,
+    "question": "What does Jon plan to do at the grand opening of his dance studio?",
+    "ground_truth": "savor all the good vibes",
+    "predicted": "Jon plans to hold the studio's official opening night (the grand opening), savor and enjoy the moment, and make awesome memories with Gina.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the core idea—Jon will savor/enjoy the moment (all the good vibes)—and adds non-contradictory details about the opening and making memories with Gina.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 75,
+    "question": "What does Gina say to Jon about the grand opening?",
+    "ground_truth": "Let's live it up and make some great memories",
+    "predicted": "She says, \"Can't wait for tomorrow's grand opening!\" and that she'll be \"right by your side\" to \"live it up and make some great memories tomorrow.\" She also says, \"I'm always proud of you. Enjoy the good feels tomorrow, you earned it!\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground-truth line 'live it up and make some great memories' (with minor extra context), so it conveys the same core meaning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 76,
+    "question": "What is the general sentiment about the upcoming grand opening?",
+    "ground_truth": "excitement",
+    "predicted": "Both Jon and Gina are enthusiastic and upbeat—expressing excitement, pride, anticipation, and strong support for the grand opening.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer clearly conveys the core sentiment of excitement (mentions enthusiasm and explicitly 'expressing excitement'), with additional compatible details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 77,
+    "question": "What did Gina make a limited edition line of?",
+    "ground_truth": "Hoodies",
+    "predicted": "She made a limited-edition line of hoodies (including a camouflage-print hoodie).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states she made a limited-edition line of hoodies, matching the ground truth; extra detail about a camouflage-print hoodie does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 78,
+    "question": "According to Gina, what makes Jon a perfect mentor and guide?",
+    "ground_truth": "His positivity and determination",
+    "predicted": "She says he's the perfect mentor and guide because he loves what he does, brings joy to others, and has the positivity and determination to make his dance studio a hit.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the ground truth attributes (positivity and determination) and adds compatible details; core meaning is preserved.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 80,
+    "question": "What plans does Jon have after receiving advice at the networking event?",
+    "ground_truth": "Sprucing up his business plan, tweaking his pitch to investors, and working on an online platform.",
+    "predicted": "He plans to spruce up his business plan, tweak his pitch to investors, and build an online platform to showcase the dance studio's offerings.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth—same three plans (revise business plan, refine investor pitch, develop an online platform); added detail about showcasing offerings is consistent.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 81,
+    "question": "What offer does Gina make to Jon regarding social media?",
+    "ground_truth": "Helping with making content and managing his social media accounts.",
+    "predicted": "Gina offers to help Jon create content and manage his social media accounts, specifically recommending platforms like Instagram and TikTok.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state Gina offers to help create content and manage his social media; the prediction adds acceptable extra detail about platforms.",
+    "category": 4,
+    "error": null
+  }
+]

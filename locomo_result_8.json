@@ -1,0 +1,1912 @@
+[
+  {
+    "question_index": 0,
+    "question": "What kind of project was Jolene working on in the beginning of January 2023?",
+    "ground_truth": "electricity engineering project",
+    "predicted": "She was working on an electrical engineering project.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state she was working on an electrical/electricity engineering project (same meaning).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 1,
+    "question": "Which of Deborah`s family and friends have passed away?",
+    "ground_truth": "mother, father, her friend Karlie",
+    "predicted": "Her mother, her father, and her friend Karlie.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: mother, father, and friend Karlie.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 2,
+    "question": "When did Deborah`s mother pass away?",
+    "ground_truth": "a few years before 2023",
+    "predicted": "Deborah's mother passed away a few years before January 23, 2023.",
+    "score": 1,
+    "judge_reasoning": "Parsed from text: score=1",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 3,
+    "question": "When did Jolene`s mother pass away?",
+    "ground_truth": "in 2022",
+    "predicted": "Jolene's mother passed away in 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state Jolene's mother died in 2022.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 4,
+    "question": "When did Jolene's mom gift her a pendant?",
+    "ground_truth": "in 2010",
+    "predicted": "Her mother gave it to her in 2010 in Paris.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the correct time ('in 2010') and the extra location detail does not contradict the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 5,
+    "question": "In what country did Jolene's mother buy her the pendant?",
+    "ground_truth": "In France",
+    "predicted": "Jolene's mother bought her the pendant in France.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state the pendant was bought in France.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 6,
+    "question": "What symbolic gifts do Deborah and Jolene have from their mothers?",
+    "ground_truth": "pendants",
+    "predicted": "Deborah: an amulet/pendant (a gold chain necklace) from her mother that she brings when she visits her mum’s house to feel her love and stay close to her.  \nJolene: a heart‑shaped pendant with a bird symbol (given by her mother in 2010 in Paris) that represents freedom to her.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both Deborah and Jolene are described as having pendants from their mothers; added details are consistent with that fact.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 7,
+    "question": "Which country were Jolene and her mother visiting in 2010?",
+    "ground_truth": "France",
+    "predicted": "They were visiting Paris, France in 2010.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes the correct country (France); extra detail (Paris) does not contradict the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 8,
+    "question": "What helped Deborah find peace when grieving deaths of her loved ones?",
+    "ground_truth": "yoga, old photos, the roses and dahlias in a flower garden, nature",
+    "predicted": "Spending time with family and cherishing memories—looking through the family album, photos and letters—plus time in nature (the garden, the park’s forest trail and beach, the spot by her mom’s old house and a special bench) and practicing/teaching yoga and mindfulness.",
+    "score": 1,
+    "judge_reasoning": "Matches core points: mentions yoga/mindfulness, looking through photos/album, and spending time in nature/the garden. Extra details (family time, specific spots) are acceptable additions.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 9,
+    "question": "When did Deborah's father pass away?",
+    "ground_truth": "January 25, 2023",
+    "predicted": "Deborah's father passed away on January 25, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly (January 25, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 10,
+    "question": "When was Deborah's parents' wedding?",
+    "ground_truth": "in 1993",
+    "predicted": "Deborah's parents' wedding was in 1993.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state the wedding occurred in 1993.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 11,
+    "question": "Is Deborah married?",
+    "ground_truth": "yes",
+    "predicted": "Yes — Deborah is married; she refers to “my husband” (Excerpt 2) and says she got married at the beach (Excerpt 19).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer affirms Deborah is married and cites supporting excerpts; matches the ground truth 'yes'.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 12,
+    "question": "When did Deborah receive an appreciation letter from her community?",
+    "ground_truth": "January 26, 2023",
+    "predicted": "Deborah received the appreciation letter on January 26, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date exactly (January 26, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 13,
+    "question": "What places give Deborah peace?",
+    "ground_truth": "sitting in a spot by the window in her Mom's house, sitting by the beach, Bali, forest trail in a nearby park",
+    "predicted": "Deborah finds peace in the spot by the window in her old/home her mom's house; the park near her home (especially the forest trail and the special bench); the nearby beach and the spot by the water near her mom's old house; her garden (roses and dahlias); the lake she goes to ponder; art shows; Bali; and yoga retreats.",
+    "score": 1,
+    "judge_reasoning": "Contains all ground-truth locations (window spot at her mom's house, the beach, Bali, and the nearby park/forest trail); includes extra items but they do not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 14,
+    "question": "What were Deborah's mother's hobbies?",
+    "ground_truth": "reading, traveling, art, cooking",
+    "predicted": "She enjoyed reading, traveling, art (art appreciation), cooking, and attending Deborah's yoga classes.",
+    "score": 1,
+    "judge_reasoning": "Contains all four ground-truth hobbies (reading, traveling, art, cooking); the extra item can be ignored.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 15,
+    "question": "What pets does Jolene have?",
+    "ground_truth": "snakes",
+    "predicted": "Jolene keeps snakes — Susie (adopted two years ago) and Seraphim (acquired about a year ago; bought in Paris).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer correctly states Jolene has snakes and adds non-contradictory details (names and acquisition info), matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 16,
+    "question": "What are the names of Jolene's snakes?",
+    "ground_truth": "Susie, Seraphim",
+    "predicted": "Jolene's snakes are named Susie and Seraphim.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer exactly matches the ground truth names: Susie and Seraphim.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 17,
+    "question": "When did Jolene buy her pet Seraphim?",
+    "ground_truth": "in 2022",
+    "predicted": "Around January 27, 2022 (one year before her Jan 27, 2023 message).",
+    "score": 1,
+    "judge_reasoning": "Prediction states January 27, 2022, which falls in 2022 and therefore matches the ground truth 'in 2022.'",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 18,
+    "question": "In what country did Jolene buy snake Seraphim?",
+    "ground_truth": "In France",
+    "predicted": "Jolene bought Seraphim in France (in Paris).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states France (adds Paris), which includes the ground-truth location 'France' and does not contradict it.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 19,
+    "question": "How many times has Jolene been to France?",
+    "ground_truth": "two times",
+    "predicted": "Once — she’s been to Paris, France (she bought Seraphim there about a year before Jan 27, 2023).",
+    "score": 0,
+    "judge_reasoning": "Predicted answer says once (Paris), but ground truth is two times; the prediction contradicts the correct count.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 20,
+    "question": "Which games have Jolene and her partner played together?",
+    "ground_truth": "Detroit, Walking Dead, Battlefield 1, It Takes Two, Overcooked 2",
+    "predicted": "They've played Detroit, It Takes Two, and Overcooked 2 together.",
+    "score": 1,
+    "judge_reasoning": "Contains 3 of the 5 ground-truth items (Detroit, It Takes Two, Overcooked 2); meets the 'at least half' list criterion, though it omits Walking Dead and Battlefield 1.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 21,
+    "question": "When do Jolene and her partner plan to complete the game \"Walking Dead\"?",
+    "ground_truth": "Saturday after 27 January, 2023",
+    "predicted": "Jolene and her partner plan to complete the game “Walking Dead” on the Saturday after January 27, 2023 — January 28, 2023.",
+    "score": 1,
+    "judge_reasoning": "Prediction places the planned completion on the Saturday after January 27, 2023, matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 22,
+    "question": "When did Deborah meet Anna?",
+    "ground_truth": "31 January, 2023",
+    "predicted": "Deborah met her new neighbor Anna on January 31, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states the same date (January 31, 2023) as the ground truth; meaning is preserved.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 23,
+    "question": "Why did Jolene sometimes put off doing yoga?",
+    "ground_truth": "She's more interested in playing video games",
+    "predicted": "She often postponed yoga because she was busy with engineering school and internship work, and sometimes chose to spend time playing the console with her partner.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes that she postponed yoga to play console games (with her partner), which matches the ground truth; it adds other reasons but still contains the core fact.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 24,
+    "question": "What new yoga poses did Deborah try?",
+    "ground_truth": "Warrior II, Dancer Pose (Natarajasana), Tree pose",
+    "predicted": "Warrior II; Dancer Pose (Natarajasana); Tree Pose.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer lists Warrior II, Dancer Pose (Natarajasana), and Tree Pose, which exactly matches the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 25,
+    "question": "What are Jolene's favorite books?",
+    "ground_truth": "Sapiens, Avalanche by Neal Stephenson",
+    "predicted": "\"Sapiens\"; \"Avalanche\" by Neal Stephenson; an unnamed self‑discovery book she read in her bathroom that resonated with her; and an unnamed recent inspirational story about someone who became successful.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes both 'Sapiens' and 'Avalanche' by Neal Stephenson (matches ground truth); extra unnamed items do not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 26,
+    "question": "Which book did Jolene read in January 2023?",
+    "ground_truth": "Avalanche by Neal Stephenson",
+    "predicted": "She read \"Avalanche\" by Neal Stephenson.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth exactly—both state she read 'Avalanche' by Neal Stephenson.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 27,
+    "question": "When was Jolene in Bogota?",
+    "ground_truth": "in summer 2022",
+    "predicted": "She was in Bogota in summer 2022 (around June–August 2022).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (summer 2022) and adds compatible month-range clarification (June–August 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 28,
+    "question": "In what country was Jolene during summer 2022?",
+    "ground_truth": "Colombia",
+    "predicted": "Jolene was in Bogotá, Colombia during summer 2022.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states Colombia (and adds Bogotá), matching the ground truth country.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 29,
+    "question": "When did Jolene have a mini-retreat to reflect on her career?",
+    "ground_truth": "Wednesday before 9 February, 2023",
+    "predicted": "Jolene had the mini-retreat on February 8, 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted date (February 8, 2023) matches the ground truth 'Wednesday before 9 February, 2023' (Feb 8, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 30,
+    "question": "When did Jolene have a dinner and drinks with her friends?",
+    "ground_truth": "21 February, 2023",
+    "predicted": "She had dinner and drinks with her friends on February 21, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (21 February 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 31,
+    "question": "When was the last photo of Deborah and Karlie taken?",
+    "ground_truth": "in summer 2022",
+    "predicted": "It was taken last summer—summer 2022—when Deborah and Karlie went hiking.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: states the photo was taken in summer 2022; extra hiking detail doesn't contradict the answer.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 32,
+    "question": "When was Deborah in Bali?",
+    "ground_truth": "in 2022",
+    "predicted": "Deborah was in Bali in 2022.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (both state Deborah was in Bali in 2022).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 33,
+    "question": "How long have Jolene and her partner been together?",
+    "ground_truth": "for three years",
+    "predicted": "They've been together for three years.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states the same duration ('three years') as the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 34,
+    "question": "Which year did Jolene and her partner start dating?",
+    "ground_truth": "2020",
+    "predicted": "They started dating in 2020.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth exactly — both state they started dating in 2020.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 35,
+    "question": "When did Deborah go for her first morning jog in a nearby park?",
+    "ground_truth": "24 February, 2023",
+    "predicted": "Deborah went for her first morning jog in the nearby park on February 24, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (24 February 2023); only formatting differs.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 36,
+    "question": "How old is Jolene?",
+    "ground_truth": "likely no more than 30; since she's in school",
+    "predicted": "Her exact age is not stated in the excerpts; she is described as an engineering student/intern and is likely in her early-to-mid 20s.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: exact age unstated, she’s a student/intern, and estimated well under 30 (early–mid 20s).",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 37,
+    "question": "When did Jolene take Seraphim to the park?",
+    "ground_truth": "Sunday before 2 March, 2023",
+    "predicted": "Jolene took Seraphim to the park on Sunday, February 26, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: the Sunday before March 2, 2023 is February 26, 2023, so the predicted date is correct.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 38,
+    "question": "When did Deborah start the yoga class in the neighborhood?",
+    "ground_truth": "Friday before 13 March, 2023",
+    "predicted": "Deborah started the neighborhood yoga class on March 10, 2023.",
+    "score": 1,
+    "judge_reasoning": "March 10, 2023 is the Friday before March 13, 2023, matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 39,
+    "question": "What time management techniques do Deborah and Jolene use?",
+    "ground_truth": "the Pomodoro Technique - 25 minutes work and 5-minute break, scheduler or to-do list, The Eisenhower Matrix, bullet journal",
+    "predicted": "Deborah: breaking tasks into smaller pieces and setting goals, using planners/schedulers and daily schedules/to‑do lists, prioritizing by importance vs. urgency (her method for sorting important/urgent tasks), and time‑blocking (setting aside specific times).  \nJolene: the Pomodoro Technique (25 minutes work / 5 minute break), a bullet journal to track tasks and spreads, and a routine/schedule for classes, studying, and personal time.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes all ground-truth techniques: Pomodoro (25/5), scheduler/to-do lists, Eisenhower-style prioritization (importance vs. urgency), and bullet journal; extra details are consistent.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 40,
+    "question": "Does Deborah live close to the beach or the mountains?",
+    "ground_truth": "beach",
+    "predicted": "Deborah lives close to the beach. Her favorite nature spot includes a nearby beach (where she got married and discovered surfing), and she often visits a water spot near her mom's house.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Deborah lives close to the beach and gives supporting details, which matches the ground truth 'beach'.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 41,
+    "question": "What ways do Deborah and Jolene use to enhance their yoga practice?",
+    "ground_truth": "candles, music, essential oils",
+    "predicted": "Deborah: candles and essential oils (e.g., a candle with rosemary), instrumental music (favorite track \"Savana\" and the album \"Sleep\"), yoga props and modified chair poses, mindful breathing and guided meditation (she made a meditation guide and leads sessions), morning jogs and practicing in nature (beach, sunset, retreats), and teaching/workshops.\n\nJolene: calming scents (lavender and rosemary), candles/essential oils, soothing music (Nils Frahm and Olafur Arnalds), savasana/rest pose, partner yoga and planned meditation retreats (and travel to learn new styles in Rio), outdoor practice (Mount Talkeetna, beach), and routines/bullet journaling to make time for practice.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly includes candles, music, and essential oils for Deborah and Jolene, matching the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 42,
+    "question": "What music pieces does Deborah listen to during her yoga practice?",
+    "ground_truth": "Savana, Sleep",
+    "predicted": "Deborah listens to instrumental tracks with mellow melodies and rhythms—specifically the track \"Savana\" and the album \"Sleep.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer names both items from the ground truth ('Savana' and 'Sleep') and only adds non-contradictory descriptive detail, so it conveys the same core information.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 43,
+    "question": "When did Deborah go for a bicycle ride with Anna?",
+    "ground_truth": "first week of April, 2023",
+    "predicted": "The provided excerpts do not mention Deborah going for a bicycle ride with Anna.",
+    "score": 0,
+    "judge_reasoning": "Incorrect — the ground truth states Deborah went on a bicycle ride with Anna in the first week of April 2023, but the prediction claims no mention of such an event.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 44,
+    "question": "When did Deborah go to an art show with Anna?",
+    "ground_truth": "on 9 April, 2023",
+    "predicted": "April 9, 2023.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth date (April 9, 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 45,
+    "question": "When did Jolene finish her robotics project?",
+    "ground_truth": "May 2023",
+    "predicted": "She finished it in May 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state May 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 46,
+    "question": "How long did Jolene work on the robotics project given to her by her Professor?",
+    "ground_truth": "four months",
+    "predicted": "About four months — from February 1, 2023 (when her professor gave the robotics project) until May 2023 (she said she \"wrapped that up last month\" on June 6, 2023).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states about four months (Feb 1 to May 2023), which matches the ground truth 'four months' and aligns with the provided timestamps.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 47,
+    "question": "When did Jolene do yoga at Talkeetna?",
+    "ground_truth": "on 5 June, 2023",
+    "predicted": "Jolene did yoga at Mount Talkeetna on June 5, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer gives the same date (June 5, 2023) as the ground truth; minor wording/location detail does not change the temporal correctness.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 48,
+    "question": "Which US state did Jolene visit during her internship?",
+    "ground_truth": "Alaska",
+    "predicted": "Alaska — Jolene visited Mount Talkeetna.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer names the correct state (Alaska) and adds a compatible detail (Mount Talkeetna); matches the ground truth.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 49,
+    "question": "How long has Jolene been doing yoga and meditation?",
+    "ground_truth": "about 3 years",
+    "predicted": "She’s been practicing yoga and meditation sporadically for about 3 years.",
+    "score": 1,
+    "judge_reasoning": "Prediction states about 3 years, matching the ground truth; added 'sporadically' is extra but does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 50,
+    "question": "Which year did Jolene start practicing yoga?",
+    "ground_truth": "2020",
+    "predicted": "Jolene began practicing yoga around 2020.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth year (2020), expressing the same information.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 51,
+    "question": "When did Jolene buy a new aquarium for Seraphim?",
+    "ground_truth": "24 June, 2023",
+    "predicted": "She bought the new aquarium on June 24, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (24 June 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 52,
+    "question": "When did Jolene lose a lot of progress in her work?",
+    "ground_truth": "last week of July 2023",
+    "predicted": "The week of July 25–31, 2023.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: July 25–31, 2023 corresponds to the last week of July 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 53,
+    "question": "When did Jolene adopt her snake Susie?",
+    "ground_truth": "in 2021",
+    "predicted": "She adopted Susie on August 1, 2021.",
+    "score": 1,
+    "judge_reasoning": "The prediction states the adoption occurred on August 1, 2021, which is consistent with the ground truth 'in 2021'.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 54,
+    "question": "Which pet did Jolene adopt first - Susie or Seraphim?",
+    "ground_truth": "Susie",
+    "predicted": "Susie — Jolene said she adopted Susie two years ago (mentioned Aug 01, 2023), while Seraphim was bought a year ago in Paris (mentioned Jan 27, 2023), so Susie came first.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer identifies Susie as adopted first and correctly uses the timestamps/context to show Susie (adopted ~Aug 2021) predates Seraphim (bought ~Jan 2022), matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 55,
+    "question": "Which pet did Jolene adopt more recently - Susie or Seraphim?",
+    "ground_truth": "Seraphim",
+    "predicted": "Seraphim — Jolene bought Seraphim about Jan 27, 2022 (one year before Jan 27, 2023), while she adopted Susie around Aug 1, 2021 (two years before Aug 1, 2023).",
+    "score": 1,
+    "judge_reasoning": "The predicted answer names Seraphim as the more recently adopted pet, which matches the ground truth. The extra specific dates given are unsupported but do not change the core correct answer.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 56,
+    "question": "When did Deborah lead a meditation session during the sunset?",
+    "ground_truth": "week before 16 August, 2023",
+    "predicted": "She led that sunset meditation session during the week of August 9–15, 2023 (said \"last week\" in the August 16, 2023 message).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer correctly states the week before August 16, 2023 (August 9–15, 2023), matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 57,
+    "question": "When did Jolene gift her partner a new console?",
+    "ground_truth": "17 August, 2023",
+    "predicted": "She gifted her partner the console on August 17, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (17 August 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 58,
+    "question": "What games does Jolene recommend for Deborah?",
+    "ground_truth": "Zelda BOTW for Switch , Animal Crossing: New Horizons, Overcooked 2",
+    "predicted": "Zelda: Breath of the Wild (Switch), Animal Crossing: New Horizons, and Overcooked 2.",
+    "score": 1,
+    "judge_reasoning": "Lists the same three games: Zelda: Breath of the Wild (Switch), Animal Crossing: New Horizons, and Overcooked 2.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 59,
+    "question": "What do Deborah and her husband do together?",
+    "ground_truth": "play detective games together, spend time outdoors and explore nature",
+    "predicted": "Deborah and her husband play detective games together and spend time outdoors exploring nature — they enjoy both indoor game nights and outdoor adventures.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes both activities from the ground truth: playing detective games and spending time outdoors/exploring nature.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 60,
+    "question": "When did Deborah go to a yoga retreat near her mom's place?",
+    "ground_truth": "a week before 24 August,2023",
+    "predicted": "Deborah went to the yoga retreat near her mom's place on August 17, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted date (August 17, 2023) matches the ground truth of one week before August 24, 2023.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 61,
+    "question": "What projects is Jolene planning for next year?",
+    "ground_truth": "developing renewable energy finding ways to supply clean water to those with limited access",
+    "predicted": "Jolene is planning to team up with local schools/centers to run STEM workshops/a volunteer program (inviting engineers as guest speakers); develop renewable-energy projects (notably solar) to help communities; work on projects to supply clean water/expand sustainable water‑purifier solutions; and build a prototype for a more productive/affordable aerial surveillance system.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes both ground-truth projects (develop renewable energy and supply clean water). Extra mentioned projects do not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 62,
+    "question": "Where did Deborah get her cats?",
+    "ground_truth": "Luna is from the shelter and Max is her mother's cat",
+    "predicted": "Max was Deborah's mother's cat (she took him when her mother passed away), and Luna was taken from a shelter.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: Luna from a shelter and Max was her mother's cat (prediction adds non-contradictory detail about taking him after her mother died).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 63,
+    "question": "How old are Deborah's cats?",
+    "ground_truth": "Max is 8 years old and Luna is 5 years old",
+    "predicted": "Max is 8 years old; Luna is 5 years old.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly: Max 8 years old and Luna 5 years old.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 64,
+    "question": "Does Deborah like cats?",
+    "ground_truth": "Yes",
+    "predicted": "Yes — Deborah says she \"really love[s] cats,\" owns two cats (Max, 8, and Luna, 5), took Max from her mother and adopted Luna from a shelter.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer affirms 'Yes' and includes additional supporting details; matches the ground truth that Deborah likes cats.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 65,
+    "question": "Which country was Jolene located in during the last week of August 2023?",
+    "ground_truth": "Brazil",
+    "predicted": "She was in Brazil (Rio de Janeiro).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Brazil and even adds Rio de Janeiro — matches the ground truth country (Brazil).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 66,
+    "question": "When did Jolene and her partner return home from Rio de Janeiro?",
+    "ground_truth": "29 August, 2023",
+    "predicted": "They returned home on August 29, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth date (29 August 2023).",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 67,
+    "question": "What was Jolene doing with her partner in Rio de Janeiro?",
+    "ground_truth": "they went on excursions, checked out some cool yoga classes, visited a lot of delicious cafes, visited an old temple",
+    "predicted": "She and her partner took a trip to Rio de Janeiro where they checked out yoga classes, visited lots of cafes, and went on excursions including visiting an old temple.",
+    "score": 1,
+    "judge_reasoning": "The prediction matches the ground truth: it mentions excursions (including an old temple), yoga classes, and visiting many cafes.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 68,
+    "question": "When did Deborah visit Brazil?",
+    "ground_truth": "2020",
+    "predicted": "Around August 30, 2020 (three years before her Aug 30, 2023 message).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer specifies August 30, 2020, which matches the ground truth year 2020 and is consistent with the provided context.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 69,
+    "question": "Have Deborah and Jolene been to Rio de Janeiro?",
+    "ground_truth": "yes",
+    "predicted": "Yes. Jolene visited Rio de Janeiro in 2023. Deborah visited Rio de Janeiro three years earlier (2020).",
+    "score": 1,
+    "judge_reasoning": "The prediction affirms 'yes' as in the ground truth; extra details do not contradict the ground truth and are allowed.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 70,
+    "question": "Is the friend who wrote Deborah the motivational quote no longer alive?",
+    "ground_truth": "likely yes",
+    "predicted": "Yes. Deborah said the note was written by a friend \"who, unfortunately, will never be able to support me\" and that she \"misses him here,\" indicating he has died.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: prediction affirms 'yes' and cites Deborah's wording indicating the friend has died, consistent with 'likely yes.'",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 71,
+    "question": "When did Deborah go to a community meetup?",
+    "ground_truth": "last week of August 2023",
+    "predicted": "Deborah went to a community meetup during the last week of August 2023.",
+    "score": 1,
+    "judge_reasoning": "Prediction places the community meetup in the last week of August 2023, matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 72,
+    "question": "When did Jolene's parents give her first console?",
+    "ground_truth": "when she was 10",
+    "predicted": "They gave her her first console when she was 10 years old.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same information as the ground truth: her first console was given at age 10.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 73,
+    "question": "Did Jolene teach herself how to play the console?",
+    "ground_truth": "yes",
+    "predicted": "Yes — Jolene taught herself to play, saying she learned on her own as a child; her dad was supportive and her mom would play games with her.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: the predicted answer affirms she taught herself and adds supporting details consistent with the source (learned on her own; dad supportive; mom played with her).",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 74,
+    "question": "What do Deborah and Jolene plan to try when they meet in a new cafe?",
+    "ground_truth": "coffee and fresh pastries",
+    "predicted": "They plan to try fresh pastries.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes one of the two planned items (fresh pastries). For list answers, at least half of the items present counts as correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 75,
+    "question": "What card game is Deborah talking about?",
+    "ground_truth": "Exploding Kittens",
+    "predicted": "She’s referring to the card game \"Exploding Kittens.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer exactly matches the ground truth—both identify the card game as Exploding Kittens.",
+    "category": 3,
+    "error": null
+  },
+  {
+    "question_index": 76,
+    "question": "When did Jolene and her partner try scuba diving lessons?",
+    "ground_truth": "Friday before 17 September, 2023",
+    "predicted": "They tried scuba diving lessons on Friday, September 15, 2023.",
+    "score": 1,
+    "judge_reasoning": "September 15, 2023 is the Friday immediately before September 17, 2023, matching the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 77,
+    "question": "Where did Jolene and her partner find a cool diving spot?",
+    "ground_truth": "Phuket",
+    "predicted": "They found it at Cool Dive Spot.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer says 'Cool Dive Spot' instead of the correct location 'Phuket,' so it does not match the ground truth.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 78,
+    "question": "Where did Jolene and her partner spend most of September 2023?",
+    "ground_truth": "Phuket",
+    "predicted": "They spent most of September 2023 at a meditation retreat in Phuket.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer identifies Phuket as the location (matches ground truth) and only adds extra detail about a meditation retreat, which does not contradict the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 79,
+    "question": "Has Deborah tried surfing?",
+    "ground_truth": "yes",
+    "predicted": "Yes. Deborah has tried surfing — she said she discovered her love for surfing at the beach where she got married (mentioned September 15, 2023) and confirmed she'd surfed on September 17, 2023.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer affirms 'yes' and provides supporting details consistent with the ground truth that Deborah has tried surfing.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 80,
+    "question": "Has Jolene tried surfing?",
+    "ground_truth": "no",
+    "predicted": "No. Jolene has been learning about surfing (watching videos and owns a beginners' guide) but says she \"just started learning\" and \"haven't gone yet.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states Jolene has not gone surfing and provides supporting details, matching the ground truth 'no.'",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 81,
+    "question": "When did the Deboran and Jolene agree to go surfing?",
+    "ground_truth": "in October 2023",
+    "predicted": "Deborah and Jolene agreed to go surfing in October 2023 — Jolene suggested it in September and they planned for the following month.",
+    "score": 1,
+    "judge_reasoning": "Prediction identifies October 2023 as the agreed surfing timeframe, consistent with the ground truth.",
+    "category": 2,
+    "error": null
+  },
+  {
+    "question_index": 82,
+    "question": "Which locations does Deborah practice her yoga at?",
+    "ground_truth": "at her mother's old home, park, yoga studio, beach",
+    "predicted": "Deborah practices yoga at her old home (sitting by the window/window seat), at her favorite studio (indoor classes/dance studio), teaching neighborhood classes in her neighborhood, in a nearby park, and on the beach (including Bali and the beach where she got married).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer lists the same core locations (home, park, yoga studio, beach). Wording differs slightly (says 'her old home' vs. 'her mother's old home') and adds extra details, but it conveys the ground-truth locations.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 83,
+    "question": "What kind of professional activities does Jolene participate in to gain more experience in her field?",
+    "ground_truth": "present work at virtual conference, attend workshops  and intern at firms",
+    "predicted": "Jolene is interning at a well-known engineering firm, presenting at virtual conferences, and attending workshops and networking events (and she's considering more internships to build experience). She also develops engineering projects/prototypes (e.g., a completed solar-powered vehicle and an aerial-surveillance prototype) and has proposed a volunteer STEM-teaching program for underprivileged kids.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes all ground-truth activities: presenting at virtual conferences, attending workshops, and interning at firms; extra details are additional but do not contradict.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 84,
+    "question": "What kind of engineering projects has Jolene worked on?",
+    "ground_truth": "electrical engineering, robotics, sustainable water purifier, productive and affordable aerial surveillance system",
+    "predicted": "Jolene has worked on an electrical engineering project, a robotics project, designed and built a sustainable water purifier for a rural community, developed a solar-powered vehicle (with a solar panel on the back), and prototyped an aerial‑surveillance system; she’s also pursued green‑tech/renewable‑energy and clean‑water community-focused projects.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes all items from the ground truth (electrical engineering, robotics, sustainable water purifier, aerial-surveillance system) and adds non-contradictory extra details, so it is correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 85,
+    "question": "Which community activities have Deborah and Anna participated in?",
+    "ground_truth": "yoga, running",
+    "predicted": "Deborah: teaching and hosting neighborhood yoga (including yoga in the park), organizing yoga/mindfulness workshops and events, starting a running group with Anna, fundraising/organizing a community cleanup, running a free community gardening class, and attending community meetups.\n\nAnna: participating in yoga with Deborah (yoga in the park and neighborhood classes) and joining Deborah’s running group.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both ground-truth activities (yoga and running) and adds extra community activities; core meaning matches.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 86,
+    "question": "What gifts has Deborah received?",
+    "ground_truth": "an appreciate letter from her community, a flower bouqet from her friend, a motivational quote from a friend",
+    "predicted": "- Vegan stir-fry — received from Anna.  \n- A thank-you letter sent by her group members (the note she shared).  \n- A handwritten paper/note from a friend containing the quote \"Let go of what no longer serves you.\"",
+    "score": 1,
+    "judge_reasoning": "Prediction includes two of the three ground-truth gifts (thank-you letter from community and motivational quote from a friend). One item (vegan stir-fry) differs from the ground-truth bouquet, but at least half the items match, so mark correct.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 87,
+    "question": "Which countries has Deborah traveled to?",
+    "ground_truth": "Thailand, Brazil",
+    "predicted": "Deborah traveled to Bali (Indonesia).",
+    "score": 0,
+    "judge_reasoning": "Incorrect. Ground truth lists Thailand and Brazil; prediction says only Bali (Indonesia), which does not match and omits both countries.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 88,
+    "question": "What activities does Deborah pursue besides practicing and teaching yoga?",
+    "ground_truth": "biking, going to art shows, running, organizing workshops to practice mindfulness and self-care, surfing, gardening",
+    "predicted": "Besides yoga, Deborah meditates and leads meditation sessions, goes for morning jogs/runs (she started a running group with Anna), organizes and hosts workshops and community events (including a yoga event with food stalls and live music), led a meditation session for the elderly at a local care home, ran a free gardening class for the community, surfs, and goes on walks and takes photos.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes running, organizing workshops, surfing, and gardening (4 of 6 ground-truth items) and adds related activities; although it omits biking and attending art shows, it captures most key activities.",
+    "category": 1,
+    "error": null
+  },
+  {
+    "question_index": 89,
+    "question": "What are the names of Jolene's snakes?",
+    "ground_truth": "Susie, Seraphim",
+    "predicted": "Jolene's snakes are named Susie and Seraphim.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth exactly: both snakes named Susie and Seraphim.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 90,
+    "question": "What are Jolene's favorite books?",
+    "ground_truth": "Sapiens, Avalanche by Neal Stephenson",
+    "predicted": "- Sapiens\n- Avalanche by Neal Stephenson\n- An unnamed self-discovery book she read in her bathroom that resonated with her",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both ground-truth items (Sapiens and Avalanche by Neal Stephenson); the extra unnamed book does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 91,
+    "question": "What music pieces does Deborah listen to during her yoga practice?",
+    "ground_truth": "Savana, Sleep",
+    "predicted": "She listens to instrumental tracks with mellow melodies and rhythms—one favorite track named \"Savana\"—and the album \"Sleep\" for meditation and deep relaxation.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes both items from the ground truth ('Savana' and 'Sleep') and preserves the intended meaning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 92,
+    "question": "What games does Jolene recommend for Deborah?",
+    "ground_truth": "Zelda BOTW for Switch , Animal Crossing: New Horizons, Overcooked 2",
+    "predicted": "Zelda BOTW for Switch; Animal Crossing: New Horizons; Overcooked 2; It takes two; Detroit; The Walking Dead; Battlefield 1; and Monster Hunter: World.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes all three ground-truth games (Zelda BOTW for Switch; Animal Crossing: New Horizons; Overcooked 2). Extra titles do not contradict the answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 93,
+    "question": "What projects is Jolene planning for next year?",
+    "ground_truth": "developing renewable energy finding ways to supply clean water to those with limited access",
+    "predicted": "Jolene is planning: (1) a volunteer program/series of STEM workshops teaming up with local schools/centers (inviting engineers as guest speakers) to teach underprivileged kids; (2) green‑tech projects, including renewable energy work (notably solar) to help communities; (3) initiatives to supply clean water to areas with limited access; and (4) a prototype project to develop a more affordable aerial surveillance system.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes both core projects from the ground truth (renewable energy development and supplying clean water to areas with limited access); it adds extra initiatives but does not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 94,
+    "question": "Where did Deborah get her cats?",
+    "ground_truth": "Luna is from the shelter and Max is her mother's cat",
+    "predicted": "Max she took from her mother when her mother passed away; Luna she got from a shelter.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches ground truth: Luna from a shelter; Max is her mother's cat (added context about inheriting him), which does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 95,
+    "question": "How old are Deborah's cats?",
+    "ground_truth": "Max is 8 years old and Luna is 5 years old",
+    "predicted": "Max is 8 years old; Luna is 5 years old.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth exactly: Max 8 years old and Luna 5 years old.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 96,
+    "question": "What was Jolene doing with her partner in Rio de Janeiro?",
+    "ground_truth": "they went on excursions, checked out some cool yoga classes, visited a lot of delicious cafes, visited an old temple",
+    "predicted": "In Rio de Janeiro, Jolene and her partner went on excursions, checked out some cool yoga classes, visited a lot of delicious cafes, and visited an old temple.",
+    "score": 1,
+    "judge_reasoning": "Prediction lists all four activities from the ground truth: excursions, yoga classes, cafes, and visiting an old temple.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 97,
+    "question": "Have Deborah and Jolene been to Rio de Janeiro?",
+    "ground_truth": "yes",
+    "predicted": "Yes. Jolene visited Rio de Janeiro on a trip in 2023. Deborah visited Rio de Janeiro about three years earlier (around 2020).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer affirms both have been to Rio de Janeiro, matching the ground truth; additional date details do not contradict the core answer.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 98,
+    "question": "When did Jolene's parents give her first console?",
+    "ground_truth": "when she was 10",
+    "predicted": "When she was 10 years old.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state she was 10 years old.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 99,
+    "question": "What do Deborah and Jolene plan to try when they meet in a new cafe?",
+    "ground_truth": "coffee and fresh pastries",
+    "predicted": "Deborah and Jolene plan to try fresh pastries.",
+    "score": 1,
+    "judge_reasoning": "The prediction includes one of the two items (fresh pastries). For list items, at least half present counts as correct, though it omits coffee.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 100,
+    "question": "What project did Jolene finish last week before 23 January, 2023?",
+    "ground_truth": "an electrical engineering project",
+    "predicted": "She finished an electrical engineering project.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth: both state she finished an electrical engineering project.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 101,
+    "question": "When did Jolene buy her pet snake?",
+    "ground_truth": "A year ago",
+    "predicted": "She bought it one year before Jan 27, 2023 — on January 27, 2022 (in Paris).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same timing as 'A year ago' (gives equivalent date, with extra location detail).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 102,
+    "question": "What project was Jolene working on as of 1 February, 2023?",
+    "ground_truth": "Robotics project",
+    "predicted": "She was working on a huge robotics project assigned by her engineering professor.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer identifies the same core fact (a robotics project); extra contextual details do not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 103,
+    "question": "Where did Deborah meet her new neighbor Anna?",
+    "ground_truth": "yoga in the park",
+    "predicted": "She met Anna at yoga in the park.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information as the ground truth: Deborah met Anna at yoga in the park.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 104,
+    "question": "What activity did Jolene and her partner plan to do together instead of resuming yoga?",
+    "ground_truth": "play the console",
+    "predicted": "They planned to play the console together (i.e., play video games on the console).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same activity—playing the console (video games)—matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 105,
+    "question": "What milestone did Jolene achieve recently on 4 February, 2023?",
+    "ground_truth": "Design and build a sustainable water purifier for a rural community",
+    "predicted": "She designed and built a sustainable water purifier for a rural community (completion of the sustainable water-purifier engineering project).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state she designed and built a sustainable water purifier for a rural community (completed the engineering project).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 106,
+    "question": "What is Jolene's favorite book which she mentioned on 4 February, 2023?",
+    "ground_truth": "\"Sapiens\"",
+    "predicted": "She mentioned the book \"Sapiens.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state the favorite book as \"Sapiens.\"",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 107,
+    "question": "What does Deborah bring with her whenever she comes to reflect on her mom?",
+    "ground_truth": "amulet",
+    "predicted": "She brings an amulet — a pendant (a gold chain necklace) that belonged to her mother.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly states 'amulet' and adds consistent detail (pendant/necklace) that doesn't contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 108,
+    "question": "What new outlook did Jolene gain after her mini retreat on 9 February, 2023?",
+    "ground_truth": "A confidence boost",
+    "predicted": "Jolene realized she’d achieved more than she imagined, which gave her a real confidence boost and renewed enthusiasm for her engineering work — she came up with neat solutions and felt inspired to pursue green tech for disadvantaged areas and start a volunteer STEM program.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer explicitly states she got a ‘confidence boost,’ which matches the ground truth; extra details are additional but not contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 109,
+    "question": "What cool stuff did Jolene accomplish at the retreat on 9 February, 2023?",
+    "ground_truth": "Came up with neat solutions for her engineering project",
+    "predicted": "She made concrete progress on her engineering project—coming up with “neat solutions” that boosted her confidence—and generated ideas about green tech for disadvantaged areas and a volunteer program where engineers teach STEM to underprivileged kids.",
+    "score": 1,
+    "judge_reasoning": "Prediction includes the ground-truth fact that Jolene came up with neat solutions for her engineering project; additional suggested ideas are extra but do not contradict the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 110,
+    "question": "What idea did Jolene have to help underprivileged kids learn about STEM subjects on 9 February, 2023?",
+    "ground_truth": "A volunteer program where engineers teach STEM to underprivileged kids",
+    "predicted": "She proposed a volunteer program teaming up with local schools/centers to run STEM workshops for underprivileged kids, inviting engineers to teach and serve as guest speakers about career options.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both describe a volunteer program with engineers teaching STEM to underprivileged kids; the prediction adds compatible details about schools, workshops, and guest-speaker roles.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 111,
+    "question": "How does Jolene plan to involve local engineers in her idea of teaching STEM to underprivileged kids?",
+    "ground_truth": "As guest speakers for workshops",
+    "predicted": "She plans to team up with local schools/centers to run workshops and invite local engineers to serve as guest speakers to show the kids their career options.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: predicts inviting local engineers as guest speakers for workshops (additional context but consistent).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 112,
+    "question": "What gave Deborah peace in the garden she visited?",
+    "ground_truth": "Roses and dahlias",
+    "predicted": "The roses and dahlias in the garden brought Deborah peace.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same information: roses and dahlias brought Deborah peace.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 113,
+    "question": "Why did Deborah spend time in the garden?",
+    "ground_truth": "to find comfort after losing a friend",
+    "predicted": "She spent time in the garden to find comfort after losing a friend, saying the roses and dahlias brought her peace and nostalgia.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (she sought comfort after losing a friend) and simply adds harmless detail about roses and dahlias.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 114,
+    "question": "How did Jolene and her partner initially meet?",
+    "ground_truth": "In an engineering class in college",
+    "predicted": "They met in an engineering class in college — they became friends there and it later blossomed into a romantic relationship.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (they met in an engineering class in college) and adds consistent, non-contradictory detail.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 115,
+    "question": "What activity does Deborah incorporate into her daily routine after going for a morning jog in the park?",
+    "ground_truth": "spending time with loved ones",
+    "predicted": "She incorporated a morning jog — jogging in the nearby park — into her daily routine.",
+    "score": 0,
+    "judge_reasoning": "The predicted answer repeats that she added a morning jog, but the ground truth states she spends time with loved ones after the jog; the prediction does not match.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 116,
+    "question": "According to Jolene, what does exercise help her to feel?",
+    "ground_truth": "connected to her body",
+    "predicted": "She says exercise (yoga/meditation) helps her feel centered and less stressed, gives her balance and strength, and makes her feel connected to nature and herself — incredibly peaceful and thankful.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states she feels connected to herself (and describes feeling centered), which conveys the same core idea as 'connected to her body' despite extra details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 117,
+    "question": "What did Deb share a photo of, which brought a smile to Jolene's face?",
+    "ground_truth": "a yellow coffee cup with a handwritten message",
+    "predicted": "Deb shared a photo of a yellow coffee cup/mug with a handwritten message, which cheered Jolene up.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both say Deb shared a photo of a yellow coffee cup/mug with a handwritten message (additional phrasing about cheering Jolene up is consistent).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 118,
+    "question": "What is one of Jolene's favorite dishes?",
+    "ground_truth": "lasagna",
+    "predicted": "One of Jolene's favorite dishes is lasagna.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states that one of Jolene's favorite dishes is lasagna, which exactly matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 119,
+    "question": "What picture did Jolene share related to feeling overwhelmed?",
+    "ground_truth": "a photo of a desk with a notebook and a computer monitor",
+    "predicted": "She shared a photo of a desk with a notebook and a computer monitor.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state she shared a photo of a desk with a notebook and a computer monitor.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 120,
+    "question": "What did Jolene and Deb discuss as a helpful strategy for studying and time management?",
+    "ground_truth": "breaking tasks into smaller pieces and setting goals, using planners or schedulers",
+    "predicted": "They discussed using the Pomodoro Technique (25 minutes work, 5-minute break), breaking tasks into smaller pieces and setting goals and using planners/schedulers, and Deborah's importance-vs-urgency method (organizing tasks by how important and urgent they are).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both core strategies from the ground truth (breaking tasks into smaller pieces and setting goals; using planners/schedulers) — extra details are acceptable.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 121,
+    "question": "What did Jolene ask Deb to help with on 13 March, 2023?",
+    "ground_truth": "time management",
+    "predicted": "She asked Deb for help with time management because she was struggling to keep up with her engineering assignments.",
+    "score": 1,
+    "judge_reasoning": "Prediction states she asked for help with time management and includes context, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 122,
+    "question": "What method does Deb suggest Jolene to try for organizing tasks based on importance and urgency?",
+    "ground_truth": "The Eisenhower Matrix",
+    "predicted": "She suggests the Eisenhower Matrix — sorting tasks into four boxes based on their importance and urgency.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: identifies the Eisenhower Matrix and correctly describes sorting tasks into four boxes by importance and urgency.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 123,
+    "question": "What did Jolene and Anna discuss while watching the sunset by the sea?",
+    "ground_truth": "They realized they inspire each other",
+    "predicted": "While watching the sunset by the sea, Jolene and Anna discussed how much they inspire each other — they realized they both serve as sources of motivation and support in each other’s lives.",
+    "score": 1,
+    "judge_reasoning": "Prediction captures the mutual realization of inspiring each other, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 124,
+    "question": "How does Jolene plan to pursue her dream of learning to surf?",
+    "ground_truth": "gathering information, watching videos, getting a beginners' guide",
+    "predicted": "She’s been researching—gathering information and watching videos—and bought a beginners' guide to surfing, and plans to find the right time and place to take a lesson (she also discussed planning a surf outing with Deborah next month).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes gathering information, watching videos, and getting a beginners' guide (matches ground truth); extra details about planning a lesson are additional but not contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 125,
+    "question": "What did Deborah buy to enhance her yoga practice besides the props?",
+    "ground_truth": "candle",
+    "predicted": "She bought a candle for the atmosphere to improve her yoga practice.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states she bought a candle, matching the ground truth; extra context about atmosphere does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 126,
+    "question": "What type of music does Deborah find helpful during her yoga practice?",
+    "ground_truth": "instrumental tracks with mellow melodies and rhythms",
+    "predicted": "She finds instrumental tracks with mellow melodies and rhythms helpful — mentioning the track \"Savana\" and the album \"Sleep.\"",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state she prefers instrumental tracks with mellow melodies and rhythms; extra examples do not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 127,
+    "question": "Who are the musicians mentioned by Jolene that she enjoys listening to during her yoga practice?",
+    "ground_truth": "Nils Frahm and Olafur Arnalds",
+    "predicted": "Nils Frahm and Olafur Arnalds.",
+    "score": 1,
+    "judge_reasoning": "Answer matches the ground truth exactly: Nils Frahm and Ólafur Arnalds.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 128,
+    "question": "What album does Deborah recommend for meditation and deep relaxation?",
+    "ground_truth": "'Sleep'",
+    "predicted": "She recommends the album \"Sleep\" for meditation and deep relaxation.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer exactly matches the ground truth: the recommended album is 'Sleep'.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 129,
+    "question": "Which show did Deborah go to with a friend on 9 April, 2023?",
+    "ground_truth": "an art show",
+    "predicted": "She went to an art show.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth—both state she went to an art show.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 130,
+    "question": "What does Deborah find comforting about going to art shows?",
+    "ground_truth": "It makes her feel like she's still experiencing it with her mom",
+    "predicted": "Deborah finds art shows comforting because they remind her of her mom—who loved art—and make her feel like they're still experiencing it together, helping keep her mother's memory alive and giving her peace and solace.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both say art shows make her feel like she's still experiencing them with her mom; extra comforting details don't contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 131,
+    "question": "How does Jolene describe the time spent with her snakes and partner?",
+    "ground_truth": "Valuable and relaxing",
+    "predicted": "She says time with her snakes (Susie and Seraphim) is calming, comforting and peaceful—valuable company that helps her tune in to herself. Time with her partner (playing video games and doing yoga together) is “so fun,” a great way to relax, bond and share experiences that bring them closer.",
+    "score": 1,
+    "judge_reasoning": "The prediction conveys the same core meaning—time with her snakes and partner is valuable and relaxing—while adding supportive detail; matches the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 132,
+    "question": "What does Jolene enjoy doing with her partner after a long day?",
+    "ground_truth": "Playing video games",
+    "predicted": "She enjoys playing video games with her partner to relax after a long day (e.g., Detroit, Overcooked 2).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state she plays video games with her partner after a long day; examples are additional but not contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 133,
+    "question": "What is Jolene currently doing in June 2023?",
+    "ground_truth": "interning at a well-known engineering firm",
+    "predicted": "In June 2023 Jolene is interning at a well-known engineering firm (having wrapped up her tough engineering project in May) and trying to maintain work-life balance by doing yoga and meditation (she even did yoga on top of Mount Talkeetna).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly states Jolene is interning at a well-known engineering firm, matching the ground truth; additional details do not contradict and are permissible.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 134,
+    "question": "For how long has Jolene had Seraphim as a pet?",
+    "ground_truth": "one year",
+    "predicted": "About one year — Jolene said she bought Seraphim a year before Jan 27, 2023 (around January 27, 2022).",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state one year (prediction clarifies date but conveys same duration).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 135,
+    "question": "How does Jolene feel when spending time with Seraphim?",
+    "ground_truth": "comforted",
+    "predicted": "Jolene says Seraphim “cheers me up and brings a sense of peace” and that spending time with her is “so comforting”; Seraphim also calms her down and makes her happy.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer clearly conveys that Jolene feels comforted—mentions she is cheered up, calmed, at peace, and finds spending time with Seraphim comforting, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 136,
+    "question": "Which new yoga pose did Deborah share a photo of?",
+    "ground_truth": "tree pose",
+    "predicted": "Dancer Pose (Natarajasana).",
+    "score": 0,
+    "judge_reasoning": "Incorrect — the ground truth is 'tree pose,' but the prediction says 'Dancer Pose (Natarajasana),' which is a different yoga pose.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 137,
+    "question": "What group activity did Deborah start with Anna?",
+    "ground_truth": "running group",
+    "predicted": "She started a running group with Anna.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state she started a running group with Anna.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 138,
+    "question": "What made being part of the running group easy for Deborah to stay motivated?",
+    "ground_truth": "helping and pushing each other during runs",
+    "predicted": "Having Anna and the others who help and push each other during their runs, which made it easier to stay motivated.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core meaning: group members (Anna and others) helped and pushed each other during runs, making it easier to stay motivated.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 139,
+    "question": "Why did Jolene decide to get a snake as a pet?",
+    "ground_truth": "fascinated by reptiles and it felt like the perfect pet",
+    "predicted": "She was fascinated by reptiles and felt a snake would be the perfect pet; taking care of it is calming and helps her connect with nature. She also adopted Susie two years ago when she was feeling lonely and wanted some company.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer includes the core facts: she was fascinated by reptiles and felt a snake would be the perfect pet. Additional non-contradictory details do not invalidate the match.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 140,
+    "question": "What is the favorite game Jolene plays with her partner?",
+    "ground_truth": "It takes two",
+    "predicted": "It Takes Two.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (same game title, minor capitalization/punctuation differences only).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 141,
+    "question": "What activity does Deborah do with her cats?",
+    "ground_truth": "take them out for a run in the park every morning and evening",
+    "predicted": "She takes them out for a run in the park every morning and evening.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: she takes the cats out for a run in the park every morning and evening.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 142,
+    "question": "How does Jolene describe the feeling of finding her snake snuggled under the bed after it got out?",
+    "ground_truth": "It really showed how much she loves her.",
+    "predicted": "She said she was relieved to find her snuggled under the bed, and that seeing her made her feel \"so much love and gratitude\" and realize how important the snake is to her.",
+    "score": 1,
+    "judge_reasoning": "Prediction conveys the same core meaning — that finding the snake showed how much she loves it (adds compatible details like relief/gratitude).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 143,
+    "question": "Why does Deborah take her cats out for a run in the park every day?",
+    "ground_truth": "Exercise and nature are important to her",
+    "predicted": "Because exercise and nature are really important to Deborah — running in the park helps her feel connected to her body and find peace and refreshment, so she takes her cats out every morning and evening.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state she takes the cats out because exercise and nature are important to her; extra details are consistent and not contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 144,
+    "question": "How did Jolene come to have her pet, Susie?",
+    "ground_truth": "She adopted her two years ago when feeling lonely.",
+    "predicted": "She adopted Susie two years ago when she was feeling lonely and wanted some company.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth: both state she adopted Susie two years ago due to feeling lonely (prediction adds 'wanted some company,' which aligns with feeling lonely).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 145,
+    "question": "What activities have been helping Jolene stay distracted during tough times?",
+    "ground_truth": "Video games and spending time with her pet, Susie",
+    "predicted": "Her pet snakes (Susie and Seraphim), playing video games (e.g., Detroit, The Walking Dead, It Takes Two, Overcooked 2, Zelda: Breath of the Wild, Animal Crossing: New Horizons), yoga and meditation (including savasana, yoga on Mount Talkeetna, and meditation retreats/courses), spending time outdoors/walks (taking Seraphim to the park) and photography/nature outings.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer includes both key items from the ground truth—playing video games and spending time with her pet Susie—though it adds extra activities.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 146,
+    "question": "What kind of yoga routine does Deborah recommend to Jolene?",
+    "ground_truth": "A gentle flow routine focused on breathing and grounding",
+    "predicted": "She recommends a gentle flow routine focused on breathing and grounding.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: a gentle flow routine focused on breathing and grounding.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 147,
+    "question": "What did Jolene design inspired by their love for space and engines?",
+    "ground_truth": "Notebooks",
+    "predicted": "She designed notebooks — a pair of blue-covered notebooks featuring space (galaxy) and engine (circuitry) design elements.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer identifies 'notebooks' as what Jolene designed and adds harmless descriptive details, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 148,
+    "question": "What journal has Jolene been using to help track tasks and stay organized?",
+    "ground_truth": "bullet journal",
+    "predicted": "Jolene has been using a bullet journal to track her tasks and stay organized.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly, stating Jolene uses a bullet journal to track tasks and stay organized.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 149,
+    "question": "What game did Jolene recommend for being calming and cute?",
+    "ground_truth": "Animal Crossing: New Horizons",
+    "predicted": "Animal Crossing: New Horizons.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: Animal Crossing: New Horizons.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 150,
+    "question": "What game did Jolene suggest as an awesome open-world game for the Nintendo Switch?",
+    "ground_truth": "Zelda BOTW",
+    "predicted": "Zelda BOTW (The Legend of Zelda: Breath of the Wild).",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: Zelda BOTW (The Legend of Zelda: Breath of the Wild).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 151,
+    "question": "What did Deborah and her husband use to play to bond and make memories?",
+    "ground_truth": "video games",
+    "predicted": "They played detective games together.",
+    "score": 0,
+    "judge_reasoning": "Ground truth is the general category 'video games'; the prediction specifies 'detective games,' which is more specific and not explicitly equivalent to 'video games,' so it does not match the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 152,
+    "question": "What is special about the bench at the park near Deborah's house?",
+    "ground_truth": "It holds special memories of conversations with her mom",
+    "predicted": "The bench holds special memories for Deborah and her mom — they used to come there to chat about dreams and life, watched a beautiful sunset together, and the spot now brings Deborah peace, nostalgia, and comfort.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both state the bench holds special memories of conversations with her mom; extra details are consistent and not contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 153,
+    "question": "What did Deborah and her mom chat about at their special bench in the park?",
+    "ground_truth": "dreams and life",
+    "predicted": "They chatted about dreams and life.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state they chatted about dreams and life.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 154,
+    "question": "What feeling does Deborah get when she thinks about the time spent with her mom at their special spot?",
+    "ground_truth": "peace and gratitude",
+    "predicted": "She feels peace and gratitude.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly, conveying that she feels peace and gratitude.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 155,
+    "question": "What habits does Jolene practice to feel balanced?",
+    "ground_truth": "yoga, meditation, walks, and mindfulness",
+    "predicted": "Jolene practices yoga (including savasana), meditation and mindful/deep breathing; takes walks and spends time outdoors (parks, beach, hikes); attends meditation retreats/courses; uses essential oils (lavender/rosemary) and soft instrumental music during practice; and follows time‑management/self‑care habits like the Pomodoro Technique, bullet journaling, scheduled breaks, and other self‑care routines.",
+    "score": 1,
+    "judge_reasoning": "Includes the core items from the ground truth—yoga, meditation/mindfulness, and walks—while adding extra (noncontradictory) details.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 156,
+    "question": "Which yoga pose is Jolene a fan of for rest and calmness?",
+    "ground_truth": "savasana (the corpse pose)",
+    "predicted": "Jolene is a fan of savasana (the corpse pose) for rest and calmness.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly, naming savasana (the corpse pose) as the pose Jolene favors for rest and calmness.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 157,
+    "question": "How long has Jolene been doing yoga?",
+    "ground_truth": "3 years",
+    "predicted": "Jolene has been doing yoga for about 3 years.",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth: both indicate Jolene has been doing yoga for 3 years (prediction adds 'about', which does not change meaning).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 158,
+    "question": "What did Jolene participate in recently that provided her with a rewarding experience?",
+    "ground_truth": "presenting at a virtual conference",
+    "predicted": "Jolene had a big breakthrough in her engineering project — the sustainable-technology work she'd been doing (including designing a sustainable water purifier and later a solar-powered vehicle) — which she described as exciting and rewarding.",
+    "score": 0,
+    "judge_reasoning": "The prediction describes an engineering project breakthrough (sustainable technology work) rather than Jolene presenting at a virtual conference, so it does not match the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 159,
+    "question": "How did Jolene feel after receiving positive feedback at the virtual conference?",
+    "ground_truth": "thrilled and rewarded",
+    "predicted": "Jolene felt thrilled and rewarded — the positive feedback made her feel appreciated and confirmed she was on the right track.",
+    "score": 1,
+    "judge_reasoning": "Contains the ground-truth descriptors 'thrilled and rewarded' and adds consistent explanatory detail.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 160,
+    "question": "What kind of event did Jolene present at recently?",
+    "ground_truth": "virtual conference",
+    "predicted": "She presented at a virtual conference.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly—both state she presented at a virtual conference.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 161,
+    "question": "What did Jolene's mom stress the value of, which she wants to keep in mind for her engineering projects?",
+    "ground_truth": "Helping others",
+    "predicted": "She stressed the value of helping others.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state Jolene's mom stressed the value of helping others.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 162,
+    "question": "What type of projects is Jolene interested in getting involved in the future?",
+    "ground_truth": "Sustainable initiatives and developing innovative solutions for environmental issues",
+    "predicted": "She wants to work on community-focused, sustainable projects and innovative environmental solutions—specifically renewable energy (like solar) and systems to supply clean water to those with limited access—and get involved with organizations focused on social causes.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth by stating interest in sustainable initiatives and innovative environmental solutions (renewable energy, clean water) and adds compatible details about community and social organizations.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 163,
+    "question": "How did Deborah get Luna, one of her cats?",
+    "ground_truth": "From the shelter",
+    "predicted": "Deborah took Luna from the shelter.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same information as the ground truth: Luna was obtained from the shelter.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 164,
+    "question": "How old is Max?",
+    "ground_truth": "8 years old",
+    "predicted": "Max is 8 years old.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly (8 years old).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 165,
+    "question": "What type of classes did Jolene and her partner check out during their trip to Rio de Janeiro on 30 August, 2023?",
+    "ground_truth": "Yoga classes",
+    "predicted": "They checked out yoga classes in Rio de Janeiro.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states they checked out yoga classes, which matches the ground truth exactly.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 166,
+    "question": "What type of place does Jolene visit to meditate?",
+    "ground_truth": "A tranquil spot by a pond",
+    "predicted": "She visits a nearby tranquil spot by a pond to meditate.",
+    "score": 1,
+    "judge_reasoning": "Prediction matches ground truth: both state she meditates at a tranquil spot by a pond (adds 'nearby', which doesn't contradict).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 167,
+    "question": "What was the new plant Jolene got used as a reminder for on 30 August, 2023?",
+    "ground_truth": "To nurture herself and embrace fresh starts",
+    "predicted": "It was a reminder to nurture herself and embrace fresh starts.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same meaning as the ground truth — that the plant served as a reminder to nurture herself and embrace fresh starts.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 168,
+    "question": "Why did Jolene get the new plant on 30 August, 2023?",
+    "ground_truth": "As a reminder to nurture herself and embrace fresh starts",
+    "predicted": "She got it \"as a reminder to nurture myself and embrace fresh starts.\"",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same meaning as the ground truth (reminder to nurture herself and embrace fresh starts); wording difference ('myself' vs 'herself') does not change meaning.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 169,
+    "question": "What has Jolene been focusing on lately besides studying?",
+    "ground_truth": "relationship with her partner",
+    "predicted": "She’s been focusing on her relationship with her partner — taking beach trips together and even attending a meditation retreat in Phuket.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (focus on her relationship with her partner) and adds compatible details, so it is correct.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 170,
+    "question": "How did Deborah's mom support her yoga practice when she first started?",
+    "ground_truth": "attended classes with her",
+    "predicted": "She was Deborah's biggest fan and source of motivation—she often came to Deborah's yoga classes with her.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer conveys the same core fact — Deborah's mom attended/come to her yoga classes — with additional supportive detail, matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 171,
+    "question": "What was the video game console that Jolene's parents got her at age 10?",
+    "ground_truth": "nintendo game console",
+    "predicted": "They got her a Nintendo game console (with a game controller).",
+    "score": 1,
+    "judge_reasoning": "Matches the ground truth — the prediction states she received a Nintendo game console and only adds a harmless extra detail about a controller.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 172,
+    "question": "What was one of Jolene's favorite games to play with her mom on the nintendo wii game system?",
+    "ground_truth": "Monster Hunter: World",
+    "predicted": "One of Jolene's favorite games was \"Monster Hunter: World.\"",
+    "score": 1,
+    "judge_reasoning": "Prediction matches the ground truth exactly: Monster Hunter: World is listed as one of Jolene's favorite games.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 173,
+    "question": "What course did Jolene sign up for on 6 September 2023?",
+    "ground_truth": "meditation",
+    "predicted": "She signed up for a meditation course at a retreat near a lake.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer states she signed up for a meditation course, matching the ground truth; the extra detail about a retreat near a lake does not contradict the core fact.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 174,
+    "question": "Why did Jolene have to reschedule their meeting with Deborah on September 8, 2023?",
+    "ground_truth": "Jolene already had plans",
+    "predicted": "Jolene had to reschedule because she already had plans — she had prior commitments and proposed meeting at a different time instead.",
+    "score": 1,
+    "judge_reasoning": "Prediction indicates Jolene already had prior commitments, matching the ground truth reason of ‘already had plans.’",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 175,
+    "question": "Where did Jolene and her partner travel for a few weeks in September 2023?",
+    "ground_truth": "Phuket",
+    "predicted": "They traveled to a meditation retreat in Phuket.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer specifies Phuket (matches ground truth) and adds non-contradictory detail about a meditation retreat.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 176,
+    "question": "What was the main focus of the session that stood out to Jolene during the retreat?",
+    "ground_truth": "releasing expectations and judgments and savoring the present",
+    "predicted": "It focused on releasing expectations and judgments and learning to savor the present.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core meaning—releasing expectations and judgments and savoring the present (phrased as learning to savor the present).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 177,
+    "question": "How did Jolene feel about her progress in practicing mindfulness and gratitude?",
+    "ground_truth": "experiencing a new level of joy and happiness",
+    "predicted": "She said she was “experiencing a new level of joy and happiness,” feeling more peaceful and grateful—mindfulness and gratitude helped her find inner peace, savor the present, and appreciate small moments.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer directly includes the ground-truth phrase and preserves its meaning, adding compatible details about increased peace and gratitude.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 178,
+    "question": "What positive change did Jolene experience during the retreat?",
+    "ground_truth": "finding inner peace",
+    "predicted": "During the retreat Jolene realized the importance of relaxation, self‑care and balance, released expectations and judgments, and experienced a new level of joy and inner peace.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer explicitly states Jolene experienced inner peace (and additional compatible positive changes), matching the ground truth.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 179,
+    "question": "What did Jolene recently play that she described to Deb?",
+    "ground_truth": "a card game about cats",
+    "predicted": "She played the game \"Detroit\" on the console.",
+    "score": 0,
+    "judge_reasoning": "Incorrect. Ground truth: a card game about cats. Prediction: the console game 'Detroit' — does not match.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 180,
+    "question": "What did Deborah do with their mom's old friends?",
+    "ground_truth": "reminisced and looked through photos",
+    "predicted": "She reconnected with her mom's old friends, reminisced with them, and looked through her mother's photos.",
+    "score": 1,
+    "judge_reasoning": "Includes both actions from the ground truth (reminisced and looked through photos); extra detail about reconnecting is consistent and not contradictory.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 181,
+    "question": "Where did Deborah get married?",
+    "ground_truth": "on the beach",
+    "predicted": "She got married at the beach — the special beach she mentioned where she discovered her love for surfing.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer states she was married at the beach, which matches the ground truth 'on the beach' (extra contextual detail is consistent).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 182,
+    "question": "What does yoga on the beach provide for Deborah?",
+    "ground_truth": "a peaceful atmosphere",
+    "predicted": "For Deborah, yoga on the beach provides peace and a super-relaxing, peaceful atmosphere — the ocean, sand and fresh air help her relax and take care of herself.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer conveys the same core meaning — that yoga on the beach provides Deborah with a peaceful, relaxing atmosphere (with added supporting details).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 183,
+    "question": "How does Jolene describe their home room?",
+    "ground_truth": "little haven for peace and rest",
+    "predicted": "Jolene describes her room (in her mother's house) as a little haven full of memories — a place she goes to relax, feel at ease, and recharge after a busy day.",
+    "score": 1,
+    "judge_reasoning": "Prediction conveys the same core meaning—Jolene's room is described as a 'little haven' for relaxation, peace, and rest (added harmless details like memories/recharging).",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 184,
+    "question": "What new activity did Deborah and her neighbor organize for the community on 16 September, 2023?",
+    "ground_truth": "Free gardening class",
+    "predicted": "They ran a free gardening class for the community.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth exactly: both state they organized a free gardening class for the community on that date.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 185,
+    "question": "What was Deborah's mom passionate about?",
+    "ground_truth": "Cooking",
+    "predicted": "Deborah's mom was passionate about cooking and travel, and she was also interested in art; she loved flowers and enjoyed reading.",
+    "score": 1,
+    "judge_reasoning": "Includes the ground-truth fact that Deborah's mom was passionate about cooking; additional details do not contradict this.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 186,
+    "question": "What food did Deborah's mom make for her on birthdays?",
+    "ground_truth": "Pineapple cakes",
+    "predicted": "She baked pineapple birthday cakes for Deborah.",
+    "score": 1,
+    "judge_reasoning": "Matches ground truth — states Deborah's mom made/baked pineapple birthday cakes, same meaning as 'pineapple cakes'.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 187,
+    "question": "What kind of cookies did Jolene used to bake with someone close to her?",
+    "ground_truth": "Chocolate chip cookies",
+    "predicted": "She used to bake chocolate chip cookies — described as \"warm, gooey chocolate and soft, buttery\" ones.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth (chocolate chip cookies); extra descriptive wording does not contradict.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 188,
+    "question": "What outdoor activity did Jolene suggest doing together with Deborah?",
+    "ground_truth": "Surfing",
+    "predicted": "She suggested they go surfing together.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: both state they suggested going surfing together.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 189,
+    "question": "What activity did Deborah enjoy at the music festival with their pals on September 20, 2023?",
+    "ground_truth": "Dancing and bopping around",
+    "predicted": "She danced and “bopped around” (i.e., dancing) at the music festival.",
+    "score": 1,
+    "judge_reasoning": "Predicted answer matches the ground truth: it states she danced and 'bopped around' at the music festival.",
+    "category": 4,
+    "error": null
+  },
+  {
+    "question_index": 190,
+    "question": "What did Deborah find freeing at the music festival?",
+    "ground_truth": "Dancing and bopping around",
+    "predicted": "She found dancing and bopping around freeing.",
+    "score": 1,
+    "judge_reasoning": "The predicted answer matches the ground truth exactly — both state she found dancing and bopping around freeing.",
+    "category": 4,
+    "error": null
+  }
+]
