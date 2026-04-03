@@ -68,6 +68,7 @@ MemoryLake ranks **#1 overall** on the LoCoMo benchmark among all evaluated syst
 | Full-context | 94.93% | 90.43% | 87.95% | 71.88% | 91.21% |
 | Zep | 90.84% | 81.91% | 77.26% | 75.00% | 85.22% |
 | MemOS | 85.37% | 79.43% | 75.08% | 64.58% | 80.76% |
+| M-flow | N/A | N/A | N/A | N/A | 76.50% |
 | MemU | 74.91% | 72.34% | 43.61% | 54.17% | 66.67% |
 | Mem0 | 68.97% | 61.70% | 58.26% | 50.00% | 64.20% |
 
@@ -77,8 +78,8 @@ MemoryLake ranks **#1 overall** on the LoCoMo benchmark among all evaluated syst
 - MemoryLake's **open-domain score (85.42%)** is the highest by a wide margin (+10+ pp over the next best)
 - MemoryLake outperforms even the full-context (no compression) baseline while using far less tokens
 
-> **Competitor data source:** [EverMind-AI/EverMemOS evaluation](https://github.com/EverMind-AI/EverMemOS/tree/main/evaluation).
-> All competitor systems used **GPT-4.1-mini** as the answer LLM to ensure fair comparison.
+> **Competitor data source:** [EverMind-AI/EverMemOS evaluation](https://github.com/EverMind-AI/EverMemOS/tree/main/evaluation); [M-flow benchmarks](https://github.com/FlowElement-ai/mflow-benchmarks).
+> All competitor systems used **GPT-4.1-mini** as the answer LLM to ensure fair comparison. M-flow reported LLM-Judge overall score only (76.5%); per-category breakdown not disclosed.
 
 ---
 
@@ -114,6 +115,7 @@ MemoryLake ranks **#1 overall** on the LoCoMo benchmark among all evaluated syst
 |---|---|
 | LoCoMo benchmark | [snap-research.github.io/locomo](https://snap-research.github.io/locomo/) |
 | Competitor results | [EverMind-AI/EverMemOS/evaluation](https://github.com/EverMind-AI/EverMemOS/tree/main/evaluation) |
+| M-flow results | [FlowElement-ai/mflow-benchmarks](https://github.com/FlowElement-ai/mflow-benchmarks) |
 | MemoryLake product | [memorylake.ai](https://memorylake.ai/) |
 
 Raw per-question evaluation results are available in `locomo_result_*.json` files in this repository.

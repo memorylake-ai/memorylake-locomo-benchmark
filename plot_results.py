@@ -29,6 +29,7 @@ SYSTEMS = [
     "Full-context",
     "Zep",
     "MemOS",
+    "M-flow",
     "MemU",
     "Mem0",
 ]
@@ -40,6 +41,7 @@ DATA = {
     "Full-context": [94.93,  90.43,  87.95,   71.88,  91.21],
     "Zep":          [90.84,  81.91,  77.26,   75.00,  85.22],
     "MemOS":        [85.37,  79.43,  75.08,   64.58,  80.76],
+    "M-flow":       [None,   None,   None,    None,   76.50],
     "MemU":         [74.91,  72.34,  43.61,   54.17,  66.67],
     "Mem0":         [68.97,  61.70,  58.26,   50.00,  64.20],
 }
@@ -70,6 +72,7 @@ PALETTE = [
     "#fbbf24",  # Full-context – amber
     "#34d399",  # Zep          – emerald
     "#f87171",  # MemOS        – red
+    "#fb923c",  # M-flow       – orange
     "#94a3b8",  # MemU         – slate
     "#818cf8",  # Mem0         – indigo
 ]
@@ -147,10 +150,15 @@ width  = 0.10
 x      = np.arange(n_cats)
 
 for i, (sys, color) in enumerate(zip(SYSTEMS, PALETTE)):
-    vals   = [DATA[sys][j] for j in range(4)]
+    vals   = [DATA[sys][j] if DATA[sys][j] is not None else 0 for j in range(4)]
     offset = (i - n_sys / 2 + 0.5) * width
-    ax.bar(x + offset, vals, width=width * 0.9,
-           color=color, edgecolor="none", zorder=3, label=sys)
+    if any(v is None for v in DATA[sys][:4]):
+        # Skip systems with no category data in grouped bar chart
+        ax.bar(x + offset, vals, width=width * 0.9,
+               color=color, edgecolor="none", zorder=3, label=f"{sys} (overall only)", alpha=0.0)
+    else:
+        ax.bar(x + offset, vals, width=width * 0.9,
+               color=color, edgecolor="none", zorder=3, label=sys)
 
 ax.set_xticks(x)
 ax.set_xticklabels(CATEGORIES, fontsize=11)
@@ -206,18 +214,21 @@ save(fig, "03_radar.png")
 fig, ax = new_fig(8, 5.5, "LoCoMo Benchmark — Score Heatmap")
 ax.grid(visible=False)
 
-matrix = np.array([[DATA[s][j] for j in range(4)] for s in SYSTEMS])
+# Exclude systems without category breakdowns from heatmap
+HEATMAP_SYSTEMS = [s for s in SYSTEMS if all(v is not None for v in DATA[s][:4])]
+HEATMAP_PALETTE = [PALETTE[SYSTEMS.index(s)] for s in HEATMAP_SYSTEMS]
+matrix = np.array([[DATA[s][j] for j in range(4)] for s in HEATMAP_SYSTEMS])
 cmap = LinearSegmentedColormap.from_list(
     "dark_cyan", ["#1e3a5f", "#0ea5e9", "#bae6fd"], N=256)
 im = ax.imshow(matrix, cmap=cmap, aspect="auto", vmin=40, vmax=100)
 
 ax.set_xticks(range(n_cats))
 ax.set_xticklabels(CATEGORIES, fontsize=11, color=TEXT_CLR)
-ax.set_yticks(range(len(SYSTEMS)))
-ax.set_yticklabels(SYSTEMS, fontsize=11, color=TEXT_CLR)
+ax.set_yticks(range(len(HEATMAP_SYSTEMS)))
+ax.set_yticklabels(HEATMAP_SYSTEMS, fontsize=11, color=TEXT_CLR)
 ax.tick_params(bottom=False, left=False)
 
-for i in range(len(SYSTEMS)):
+for i in range(len(HEATMAP_SYSTEMS)):
     for j in range(n_cats):
         val = matrix[i, j]
         ax.text(j, i, f"{val:.1f}", ha="center", va="center",
